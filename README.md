@@ -11,3 +11,6 @@ Recommended to install via SDKMAN! https://sdkman.io/
 ## Generate ADL 2 CSV
 
 java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ~/Desktop/HiGHmed\ Lab\ Report/archetypes/entry/evaluation
+
+./ckm/local/archetypes/cluster/
+
