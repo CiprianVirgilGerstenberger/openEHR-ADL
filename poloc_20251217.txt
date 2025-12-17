@@ -1,0 +1,358 @@
+    1  curl -s "https://get.sdkman.io" | bash
+    2  sdk selfupdate force
+    3  source "$HOME/.sdkman/bin/sdkman-init.sh"
+    4  curl -s "https://get.sdkman.io" | bash
+    5  which sdk
+    6  which sdkman
+    7  ls
+    8  ls bin
+    9  vim ./jargen.bat
+   10  vim ./jargen.sh
+   11  vim ./README.md
+   12  ls
+   13  ls old/
+   14  ls
+   15  vim getData.sh
+   16  sh getData.sh 
+   17  ls
+   18  cd ckm/
+   19  ls
+   20  ls remote/
+   21  ls remote/org.openehr/
+   22  ls remote/org.openehr/archetypes/
+   23  find remote/org.openehr/archetypes/ -type f
+   24  ls
+   25  ls local/
+   26  ls local/archetypes/
+   27  find local/archetypes/ -type f
+   28  find remote -type f
+   29  find local/archetypes/ -type f
+   30  ls
+   31  vim README.md 
+   32  cd ..
+   33  vim ./getData.sh
+   34  ls ls ckm/./ckm/local/
+   35  ls ls ckm/local/
+   36  ls ckm/local/
+   37  ls ckm/local/archetypes/
+   38  ls ./ckm/local/archetypes/cluster/
+   39  ls
+   40  vim read
+   41  vim README.md 
+   42  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv |
+   43  cat ./README.md
+   44  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster/
+   45  ls open*
+   46  find . -name "openEHR_ADL.jar"
+   47  cp ./old/openEHR_ADL.jar .
+   48  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster/
+   49  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+   50  ls
+   51  vim test.bat 
+   52  git add README.md getData.sh 
+   53  git status
+   54  git  commit -m "updates"
+   55  curl -s "https://get.sdkman.io" | bash
+   56  source "$HOME/.sdkman/bin/sdkman-init.sh"
+   57  sdk selfupdate force
+   58  which sdk
+   59  which sdkman
+   60  sdkman
+   61  cd /usr/local/sdkman/
+   62  ls
+   63  p
+   64  pwd
+   65  export SDKMAN_DIR="/usr/local/sdkman"
+   66  source "$SDKMAN_DIR/bin/sdkman-init.sh"
+   67  command -v sdk
+   68  sdk version
+   69  echo $SHELL
+   70  source ~/.bashrc
+   71  which sdk
+   72  which sdkman
+   73  sdk --help
+   74  sdk install java
+   75  sdk install groovy
+   76  ls
+   77  rm openEHR_ADL.jar 
+   78  ls -la /usr/local/sdkman/bin/sdkman-init.sh
+   79  sdk install gradle
+   80  java -version
+   81  groovy -version
+   82  ./gradlew clean build
+   83  ./build.sh
+   84  java -version
+   85  sdk install java 21.0.5-tem
+   86  sdk use java 21.0.5-tem
+   87  java -version
+   88  ./gradlew --stop || true
+   89  ./gradlew clean build
+   90  which java
+   91  java -version
+   92  echo "JAVA_HOME=$JAVA_HOME"
+   93  sdk install java 17.0.13-tem
+   94  sdk use java 17.0.13-tem
+   95  java -version
+   96  ./gradlew --stop || true
+   97  rm -rf ~/.gradle/daemon
+   98  JAVA_HOME="$(sdk home java 17.0.13-tem)" ./gradlew --no-daemon clean build
+   99  ls build/libs/*.jar
+  100  find . -name "*.jar"
+  101  cp lib/build/libs/openEHR-ADL-0.2.jar .
+  102  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  103  ls
+  104  java -cp "openEHR_ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  105  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  106  which groovy || true
+  107  echo "GROOVY_HOME=$GROOVY_HOME"
+  108  groovy -version
+  109  groovy -version || true
+  110  echo "$HOME/.sdkman/candidates/groovy/current"
+  111  echo "GROOVY_HOME=$GROOVY_HOME"
+  112  reload ~/.bashrc 
+  113  source ~/.bashrc 
+  114  echo "GROOVY_HOME=$GROOVY_HOME"
+  115  export GROOVY_HOME="$HOME/.sdkman/candidates/groovy/current"
+  116  echo "GROOVY_HOME=$GROOVY_HOME"
+  117  ls -la "$GROOVY_HOME/lib" | head
+  118  which groovy || true
+  119  /usr/local/sdkman/candidates/groovy/current/lib/
+  120  ls /usr/local/sdkman/candidates/groovy/current/lib/
+  121  dirs
+  122  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  123  echo "GROOVY_HOME=$GROOVY_HOME"
+  124  which groovy || true
+  125  export GROOVY_HOME="/usr/local/sdkman/candidates/groovy/current/bin/groovy"
+  126  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  127  echo "GROOVY_HOME=$GROOVY_HOME"
+  128  export GROOVY_HOME="/usr/local/sdkman/candidates/groovy/current/"
+  129  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  130  ls /usr/local/sdkman/candidates/groovy/current/lib/
+  131  ls
+  132  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  133  vim adl_from_python.py
+  134  ls
+  135  ls ckm/local/archetypes/entry/observation/
+  136  ls
+  137  v adl_from_python.py 
+  138  vim adl_from_python.py 
+  139  python -m pip install jpype1
+  140  python adl_from_python.py
+  141  vim adl_from_python.py 
+  142  python adl_from_python.py
+  143  for j in $(find . -maxdepth 5 -name "*.jar"); do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "FOUND in $j"; done
+  144  ls
+  145  find . -name "*.jar"
+  146  for j in $(find . -maxdepth 5 -name "*.jar"); do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "FOUND in $j"; done
+  147  vim adl_from_python.py 
+  148  for j in lib/*.jar; do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "NOW IN $j"; done
+  149  ls lib/
+  150  for j in openEHR-ADL-0.2.jar; do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "NOW IN $j"; done
+  151  python adl_from_python.py 
+  152  ls
+  153  cp old/openEHR_ADL.jar .
+  154  vim adl_from_python.py 
+  155  python adl_from_python.py 
+  156  ls
+  157  cp old/adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar .
+  158  python adl_from_python.py 
+  159  vim adl_from_python.py 
+  160  ls
+  161  ls adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar 
+  162  vim adl_from_python.py 
+  163  python adl_from_python.py 
+  164  history 
+  165  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  166  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  167  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  168  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  169  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  170  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*"
+  171  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  172  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main ckm/local/archetypes/entry/observation/ 
+  173  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/ 
+  174  h
+  175  history 
+  176  history >> poloc_20251217.txt
+========================================================
+    1  curl -s "https://get.sdkman.io" | bash
+    2  sdk selfupdate force
+    3  source "$HOME/.sdkman/bin/sdkman-init.sh"
+    4  curl -s "https://get.sdkman.io" | bash
+    5  which sdk
+    6  which sdkman
+    7  ls
+    8  ls bin
+    9  vim ./jargen.bat
+   10  vim ./jargen.sh
+   11  vim ./README.md
+   12  ls
+   13  ls old/
+   14  ls
+   15  vim getData.sh
+   16  sh getData.sh 
+   17  ls
+   18  cd ckm/
+   19  ls
+   20  ls remote/
+   21  ls remote/org.openehr/
+   22  ls remote/org.openehr/archetypes/
+   23  find remote/org.openehr/archetypes/ -type f
+   24  ls
+   25  ls local/
+   26  ls local/archetypes/
+   27  find local/archetypes/ -type f
+   28  find remote -type f
+   29  find local/archetypes/ -type f
+   30  ls
+   31  vim README.md 
+   32  cd ..
+   33  vim ./getData.sh
+   34  ls ls ckm/./ckm/local/
+   35  ls ls ckm/local/
+   36  ls ckm/local/
+   37  ls ckm/local/archetypes/
+   38  ls ./ckm/local/archetypes/cluster/
+   39  ls
+   40  vim read
+   41  vim README.md 
+   42  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv |
+   43  cat ./README.md
+   44  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster/
+   45  ls open*
+   46  find . -name "openEHR_ADL.jar"
+   47  cp ./old/openEHR_ADL.jar .
+   48  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster/
+   49  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+   50  ls
+   51  vim test.bat 
+   52  git add README.md getData.sh 
+   53  git status
+   54  git  commit -m "updates"
+   55  curl -s "https://get.sdkman.io" | bash
+   56  source "$HOME/.sdkman/bin/sdkman-init.sh"
+   57  sdk selfupdate force
+   58  which sdk
+   59  which sdkman
+   60  sdkman
+   61  cd /usr/local/sdkman/
+   62  ls
+   63  p
+   64  pwd
+   65  export SDKMAN_DIR="/usr/local/sdkman"
+   66  source "$SDKMAN_DIR/bin/sdkman-init.sh"
+   67  command -v sdk
+   68  sdk version
+   69  echo $SHELL
+   70  source ~/.bashrc
+   71  which sdk
+   72  which sdkman
+   73  sdk --help
+   74  sdk install java
+   75  sdk install groovy
+   76  ls
+   77  rm openEHR_ADL.jar 
+   78  ls -la /usr/local/sdkman/bin/sdkman-init.sh
+   79  sdk install gradle
+   80  java -version
+   81  groovy -version
+   82  ./gradlew clean build
+   83  ./build.sh
+   84  java -version
+   85  sdk install java 21.0.5-tem
+   86  sdk use java 21.0.5-tem
+   87  java -version
+   88  ./gradlew --stop || true
+   89  ./gradlew clean build
+   90  which java
+   91  java -version
+   92  echo "JAVA_HOME=$JAVA_HOME"
+   93  sdk install java 17.0.13-tem
+   94  sdk use java 17.0.13-tem
+   95  java -version
+   96  ./gradlew --stop || true
+   97  rm -rf ~/.gradle/daemon
+   98  JAVA_HOME="$(sdk home java 17.0.13-tem)" ./gradlew --no-daemon clean build
+   99  ls build/libs/*.jar
+  100  find . -name "*.jar"
+  101  cp lib/build/libs/openEHR-ADL-0.2.jar .
+  102  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  103  ls
+  104  java -cp "openEHR_ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  105  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  106  which groovy || true
+  107  echo "GROOVY_HOME=$GROOVY_HOME"
+  108  groovy -version
+  109  groovy -version || true
+  110  echo "$HOME/.sdkman/candidates/groovy/current"
+  111  echo "GROOVY_HOME=$GROOVY_HOME"
+  112  reload ~/.bashrc 
+  113  source ~/.bashrc 
+  114  echo "GROOVY_HOME=$GROOVY_HOME"
+  115  export GROOVY_HOME="$HOME/.sdkman/candidates/groovy/current"
+  116  echo "GROOVY_HOME=$GROOVY_HOME"
+  117  ls -la "$GROOVY_HOME/lib" | head
+  118  which groovy || true
+  119  /usr/local/sdkman/candidates/groovy/current/lib/
+  120  ls /usr/local/sdkman/candidates/groovy/current/lib/
+  121  dirs
+  122  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  123  echo "GROOVY_HOME=$GROOVY_HOME"
+  124  which groovy || true
+  125  export GROOVY_HOME="/usr/local/sdkman/candidates/groovy/current/bin/groovy"
+  126  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  127  echo "GROOVY_HOME=$GROOVY_HOME"
+  128  export GROOVY_HOME="/usr/local/sdkman/candidates/groovy/current/"
+  129  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  130  ls /usr/local/sdkman/candidates/groovy/current/lib/
+  131  ls
+  132  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  133  vim adl_from_python.py
+  134  ls
+  135  ls ckm/local/archetypes/entry/observation/
+  136  ls
+  137  v adl_from_python.py 
+  138  vim adl_from_python.py 
+  139  python -m pip install jpype1
+  140  python adl_from_python.py
+  141  vim adl_from_python.py 
+  142  python adl_from_python.py
+  143  for j in $(find . -maxdepth 5 -name "*.jar"); do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "FOUND in $j"; done
+  144  ls
+  145  find . -name "*.jar"
+  146  for j in $(find . -maxdepth 5 -name "*.jar"); do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "FOUND in $j"; done
+  147  vim adl_from_python.py 
+  148  for j in lib/*.jar; do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "NOW IN $j"; done
+  149  ls lib/
+  150  for j in openEHR-ADL-0.2.jar; do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "NOW IN $j"; done
+  151  python adl_from_python.py 
+  152  ls
+  153  cp old/openEHR_ADL.jar .
+  154  vim adl_from_python.py 
+  155  python adl_from_python.py 
+  156  ls
+  157  cp old/adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar .
+  158  python adl_from_python.py 
+  159  vim adl_from_python.py 
+  160  ls
+  161  ls adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar 
+  162  vim adl_from_python.py 
+  163  python adl_from_python.py 
+  164  history 
+  165  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  166  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  167  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  168  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  169  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  170  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*"
+  171  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  172  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main ckm/local/archetypes/entry/observation/ 
+  173  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/ 
+  174  h
+  175  history 
+  176  history >> poloc_20251217.txt
+  177  cat poloc_20251217.txt 
+  178  wc -l poloc_20251217.txt 
+  179  v poloc_20251217.txt 
+  180  vim poloc_20251217.txt 
+  181  history >> poloc_20251217.txt
