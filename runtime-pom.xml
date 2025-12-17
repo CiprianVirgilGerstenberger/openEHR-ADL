@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>local</groupId>
+  <artifactId>openehr-adl-runtime</artifactId>
+  <version>1.0</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openehr.java-libs</groupId>
+      <artifactId>adl-parser</artifactId>
+      <version>1.0.71</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openehr.java-libs</groupId>
+      <artifactId>mini-termserv</artifactId>
+      <version>1.0.71</version>
+    </dependency>
+
+    <!-- often needed by older openEHR libs -->
+    <dependency>
+      <groupId>javax.measure</groupId>
+      <artifactId>jsr-275</artifactId>
+      <version>0.9.1</version>
+    </dependency>
+
+    <!-- provides org.apache.log4j.Logger -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+  </dependencies>
+</project>
+

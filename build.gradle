@@ -1,0 +1,24 @@
+// --- Added for runtime execution (classpath export) ---
+tasks.register('copyRuntimeLibs', Copy) {
+    def cfg =
+        configurations.findByName('runtimeClasspath') ?:
+        configurations.findByName('runtime') ?:
+        configurations.findByName('compileClasspath') ?:
+        configurations.findByName('compile')
+
+    if (cfg == null) {
+        throw new GradleException("No suitable configuration found (runtimeClasspath/runtime/compileClasspath/compile).")
+    }
+
+    into "$buildDir/runtime-libs"
+    from cfg
+}
+
+tasks.register('printRuntimeLibs') {
+    doLast {
+        def dir = file("$buildDir/runtime-libs")
+        println "Runtime libs dir: ${dir}"
+        if (dir.exists()) dir.listFiles().each { println it.name }
+    }
+}
+
