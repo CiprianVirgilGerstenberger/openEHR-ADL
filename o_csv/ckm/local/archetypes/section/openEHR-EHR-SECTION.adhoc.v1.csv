@@ -1,0 +1,2 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ru,name_sv,name_es-ar,name_nb,name_pt-br,name_en,name_sl,name_it,name_fr
+openEHR-EHR-SECTION.adhoc.v1,/,SECTION,CComplexObject,at0000,Ad hoc Überschrift,заготовка заголовка,Rubrik,Encabezado ad hoc,Templat-overskrift,Cabeçalho Ad hoc,Ad hoc heading,Naslov sekcije,Intestazione di sezione ad hoc,Rubrique ad hoc

@@ -1,0 +1,5 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.oocyte_specimen.v1,/,CLUSTER,CComplexObject,at0000,Oocytt prøvemateriale,Oocyte specimen
+openEHR-EHR-CLUSTER.oocyte_specimen.v1,/items[at0018],ELEMENT,CComplexObject,at0018,Modenhet av oocytt,Oocyte maturation stage
+openEHR-EHR-CLUSTER.oocyte_specimen.v1,/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.oocyte_specimen.v1,/items[at0018]/value/defining_code,CODE_PHRASE,CCodePhrase

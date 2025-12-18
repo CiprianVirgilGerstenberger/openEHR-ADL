@@ -1,0 +1,28 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.barthel_no.v1,/,OBSERVATION,CComplexObject,at0000,Barthel ADL-indeks
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002],HISTORY,CComplexObject,at0002,History
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003],EVENT,CComplexObject,at0003,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001],ITEM_LIST,CComplexObject,at0001,List
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Blærekontroll
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Tarmkontroll
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Bading/dusj
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Påkledning
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0012]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Sumskår
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0016]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0016]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Mobilitet
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Forflytning mellom seng og stol
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0026],ELEMENT,CComplexObject,at0026,Spising
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0026]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0030],ELEMENT,CComplexObject,at0030,Toalettbesøk
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0030]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0034],ELEMENT,CComplexObject,at0034,Personlig hygiene
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0040],ELEMENT,CComplexObject,at0040,Trappegang
+openEHR-EHR-OBSERVATION.barthel_no.v1,/data[at0002]/events[at0003]/data[at0001]/items[at0040]/value,DV_ORDINAL,CDvOrdinal

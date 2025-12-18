@@ -1,0 +1,54 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-ACTION.clinical_pathway.v0,/,ACTION,CComplexObject,at0000,Klinisk forløpsstyring,Care pathway management
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001],ITEM_TREE,CComplexObject,at0001,Tre,Tree
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Beskrivelse,Description
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0018],CLUSTER,ArchetypeSlot,at0018,Ytterligere detaljer,Additional details
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Forløpsnavn,Care pathway name
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0020],ELEMENT,CComplexObject,at0020,Årsak,Reason
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0022],ELEMENT,CComplexObject,at0022,Kommentar,Comment
+openEHR-EHR-ACTION.clinical_pathway.v0,/description[at0001]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0003],ISM_TRANSITION,CComplexObject,at0003,Forløp aktivt,Care pathway active
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0003]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0003]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0003]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0003]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0005],ISM_TRANSITION,CComplexObject,at0005,Forløp avbrutt,Care pathway abandoned
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0005]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0005]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0005]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0005]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0006],ISM_TRANSITION,CComplexObject,at0006,Forløp avlyst,Care pathway cancelled
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0006]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0006]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0006]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0006]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0007],ISM_TRANSITION,CComplexObject,at0007,Forløp fullført,Care pathway completed
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0007]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0007]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0007]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0007]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0009],ISM_TRANSITION,CComplexObject,at0009,Forløp planlagt,Care pathway planned
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0009]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0009]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0009]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0009]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0016],ISM_TRANSITION,CComplexObject,at0016,Forløp midlertidig stanset,Care pathway suspended
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0016]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0016]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0016]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0016]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0017],ISM_TRANSITION,CComplexObject,at0017,Forløp utsatt,Care pathway postponed
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0017]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0017]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0017]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0017]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0023],ISM_TRANSITION,CComplexObject,at0023,Forløp tidfestet,Care pathway scheduled
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0023]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0023]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0023]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.clinical_pathway.v0,/ism_transition[at0023]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.clinical_pathway.v0,/protocol[at0011],ITEM_TREE,CComplexObject,at0011,Tre,Tree
+openEHR-EHR-ACTION.clinical_pathway.v0,/protocol[at0011]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Tilleggsinformasjon,Extension

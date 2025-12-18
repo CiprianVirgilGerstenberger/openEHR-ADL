@@ -1,0 +1,21 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_en
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/,OBSERVATION,CComplexObject,at0000,*CHA2DS2VASc score(en),CHA2DS2VASc-score,CHA2DS2VASc score
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002],HISTORY,CComplexObject,at0002,historik,history,history
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003],EVENT,CComplexObject,at0003,Alla händelser,Uspesfisert hendelse,Any event
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001],ITEM_TREE,CComplexObject,at0001,Träd,Tree,Tree
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0026],ELEMENT,CComplexObject,at0026,Hjärtsvikt/VK-dysfunktion,Hjertesvikt,Congestive Heart Failure
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0026]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0029],ELEMENT,CComplexObject,at0029,Hypertoni,Hypertensjon,Hypertension
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0029]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0032],ELEMENT,CComplexObject,at0032,Diabetes,Diabetes,Diabetes
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0032]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0035],ELEMENT,CComplexObject,at0035,Ålder,Alder,Age
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0035]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0039],ELEMENT,CComplexObject,at0039,Stroke/TIA,Tidligere tilfeller av hjerneslag,Previous stroke
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0039]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0042],ELEMENT,CComplexObject,at0042,Kön,Kjønn,Gender
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0042]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0046],ELEMENT,CComplexObject,at0046,Vaskulär sjukdom,Vaskulær sykdom,Vascular disease
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0046]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0099],ELEMENT,CComplexObject,at0099,Total poäng,Totalscore,Total score
+openEHR-EHR-OBSERVATION.chadsvas_score.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0099]/value,DV_COUNT,CComplexObject

@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/,EVALUATION,CComplexObject,at0000,Termindato,Estimated date of delivery (EDD)
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002],ITEM_TREE,CComplexObject,at0002,Item tree,Item tree
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0003],ELEMENT,CComplexObject,at0003,Termindato basert på befruktningsdato,EDD by date of conception
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0003]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0004],ELEMENT,CComplexObject,at0004,Termindato basert på syklus,EDD by cycle
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006],CLUSTER,CComplexObject,at0006,Basert på ultralyd,By ultrasound
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006]/items[at0005],ELEMENT,CComplexObject,at0005,Dato for ultralyd,Date of ultrasound
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006]/items[at0005]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006]/items[at0007],ELEMENT,CComplexObject,at0007,Gestasjonsalder basert på ultralyd,Gestation by scan
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006]/items[at0007]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006]/items[at0008],ELEMENT,CComplexObject,at0008,Termindato basert på ultralyd,EDD by ultrasound
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0006]/items[at0008]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0009],CLUSTER,CComplexObject,at0009,Avtalt termindato,Agreed EDD
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Termindato,EDD
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0009]/items[at0010]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0009]/items[at0011],ELEMENT,CComplexObject,at0011,Begrunnelse,Rationale
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/data[at0002]/items[at0009]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/protocol[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/protocol[at0001]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Utvidelse,Extension
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/protocol[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.estimated_date_delivery.v0,/protocol[at0001]/items[at0013]/value,DV_DATE_TIME,CComplexObject

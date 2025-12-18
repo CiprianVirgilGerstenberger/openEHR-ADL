@@ -1,0 +1,45 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/,CLUSTER,CComplexObject,at0000,Zeitablauf - nicht täglich,Timing - utover et døgn,*Timing - non-daily(en),Timing - non-daily
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Bestimmtes Datum,Spesifikk dato,Data específica,Specific date
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0001]/value,DV_INTERVAL<DV_DATE>,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0001]/value/lower,DV_DATE,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0001]/value/upper,DV_DATE,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Wiederholungsintervall,Repetisjonsintervall,Intervalo de repetição,Repetition interval
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0002]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0002]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Bestimmter Wochentag,Spesifikk ukedag,*Specific day of week(en),Specific day of week
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Bestimmter Tag des Monats,Spesifikk dag av måneden,Dia do mês específico,Specific day of month
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004]/value,DV_INTERVAL<DV_COUNT>,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004]/value/lower,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004]/value/lower/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004]/value/upper,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0004]/value/upper/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0006],CLUSTER,CComplexObject,at0006,Bestimmtes Ereignis,Spesifikk hendelse,Evento específico,Specific event
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0006]/items[at0005],ELEMENT,CComplexObject,at0005,Name des Ereignisses,Hendelsesnavn,Nome do evento,Event name
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0006]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0006]/items[at0009],ELEMENT,CComplexObject,at0009,Zeitspanne,Tidsforskyvelse,Início do intervalo,Time offset
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0006]/items[at0009]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0006]/items[at0009]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010],CLUSTER,CComplexObject,at0010,Ein/Aus-Zyklus,På / av-syklus,Ciclo dentro/fora,On / off cycle
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Ein,På,Dentro,On
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0011]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0011]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0012],ELEMENT,CComplexObject,at0012,Aus,Av,Fora,Off
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0012]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0012]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0013],ELEMENT,CComplexObject,at0013,Wiederholungen,Repetisjoner,Repetições,Repetitions
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0013]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0010]/items[at0013]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0014],ELEMENT,CComplexObject,at0014,Tage pro Zeitintervall,Døgn per tidsintervall,*Days per time period (en),Days per time period
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0014]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0014]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0014]/value/upper,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0021],ELEMENT,CComplexObject,at0021,Beschreibung des Zeitablaufs,Timingbeskrivelse,*Timing description(en),Timing description
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0022],ELEMENT,CComplexObject,at0022,Aktivitäten pro Zeitintervall,Aktiviteter per tidsintervall,*Activities per time period (en),Activities per time period
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0022]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0022]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.timing_nondaily.v1,/items[at0022]/value/upper,DV_QUANTITY,CDvQuantity

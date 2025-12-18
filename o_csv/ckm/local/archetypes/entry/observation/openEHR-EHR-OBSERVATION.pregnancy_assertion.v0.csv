@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/,OBSERVATION,CComplexObject,at0000,Feststellung der Schwangerschaft,Utsagn om graviditet,Pregnancy assertion
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016],POINT_EVENT,CComplexObject,at0016,Jeder Zeitpunkt des Ereignisses,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Feststellung der Schwangerschaft,Utsagn om graviditet,Pregnancy assertion
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Rechtfertigung,Begrunnelse,Justification
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,Kommentar,Kommentar,Comment
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/data[at0001]/events[at0016]/data[at0003]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Klinischer Nachweis,Klinisk dokumentasjon,Clinical evidence
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/protocol[at0017],ITEM_TREE,CComplexObject,at0017,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.pregnancy_assertion.v0,/protocol[at0017]/items[at0018],CLUSTER,ArchetypeSlot,at0018,Erweiterungen,Tillegg,Extension

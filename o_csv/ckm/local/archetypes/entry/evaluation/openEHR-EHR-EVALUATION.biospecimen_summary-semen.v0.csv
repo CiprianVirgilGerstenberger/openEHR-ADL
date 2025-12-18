@@ -1,0 +1,41 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/,EVALUATION,CComplexObject,at0000.1,Zusammenfassung zu der Bioprobe,Biologisk prøve sammendrag - sæd,Biospecimen summary - semen
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0.3],ELEMENT,CComplexObject,at0.3,Sperm procurement,Spermieinnhenting,Sperm procurement
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0.3]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0.3]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0.9],ELEMENT,CComplexObject,at0.9,Sperm preparation,Sædpreparering,Sperm preparation
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0.9]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0.9]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Bioproben ID,Biologisk prøveID,Biospecimen ID
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0003.1],ELEMENT,CComplexObject,at0003.1,Art der Bioprobe,Biologisk prøvetype,Biospecimen type
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0003.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0003.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Beschreibung,Beskrivelse,Description
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Behandlung,Behandling,Treatment
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,*Date of preservation (en),Dato for preservering,Date of preservation
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0006]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Art der Konservierung,Type preservering,Type of preservation
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0008],CLUSTER,ArchetypeSlot,at0008,Probendetails,Prøvematerialdetaljer,Specimen details
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Angaben zur Lagerung,Lagringsdetaljer,Storage details
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Verwendung,Avhending/disponering,Disposition
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0011],ELEMENT,CComplexObject,at0011,Zeitpunkt der Verwendung,Avhending/disponering dato,Date of disposition
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0011]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Verfallsdatum,Utløpsdato,Expiry date
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0012]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0017],CLUSTER,ArchetypeSlot,at0017,*Additional details (en),Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0018],ELEMENT,CComplexObject,at0018,*Date of storage (en),Dato for lagring,Date of storage
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0018]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,*Category (en),Kategori,Category
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/data[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/protocol[at0013],ITEM_TREE,CComplexObject,at0013,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/protocol[at0013]/items[at0014],ELEMENT,CComplexObject,at0014,Letzte Aktualisierung,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/protocol[at0013]/items[at0014]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.biospecimen_summary-semen.v0,/protocol[at0013]/items[at0015],CLUSTER,ArchetypeSlot,at0015,Erweiterung,Utvidelse,Extension

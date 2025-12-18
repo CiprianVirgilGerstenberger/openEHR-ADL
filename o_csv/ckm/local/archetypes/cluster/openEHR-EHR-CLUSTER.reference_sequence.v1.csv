@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.reference_sequence.v1,/,CLUSTER,CComplexObject,at0018,Reference sequence,Referansesekvens,Reference sequence
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0019],ELEMENT,CComplexObject,at0019,Source name,Kildenavn,Source name
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0020],ELEMENT,CComplexObject,at0020,Accession number,Aksessnummer,Accession number
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0021],ELEMENT,CComplexObject,at0021,Version number,Versjonsnummer,Version number
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0022],ELEMENT,CComplexObject,at0022,URL,URL,URL
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0022]/value,DV_URI,CComplexObject
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Chromosome label,KromosomID,Chromosome label
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0023]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0048],ELEMENT,CComplexObject,at0048,Reference genome assembly,Referansegenom,Reference genome assembly
+openEHR-EHR-CLUSTER.reference_sequence.v1,/items[at0048]/value,DV_TEXT,CComplexObject

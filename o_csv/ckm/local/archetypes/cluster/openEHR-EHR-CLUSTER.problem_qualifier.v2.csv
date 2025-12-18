@@ -1,0 +1,43 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_ko,name_pt-br,name_en,name_sl,name_it,name_zh
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/,CLUSTER,CComplexObject,at0000,Problem/Diagnose Attribut,Problem/diagnoskvalificering,Problem/diagnose-kvalifikator,문제/진단 한정자,Qualificador do problema /diagnóstico,Problem/Diagnosis qualifier,*Problem/Diagnosis qualifier(en),Qualificatore di problema/diagnosi.,*Problem/Diagnosis qualifier(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0001],ELEMENT,CComplexObject,at0001,Episode,Episodicitet,Episodisitet,삽화,Episodicidade,Episodicity,*Episodicity(en),Episodicità,*Episodicity(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0001]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0003],ELEMENT,CComplexObject,at0003,Aktiv / Inaktiv?,Aktiv/Inaktiv?,Aktiv/inaktiv?,활성/비활성,Ativo/Inativo?,Active/Inactive?,*Active/Inactive?(en),Attivo/Inattivo?,*Active/Inactive?(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0004],ELEMENT,CComplexObject,at0004,Diagnosestatus,Diagnosstatus,Diagnostisk status,진단 상태,Estado do diagnóstico,Diagnostic status,*Diagnostic status(en),Stato diagnostico,诊断状态
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0060],ELEMENT,CComplexObject,at0060,Aktuell/Vergangen?,Nuvarande/förflutna?,Nåværende/tidligere?,현재/과거?,Atual/Passado?,Current/Past?,*Current/Past?(en),Corrente/Passato?,*Current/Past?(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0060]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0060]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0063],ELEMENT,CComplexObject,at0063,Diagnostische Kategorie,Diagnostisk kategori,Diagnosisk kategori,진단 범주,Categoria do diagnóstico,Diagnostic category,*Diagnostic category(en),Categoria diagnostica,*Diagnostic category(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0063]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0063]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0071],ELEMENT,CComplexObject,at0071,Auftreten,Förekomst,Forekomst,*Occurrence (en),Ocorrência,Occurrence,*Occurrence (en),Occorrenza,*Occurrence(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0071]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0071]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0073],ELEMENT,CComplexObject,at0073,Aufnahmediagnose?,Diagnos vid inskrvning?,Tilstede ved innleggelse?,입원 진단?,Diagnóstico de admissão?,Admission diagnosis?,*Admission diagnosis?(en),Diagnosi di ammissione?,*Admission diagnosis?(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0073]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0073]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0073]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0077],ELEMENT,CComplexObject,at0077,Verlaufsbeschreibung,Förloppetikett,Forløpsbetegnelse,경과,Classificação do curso,Course label,*Course label(en),Decorso,*Course label(en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0077]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0077]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0083],ELEMENT,CComplexObject,at0083,Genesungsphase,Resolutionsfas,Bedringsfase,치료 단계,Fase de resolução,Resolution phase,*Resolution phase(en),Fase risolutoria,治疗阶段
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0083]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0083]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0089],ELEMENT,CComplexObject,at0089,Remissionsstatus,Remission,Remisjonsstatus,관해 상태,Estado de remissão,Remission status,*Remission status(en),Stato di recesso,缓解阶段
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0089]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0098],ELEMENT,CComplexObject,at0098,Kontrollniveau,Level of control,Kontrollnivå,*Level of control (en),*Level of control (en),Level of control,*Level of control (en),*Level of control (en),Level of control
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0098]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0098]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0102],ELEMENT,CComplexObject,at0102,Progression,Progression,Progresjon,*Progression (en),*Progression (en),Progression,*Progression (en),*Progression (en),Progression
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0102]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0102]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0107],ELEMENT,CComplexObject,at0107,Grund für eine andauernde Episode.,*Reason for an ongoing episode (en),Årsak for en pågående episode,*Reason for an ongoing episode (en),*Reason for an ongoing episode (en),Reason for an ongoing episode,*Reason for an ongoing episode (en),*Reason for an ongoing episode (en),*Reason for an ongoing episode (en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0107]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0110],ELEMENT,CComplexObject,at0110,Kommentar,*Comment (en),Kommentar,*Comment (en),*Comment (en),Comment,*Comment (en),*Comment (en),*Comment (en)
+openEHR-EHR-CLUSTER.problem_qualifier.v2,/items[at0110]/value,DV_TEXT,CComplexObject

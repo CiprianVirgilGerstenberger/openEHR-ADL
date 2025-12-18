@@ -1,0 +1,110 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ru,name_fi,name_sv,name_nb,name_pt-br,name_en,name_ar-sy,name_fa,name_es-cl,name_zh-cn,name_nl
+openEHR-EHR-OBSERVATION.apgar.v0,/,OBSERVATION,CComplexObject,at0000,Apgar-Score,Шкала Апгар,Apgarin pisteet,Apgarskalan,Apgar skår,Escala Apgar,Apgar score,حرز أبغار,نمره آپگار,*Apgar score(en),Apgar评分,Apgar score
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002],HISTORY,CComplexObject,at0002,History,*history(en),historia,History,history,*history(en),History,*history(en),*history(en),Historia,*history(en),*history(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003],POINT_EVENT,CComplexObject,at0003,1 Minute,1 минута,1 minuutti,1 minut,1 minutt,1 minuto,1 minute,دقيقة واحدة,دقیقه اول,*1 minute(en),1分钟,1 minuut
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,*structure(en),List,Tree,structure,*structure(en),Tree,*structure(en),*structure(en),Estructura,*structure(en),*structure(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,*Heart rate (en),*Heart rate (en),*Heart rate (en),Hjärtfrekvens,Hjertefrekvens,*Heart rate (en),Heart rate,*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Atemantrieb,Дыхание,Hengitys,Andningansträngning,Respirasjon,Esforço respiratório,Respiratory effort,المجهود التنفسي,تلاش تنفسی,Respiración,呼吸力,Ademhalingsinspanning
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Muskeltonus,Мышечный тонус,Lihasjänteys,Muskeltonus,Muskeltonus,Tônus muscular,Muscle tone,توتر العضلة,تون عضلانی,*Muscle tone(en),肌张力,Spiertonus
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Reflexauslösbarkeit,Рефлексы на раздражение,Ärtyvyys,Reflexirritabilitet,Refleks irritabilitet,Reflexo de irritabilidade,Reflex irritability,التوتر الانعكاسي,رفلکس تحریک پذیری,*Reflex irritability(en),反射应激性,Reactie op prikkels
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Hautfarbe,Цвет кожи,Ihon väri,Hudfärg,Hud farge,Cor da pele,Skin colour,لون الجلد/البشرة,رنگ پوست,*Skin colour(en),肤色,Huidskleur
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Gesamtwert,Общая оценка,Yhteensä,Totalen,Total,Total,Total,الإجمالي,مجموع,Total,总分,Totaal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/data[at0001]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/offset,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0003]/offset/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026],POINT_EVENT,CComplexObject,at0026,2 Minuten,2 минута,2 minuuttia,2 minturer,2 minutt,2 minutos,2 minute,عند دقيقتين,دقیقه دو,*2 minute(en),2分钟,2 minuten
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,*structure(en),List,Tree,structure,*structure(en),Tree,*structure(en),*structure(en),Estructura,*structure(en),*structure(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,*Heart rate (en),*Heart rate (en),*Heart rate (en),Hjärtfrekvens,Hjertefrekvens,*Heart rate (en),Heart rate,*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Atemantrieb,Дыхание,Hengitys,Andningansträngning,Respirasjon,Esforço respiratório,Respiratory effort,المجهود التنفسي,تلاش تنفسی,Respiración,呼吸力,Ademhalingsinspanning
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Muskeltonus,Мышечный тонус,Lihasjänteys,Muskeltonus,Muskeltonus,Tônus muscular,Muscle tone,توتر العضلة,تون عضلانی,*Muscle tone(en),肌张力,Spiertonus
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Reflexauslösbarkeit,Рефлексы на раздражение,Ärtyvyys,Reflexirritabilitet,Refleks irritabilitet,Reflexo de irritabilidade,Reflex irritability,التوتر الانعكاسي,رفلکس تحریک پذیری,*Reflex irritability(en),反射应激性,Reactie op prikkels
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Hautfarbe,Цвет кожи,Ihon väri,Hudfärg,Hud farge,Cor da pele,Skin colour,لون الجلد/البشرة,رنگ پوست,*Skin colour(en),肤色,Huidskleur
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Gesamtwert,Общая оценка,Yhteensä,Totalen,Total,Total,Total,الإجمالي,مجموع,Total,总分,Totaal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/data[at0001]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/offset,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0026]/offset/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027],POINT_EVENT,CComplexObject,at0027,3 Minuten,3 минута,3 minuuttia,3 minuter,3 minutt,3 minutos,3 minute,عند ثلاث دقائق,دقیقه سه,*3 minute(en),3分钟,3 minuten
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,*structure(en),List,Tree,structure,*structure(en),Tree,*structure(en),*structure(en),Estructura,*structure(en),*structure(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,*Heart rate (en),*Heart rate (en),*Heart rate (en),Hjärtfrekvens,Hjertefrekvens,*Heart rate (en),Heart rate,*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Atemantrieb,Дыхание,Hengitys,Andningansträngning,Respirasjon,Esforço respiratório,Respiratory effort,المجهود التنفسي,تلاش تنفسی,Respiración,呼吸力,Ademhalingsinspanning
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Muskeltonus,Мышечный тонус,Lihasjänteys,Muskeltonus,Muskeltonus,Tônus muscular,Muscle tone,توتر العضلة,تون عضلانی,*Muscle tone(en),肌张力,Spiertonus
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Reflexauslösbarkeit,Рефлексы на раздражение,Ärtyvyys,Reflexirritabilitet,Refleks irritabilitet,Reflexo de irritabilidade,Reflex irritability,التوتر الانعكاسي,رفلکس تحریک پذیری,*Reflex irritability(en),反射应激性,Reactie op prikkels
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Hautfarbe,Цвет кожи,Ihon väri,Hudfärg,Hud farge,Cor da pele,Skin colour,لون الجلد/البشرة,رنگ پوست,*Skin colour(en),肤色,Huidskleur
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Gesamtwert,Общая оценка,Yhteensä,Totalen,Total,Total,Total,الإجمالي,مجموع,Total,总分,Totaal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/data[at0001]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/offset,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0027]/offset/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028],POINT_EVENT,CComplexObject,at0028,5 Minuten,5 минута,5 minuuttia,5 minuter,5 minutt,5 minutos,5 minute,بعد خمس دقائق,دقیقه پنج,*5 minute(en),5分钟,5 minuten
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,*structure(en),List,Tree,structure,*structure(en),Tree,*structure(en),*structure(en),Estructura,*structure(en),*structure(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,*Heart rate (en),*Heart rate (en),*Heart rate (en),Hjärtfrekvens,Hjertefrekvens,*Heart rate (en),Heart rate,*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Atemantrieb,Дыхание,Hengitys,Andningansträngning,Respirasjon,Esforço respiratório,Respiratory effort,المجهود التنفسي,تلاش تنفسی,Respiración,呼吸力,Ademhalingsinspanning
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Muskeltonus,Мышечный тонус,Lihasjänteys,Muskeltonus,Muskeltonus,Tônus muscular,Muscle tone,توتر العضلة,تون عضلانی,*Muscle tone(en),肌张力,Spiertonus
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Reflexauslösbarkeit,Рефлексы на раздражение,Ärtyvyys,Reflexirritabilitet,Refleks irritabilitet,Reflexo de irritabilidade,Reflex irritability,التوتر الانعكاسي,رفلکس تحریک پذیری,*Reflex irritability(en),反射应激性,Reactie op prikkels
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Hautfarbe,Цвет кожи,Ihon väri,Hudfärg,Hud farge,Cor da pele,Skin colour,لون الجلد/البشرة,رنگ پوست,*Skin colour(en),肤色,Huidskleur
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Gesamtwert,Общая оценка,Yhteensä,Totalen,Total,Total,Total,الإجمالي,مجموع,Total,总分,Totaal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/data[at0001]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/offset,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0028]/offset/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031],POINT_EVENT,CComplexObject,at0031,10 Minuten,10 минута,10 minuuttia,10 minuter,10 minutt,10 minutos,10 minute,بعد 10 دقائق,دقیقه ده,*10 minute(en),10分钟,10 minuten
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,*structure(en),List,Tree,structure,*structure(en),Tree,*structure(en),*structure(en),Estructura,*structure(en),*structure(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,*Heart rate (en),*Heart rate (en),*Heart rate (en),Hjärtfrekvens,Hjertefrekvens,*Heart rate (en),Heart rate,*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Atemantrieb,Дыхание,Hengitys,Andningansträngning,Respirasjon,Esforço respiratório,Respiratory effort,المجهود التنفسي,تلاش تنفسی,Respiración,呼吸力,Ademhalingsinspanning
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Muskeltonus,Мышечный тонус,Lihasjänteys,Muskeltonus,Muskeltonus,Tônus muscular,Muscle tone,توتر العضلة,تون عضلانی,*Muscle tone(en),肌张力,Spiertonus
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Reflexauslösbarkeit,Рефлексы на раздражение,Ärtyvyys,Reflexirritabilitet,Refleks irritabilitet,Reflexo de irritabilidade,Reflex irritability,التوتر الانعكاسي,رفلکس تحریک پذیری,*Reflex irritability(en),反射应激性,Reactie op prikkels
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Hautfarbe,Цвет кожи,Ihon väri,Hudfärg,Hud farge,Cor da pele,Skin colour,لون الجلد/البشرة,رنگ پوست,*Skin colour(en),肤色,Huidskleur
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Gesamtwert,Общая оценка,Yhteensä,Totalen,Total,Total,Total,الإجمالي,مجموع,Total,总分,Totaal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/data[at0001]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/offset,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0031]/offset/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037],EVENT,CComplexObject,at0037,Beliebiges Ereignis,Любое время,Mikä tahansa tapahtuma,Ospecificerad händelse,Enhver hendelse,Qualquer evento,Any event,إحدى الوقائع,هر رویداد,*Any event(en),任何事件,Any event
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,*structure(en),List,Tree,structure,*structure(en),Tree,*structure(en),*structure(en),Estructura,*structure(en),*structure(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,*Heart rate (en),*Heart rate (en),*Heart rate (en),Hjärtfrekvens,Hjertefrekvens,*Heart rate (en),Heart rate,*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en),*Heart rate (en)
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Atemantrieb,Дыхание,Hengitys,Andningansträngning,Respirasjon,Esforço respiratório,Respiratory effort,المجهود التنفسي,تلاش تنفسی,Respiración,呼吸力,Ademhalingsinspanning
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Muskeltonus,Мышечный тонус,Lihasjänteys,Muskeltonus,Muskeltonus,Tônus muscular,Muscle tone,توتر العضلة,تون عضلانی,*Muscle tone(en),肌张力,Spiertonus
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Reflexauslösbarkeit,Рефлексы на раздражение,Ärtyvyys,Reflexirritabilitet,Refleks irritabilitet,Reflexo de irritabilidade,Reflex irritability,التوتر الانعكاسي,رفلکس تحریک پذیری,*Reflex irritability(en),反射应激性,Reactie op prikkels
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Hautfarbe,Цвет кожи,Ihon väri,Hudfärg,Hud farge,Cor da pele,Skin colour,لون الجلد/البشرة,رنگ پوست,*Skin colour(en),肤色,Huidskleur
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Gesamtwert,Общая оценка,Yhteensä,Totalen,Total,Total,Total,الإجمالي,مجموع,Total,总分,Totaal
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.apgar.v0,/data[at0002]/events[at0037]/data[at0001]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.apgar.v0,/protocol[at0029],ITEM_TREE,CComplexObject,at0029,*Tree(en),*Tree(en),Tree,Tree,*Tree(en),*Tree(en),Tree,*Tree(en),*Tree(en),*Tree(en),*Tree(en),*Tree(en)
+openEHR-EHR-OBSERVATION.apgar.v0,/protocol[at0029]/items[at0040],CLUSTER,ArchetypeSlot,at0040,*Extension(en),*Extension(en),Laajennus,Tilläggsinformation,Tilleggsinformasjon,*Extension(en),Extension,*Extension(en),*Extension(en),*Extension(en),*Extension(en),*Extension(en)

@@ -1,0 +1,11 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en,name_fr
+openEHR-EHR-EVALUATION.exclusion_global.v1,/,EVALUATION,CComplexObject,at0000,Ausschluss - allgemein,Uteslutande - generellt,Eksklusjonsutsagn - overordnet,Exclusão - global,Exclusion - global,Exclusion - globale
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Allgemeine Ausschlusserklärung,Generellt uteslutande,Overordnet eksklusjonsutsagn,Declaração de exclusão global,Global exclusion statement,Déclaration sur l'exclusion globale
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001]/items[at0002]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001]/items[at0002]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001]/items[at0011],ELEMENT,CComplexObject,at0011,Kommentar,Kommentar,Kommentar,Comentário,Comment,Commentaire
+openEHR-EHR-EVALUATION.exclusion_global.v1,/data[at0001]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.exclusion_global.v1,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.exclusion_global.v1,/protocol[at0008]/items[at0010],CLUSTER,ArchetypeSlot,at0010,Erweiterung,Tilläggsinformation,Tilleggsinformasjon,Extensão,Extension,Extension

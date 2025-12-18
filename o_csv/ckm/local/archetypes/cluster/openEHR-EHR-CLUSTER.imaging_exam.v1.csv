@@ -1,0 +1,14 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam.v1,/,CLUSTER,CComplexObject,at0000,Bildgebende Untersuchung einer Körperstruktur,Bildediagnostisk undersøkelse - kroppsstruktur,Imaging examination of a body structure
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Körperstruktur,Kroppsstruktur,Body structure
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam.v1,/items[at0007]/value,DV_TEXT,CComplexObject

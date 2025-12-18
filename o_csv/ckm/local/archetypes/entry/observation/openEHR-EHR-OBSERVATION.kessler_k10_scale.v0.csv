@@ -1,0 +1,32 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/,OBSERVATION,CComplexObject,at0000,Kessler Psychological Distress Scale (K10)
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Any event
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,During the last 30 days, about how often did you feel tired out for no good reason?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Total score
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,During the last 30 days, about how often did you feel nervous?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,During the last 30 days, about how often did you feel hopeless?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0033],ELEMENT,CComplexObject,at0033,During the last 30 days, about how often did you feel restless or fidgety?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0039],ELEMENT,CComplexObject,at0039,During the last 30 days, about how often did you feel so restless you could not sit still?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0039]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0045],ELEMENT,CComplexObject,at0045,During the last 30 days, about how often did you feel depressed?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0045]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,During the last 30 days, about how often did you feel that everything was an effort?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0057],ELEMENT,CComplexObject,at0057,During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0063],ELEMENT,CComplexObject,at0063,During the last 30 days, about how often did you feel worthless?
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0063]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0069],ELEMENT,CComplexObject,at0069,Comment
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/protocol[at0070],ITEM_TREE,CComplexObject,at0070,Tree
+openEHR-EHR-OBSERVATION.kessler_k10_scale.v0,/protocol[at0070]/items[at0071],CLUSTER,ArchetypeSlot,at0071,Extension

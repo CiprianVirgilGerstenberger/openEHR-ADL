@@ -1,0 +1,37 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/,CLUSTER,CComplexObject,at0000,Reaksjonshendelse,Adverse reaction event
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Spesifikk substans,Specific substance
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Sikkerhet,Certainty
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0002]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Reaksjonsmanifestasjon,Manifestation
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Reaksjonsbeskrivelse,Reaction description
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Reaksjonsdebut,Onset of reaction
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0008]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0009],ELEMENT,CComplexObject,at0009,Reaksjonens varighet,Duration of reaction
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0009]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Reaksjonens alvorlighetsgrad,Severity of reaction
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0014],CLUSTER,ArchetypeSlot,at0014,Reaksjonsdetaljer,Reaction details
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0015],ELEMENT,CComplexObject,at0015,Første eksponering,Initial exposure
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0015]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0016],ELEMENT,CComplexObject,at0016,Eksponeringsvarighet,Duration of exposure
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0016]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0017],ELEMENT,CComplexObject,at0017,Eksponeringsvei,Route of exposure
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0018],ELEMENT,CComplexObject,at0018,Eksponeringsbeskrivelse,Exposure description
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0019],CLUSTER,ArchetypeSlot,at0019,Eksponeringsdetaljer,Exposure details
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0020],ELEMENT,CComplexObject,at0020,Beskrivelse av klinisk håndtering,Clinical management description
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0021],CLUSTER,ArchetypeSlot,at0021,Detaljer om klinisk håndtering,Clinical management details
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0022],CLUSTER,ArchetypeSlot,at0022,Rapporteringsdetaljer,Reporting details
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0023],CLUSTER,ArchetypeSlot,at0023,Informasjonskilde,Information source
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0024],ELEMENT,CComplexObject,at0024,Reaksjonskommentar,Comment
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0025],ELEMENT,CComplexObject,at0025,Understøttende journalinformasjon,Supporting clinical record information
+openEHR-EHR-CLUSTER.adverse_reaction_event.v1,/items[at0025]/value,DV_EHR_URI,CComplexObject

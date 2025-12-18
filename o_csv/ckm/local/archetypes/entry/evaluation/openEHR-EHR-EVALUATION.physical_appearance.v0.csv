@@ -1,0 +1,20 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.physical_appearance.v0,/,EVALUATION,CComplexObject,at0000,Fysisk fremtoning til et individ,Physical appearance of an individual
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Beskrivelse,Description
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Hårfarge,Hair colour
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Irisfarge,Iris colour
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Hudfarge,Skin colour
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Kroppsbygning,Body build
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Kommentar,Comment
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/data[at0001]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.physical_appearance.v0,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Item tree,Item tree
+openEHR-EHR-EVALUATION.physical_appearance.v0,/protocol[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.physical_appearance.v0,/protocol[at0009]/items[at0010]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.physical_appearance.v0,/protocol[at0009]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Tilleggsinformasjon,Extension

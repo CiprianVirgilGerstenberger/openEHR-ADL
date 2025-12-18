@@ -1,0 +1,19 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_ar-sy,name_sl,name_en,name_fr,name_nl,name_ca,name_es
+openEHR-EHR-CLUSTER.anatomical_location.v1,/,CLUSTER,CComplexObject,at0000,Anatomische Lokalisation,Anatomisk lokalisation,Anatomisk lokalisering,Localização anatômica,*Anatomical location(en),*Anatomical location(en),Anatomical location,Localisation anatomique,Anatomische locatie,Localització anatòmica,Localización anatómica
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Name der Körperstelle,Namn på kroppsställe,Navn på kroppssted,*Body site name(en),*Body site name(en),*Body site name(en),Body site name,Nom du site corporel,Lichaamslocatie,Nom de la part del cos,Nombre de la zona corporal
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Lateralität,Lateralitiet,Kroppsside,Lateralidade,*Laterality(en),*Laterality(en),Laterality,Latéralité,Lateraliteit,Lateralitat,Lateralidad
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0002]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0002]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Beschreibung,Beskrivning,Beskrivelse,Descrição,*Description(en),*Description(en),Description,Description,Beschrijving,Informació,Descripción
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0053],CLUSTER,ArchetypeSlot,at0053,Alternative Struktur,Alternativ struktur,Alternativ struktur,Estrutura alternativa,*Alternative structure(en),*Alternative structure(en),Alternative structure,Structure alternative,Alternatieve structuur,Estructura alternativa,Estructura alternativa
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0054],CLUSTER,ArchetypeSlot,at0054,Multimediale Darstellung,Multimediarepresentation,Multimediarepresentasjon,Representação multimídia,*Multimedia representation(en),*Multimedia representation(en),Multimedia representation,Représentation multimédia,Multimedia representatie,Representació multimèdia,Representación multimedia
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0055],ELEMENT,CComplexObject,at0055,Anatomische Linie,Anatomisk linje,Anatomisk linje,Linha anatômica,*Anatomical Line(en),*Anatomical Line(en),Anatomical Line,Ligne anatomique,Anatomische lijn,Línia anatòmica,Línea anatómica
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0055]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0055]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0064],ELEMENT,CComplexObject,at0064,Perspektive,Del,Aspekt,Aspecto,*Aspect(en),*Aspect(en),Aspect,Aspect,Aspect,Aspecte,Aspecto
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0064]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0065],ELEMENT,CComplexObject,at0065,Spezifische Körperstelle,Specifikt ställe,Spesifikt sted,Local específico,*Specific site(en),*Specific site(en),Specific site,Site spécifique,Specifieke locatie,Part específica,Sitio específico
+openEHR-EHR-CLUSTER.anatomical_location.v1,/items[at0065]/value,DV_TEXT,CComplexObject

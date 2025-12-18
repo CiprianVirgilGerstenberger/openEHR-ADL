@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/,CLUSTER,CComplexObject,at0000,SYSVAK vaksinedetaljer
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0002],CLUSTER,CComplexObject,at0002,Vaksinand
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0002]/items[at0003],ELEMENT,CComplexObject,at0003,Type personidentifikasjon
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0002]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0002]/items[at0004],ELEMENT,CComplexObject,at0004,Vaksinand alternativ ID
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0002]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0005],CLUSTER,CComplexObject,at0005,Omsorgsperson
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,Type offisiell personidentifikasjon
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0005]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0005]/items[at0007],ELEMENT,CComplexObject,at0007,Omsorgspersons ID
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0005]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0009],ELEMENT,CComplexObject,at0009,Vaksinetype
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Vaksine gitt
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0010]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0011],ELEMENT,CComplexObject,at0011,Varighet utsettelse
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0012],ELEMENT,CComplexObject,at0012,Vaksine satt på stedet
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0012]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0013],ELEMENT,CComplexObject,at0013,Vaksinasjondokumentasjon
+openEHR-EHR-CLUSTER.sysvak_vaksinedetaljer.v1,/items[at0013]/value,DV_TEXT,CComplexObject

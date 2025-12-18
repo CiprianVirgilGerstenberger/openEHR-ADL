@@ -1,0 +1,29 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/,CLUSTER,CComplexObject,at0000,Therapeutische Anweisung,Terapeutisk anvisning,Orientação terapêutica,Therapeutic direction
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0057],ELEMENT,CComplexObject,at0057,Reihenfolge der Anweisung,Anvisningsrekkefølge,Ordem de execução da Orientação,Direction sequence
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0057]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0057]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066],ELEMENT,CComplexObject,at0066,Dauer der Anweisung,Anvisningsvarighet,Duração da Instrução,Direction duration
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value,DV_INTERVAL<DV_DURATION>,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0066]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0090],CLUSTER,ArchetypeSlot,at0090,Wiederholungszeitpunkte,Timing av repetisjoner,Orientações de repetição,Repetition timing
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0156],CLUSTER,ArchetypeSlot,at0156,Zusätzliche Angaben,Ytterligere detaljer,Detalhes adicionais,Additional details
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172],ELEMENT,CComplexObject,at0172,*Number of administrations (en),Antall administreringer,*Number of administrations (en),Number of administrations
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172]/value,DV_INTERVAL<DV_COUNT>,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172]/value/lower,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172]/value/lower/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172]/value/upper,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0172]/value/upper/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0176],CLUSTER,ArchetypeSlot,at0176,Dosierung,Dosering,*Dosage(en),Dosage
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0177],ELEMENT,CComplexObject,at0177,Überprüfungskriterium,Vurderingskriterier,*Review criterion (en),Review criterion
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0177]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0178],ELEMENT,CComplexObject,at0178,Startdatum/-zeit der Verordnung,Startdato/tid for ordineringen,*Order start date/time (en),Order start date/time
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0178]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0179],ELEMENT,CComplexObject,at0179,Stopdatum/-zeit der Verordnung,Dato/tid for seponering,*Order stop date/time (en),Order stop date/time
+openEHR-EHR-CLUSTER.therapeutic_direction.v1,/items[at0179]/value,DV_DATE_TIME,CComplexObject

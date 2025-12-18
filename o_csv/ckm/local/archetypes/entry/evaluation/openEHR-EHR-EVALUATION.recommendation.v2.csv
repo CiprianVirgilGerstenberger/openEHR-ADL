@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_es-ar,name_nb,name_pt-br,name_en
+openEHR-EHR-EVALUATION.recommendation.v2,/,EVALUATION,CComplexObject,at0000,Empfehlung,Rekommendation,Recomendación,Anbefaling,Recomendação,Recommendation
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Empfehlung,Rekommendation,Recomendación,Anbefaling,Recomendação,Recommendation
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Begründung,*Rationale(en),*Rationale(en),Begrunnelse,Justificativa,Rationale
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Gegenstand,*Topic (en),*Topic (en),Tema,*Topic (en),Topic
+openEHR-EHR-EVALUATION.recommendation.v2,/data[at0001]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.recommendation.v2,/protocol[at0004],ITEM_TREE,CComplexObject,at0004,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.recommendation.v2,/protocol[at0004]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Erweiterung,Tilläggsinformation,Extensión,Tilleggsinformasjon,Extensão,Extension
+openEHR-EHR-EVALUATION.recommendation.v2,/protocol[at0004]/items[at0007],ELEMENT,CComplexObject,at0007,Zuletzt aktualisiert,*Last updated (en),*Last updated (en),Sist oppdatert,*Last updated (en),Last updated
+openEHR-EHR-EVALUATION.recommendation.v2,/protocol[at0004]/items[at0007]/value,DV_DATE_TIME,CComplexObject

@@ -1,0 +1,5 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.who_grade_urothelial_neoplasms_1973.v0,/,CLUSTER,CComplexObject,at0000,WHO histologisk grad av uroteliale neoplasmer (1973),WHO histological grade of urothelial neoplasms (1973)
+openEHR-EHR-CLUSTER.who_grade_urothelial_neoplasms_1973.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Grad,Grade
+openEHR-EHR-CLUSTER.who_grade_urothelial_neoplasms_1973.v0,/items[at0001]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.who_grade_urothelial_neoplasms_1973.v0,/items[at0001]/value/defining_code,CODE_PHRASE,CCodePhrase

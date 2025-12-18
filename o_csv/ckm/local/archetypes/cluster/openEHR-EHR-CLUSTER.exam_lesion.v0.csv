@@ -1,0 +1,31 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.exam_lesion.v0,/,CLUSTER,CComplexObject,at0000,Undersøkelse av en lesjon,Exame da Lesão,Examination of a lesion
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Kroppssted,Local anatômico da lesão,Body site
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Type lesjon,Tipo de Lesão,Lesion type
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Klinisk beskrivelse,Descrição Clínica,Clinical description
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Ytterligere detaljer,*Additional details (en),Additional details
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Multimediarepresentasjon,Representação multimídia,Multimedia representation
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Klinisk tolkning,Interpretação Clínica,Clinical interpretation
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Comentários,Comment
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0011],CLUSTER,ArchetypeSlot,at0011,Strukturert kroppssted,Local anatômico (estruturado),Structured body site
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0012],ELEMENT,CComplexObject,at0012,Merkelapp,*Label (en),Label
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0013],ELEMENT,CComplexObject,at0013,Lengde/diameter,*Length/diameter (en),Length/diameter
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0013]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0013]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0013]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0014],ELEMENT,CComplexObject,at0014,Høyde/dybde,*Height/depth (en),Height/depth
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0014]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0014]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0014]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0015],ELEMENT,CComplexObject,at0015,Form,*Shape (en),Shape
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0018],ELEMENT,CComplexObject,at0018,Bredde,*Width (en),Width
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0018]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0024],ELEMENT,CComplexObject,at0024,Areal,*Area (en),Area
+openEHR-EHR-CLUSTER.exam_lesion.v0,/items[at0024]/value,DV_QUANTITY,CDvQuantity

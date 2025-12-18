@@ -1,0 +1,38 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ru,name_sv,name_fi,name_es-ar,name_nb,name_pt-br,name_ar-sy,name_en,name_fa
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/,OBSERVATION,CComplexObject,at0000,*Pulse oximetry(en),*Pulse oximetry(en),*Pulse oximetry(en),Pulssioksimetria,*Pulse oximetry(en),Pulsoksymetri,Oximetria de pulso,*Pulse oximetry(en),Pulse oximetry,*Pulse oximetry(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Событие серии,Händelseförlopp,Event Series,*Event Series(en),*Event Series(en),Event Series,*Event Series(en),Event Series,*Event Series(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,*Any event(en),Любое событие,Ospecificerad händelse,Mikä tahansa tapahtuma,Cualquier evento.,Uspesifisert hendelse,Qualquer evento,  إحدى الوقائع,Any event,هر رویداد
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Дерево,Tree,Tree,*Tree(en),*Tree(en),Tree,*Tree(en),Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,*SpO₂(en),*SpO₂(en),*SpO₂(en),SpO₂,*SpO₂(en),SpO₂,SpO₂,*SpO₂(en),SpO₂,*SpO₂(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,*Comment(en),*Comment(en),*Comment(en),Kommentti,*Comment(en),Kommentar,Comentário,*Comment(en),Comment,*Comment(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,*SpOC(en),*SpOC(en),*SpOC(en),SpOC,*SpOC(en),SpOC,SpOC,*SpOC(en),SpOC,*SpOC(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045],ELEMENT,CComplexObject,at0045,*SpCO(en),*SpCO(en),SpCO,SpCO,*SpCO(en),SpCO,SpCO,*SpCO(en),SpCO,*SpCO(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046],ELEMENT,CComplexObject,at0046,*SpMet(en),*SpMet(en),*SpMet(en),SpMet,*SpMet(en),SpMet,SpMet,*SpMet(en),SpMet,*SpMet(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0054],CLUSTER,ArchetypeSlot,at0054,*Waveform(en),Осциллограмма,Vågform,Aaltomuoto,Forma de onda de pulso,Kurveform,Forma da onda,التموج,Waveform,شکل موجی
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0058],ELEMENT,CComplexObject,at0058,*Interpretation(en),*Interpretation(en),*Interpretation(en),Tulkinta,*Interpretation(en),Fortolkning,Interpretação,*Interpretation(en),Interpretation,*Interpretation(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0058]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0060],CLUSTER,ArchetypeSlot,at0060,*Multimedia image(en),*Multimedia image(en),*Multimedia image(en),Multimediakuva,*Multimedia image(en),Multimedia-bilde,Imagem de Multimídia,*Multimedia image(en),Multimedia image,*Multimedia image(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/state[at0014],ITEM_TREE,CComplexObject,at0014,*Tree(en),Дерево,Tree,Tree,*Tree(en),*Tree(en),Tree,*Tree(en),Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/state[at0014]/items[at0015],CLUSTER,ArchetypeSlot,at0015,*Inspired oxygen(en),*Inspired oxygen(en),Tillförd syrgas,Sisäänhengitetty happi,*Inspired oxygen(en),Innåndet oksygen,Oxigênio inspirado,*Inspired oxygen(en),Inspired oxygen,*Inspired oxygen(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/state[at0014]/items[at0016],ELEMENT,CComplexObject,at0016,*Confounding factors(en),*Confounding factors(en),*Confounding factors(en),Sekoittavat tekijät,*Confounding factors(en),Konfunderende faktorer,Fatores conflitantes,*Confounding factors(en),Confounding factors,*Confounding factors(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/state[at0014]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/data[at0001]/events[at0002]/state[at0014]/items[at0034],CLUSTER,ArchetypeSlot,at0034,*Exertion(en),Нагрузка,Ansträngning,Rasitus,Esfuerzo,Belastning,Esforço,المجهود,Exertion,تقلا
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Liste,Дерево,List,List,*List(en),*List(en),List,*List(en),List,*List(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0009],ELEMENT,CComplexObject,at0009,*Sensor site(en),*Sensor site(en),*Sensor site(en),Anturin paikka,*Sensor site(en),Målested,Local do sensor,*Sensor site(en),Sensor site,*Sensor site(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0018],CLUSTER,ArchetypeSlot,at0018,*Device(en),Устройство,Oximetriutrustning,Oksimetrialaite,Dispositivo,Måleutstyr,Dispositivo de oximetria,الجهيزة,Oximetry device,تجهیز
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0059],CLUSTER,ArchetypeSlot,at0059,*Cluster(en),*Extension(en),Övrig information,Laajennus,*Extension(en),Tilleggsinformasjon,Extensão,*Extension(en),Extension,*Extension(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0061],ELEMENT,CComplexObject,at0061,*Pre/post-ductal(en),*Pre/post-ductal(en),*Pre/post-ductal(en),Pre-/postduktaalinen,*Pre/post-ductal(en),Pre/postduktal,Pré/pós-ductal,*Pre/post-ductal(en),Pre/post-ductal,*Pre/post-ductal(en)
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0061]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse_oximetry.v1,/protocol[at0007]/items[at0061]/value/defining_code,CODE_PHRASE,CCodePhrase

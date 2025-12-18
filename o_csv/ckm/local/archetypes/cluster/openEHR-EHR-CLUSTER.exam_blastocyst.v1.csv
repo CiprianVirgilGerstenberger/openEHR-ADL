@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/,CLUSTER,CComplexObject,at0000,Undersøkelse av en blastocyst,Examination of a blastocyst
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0049],ELEMENT,CComplexObject,at0049,Ekspanderingsgrad,Degree of expansion
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0049]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0056],ELEMENT,CComplexObject,at0056,Morfologi av den indre cellemassen,Inner cell mass morphology
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0056]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0056]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0060],ELEMENT,CComplexObject,at0060,Morfologi av trofektodermen,Trophectoderm morphology
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0060]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0060]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0064],ELEMENT,CComplexObject,at0064,Andre morfologiske observasjoner,Other morphological features
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0068],ELEMENT,CComplexObject,at0068,Morfologisk gradering,Morphology grade
+openEHR-EHR-CLUSTER.exam_blastocyst.v1,/items[at0068]/value,DV_TEXT,CComplexObject

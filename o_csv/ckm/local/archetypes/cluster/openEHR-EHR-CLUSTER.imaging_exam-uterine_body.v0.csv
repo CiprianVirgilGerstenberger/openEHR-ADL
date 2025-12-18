@@ -1,0 +1,63 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/,CLUSTER,CComplexObject,at0000.1,Bildgebende Untersuchung einer Körperstruktur,Bildediagnostisk undersøkelse - livmor,Imaging examination of the uterine body
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.13],ELEMENT,CComplexObject,at0.13,Length,Lengde,Length
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.13]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.14],ELEMENT,CComplexObject,at0.14,Width,Bredde,Width
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.14]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.15],ELEMENT,CComplexObject,at0.15,Depth,Dybde,Depth
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.15]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.16],ELEMENT,CComplexObject,at0.16,Endometrium description,Beskrivelse av endometrium,Endometrium description
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.16]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.17],ELEMENT,CComplexObject,at0.17,Endometrial thickness,Endometrietykkelse,Endometrial thickness
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.17]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.18],ELEMENT,CComplexObject,at0.18,Endometrial texture,Endometriemønster,Endometrial texture
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.18]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.19],ELEMENT,CComplexObject,at0.19,Myometrium description,Beskrivelse av myometrium,Myometrium description
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.19]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.20],ELEMENT,CComplexObject,at0.20,Myometrial walls,Myometriumvegger,Myometrial walls
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.20]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.20]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.23],ELEMENT,CComplexObject,at0.23,Myometrial texture,Myometrium tekstur,Myometrial texture
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.23]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.24],ELEMENT,CComplexObject,at0.24,Junctional zone,Overgangssone,Junctional zone
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.24]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.25],ELEMENT,CComplexObject,at0.25,Uterine axis,Livmorens akse,Uterine axis
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.25]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.25]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.29],ELEMENT,CComplexObject,at0.29,Uterine flexion,Livmorens fleksjon,Uterine flexion
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.29]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.29]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.2],ELEMENT,CComplexObject,at0.2,Number of gestations,Antall graviditeter,Number of gestations
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.2]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.2]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.2]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.32],ELEMENT,CComplexObject,at0.32,IUD presence,Spiral,IUD presence
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.32]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.32]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.36],ELEMENT,CComplexObject,at0.36,IUD description,Beskrivelse av spiral,IUD description
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.36]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.37],ELEMENT,CComplexObject,at0.37,Junctional zone thickness,Tykkelse av overgangssone,Junctional zone thickness
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.37]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.3],ELEMENT,CComplexObject,at0.3,Chorionicity,Korionisitet,Chorionicity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.3]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.3]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.3]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.4],ELEMENT,CComplexObject,at0.4,Amnionicity,Amnionisitet,Amnionicity
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.4]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.4]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.5],ELEMENT,CComplexObject,at0.5,Intrauterine pregnancy,Intrauterint svangerskap,Intrauterine pregnancy
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.5]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0.5]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0001.1],ELEMENT,CComplexObject,at0001.1,Körperstruktur,Struktur,Body structure
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0001.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0001.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam-uterine_body.v0,/items[at0007]/value,DV_TEXT,CComplexObject

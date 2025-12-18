@@ -1,0 +1,242 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.rop_screen.v0,/,OBSERVATION,CComplexObject,at0000,ROP-screen
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifsert hendelse
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],CLUSTER,CComplexObject,at0004,Panikkangst
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0006],ELEMENT,CComplexObject,at0006,1. Anfall av panikk eller angst
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0007],ELEMENT,CComplexObject,at0007,2. Kraftigste anfall
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0008],ELEMENT,CComplexObject,at0008,3. Redd for nytt anfall
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0009],ELEMENT,CComplexObject,at0009,3b. Frykt i en måned
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0055],ELEMENT,CComplexObject,at0055,Alder frykt i en måned
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0055]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0055]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0450],ELEMENT,CComplexObject,at0450,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0450]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012],CLUSTER,CComplexObject,at0012,Generalisert angstlidelse
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013],ELEMENT,CComplexObject,at0013,4. Mye mer bekymret enn andre
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0014],ELEMENT,CComplexObject,at0014,5. Veldig engstelig mer enn 6 måneder
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0015],ELEMENT,CComplexObject,at0015,6. Samtidige plager
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0015]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0016],ELEMENT,CComplexObject,at0016,6b. Sist gang en slik periode
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0054],ELEMENT,CComplexObject,at0054,Alder sist gang en slik periode
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0054]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0054]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0451],ELEMENT,CComplexObject,at0451,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0451]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056],CLUSTER,CComplexObject,at0056,Spesifikk fobi
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0057],ELEMENT,CComplexObject,at0057,7. Redd for insekt eller dyr
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0057]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0058],ELEMENT,CComplexObject,at0058,8. Redd for vann eller torden
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0058]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0059],ELEMENT,CComplexObject,at0059,9. Redd for lege eller blod
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0059]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0060],ELEMENT,CComplexObject,at0060,10. Redd for lukket rom
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0060]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0061],ELEMENT,CComplexObject,at0061,11. Redd for høyder
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0061]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0062],ELEMENT,CComplexObject,at0062,12. Redd for å fly
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0062]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0065],ELEMENT,CComplexObject,at0065,14b. Sist gang slik frykt
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0065]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0099],ELEMENT,CComplexObject,at0099,Alder sist gang slik frykt
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0099]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0099]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0100],ELEMENT,CComplexObject,at0100,14. Latt være å gjøre ting pga frykt og fått alvorlige problemer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0100]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0452],ELEMENT,CComplexObject,at0452,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/items[at0452]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115],CLUSTER,CComplexObject,at0115,Sosial angst
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0127],ELEMENT,CComplexObject,at0127,15. Redd for å treffe nye mennesker osv
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0127]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0128],ELEMENT,CComplexObject,at0128,16. Latt være å gjøre ting pga frykt og fått alvorlige problemer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0128]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0129],ELEMENT,CComplexObject,at0129,16b. Sist gang slik frykt
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0129]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0142],ELEMENT,CComplexObject,at0142,Alder sist gang slik frykt
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0142]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0142]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0453],ELEMENT,CComplexObject,at0453,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0115]/items[at0453]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116],CLUSTER,CComplexObject,at0116,Agorafobi
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0143],ELEMENT,CComplexObject,at0143,17. Redd for å være i en folkemengde osv
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0143]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0144],ELEMENT,CComplexObject,at0144,18. Latt være å gjøre ting pga frykt og fått alvorlige problemer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0144]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0146],ELEMENT,CComplexObject,at0146,18b. Sist gang slik frykt
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0146]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0148],ELEMENT,CComplexObject,at0148,Alder sist gang slik frykt
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0148]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0148]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0454],ELEMENT,CComplexObject,at0454,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0116]/items[at0454]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117],CLUSTER,CComplexObject,at0117,Depresjon
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0149],ELEMENT,CComplexObject,at0149,19. Trist og tom og deprimert to uker eller mer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0149]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0150],ELEMENT,CComplexObject,at0150,20. Varte minimum to år
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0150]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0151],ELEMENT,CComplexObject,at0151,21. Veldig skuffet eller motløs i to uker eller mer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0151]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0152],ELEMENT,CComplexObject,at0152,22. Varte to år eller mer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0152]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0153],ELEMENT,CComplexObject,at0153,23. Mistet interessen i to uker eller mer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0153]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0154],ELEMENT,CComplexObject,at0154,24. Sliten og uten krefter nesten hver dag
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0154]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0155],ELEMENT,CComplexObject,at0155,25. Vanskeligere enn vanlig å konsentrere seg
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0155]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0156],ELEMENT,CComplexObject,at0156,26. Mistet selvtilliten osv
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0156]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0157],ELEMENT,CComplexObject,at0157,27. Tenkte mye på døden
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0157]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0158],ELEMENT,CComplexObject,at0158,27b. Sist gang slike symptomer på depresjon
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0158]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0159],ELEMENT,CComplexObject,at0159,Alder sist gang slike symptomer på depresjon
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0159]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0159]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0455],ELEMENT,CComplexObject,at0455,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/items[at0455]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118],CLUSTER,CComplexObject,at0118,Mani
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0160],ELEMENT,CComplexObject,at0160,28. Oppstemt eller i godt humør som ga problemer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0160]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0161],ELEMENT,CComplexObject,at0161,29. Oppstemthet i minst en uke og trengte medisiner
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0161]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0162],ELEMENT,CComplexObject,at0162,29b. Sist gang slike plager
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0162]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0163],ELEMENT,CComplexObject,at0163,30. Veldig irritabel og gretten flere dager
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0163]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0164],ELEMENT,CComplexObject,at0164,31. Så irritert at du ropte eller skrek eller slo
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0164]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0165],ELEMENT,CComplexObject,at0165,Alder sist gang slike plager
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0165]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0165]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0166],ELEMENT,CComplexObject,at0166,32. Irritasjon i minst en uke og trengte medisiner
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0166]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0167],ELEMENT,CComplexObject,at0167,32b. Sist gang slike plager
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0167]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0168],ELEMENT,CComplexObject,at0168,Alder sist gang slike plager
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0168]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0168]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0456],ELEMENT,CComplexObject,at0456,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0118]/items[at0456]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122],CLUSTER,CComplexObject,at0122,Psykose
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0169],ELEMENT,CComplexObject,at0169,33. Sett noe som andre ikke kunne se
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0169]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0170],ELEMENT,CComplexObject,at0170,34. Påvirket av alkohol eller andre rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0170]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0171],ELEMENT,CComplexObject,at0171,35. Fortsatte å se dette når rusmidlene var borte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0171]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0172],ELEMENT,CComplexObject,at0172,36. Hørt stemmer som andre ikke hørte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0172]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0173],ELEMENT,CComplexObject,at0173,37. Påvirket av alkohol eller andre rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0173]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0174],ELEMENT,CComplexObject,at0174,38. Fortsatte å høre stemmer når rusmidlene var borte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0174]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0175],ELEMENT,CComplexObject,at0175,39. Noen har tatt kontroll over tankene
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0175]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0176],ELEMENT,CComplexObject,at0176,40. Påvirket av alkohol eller andre rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0176]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0177],ELEMENT,CComplexObject,at0177,41. Fremdeles tankene kontrollert når rusmidlene var borte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0177]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0178],ELEMENT,CComplexObject,at0178,42. Kontrollert av fremmede krefter
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0178]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0179],ELEMENT,CComplexObject,at0179,43. Påvirket av alkohol eller andre rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0179]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0180],ELEMENT,CComplexObject,at0180,44. Fremdeles kontrollert av fremmede krefter når rusmidlene var borte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0180]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0181],ELEMENT,CComplexObject,at0181,45. Ytre krefter som kommuniserer med deg
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0181]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0182],ELEMENT,CComplexObject,at0182,46. Påvirket av alkohol eller andre rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0182]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0183],ELEMENT,CComplexObject,at0183,47. Fremdeles ytre krefter kommuniserte med deg når rusmidlene var borte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0183]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0184],ELEMENT,CComplexObject,at0184,48. Sammensvergelse for å plage eller skade deg
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0184]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0185],ELEMENT,CComplexObject,at0185,49. Påvirket av alkohol eller andre rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0185]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0186],ELEMENT,CComplexObject,at0186,50. Fremdeles sammensvergelse for å skade deg når rusmidlene var borte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0186]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0188],ELEMENT,CComplexObject,at0188,53. Sist gang slike opplevelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0188]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0189],ELEMENT,CComplexObject,at0189,Alder første gang slike opplevelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0189]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0189]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0190],ELEMENT,CComplexObject,at0190,54. Hatt kontakt med lege eller psykisk helsearbeider
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0190]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0192],ELEMENT,CComplexObject,at0192,56. Innlagt på sykehus pga slike opplevelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0192]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0193],ELEMENT,CComplexObject,at0193,Alder sist gang slike opplevelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0193]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0193]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0194],ELEMENT,CComplexObject,at0194,57. Legemidler for å behandle slike opplevelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0194]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0388],ELEMENT,CComplexObject,at0388,55b. Spesifiser annet
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0388]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0457],ELEMENT,CComplexObject,at0457,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0457]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0458],ELEMENT,CComplexObject,at0458,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0458]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0459],ELEMENT,CComplexObject,at0459,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0459]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0460],ELEMENT,CComplexObject,at0460,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0460]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0461],ELEMENT,CComplexObject,at0461,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0461]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0462],ELEMENT,CComplexObject,at0462,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0462]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0463],ELEMENT,CComplexObject,at0463,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0463]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0499],ELEMENT,CComplexObject,at0499,55. Hva legen sa var årsaken til opplevelsene
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0499]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0517],ELEMENT,CComplexObject,at0517,52. Alder første gang slike opplevelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0122]/items[at0517]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123],CLUSTER,CComplexObject,at0123,ADHD
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0195],ELEMENT,CComplexObject,at0195,58. Problemer med å gjøre ferdig ting
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0195]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0196],ELEMENT,CComplexObject,at0196,59. Vanskelig å organisere seg ved forberedelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0196]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0197],ELEMENT,CComplexObject,at0197,60. Glemmer lett avtaler og plikter
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0197]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0198],ELEMENT,CComplexObject,at0198,61. Prøver å unngå konsentrasjonsting
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0198]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0199],ELEMENT,CComplexObject,at0199,62. Klarer ikke å sitte stille
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0199]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0200],ELEMENT,CComplexObject,at0200,63. Som å ha en motor innvendig
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0200]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0201],ELEMENT,CComplexObject,at0201,63b. Sist gang slike problemer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0201]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0203],ELEMENT,CComplexObject,at0203,Alder sist gang slike problemer
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0203]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0203]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0464],ELEMENT,CComplexObject,at0464,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/items[at0464]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124],CLUSTER,CComplexObject,at0124,PTSD
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0204],ELEMENT,CComplexObject,at0204,64. Vitne til eller opplevd alvorlig hendelse
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0204]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0205],ELEMENT,CComplexObject,at0205,65. Gjenopplevd hendelsen på en plagsom måte
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0205]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0206],ELEMENT,CComplexObject,at0206,64a. Spesifiser traumatiske hendelser
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0206]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0207],ELEMENT,CComplexObject,at0207,65b. Sist gang angst når tenkte på opplevelsen
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0207]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0465],ELEMENT,CComplexObject,at0465,Kommentar
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0465]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0520],ELEMENT,CComplexObject,at0520,Alder sist gang angst når tenkte på opplevelsen
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0520]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0124]/items[at0520]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481],CLUSTER,CComplexObject,at0481,Observasjoner
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481]/items[at0508],ELEMENT,CComplexObject,at0508,66. Respondent påvirket av rusmidler
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481]/items[at0508]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481]/items[at0509],ELEMENT,CComplexObject,at0509,67. Respondent desorientert eller forvirret
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481]/items[at0509]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481]/items[at0510],ELEMENT,CComplexObject,at0510,68. Respondent samarbeidsvillig
+openEHR-EHR-OBSERVATION.rop_screen.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0481]/items[at0510]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.rop_screen.v0,/protocol[at0522],ITEM_TREE,CComplexObject,at0522,Item tree
+openEHR-EHR-OBSERVATION.rop_screen.v0,/protocol[at0522]/items[at0468],CLUSTER,ArchetypeSlot,at0468,Tilleggsinformasjon

@@ -1,0 +1,42 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/,OBSERVATION,CComplexObject,at0000,Hirsutismeskåringer,Hirsutism scales
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Tidspunkt,Any event
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Behåring på overleppe,Upper lip hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Behåring på hake,Chin hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025],ELEMENT,CComplexObject,at0025,Behåring på bryst,Chest hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,Behåring på øvre rygg,Upper back hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Behåring på nedre rygg,Lower back hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0043],ELEMENT,CComplexObject,at0043,Behåring på øvre mage,Upper abdomen hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0043]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0049],ELEMENT,CComplexObject,at0049,Behåring på nedre mage,Lower abdomen hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0049]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055],ELEMENT,CComplexObject,at0055,Behåring på overarm,Upper arm hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0061],ELEMENT,CComplexObject,at0061,Behåring på underarm,Lower arm hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0061]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067],ELEMENT,CComplexObject,at0067,Behåring på lår,Thigh hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0073],ELEMENT,CComplexObject,at0073,Behåring på legg,Lower leg hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0073]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0079],ELEMENT,CComplexObject,at0079,Totalskår,Total score
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0079]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0079]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0082],ELEMENT,CComplexObject,at0082,Behåring på kinn,Sideburn hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0082]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0089],ELEMENT,CComplexObject,at0089,Ferriman-Gallwey skår,Ferriman-Gallwey score
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0089]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0089]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0090],ELEMENT,CComplexObject,at0090,Modifisert Ferriman-Gallwey skår,Modified Ferriman-Gallwey score
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0090]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0090]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0091],ELEMENT,CComplexObject,at0091,Behåring på perineum,Perineum hair
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0091]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/protocol[at0012],ITEM_TREE,CComplexObject,at0012,Item tree,Item tree
+openEHR-EHR-OBSERVATION.hirsutism_scales.v1,/protocol[at0012]/items[at0088],CLUSTER,ArchetypeSlot,at0088,Tilleggsinformasjon,Extension

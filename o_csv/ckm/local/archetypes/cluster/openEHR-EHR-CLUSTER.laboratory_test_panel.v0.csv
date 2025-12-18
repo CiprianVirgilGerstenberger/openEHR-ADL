@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/,CLUSTER,CComplexObject,at0000,Laboratoriesvargruppe,Laboratory test panel
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002],CLUSTER,CComplexObject,at0002,Laboratoriesvar,Laboratory result
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0001],ELEMENT,CComplexObject,at0001,Svarverdi,Result value
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0003],ELEMENT,CComplexObject,at0003,Kommentar,Comment
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0004],ELEMENT,CComplexObject,at0004,Veiledning til referanseområdet,Reference range guidance
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0005],ELEMENT,CComplexObject,at0005,Svarstatus,Result status
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0006],ELEMENT,CComplexObject,at0006,Tidspunkt for svarstatus,Result status timestamp
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0006]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0002]/items[at0014],CLUSTER,ArchetypeSlot,at0014,Svardetaljer,Result detail
+openEHR-EHR-CLUSTER.laboratory_test_panel.v0,/items[at0013],CLUSTER,ArchetypeSlot,at0013,Andre detaljer,Other detail

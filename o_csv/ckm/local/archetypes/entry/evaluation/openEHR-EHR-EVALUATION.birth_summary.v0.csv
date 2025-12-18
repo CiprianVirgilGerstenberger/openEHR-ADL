@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en,name_es,name_ca
+openEHR-EHR-EVALUATION.birth_summary.v0,/,EVALUATION,CComplexObject,at0000,Fødselssammendrag,Birth summary,Resumen del parto,Resum del part
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Fødeland,Country of birth,País de nacimiento,País de naixement
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0003],CLUSTER,ArchetypeSlot,at0003,Alternative fødselsdatoer,DOB alternatives,Fechas de nacimiento alternativas,Dates de naixement alternatives
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Fødselsdato,Date/time of birth (DOB),Fecha/hora de nacimiento,Data/hora de naixement
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Strukturert informasjon om fødested,Structured place of birth,Lugar de nacimiento detallado,Lloc de naixement detallat
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Graviditets-/fødselssammendrag,Pregnancy/birth summary,Resumen del embarazo/parto,Resum de l'embaràs/part
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Flerlingfødsel,Birth plurality,Parto múltiple,Part múltiple
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0008],CLUSTER,ArchetypeSlot,at0008,Fødselsdetaljer,Birth details,Detalles del parto,Detalls del part
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Fødested,Place of birth,Lugar de nacimiento,Lloc de naixement
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Ytterligere detaljer,Additional details,Detalles adicionales,Detalls addicionals
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0014],ELEMENT,CComplexObject,at0014,Kommentar,Comment,Comentarios,Comentaris
+openEHR-EHR-EVALUATION.birth_summary.v0,/data[at0001]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.birth_summary.v0,/protocol[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Sist oppdatert,Last updated,Última actualización,Última actualització
+openEHR-EHR-EVALUATION.birth_summary.v0,/protocol[at0009]/items[at0010]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.birth_summary.v0,/protocol[at0009]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Tilleggsinformasjon,Extension,Extensión,Extensió

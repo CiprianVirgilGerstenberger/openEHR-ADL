@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_es-ar,name_nb,name_en,name_ar-sy
+openEHR-EHR-COMPOSITION.medication_list.v1,/,COMPOSITION,CComplexObject,at0000,*Medication list(en),Legemiddelliste,Medication list,*Medication list(en)
+openEHR-EHR-COMPOSITION.medication_list.v1,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.medication_list.v1,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.medication_list.v1,/context,EVENT_CONTEXT,CComplexObject
+openEHR-EHR-COMPOSITION.medication_list.v1,/context/other_context[at0005],ITEM_TREE,CComplexObject,at0005,*Tree(en),Tree,Tree,*Tree(en)
+openEHR-EHR-COMPOSITION.medication_list.v1,/context/other_context[at0005]/items[at0006],CLUSTER,ArchetypeSlot,at0006,*Extension(en),Tilleggsinformasjon,Extension,*Extension(en)

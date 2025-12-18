@@ -1,0 +1,17 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_es-ar,name_nb,name_en
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/,CLUSTER,CComplexObject,at0000,Eingeatmeter Sauerstoff,Inandad syrgas,*Inspired oxygen(en),Innåndet oksygen,Inspired oxygen
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0051],ELEMENT,CComplexObject,at0051,Flussrate,Syrgasflöde,*Oxygen flow rate(en),Flow,Flow rate
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0051]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0052],ELEMENT,CComplexObject,at0052,FiO₂,FiO₂,*FiO2(en),FiO₂,FiO₂
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0052]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0052]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0052]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0053],ELEMENT,CComplexObject,at0053,Prozent O₂,Procent O₂,*Percent O2(en),Prosent O₂,Percent O₂
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0053]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0053]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0053]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0054],ELEMENT,CComplexObject,at0054,Methode der Sauerstoffzufuhr,Administrationssätt för syrgas,*Method of oxygen delivery(en),Administrasjonsmåte for oksygen,Method of oxygen delivery
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0054]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0057],ELEMENT,CComplexObject,at0057,On air,På luft,*On air(en),På romluft,On air
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0057]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.inspired_oxygen.v1,/items[at0058],CLUSTER,ArchetypeSlot,at0058,Details zur Sauerstoffzufuhr,Detaljer om administrationssätt,*Oxygen delivery detail(en),Detaljer om administrasjonsmåte,Oxygen delivery detail

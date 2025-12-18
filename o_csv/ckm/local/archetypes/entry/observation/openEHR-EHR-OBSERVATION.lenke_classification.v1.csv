@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/,OBSERVATION,CComplexObject,at0000,Lenke classification system,Lenke classification system
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Curve type,Curve type
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Lumbar spine modifier,Lumbar spine modifier
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,Thoracic sagittal modifier,Thoracic sagittal modifier
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Classification,Classification
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/protocol[at0021],ITEM_TREE,CComplexObject,at0021,Item tree,Item tree
+openEHR-EHR-OBSERVATION.lenke_classification.v1,/protocol[at0021]/items[at0020],CLUSTER,ArchetypeSlot,at0020,Tilleggsinformasjon,Extension

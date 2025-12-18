@@ -1,0 +1,11 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.absence.v1,/,EVALUATION,CComplexObject,at0000,Fravær av informasjon,Absence of Information
+openEHR-EHR-EVALUATION.absence.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.absence.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Fraværsutsagn,Absence statement
+openEHR-EHR-EVALUATION.absence.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.absence.v1,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Årsak til fravær,Reason for absence
+openEHR-EHR-EVALUATION.absence.v1,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.absence.v1,/protocol[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-EVALUATION.absence.v1,/protocol[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.absence.v1,/protocol[at0003]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.absence.v1,/protocol[at0003]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Utvidelse,Extension

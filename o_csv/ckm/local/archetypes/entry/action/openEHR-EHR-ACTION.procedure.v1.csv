@@ -1,0 +1,104 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ru,name_nb,name_pt-br,name_sl,name_en,name_ar-sy,name_es
+openEHR-EHR-ACTION.procedure.v1,/,ACTION,CComplexObject,at0000,Prozedur,*Procedure(en),Prosedyre,Procedimento,*Procedure(en),Procedure,*Procedure(en),Procedimiento
+openEHR-EHR-ACTION.procedure.v1,/description[at0001],ITEM_TREE,CComplexObject,at0001,Tree,*Tree(en),Tree,Tree,*Tree(en),Tree,Tree,Tree
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Name der Prozedur,*Procedure name(en),Prosedyrenavn,Nome do procedimento,*Procedure name(en),Procedure name,*Procedure name(en),Nombre del procedimiento
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0003],CLUSTER,ArchetypeSlot,at0003,Details zur Prozedur,*Procedure detail(en),Prosedyredetaljer,Detalhes do Procedimento,*Procedure detail(en),Procedure detail,*Procedure detail(en),Detalles
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Kommentar,*Comment(en),Kommentar,Comentários,*Comment(en),Comment,*Comment(en),Comentario
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Komplikationen,*Complication(en),Komplikasjon,Complicações,*Complication(en),Complication,*Complication(en),Complicación
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0014],ELEMENT,CComplexObject,at0014,Grund,*Reason(en),Begrunnelse,Justificativa,*Reason(en),Reason,*Reason(en),Motivo
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0048],ELEMENT,CComplexObject,at0048,Ausgang,*Outcome(en),Resultat,Resultado,*Outcome(en),Outcome,*Outcome(en),Resultado
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0048]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0049],ELEMENT,CComplexObject,at0049,Beschreibung,*Description(en),Beskrivelse,Descrição,*Description(en),Description,*Description(en),Descripción
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0058],ELEMENT,CComplexObject,at0058,Dringlichkeit,*Urgency(en),Hastegrad,Urgência,*Urgency(en),Urgency,*Urgency(en),Urgencia
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0058]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0060],ELEMENT,CComplexObject,at0060,Enddatum/-uhrzeit,*Final end date/time(en),Dato/tid for avslutning av prosedyren,Data final / hora,*Final end date/time(en),Final end date/time,*Final end date/time(en),Fecha de finalización
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0060]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0061],ELEMENT,CComplexObject,at0061,Gesamtdauer,*Total duration(en),Total varighet,Duração Total,*Total duration(en),Total duration,*Total duration(en),Duración
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0061]/value,DV_DURATION,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0061]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0062],CLUSTER,ArchetypeSlot,at0062,Multimedia,*Multimedia(en),Multimedia,Multimidia,*Multimedia(en),Multimedia,*Multimedia(en),Multimedia
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0063],ELEMENT,CComplexObject,at0063,Körperstelle,*Body site(en),Kroppssted,Localização no corpo,*Body site(en),Body site,*Body site(en),Zona corporal
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0063]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0065],ELEMENT,CComplexObject,at0065,Methode,*Method(en),Metode,Método,*Method(en),Method,*Method(en),Método
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0065]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0066],ELEMENT,CComplexObject,at0066,Geplantes Datum/Uhrzeit,*Scheduled date/time(en),Planlagt dato/tid,Agendamento data/hora,*Scheduled date/time(en),Scheduled date/time,*Scheduled date/time(en),Fecha coordinada
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0066]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0067],ELEMENT,CComplexObject,at0067,Art der Prozedur,*Procedure type(en),Prosedyretype,Tipo do procedimento,*Procedure type(en),Procedure type,*Procedure type(en),*Procedure type(en)
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0067]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0069],ELEMENT,CComplexObject,at0069,Schwierigkeiten bei der Durchführung der Prozedur,*Procedural difficulty(en),Problem ved prosedyre,*Procedural difficulty(en),*Procedural difficulty(en),Procedural difficulty,*Procedural difficulty(en),*Procedural difficulty(en)
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0070],ELEMENT,CComplexObject,at0070,Indikation,*Indication (en),Indikasjon,*Indication (en),*Indication (en),Indication,*Indication (en),*Indication (en)
+openEHR-EHR-ACTION.procedure.v1,/description[at0001]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0004],ISM_TRANSITION,CComplexObject,at0004,Geplante Prozedur,*Procedure planned (en),Prosedyre planlagt,*Procedure planned (en),*Procedure planned (en),Procedure planned,*Procedure planned (en),*Procedure planned (en)
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0004]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0004]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0004]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0004]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0007],ISM_TRANSITION,CComplexObject,at0007,Auftrag für Prozedur versendet,*Procedure request sent (en),Prosedyrerekvisisjon sendt,*Procedure request sent (en),*Procedure request sent (en),Procedure request sent,*Procedure request sent (en),*Procedure request sent (en)
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0007]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0007]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0007]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0007]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0034],ISM_TRANSITION,CComplexObject,at0034,X - Prozedur geplant,*Procedure planned(en),X - Prosedyre planlagt,Plano de procedimento,*Procedure planned(en),X - Procedure planned,*Procedure planned(en),Procedimiento planificado
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0034]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0034]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0034]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0034]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0035],ISM_TRANSITION,CComplexObject,at0035,X - Auftrag für Prozedur versendet,*Procedure request sent(en),X - Prosedyrerekvisisjon sendt,Procedimento pedido enviado,*Procedure request sent(en),X - Procedure request sent,*Procedure request sent(en),Solicitud de procedimiento enviada
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0035]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0035]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0035]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0035]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0036],ISM_TRANSITION,CComplexObject,at0036,geplanter Termin der Prozedur,*Procedure scheduled(en),Fastsatt tidspunkt for prosedyre,Procedimento agendado,*Procedure scheduled(en),Procedure scheduled,*Procedure scheduled(en),Procedimiento coordinado
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0036]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0036]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0036]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0036]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0038],ISM_TRANSITION,CComplexObject,at0038,Prozedur verschoben,*Procedure postponed(en),Prosedyre utsatt,Procedimento adiado,*Procedure postponed(en),Procedure postponed,*Procedure postponed(en),Procedimiento pospuesto
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0038]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0038]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0038]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0038]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0039],ISM_TRANSITION,CComplexObject,at0039,Prozedur storniert,*Procedure cancelled(en),Prosedyre avlyst,Procedimento cancelado,*Procedure cancelled(en),Procedure cancelled,*Procedure cancelled(en),Procedimiento cancelado
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0039]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0039]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0039]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0039]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0040],ISM_TRANSITION,CComplexObject,at0040,Prozedur unterbrochen,*Procedure suspended(en),Prosedyre midlertidig stanset,Procedimento suspenso,*Procedure suspended(en),Procedure suspended,*Procedure suspended(en),Procedimiento suspendido
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0040]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0040]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0040]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0040]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0041],ISM_TRANSITION,CComplexObject,at0041,Prozedur abgebrochen,*Procedure aborted(en),Prosedyre avbrutt,Procedimento abortado,*Procedure aborted(en),Procedure aborted,*Procedure aborted(en),Procedimiento interrumpido
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0041]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0041]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0041]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0041]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0043],ISM_TRANSITION,CComplexObject,at0043,Prozedur beendet,*Procedure completed(en),Prosedyre fullført,Procedimento concluído,*Procedure completed(en),Procedure completed,*Procedure completed(en),Procedimiento completado
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0043]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0043]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0043]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0043]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0047],ISM_TRANSITION,CComplexObject,at0047,Prozedur durchgeführt,*Procedure performed(en),Prosedyre utført,Procedimento realizado,*Procedure performed(en),Procedure performed,*Procedure performed(en),Procedimiento realizado
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0047]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0047]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0047]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0047]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0068],ISM_TRANSITION,CComplexObject,at0068,Prozedur begonnen,*Procedure commenced(en),Prosedyre påbegynt,Procedimento Iniciou,*Procedure commenced(en),Procedure commenced,*Procedure commenced(en),Procedimiento iniciado
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0068]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0068]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0068]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/ism_transition[at0068]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053],ITEM_TREE,CComplexObject,at0053,Tree,*Tree(en),Tree,Tree(en),*Tree(en),Tree,Tree,Tree
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0054],ELEMENT,CComplexObject,at0054,Auftragskennung des Antragstellers,*Requestor order identifier(en),Rekvisisjonsidentifikator,Identificador do pedido do solicitante,*Requestor order identifier(en),Requestor order identifier,*Requestor order identifier(en),*Requestor order identifier(en)
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0054]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0055],CLUSTER,ArchetypeSlot,at0055,Antragsteller,Заказчик,Rekvirent,Solicitante,Naročnik,Requestor,الطالب,Solicitante
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0056],ELEMENT,CComplexObject,at0056,Auftragskennung des Empfängers,*Receiver order identifier(en),Mottakers rekvisisjonsidentifikator,Identificador do pedido do destinatário,*Receiver order identifier(en),Receiver order identifier,*Receiver order identifier(en),*Receiver order identifier(en)
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0056]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0057],CLUSTER,ArchetypeSlot,at0057,Empfänger,Исполнитель,Mottaker,Destinatário,Prejemnik,Receiver,المستقبِل,Receptor
+openEHR-EHR-ACTION.procedure.v1,/protocol[at0053]/items[at0064],CLUSTER,ArchetypeSlot,at0064,Erweiterung,*Extension(en),Tilleggsinformasjon,Extensão,*Extension(en),Extension,*Extension(en),Extensión

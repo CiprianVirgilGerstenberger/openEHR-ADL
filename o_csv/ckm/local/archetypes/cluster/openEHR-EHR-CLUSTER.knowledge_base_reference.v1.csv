@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/,CLUSTER,CComplexObject,at0000,Knowledge base reference,Kunnskapsbase referanse,Knowledge base reference
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Knowledge base name,Kunnskapsbasenavn,Knowledge base name
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Item version,Element versjon,Item version
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Item URI,Element URL,Item URI
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0003]/value,DV_URI,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Comment,Kommentar,Comment
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Item name,Elementnavn,Item name
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Knowledge base version,Kunnskapsbasens versjon,Knowledge base version
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Item publication,Element publikasjon,Item publication
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0007]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Knowledge base URI,Kunnskapsbase URL,Knowledge base URI
+openEHR-EHR-CLUSTER.knowledge_base_reference.v1,/items[at0008]/value,DV_URI,CComplexObject

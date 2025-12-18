@@ -1,0 +1,80 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/,OBSERVATION,CComplexObject,at0000,Mini-Balance Evaluation Systems Test (Mini-BESTest),Mini-Balance Evaluation Systems Test (Mini-BESTest)
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],CLUSTER,CComplexObject,at0005,Antisipatorisk stillingsendring,Anticipatory
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,1. Sittende til stående,1. Sit to stand
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0010],ELEMENT,CComplexObject,at0010,2. Reise seg opp på tå,2. Rise to toes
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015],CLUSTER,CComplexObject,at0015,3. Stå på et ben,3. Stand on one leg
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,Venstre stå på et ben,Left stand on one leg
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0020],ELEMENT,CComplexObject,at0020,Høyre stå på et ben,Right stand on one leg
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0020]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0024],ELEMENT,CComplexObject,at0024,Tid venstre fot forsøk 1,Time left leg trial 1
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0024]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0025],ELEMENT,CComplexObject,at0025,Tid venstre fot forsøk 2,Time left leg trial 2
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0025]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0026],ELEMENT,CComplexObject,at0026,Tid høyre fot forsøk 1,Time right leg trial 1
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0026]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0027],ELEMENT,CComplexObject,at0027,Tid høyre fot forsøk 2,Time right leg trial 2
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0027]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0028],ELEMENT,CComplexObject,at0028,Delskår,Sub score
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0028]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],CLUSTER,CComplexObject,at0029,Reaktiv postural kontroll,Reactive postural control
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030],ELEMENT,CComplexObject,at0030,4. Korreksjon ved hjelp av kompensatorisk skritt - fremover,4. Compensatory stepping correction - forward
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0034],ELEMENT,CComplexObject,at0034,5. Korreksjon ved hjelp av kompensatorisk skritt - bakover,5. Compensatory stepping correction - backward
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0039],CLUSTER,CComplexObject,at0039,6. Korreksjon ved hjelp av kompensatorisk skritt - til siden,6. Compensatory stepping correction - lateral
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0039]/items[at0040],ELEMENT,CComplexObject,at0040,Venstre,Left
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0039]/items[at0040]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0039]/items[at0044],ELEMENT,CComplexObject,at0044,Høyre,Right
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0039]/items[at0044]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0052],ELEMENT,CComplexObject,at0052,Delskår,Sub score
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0052]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0052]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055],CLUSTER,CComplexObject,at0055,Sensorisk orientering,Sensory orientation
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0056],ELEMENT,CComplexObject,at0056,7. Stå med samlede føtter; åpne øyne, fast underlag,7. Stance (feet together); eyes open, firm surface
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0056]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0060],ELEMENT,CComplexObject,at0060,8. Stå med samlede føtter; lukkede øyne, balansepute,8. Stance (feet together); eyes closed, foam surface
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0060]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0064],ELEMENT,CComplexObject,at0064,9. Skråbrett - lukkede øyne,9. Incline - eyes closed
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0064]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0068],ELEMENT,CComplexObject,at0068,Delskår,Sub score
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0068]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0068]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0102],ELEMENT,CComplexObject,at0102,Ståtid - åpne øyne,Stance time - eyes open
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0102]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0103],ELEMENT,CComplexObject,at0103,Ståtid - lukkede øyne,Stance time - eyes closed
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0103]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0104],ELEMENT,CComplexObject,at0104,Tid skråbrett,Incline time
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0104]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069],CLUSTER,CComplexObject,at0069,Dynamisk gange,Dynamic gait
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0070],ELEMENT,CComplexObject,at0070,10. Endring i ganghastighet,10. Change in gait speed
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0070]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0074],ELEMENT,CComplexObject,at0074,12. Gange med 180 graders vending,12. Walk with pivot turns
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0074]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0079],ELEMENT,CComplexObject,at0079,11. Gange med horisontale hodebevegelser,11. Walk with head turns - horizontal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0079]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0083],ELEMENT,CComplexObject,at0083,13. Gå over hindring,13. Step over obstacles
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0083]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088],CLUSTER,CComplexObject,at0088,14. Timed up & go (TUG) med dual task,14. Timed up & go with dual task [3 meter walk]
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0093],ELEMENT,CComplexObject,at0093,Dual task TUG,Dual Task TUG
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0093]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0097],ELEMENT,CComplexObject,at0097,Tid TUG,Time TUG
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0097]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0098],ELEMENT,CComplexObject,at0098,Tid Dual Task TUG,Time Dual Task TUG
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0098]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0105],ELEMENT,CComplexObject,at0105,Hastighetsendring,Speed change
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0088]/items[at0105]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0099],ELEMENT,CComplexObject,at0099,Delskår,Sub score
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0099]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/items[at0099]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0100],ELEMENT,CComplexObject,at0100,Total skår,Total score
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0100]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0100]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mini_bestest.v1,/protocol[at0004],ITEM_TREE,CComplexObject,at0004,Item tree,Item tree

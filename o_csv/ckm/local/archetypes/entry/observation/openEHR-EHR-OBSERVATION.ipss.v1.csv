@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.ipss.v1,/,OBSERVATION,CComplexObject,at0000,Internasjonal prostata symptom skår (I-PSS),International prostate symptom score (IPSS)
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any point in time event
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Ufullstendig tømming,Incomplete emptying
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Frekvens,Frequency
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Intermittere,Intermittency
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Vannlatingstrang,Urgency
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Svak stråle,Weak Stream
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,Anstrengelse,Straining
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Nocturi,Nocturia
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Totalskår,Total score (S)
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Livskvalitet,Quality of life
+openEHR-EHR-OBSERVATION.ipss.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ipss.v1,/protocol[at0032],ITEM_TREE,CComplexObject,at0032,*Tree(en),Tree
+openEHR-EHR-OBSERVATION.ipss.v1,/protocol[at0032]/items[at0033],CLUSTER,ArchetypeSlot,at0033,Tilleggsinformasjon,Extension

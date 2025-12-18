@@ -1,0 +1,53 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/,EVALUATION,CComplexObject,at0000,Substansanamnese,Substance use summary
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Substansnavn,Substance name
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Overordnet status,Overall status
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Overordnet beskrivelse,Overall description
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Første gangs bruk,First ever use
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0008]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Startet regelmessig bruk,Regular use commenced
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0009]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Start daglig bruk,Daily use commenced
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0010]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012],CLUSTER,CComplexObject,at0012,Per episode,Per episode
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0013],ELEMENT,CComplexObject,at0013,Episodenavn,Episode label
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0013]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0014],ELEMENT,CComplexObject,at0014,Episodens startdato,Episode start date
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0014]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0015],ELEMENT,CComplexObject,at0015,Episodens sluttdato,Episode end date
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0015]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0016],ELEMENT,CComplexObject,at0016,Navn på spesifikk substans,Specific substance name
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0017],ELEMENT,CComplexObject,at0017,Status,Status
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0018],ELEMENT,CComplexObject,at0018,Episodebeskrivelse,Episode description
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0019],ELEMENT,CComplexObject,at0019,Mønster,Pattern
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0019]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0023],ELEMENT,CComplexObject,at0023,Typisk mengde,Typical amount
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0024],ELEMENT,CComplexObject,at0024,Antall forsøk på å slutte,Number of quit attempts
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0024]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0024]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Episodedetaljer,Episode details
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0026],ELEMENT,CComplexObject,at0026,Episodekommentar,Episode comment
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0026]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0036],ELEMENT,CComplexObject,at0036,Administrasjonsvei,Route
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0012]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0027],CLUSTER,ArchetypeSlot,at0027,Overordnede detaljer,Overall details
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0028],ELEMENT,CComplexObject,at0028,Overordnet sluttdato,Overall quit date
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0028]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0030],ELEMENT,CComplexObject,at0030,Overordnet kommentar,Overall comment
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/data[at0001]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/protocol[at0029],ITEM_TREE,CComplexObject,at0029,Item tree,Item tree
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/protocol[at0029]/items[at0031],ELEMENT,CComplexObject,at0031,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/protocol[at0029]/items[at0031]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.substance_use_summary.v1,/protocol[at0029]/items[at0032],CLUSTER,ArchetypeSlot,at0032,Tilleggsinformasjon,Extension

@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en
+openEHR-EHR-CLUSTER.organisation.v1,/,CLUSTER,CComplexObject,at0000,Organisation,Organisation,Organisasjon,Organisation
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Namenszeile,Namn,Navn,Name
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0002],CLUSTER,ArchetypeSlot,at0002,Kontaktperson,Kontaktperson,Kontaktperson,Contact person
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Identifier,Identifierare,Identifikator,Identifier
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Funktion,Roll,Rolle,Role
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Adresse,Adress,Adresse,Address
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0017],CLUSTER,ArchetypeSlot,at0017,Zusätzliche Details,Ytterligare detaljer,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0019],ELEMENT,CComplexObject,at0019,Kommentar,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0021],CLUSTER,ArchetypeSlot,at0021,Muttergesellschaft,Överordnad organisation,Overordnet organisasjon,Parent organisation
+openEHR-EHR-CLUSTER.organisation.v1,/items[at0022],CLUSTER,ArchetypeSlot,at0022,Elektronische Kommunikation,Elektronisk kommunikation,Elektronisk kommunikasjon,Electronic communication

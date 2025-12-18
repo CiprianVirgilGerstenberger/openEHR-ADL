@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/,CLUSTER,CComplexObject,at0000,Genomic substitution variant,Genetisk variant - substitusjon,Genomic substitution variant
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Position substituted,Substitusjonposisjon,Position substituted
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0001]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Reference nucleotide,Referansenukleotid,Reference nucleotide
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0005],ELEMENT,CComplexObject,at0005,New nucleotide,Nytt nukleotide,New nucleotide
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_substitution_variant.v1,/items[at0006],CLUSTER,ArchetypeSlot,at0006,Reference sequence,Referansesekvens.,Reference sequence

@@ -1,0 +1,21 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.education_summary.v1,/,EVALUATION,CComplexObject,at0000,Utdanningssammendrag,Education summary
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Høyeste fullførte utdanningsnivå,Highest level completed
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Alder skolestart,Age started
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0003]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0003]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Comment
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0018],ELEMENT,CComplexObject,at0018,Beskrivelse,Description
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0029],CLUSTER,ArchetypeSlot,at0029,Utdanningsdetaljer,Education record
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0031],ELEMENT,CComplexObject,at0031,Alder skoleslutt,Age ended
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0031]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.education_summary.v1,/data[at0001]/items[at0031]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.education_summary.v1,/protocol[at0026],ITEM_TREE,CComplexObject,at0026,Tree,Tree
+openEHR-EHR-EVALUATION.education_summary.v1,/protocol[at0026]/items[at0027],CLUSTER,ArchetypeSlot,at0027,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.education_summary.v1,/protocol[at0026]/items[at0028],ELEMENT,CComplexObject,at0028,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.education_summary.v1,/protocol[at0026]/items[at0028]/value,DV_DATE_TIME,CComplexObject

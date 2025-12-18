@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en,name_sl
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/,OBSERVATION,CComplexObject,at0000,Bristol stool scale,Lestvica Bristol
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,*Event Series(en)
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Point-in-time,*Point-in-time(en)
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Comment,*Comment(en)
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Bristol Stool scale,Lestvica Bristol
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/state[at0013],ITEM_TREE,CComplexObject,at0013,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0014],ELEMENT,CComplexObject,at0014,Confounding factors,*Confounding factors(en)
+openEHR-EHR-OBSERVATION.bristol_stool_scale.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0014]/value,DV_TEXT,CComplexObject

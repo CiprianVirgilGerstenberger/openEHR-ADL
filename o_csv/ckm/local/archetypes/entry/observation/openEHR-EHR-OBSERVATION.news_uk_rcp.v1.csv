@@ -1,0 +1,32 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_fi,name_nb,name_es-ar,name_pt-br,name_en
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/,OBSERVATION,CComplexObject,at0000,NEWS,NEWS (UK RCP),National Early Warning Score (NEWS),NEWS (UK RCP),NEWS (UK RCP),National Early Warning Score (NEWS)
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001],HISTORY,CComplexObject,at0001,Händelseförlopp,Tapahtumasarja,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Tidpunkt,Ajankohta,Tidspunkt,Point in time,Tempo,Point in time
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Systoliskt blodtryck,Systolinen verenpaine,Systolisk blodtrykk,Tensión arterial sistólica,Pressão Arterial Sistólica,Systolic blood pressure
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Hjärtfrekvens,Syke,Hjertefrekvens/puls,Frecuencia cardíaca,Frequência Cardíaca,Heart rate
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Andningsfrekvens,Hengitystaajuus,Respirasjonsfrekvens,Frecuencia respiratoria,Frequência Respiratória,Respiration rate
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Kroppstemperatur,Ruumiinlämpö,Kroppstemperatur,Temperatura corporal,Temperatura corporal,Body temperature
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Medvetandegrad,Tajunnantaso,Bevissthetsgrad,Nivel de consciencia,Nível de consciência,Level of consciousness
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Totalpoäng (NEWS),Kokonaispisteet,Totalskår,Puntaje total,Score Total,Total score
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,Syremättnad,Happisaturaatio,Oksygenmetning,Saturación de oxígeno,Saturação de oxigênio,Oxygen saturation
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Syrgastillförsel,Lisähappi,Tilførsel av oksygen,Oxígeno suplementario,Oxigênio suplementar,Supplemental oxygen
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Kommentar,Kommentti,Kommentar,Comentario,Comentários,Comment
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0047],ELEMENT,CComplexObject,at0047,Klinisk riskkategori,Riskiluokka,Klinisk risiko,*Clinical risk category(en),*Clinical risk category(en),Clinical risk category
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0047]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0047]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/state[at0041],ITEM_TREE,CComplexObject,at0041,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/state[at0041]/items[at0043],ELEMENT,CComplexObject,at0043,Möjliga felkällor,Sekoittavat tekijät,Konfunderende faktorer,Factores de confusiín,Fatores de confusão,Confounding factors
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/data[at0001]/events[at0002]/state[at0041]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/protocol[at0045],ITEM_TREE,CComplexObject,at0045,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.news_uk_rcp.v1,/protocol[at0045]/items[at0046],CLUSTER,ArchetypeSlot,at0046,Tilläggsinformation,Laajennus,Tilleggsinformasjon,Extensión,Extensão,Extension

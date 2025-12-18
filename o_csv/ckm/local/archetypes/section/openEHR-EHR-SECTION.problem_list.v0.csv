@@ -1,0 +1,6 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-SECTION.problem_list.v0,/,SECTION,CComplexObject,at0000,Problem List
+openEHR-EHR-SECTION.problem_list.v0,/items[at0001],EVALUATION,ArchetypeSlot,at0001,Problems or Diagnoses
+openEHR-EHR-SECTION.problem_list.v0,/items[at0002],ACTION,ArchetypeSlot,at0002,Procedures
+openEHR-EHR-SECTION.problem_list.v0,/items[at0003],EVALUATION,ArchetypeSlot,at0003,Exclusion Statements
+openEHR-EHR-SECTION.problem_list.v0,/items[at0004],EVALUATION,ArchetypeSlot,at0004,Absent Information

@@ -1,0 +1,16 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_el,name_en,name_es
+openEHR-EHR-CLUSTER.exam.v2,/,CLUSTER,CComplexObject,at0000,*Physical examination findings (en),*Physical examination findings (en),Funn ved fysisk undersøkelse,*Physical examination findings (en),*Physical examination findings (en),Physical examination findings,*Physical examination findings (en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0001],ELEMENT,CComplexObject,at0001,Untersuchtes System oder untersuchte Struktur,System eller struktur som undersökts,Undersøkt organsystem eller struktur,Sistema ou estrutura examinada,Εξεταζόμενο σύστημα ή δομή,System or structure examined,*System or structure examined(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam.v2,/items[at0003],ELEMENT,CComplexObject,at0003,Klinische Beschreibung,Klinisk beskrivning,Klinisk beskrivelse,Descrição clínica,Κλινική Περιγραφή,Clinical description,*Clinical description(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam.v2,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Untersuchungsergebnisse,Fynd vid undersökning,Spesifikke funn,Resultados do exame,Ευρήματα εξέτασης,Examination findings,*Examination findings(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Multimediale Darstellung,Multimedia-representation,Multimediarepresentasjon,Representação multimídia,Αναπαράσταση πολυμέσων,Multimedia representation,*Multimedia representation(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0006],ELEMENT,CComplexObject,at0006,Klinische Interpretation,Klinisk tolkning,Fortolkning,Interpretação clínica,Κλινική αξιολόγηση,Clinical interpretation,*Clinical interpretation(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam.v2,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Kommentar,Comentário,Σχόλιο,Comment,*Comment(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam.v2,/items[at0008],CLUSTER,ArchetypeSlot,at0008,Nicht durchgeführte Untersuchung,Undersökning ej genomförd,Undersøkelse ikke utført,Exame não realizado,Λόγος διακοπής εξέτασης,Examination not done,*Examination not done(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0011],CLUSTER,ArchetypeSlot,at0011,Strukturierte Körperstelle,Strukturerad anatomisk plats,Strukturert anatomisk lokalisasjon,Local do corpo estruturado,ω,Structured body site,*Structured body site(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0012],ELEMENT,CComplexObject,at0012,Körperstelle,Anatomisk plats,Anatomisk lokalisasjon,Local do corpo,Περιοχή σώματος,Body site,*Body site(en)
+openEHR-EHR-CLUSTER.exam.v2,/items[at0012]/value,DV_TEXT,CComplexObject

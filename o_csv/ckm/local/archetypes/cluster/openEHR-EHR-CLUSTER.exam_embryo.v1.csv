@@ -1,0 +1,24 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.exam_embryo.v1,/,CLUSTER,CComplexObject,at0000,Undersøkelse av et humant embryo i tidlige delingsstadier,Examination of a cleavage-stage embryo
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0028],ELEMENT,CComplexObject,at0028,Antall celler,Number of cells
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0030],ELEMENT,CComplexObject,at0030,Fragmenteringsgrad,Fragmentation
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0030]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0035],ELEMENT,CComplexObject,at0035,Cellestørrelse,Blastomere size
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0035]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0038],ELEMENT,CComplexObject,at0038,Kjerner,Nucleation
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0038]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0038]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0042],ELEMENT,CComplexObject,at0042,Morfologi av cytoplasma,Cytoplasmic morphology
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0042]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0043],ELEMENT,CComplexObject,at0043,Organisering av celler,Spatial distribution of cells
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0044],ELEMENT,CComplexObject,at0044,Kompaktering,Compaction
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0044]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0049],ELEMENT,CComplexObject,at0049,Andre morfologiske observasjoner,Other morphological features
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0055],ELEMENT,CComplexObject,at0055,Morfologisk gradering,Morphology grade
+openEHR-EHR-CLUSTER.exam_embryo.v1,/items[at0055]/value,DV_TEXT,CComplexObject

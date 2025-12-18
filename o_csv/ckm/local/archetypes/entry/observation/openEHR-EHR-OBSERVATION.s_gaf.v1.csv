@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.s_gaf.v1,/,OBSERVATION,CComplexObject,at0000,S-GAF
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,GAF symptomskår
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,GAF funksjonsskår
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Kommentar
+openEHR-EHR-OBSERVATION.s_gaf.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_TEXT,CComplexObject

@@ -1,0 +1,3 @@
+archetype_id,path,rm_type,aom_type,node_id,name_ru,name_en
+openEHR-EHR-SECTION.medication_order_list.v0,/,SECTION,CComplexObject,at0000,Лист лекарственных назначений,Medication Order List
+openEHR-EHR-SECTION.medication_order_list.v0,/items[at0004],ENTRY,ArchetypeSlot,at0004,Включения/исключения медикаментов,Medication inclusions/exclusions

@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.four_a_test.v1,/,OBSERVATION,CComplexObject,at0000,4AT,4AT
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Årvåkenhet (forholder seg normalt til omgivelsene),Alertness
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,AMT4 (forkortet mental vurdering),Abbreviated Mental Test 4 (AMT-4) score
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Oppmerksomhet,Attention
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Akutt endring eller fluktuasjon i tilstand,Acute change or fluctuating course
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Totalskår,Total score
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.four_a_test.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.four_a_test.v1,/protocol[at0020],ITEM_TREE,CComplexObject,at0020,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.four_a_test.v1,/protocol[at0020]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Tilleggsinformasjon,Extension

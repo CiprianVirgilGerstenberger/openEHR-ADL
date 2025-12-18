@@ -1,0 +1,58 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/,OBSERVATION,CComplexObject,at0000,Tinnitus Handicap Inventory
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Any event
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Question 1
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Question 2
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,Question 3
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Question 4
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Question 5
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018],ELEMENT,CComplexObject,at0018,Question 6
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Question 7
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Question 8
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,Question 9
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,Question 10
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Question 11
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Question 12
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0025],ELEMENT,CComplexObject,at0025,Question 13
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026],ELEMENT,CComplexObject,at0026,Question 14
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,Question 15
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Question 16
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,Question 17
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,Question 18
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,Question 19
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032],ELEMENT,CComplexObject,at0032,Question 20
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0033],ELEMENT,CComplexObject,at0033,Question 21
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Question 22
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Question 23
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0035]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Question 24
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Question 25
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0110],ELEMENT,CComplexObject,at0110,Total Score
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0110]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.tinnitus_handicap_inventory.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0110]/value/magnitude,Integer,CPrimitiveObject

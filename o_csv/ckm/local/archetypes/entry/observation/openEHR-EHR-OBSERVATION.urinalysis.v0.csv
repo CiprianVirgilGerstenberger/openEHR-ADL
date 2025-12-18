@@ -1,0 +1,38 @@
+archetype_id,path,rm_type,aom_type,node_id,name_es-ar,name_nb,name_sk,name_ar-sy,name_en,name_zh-cn
+openEHR-EHR-OBSERVATION.urinalysis.v0,/,OBSERVATION,CComplexObject,at0000,*Urinalysis(en),Urinanalyse,*Urinalysis(en),*Urinalysis(en),Urinalysis,*Urinalysis(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001],HISTORY,CComplexObject,at0001,*Event Series(en),Event Series,*Event Series(en),*Event Series(en),Event Series,*Event Series(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,*Point in Time(en),Tidspunkt,*Point in Time(en),*Point in Time(en),Point in Time,*Point in Time(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,*Tree(en),Tree,*Tree(en),*Tree(en),Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,*Comment(en),Kommentar,*Comment(en),*Comment(en),Comment,*Comment(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032],ELEMENT,CComplexObject,at0032,Sangre,Blod,Krv,الدم,Blood,血液
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Cuerpos cetónicos,Ketoner,Ketolátky,الكيتونات,Ketones,酮体
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0043],ELEMENT,CComplexObject,at0043,Nitrito,Nitritt,Dusičnany,نِتريت,Nitrite,亚硝酸盐
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0043]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0050],ELEMENT,CComplexObject,at0050,Glucosa,Glukose,Glukóza,نتيجة اختبار سكر العنب - الغلوكوز,Glucose,葡萄糖
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056],ELEMENT,CComplexObject,at0056,Urobilinógeno,Urobilinogen,Urobilinogén,يوروبيلينوجين,Urobilinogen,尿胆原
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0062],ELEMENT,CComplexObject,at0062,Bilirrubina,Bilirubin,Bilirubín,بيليروبين,Bilirubin,胆红素
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0062]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0068],ELEMENT,CComplexObject,at0068,*Leukocytes(en),Leukocytter,*Leukocytes(en),*Leukocytes(en),Leukocytes,*Leukocytes(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0095],ELEMENT,CComplexObject,at0095,Protein,Protein,Bielkoviny,نتيجة اختبار البوتينات,Protein,蛋白质
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0095]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0126],ELEMENT,CComplexObject,at0126,*pH(en),pH,*pH(en),*pH(en),pH,*pH(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0126]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0151],ELEMENT,CComplexObject,at0151,*Specific gravity(en),Spesifikk vekt,*Specific gravity(en),*Specific gravity(en),Specific gravity,*Specific gravity(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0181],ELEMENT,CComplexObject,at0181,*Clinical interpretation(en),Klinisk fortolkning,*Clinical interpretation(en),*Clinical interpretation(en),Clinical interpretation,*Clinical interpretation(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0181]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0182],CLUSTER,ArchetypeSlot,at0182,*Additional details(en),Ytterligere detaljer,*Additional details(en),*Additional details(en),Additional details,*Additional details(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0185],CLUSTER,ArchetypeSlot,at0185,*Exam not done(en),Undersøkelse ikke utført,*Exam not done(en),*Exam not done(en),Exam not done,*Exam not done(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079],ITEM_TREE,CComplexObject,at0079,*Tree(en),Tree,*Tree(en),*Tree(en),Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079]/items[at0180],CLUSTER,ArchetypeSlot,at0180,*Reagent Strips(en),Teststrimler,*Reagent Strips(en),*Reagent Strips(en),Reagent Strips,*Reagent Strips(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079]/items[at0183],CLUSTER,ArchetypeSlot,at0183,*Device(en),Medisinsk utstyr,*Device(en),*Device(en),Device,*Device(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079]/items[at0184],CLUSTER,ArchetypeSlot,at0184,*Extension(en),Tilleggsinformasjon,*Extension(en),*Extension(en),Extension,*Extension(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079]/items[at0186],ELEMENT,CComplexObject,at0186,*Method(en),Metode,*Method(en),*Method(en),Method,*Method(en)
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079]/items[at0186]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.urinalysis.v0,/protocol[at0079]/items[at0186]/value/defining_code,CODE_PHRASE,CCodePhrase

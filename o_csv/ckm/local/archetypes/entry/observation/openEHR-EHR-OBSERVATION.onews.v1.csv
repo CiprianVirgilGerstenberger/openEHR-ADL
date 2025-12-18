@@ -1,0 +1,27 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.onews.v1,/,OBSERVATION,CComplexObject,at0000,ONEWS
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Antall gule registreringer
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Antall røde registreringer
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Respirasjon
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045],ELEMENT,CComplexObject,at0045,Oksygenmetning
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Kroppstemperatur
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055],ELEMENT,CComplexObject,at0055,Systolisk blodtrykk
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0059],ELEMENT,CComplexObject,at0059,Diastolisk blodtrykk
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0059]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0063],ELEMENT,CComplexObject,at0063,Puls
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0063]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067],ELEMENT,CComplexObject,at0067,Bevissthetsgrad
+openEHR-EHR-OBSERVATION.onews.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.onews.v1,/protocol[at0038],ITEM_TREE,CComplexObject,at0038,ItemTree
+openEHR-EHR-OBSERVATION.onews.v1,/protocol[at0038]/items[at0070],CLUSTER,ArchetypeSlot,at0070,Tilleggsinformasjon

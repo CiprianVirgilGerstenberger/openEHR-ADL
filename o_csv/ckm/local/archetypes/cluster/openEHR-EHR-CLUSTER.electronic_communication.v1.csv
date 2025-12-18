@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.electronic_communication.v1,/,CLUSTER,CComplexObject,at0000,Elektronische Kommunikation,Elektronisk kommunikasjon,Electronic communication
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Art,Type,Type
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0001]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0001]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Daten,Verdi,Value
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0002]/value,DV_URI,CComplexObject
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Zweck,Bruksområde,Purpose
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.electronic_communication.v1,/items[at0013],CLUSTER,ArchetypeSlot,at0013,Zusätzliche Details,Ytterligere detaljer,Additional details

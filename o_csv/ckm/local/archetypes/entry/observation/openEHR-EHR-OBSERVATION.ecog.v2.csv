@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en,name_fr,name_ca,name_es
+openEHR-EHR-OBSERVATION.ecog.v2,/,OBSERVATION,CComplexObject,at0000,ECOG Performance Status,Funktionsstatus enligt ECOG,ECOG funksjonsstatus,ECOG performance status,État des performances de l'ECOG,Estat funcional ECOG,Estado funcional ECOG
+openEHR-EHR-OBSERVATION.ecog.v2,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.ecog.v2,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Ospecificerad händelse,Uspesifisert hendelse,Any event,*Any event(en),Qualsevol esdeveniment,Cualquier evento
+openEHR-EHR-OBSERVATION.ecog.v2,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.ecog.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,ECOG Performance Status,Funktionsstatus enligt ECOG,ECOG funksjonsstatus,ECOG performance status,État des performances de l'ECOG,Estat funcional ECOG,Estado funcional ECOG
+openEHR-EHR-OBSERVATION.ecog.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ecog.v2,/protocol[at0011],ITEM_TREE,CComplexObject,at0011,Tree,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.ecog.v2,/protocol[at0011]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Erweiterung,Tilläggsinformation,Tilleggsinformasjon,Extension,Extension,Extensió,Extensión

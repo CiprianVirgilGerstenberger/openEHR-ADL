@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/,EVALUATION,CComplexObject,at0000,Nebenwirkungsrisiko,Biverkningsrisk,Risiko for overfølsomhetsreaksjon,Risco de Reação Adversa,Adverse reaction risk
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Substanz,Substans,Substans,*Substance(en),Substance
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Kommentar,Kommentar,Kommentar,Comentários,Comment
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0058],ELEMENT,CComplexObject,at0058,Reaktionsmechanismus,Reaktionsmekanism,Reaksjonsmekanisme,Mecanismo da Reação,Reaction mechanism
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0058]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0058]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0063],ELEMENT,CComplexObject,at0063,Verifizierungsstatus,*Verification status (en),Verifikasjonsstatus,*Verification status (en),Verification status
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0063]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0063]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0101],ELEMENT,CComplexObject,at0101,Kritikalität,Kritisk nivå,Alvorlighetsgrad,Criticidade,Criticality
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0101]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0101]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0117],ELEMENT,CComplexObject,at0117,Beginn der letzten Reaktion,Debut av sista reaktionen,Debut av siste reaksjon,Início da última reação,Onset of last reaction
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0117]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0120],ELEMENT,CComplexObject,at0120,Kategorie,Kategori,Kategori,Categoria,Category
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0120]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0120]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0129],CLUSTER,ArchetypeSlot,at0129,Zusammenfassung des Reaktionsereignis,*Reaction event summary (en),Sammendrag av reaksjonshendelse,*Reaction event summary (en),Reaction event summary
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0130],ELEMENT,CComplexObject,at0130,Aktiver/inaktiver Status,*Active/inactive status (en),Aktiv/inaktiv status,*Active/inactive status (en),Active/inactive status
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0130]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0130]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0133],ELEMENT,CComplexObject,at0133,Beginn der ersten Reaktion,*Onset of first reaction (en),Debut av første reaksjon,*Onset of first reaction (en),Onset of first reaction
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/data[at0001]/items[at0133]/value,DV_INTERVAL<DV_DURATION>,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/protocol[at0042],ITEM_TREE,CComplexObject,at0042,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/protocol[at0042]/items[at0047],ELEMENT,CComplexObject,at0047,Unterstützung von klinischen Informationen,Stöd till information i hälsojournal,Understøttende klinisk informasjon,Apoio às informações clínicas do registro,Supporting clinical record information
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/protocol[at0042]/items[at0047]/value,DV_EHR_URI,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/protocol[at0042]/items[at0062],ELEMENT,CComplexObject,at0062,Letzte Aktualisierung,Senast uppdaterad,Sist oppdatert,Ultima atualização,Last updated
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/protocol[at0042]/items[at0062]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.adverse_reaction_risk.v2,/protocol[at0042]/items[at0128],CLUSTER,ArchetypeSlot,at0128,Erweiterung,Tilläggsinformation,Utvidelse,*Extension(en),Extension

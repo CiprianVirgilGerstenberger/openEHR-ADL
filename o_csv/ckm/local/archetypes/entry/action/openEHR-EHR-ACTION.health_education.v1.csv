@@ -1,0 +1,76 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-ACTION.health_education.v1,/,ACTION,CComplexObject,at0000,Helseinformasjon/undervisning,Health education
+openEHR-EHR-ACTION.health_education.v1,/description[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Emne,Topic name
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Beskrivelse,Description
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Metode,Method
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Årsak,Reason
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Resultat,Outcome
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0020],ELEMENT,CComplexObject,at0020,Sesjonsnummer,Session Number
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0020]/value,DV_COUNT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Detaljer om materiell,Material details
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0026],ELEMENT,CComplexObject,at0026,Planlagt dato/tid,Scheduled date/ time
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0026]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0027],ELEMENT,CComplexObject,at0027,Kommentar,Comment
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/description[at0001]/items[at0033],CLUSTER,ArchetypeSlot,at0033,Ytterligere detaljer,Additional details
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0006],ISM_TRANSITION,CComplexObject,at0006,Helseinformasjon/undervisning planlagt,Education planned
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0006]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0006]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0006]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0006]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0007],ISM_TRANSITION,CComplexObject,at0007,Helseinformasjon/undervisning tidsfestet,Education scheduled
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0007]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0007]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0007]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0007]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0008],ISM_TRANSITION,CComplexObject,at0008,Helseinformasjon/undervisning gjennomført,Education provided
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0008]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0008]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0008]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0008]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0013],ISM_TRANSITION,CComplexObject,at0013,Helseinformasjon/undervisning fullført,Education completed
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0013]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0013]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0013]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0013]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0014],ISM_TRANSITION,CComplexObject,at0014,Helseinformasjon/undervisning utsatt,Education postponed
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0014]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0014]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0014]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0014]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0015],ISM_TRANSITION,CComplexObject,at0015,Helseinformasjon/undervisning er kansellert,Education cancelled
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0015]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0015]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0015]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0015]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0016],ISM_TRANSITION,CComplexObject,at0016,Helseinformasjon/undervisning ikke fullført,Education not completed
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0016]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0016]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0016]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0016]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0017],ISM_TRANSITION,CComplexObject,at0017,Helseinformasjon/undervisning midlertidig stanset,Education suspended
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0017]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0017]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0017]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0017]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0018],ISM_TRANSITION,CComplexObject,at0018,Helseinformasjon/undervisning anbefalt,Education recommended
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0018]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0018]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0018]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/ism_transition[at0018]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021],ITEM_TREE,CComplexObject,at0021,Tree,Tree
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0023],CLUSTER,ArchetypeSlot,at0023,Tilleggsinformasjon,Extension
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0028],CLUSTER,ArchetypeSlot,at0028,Rekvirent,Requestor
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0029],CLUSTER,ArchetypeSlot,at0029,Mottaker,Receiver
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0030],ELEMENT,CComplexObject,at0030,RekvisisjonsID,Requestor order identifier
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0030]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0031],ELEMENT,CComplexObject,at0031,Mottakers rekvisisjonsID,Receiver order identifier
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0031]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0032],CLUSTER,ArchetypeSlot,at0032,Subjektet,Recipient
+openEHR-EHR-ACTION.health_education.v1,/protocol[at0021]/items[at0034],CLUSTER,ArchetypeSlot,at0034,Detaljer om tolking,Interpreter details

@@ -1,0 +1,30 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.cpax.v1,/,OBSERVATION,CComplexObject,at0000,Chelsea Critical Care Physical Assessment Tool (CPAx),Chelsea Critical Care Physical Assessment Tool (CPAx)
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Respiratorisk funksjon,Respiratory function
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Hoste,Cough
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Gripestyrke (predikert gjennomsnitt for alder og kjønn for den sterkeste hånden),Grip strength (predicted mean for age and gender on the strongest hand)
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Forflytning i seng f.eks. snu seg,Moving within the bed (e.g. rolling)
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,Liggende til sittende på sengekant,Supine to sitting on the edge of the bed
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Sittebalanse (dvs. sitter på sengekanten/ sitter uten støtte),Dynamic sitting (i.e. when sitting on the edge of the bed/unsupported sitting)
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Stående balanse,Standing balance
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018],ELEMENT,CComplexObject,at0018,Sittende til stående (Utgangsstilling: ≤90 grader hoftefleksjon),Sit to stand (starting position: ≤90º hip flexion)
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Forflytning fra seng til stol,Transferring from bed to chair
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Gange,Stepping
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0076],ELEMENT,CComplexObject,at0076,Sumskår,Total score
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0076]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.cpax.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0076]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.cpax.v1,/protocol[at0077],ITEM_TREE,CComplexObject,at0077,*Item tree (en),Item tree
+openEHR-EHR-OBSERVATION.cpax.v1,/protocol[at0077]/items[at0078],CLUSTER,ArchetypeSlot,at0078,Tilleggsinformasjon,Extension

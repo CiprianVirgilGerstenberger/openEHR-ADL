@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/,OBSERVATION,CComplexObject,at0000,Kartleggingsspørsmål om overfølsomhetsreaksjoner,Adverse reaction screening questionnaire
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifikk hendelse,Any event
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,CComplexObject,at0022,Spesifikk overfølsomhetsreaksjon,Specific adverse reaction
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004],ELEMENT,CComplexObject,at0004,Substansnavn,Substance name
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005],ELEMENT,CComplexObject,at0005,Tilstede?,Presence?
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentar,Comment
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0039],CLUSTER,ArchetypeSlot,at0039,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0040],ELEMENT,CComplexObject,at0040,Tidsangivelse,Timing
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0040]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Overfølsomhetsreaksjoner?,Any adverse reactions?
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Kartleggingsformål,Screening purpose
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042],CLUSTER,ArchetypeSlot,at0042,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0043],ELEMENT,CComplexObject,at0043,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Item tree,Item tree
+openEHR-EHR-OBSERVATION.adverse_reaction_screening.v1,/protocol[at0007]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Tilleggsinformasjon,Extension

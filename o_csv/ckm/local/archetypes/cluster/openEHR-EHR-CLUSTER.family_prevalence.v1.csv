@@ -1,0 +1,27 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.family_prevalence.v1,/,CLUSTER,CComplexObject,at0000,Familienprävalenz,Familjär prevalens,Familieprevalens,Prevalência Familiar,Family prevalence
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0030],ELEMENT,CComplexObject,at0030,Beschreibung,Beskrivning,Beskrivelse,Descrição,Description
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031],CLUSTER,CComplexObject,at0031,Betroffene Familienmitglieder,Berörd familj,Affiserte familiemedlemmer,Familiares afetados,Affected family
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0032],ELEMENT,CComplexObject,at0032,*Relationship degree (en),*Relationship degree (en),Grad av slektskap,*Relationship degree (en),Relationship degree
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0032]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0032]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0033],ELEMENT,CComplexObject,at0033,Biologisches Geschlecht,Biologiskt kön,Biologisk kjønn,Sexo Biológico,Biological sex
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0033]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0033]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0034],ELEMENT,CComplexObject,at0034,Anzahl der Betroffenen,Antal berörda,Antall affisert,Número de afetados,Number affected
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0034]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0034]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0051],ELEMENT,CComplexObject,at0051,Familienlinie,Familjens härstamning,Familieside,Linha Familiar,Family line
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0051]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0051]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0054],ELEMENT,CComplexObject,at0054,Anzahl der infrage Kommenden,Antal berättigade,Antall familiemedlemmer i gruppen,Números de elegíveis,Number eligible
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0054]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0054]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0057],ELEMENT,CComplexObject,at0057,*Relationship category (en),*Relationship category (en),Relasjonsgruppe,*Relationship group (en),Relationship group
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0031]/items[at0057]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0055],ELEMENT,CComplexObject,at0055,Genetische Veranlagung?,Genetisk diates?,Genetisk predisposisjon?,Predisposição genética?,Genetic predisposition?
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0055]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0055]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0056],ELEMENT,CComplexObject,at0056,Vererbungstyp,Arvstyp,Type arvelighet,Tipo de Herança,Inheritance type
+openEHR-EHR-CLUSTER.family_prevalence.v1,/items[at0056]/value,DV_TEXT,CComplexObject

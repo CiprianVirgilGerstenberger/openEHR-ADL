@@ -1,0 +1,25 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.exam_zygote.v1,/,CLUSTER,CComplexObject,at0000,Undersøkelse av en zygote,Examination of a zygote
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Forkjernenes symmetri,Pronuclear symmetry
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0001]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0001]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Forkjernenes morfologi,Pronuclear morphology
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0002]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0002]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Pollegemenes morfologi,Polar body morphology
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Morfologi av cytoplasma,Cytoplasmic morphology
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Antall forkjerner,Number of pronuclei
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0005]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0019],ELEMENT,CComplexObject,at0019,Prekursorer til kjernelegeme,Nucleolar precursor bodies
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0028],ELEMENT,CComplexObject,at0028,Andre morfologiske observasjoner,Other morphological features
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0032],ELEMENT,CComplexObject,at0032,Morfologisk gradering,Morphology grade
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0032]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0034],ELEMENT,CComplexObject,at0034,Antall pollegemer,Number of polar bodies
+openEHR-EHR-CLUSTER.exam_zygote.v1,/items[at0034]/value,DV_COUNT,CComplexObject

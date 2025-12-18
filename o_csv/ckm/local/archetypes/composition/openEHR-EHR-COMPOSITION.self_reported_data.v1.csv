@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nn,name_de,name_sv,name_nb,name_pt,name_en,name_fr
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/,COMPOSITION,CComplexObject,at0000,*Self-reported data (en),Selbstberichtete Daten,Egenrapporterad data,Selvrapporterte data,Dados auto-relatados,Self-reported data,Données auto-déclarées
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/context,EVENT_CONTEXT,CComplexObject
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/context/other_context[at0003],ITEM_TREE,CComplexObject,at0003,Item tree,Item tree,Item tree,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/context/other_context[at0003]/items[at0004],CLUSTER,ArchetypeSlot,at0004,*Extension (en),Erweiterung,Tilläggsinformation,Tilleggsinformasjon,Extensão,Extension,Extension
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/context/other_context[at0003]/items[at0005],CLUSTER,ArchetypeSlot,at0005,*Device (en),Gerät,*Device (en),Utstyr,Dispositivo,Device,Appareil
+openEHR-EHR-COMPOSITION.self_reported_data.v1,/context/other_context[at0003]/items[at0006],CLUSTER,ArchetypeSlot,at0006,*Information Source (en),Informationsquelle,*Information Source (en),Informasjonskilde,Fonte de informação,Information Source,Source de l'information

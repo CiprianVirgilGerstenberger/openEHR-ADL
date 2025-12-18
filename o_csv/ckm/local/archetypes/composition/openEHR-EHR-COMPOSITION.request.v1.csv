@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_en,name_ar-sy,name_nl
+openEHR-EHR-COMPOSITION.request.v1,/,COMPOSITION,CComplexObject,at0000,Tjänstebegäran,Tjenesteforespørsel,Request for service,*Request for service(en),Verzoek voor een dienst
+openEHR-EHR-COMPOSITION.request.v1,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.request.v1,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.request.v1,/context,EVENT_CONTEXT,CComplexObject
+openEHR-EHR-COMPOSITION.request.v1,/context/other_context[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,*Tree(en),Tree
+openEHR-EHR-COMPOSITION.request.v1,/context/other_context[at0001]/items[at0042],CLUSTER,ArchetypeSlot,at0042,Tilläggsinformation,Tilleggsinformasjon,Extension,*Extension(en),Extensie

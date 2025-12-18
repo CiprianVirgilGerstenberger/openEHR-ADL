@@ -1,0 +1,20 @@
+archetype_id,path,rm_type,aom_type,node_id,name_fi,name_nb,name_en,name_it
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/,OBSERVATION,CComplexObject,at0000,*Social context screening questionnaire (en),Kartleggingsspørsmål om sosiale forhold,Social context screening questionnaire,*Social context screening questionnaire (en)
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History,History
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,*Any event(en),Uspesifikk hendelse,Any event,Qualsiasi evento
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,CComplexObject,at0022,*Specific social context (en),Spesifikt sosialt forhold,Specific social context,*Specific social context (en)
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004],ELEMENT,CComplexObject,at0004,*Context (en),Sosialt forhold,Context,*Context (en)
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005],ELEMENT,CComplexObject,at0005,Olemassalolo,Tilstede?,Presence?,Presenza?
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentit,Kommentar,Comment,Commento
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0026],CLUSTER,ArchetypeSlot,at0026,*Additional details (en),Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,*Screening purpose(en),Kartleggingsformål,Screening purpose,Scopo dello screening
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],CLUSTER,ArchetypeSlot,at0044,*Additional details (en),Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.social_context_screening.v1,/protocol[at0007]/items[at0021],CLUSTER,ArchetypeSlot,at0021,*Extension(en),Tilleggsinformasjon,Extension,Estensione

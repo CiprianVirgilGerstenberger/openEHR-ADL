@@ -1,0 +1,24 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-OBSERVATION.mayo_score.v1,/,OBSERVATION,CComplexObject,at0000,Mayo Score,Mayo skår,Mayo score
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Tidspunkt,Any event
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Stuhlfrequenz,Avføringsfrekvens,Stool frequency
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Rektaler Blutabgang,Rektale blødninger,Rectal bleeding
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Endoskopische Befunde,Funn ved endoskopi,Endoscopy findings
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Globale Beurteilung,Overordnet vurdering,Global assessment
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,Total Mayo Score,Total Mayo skår,Total Mayo score
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033],ELEMENT,CComplexObject,at0033,Partial Mayo Score,Partial Mayo skår,Partial Mayo score
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Simplified Mayo Score,Forenklet Mayo skår,Simplified Mayo score
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mayo_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mayo_score.v1,/protocol[at0030],ITEM_TREE,CComplexObject,at0030,Item tree,*Item tree (en),Item tree
+openEHR-EHR-OBSERVATION.mayo_score.v1,/protocol[at0030]/items[at0032],CLUSTER,ArchetypeSlot,at0032,Erweiterung,Tilleggsinformasjon,Extension

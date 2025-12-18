@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/,CLUSTER,CComplexObject,at0000,Graderingsskala for alvorlighet,Severity rating scale
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Numerisk graderingsskala 0-10,Numeric rating scale 0-10
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0003]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0003]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0015],ELEMENT,CComplexObject,at0015,Kommentar,Comment
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0016],ELEMENT,CComplexObject,at0016,Numerisk graderingsskala 0-20,Numeric rating scale 0-20
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0016]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0016]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0017],ELEMENT,CComplexObject,at0017,Numerisk graderingsskala 0-100,Numeric rating scale 0-100
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0020],ELEMENT,CComplexObject,at0020,Numerisk graderingsskala,Numeric rating scale
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0020]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0020]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0021],ELEMENT,CComplexObject,at0021,Visuell analog skala,Visual analogue scale
+openEHR-EHR-CLUSTER.severity_rating_scale.v0,/items[at0021]/value,DV_QUANTITY,CDvQuantity

@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.housing_record.v1,/,CLUSTER,CComplexObject,at0000,Bolig,Housing record
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Boform,Residential setting
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Adressedetaljer,Address details
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Navn/merkelapp,Name/label
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Dato for oppstart,Date commenced
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0007]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Dato for opphør,Date ceased
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0008]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0013],ELEMENT,CComplexObject,at0013,Råderett,Tenure
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0014],ELEMENT,CComplexObject,at0014,Kommentar,Comment
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0016],ELEMENT,CComplexObject,at0016,Beskrivelse,Description
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.housing_record.v1,/items[at0018],CLUSTER,ArchetypeSlot,at0018,Ytterligere detaljer,Additional details

@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.ethnicity.v1,/,EVALUATION,CComplexObject,at0000,Ethnische Identität,Etnisk identitet,Ethnic identity
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Beschreibung,Beskrivelse,Description
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Ethnizität,Etnisitet,Ethnicity
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Herkunft,Opphav,Ancestry
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Nationalität,Nasjonal identitet,National identity
+openEHR-EHR-EVALUATION.ethnicity.v1,/data[at0001]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.ethnicity.v1,/protocol[at0006],ITEM_TREE,CComplexObject,at0006,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.ethnicity.v1,/protocol[at0006]/items[at0007],CLUSTER,ArchetypeSlot,at0007,Erweiterung,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.ethnicity.v1,/protocol[at0006]/items[at0008],ELEMENT,CComplexObject,at0008,Letzte Aktualisierung,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.ethnicity.v1,/protocol[at0006]/items[at0008]/value,DV_DATE_TIME,CComplexObject

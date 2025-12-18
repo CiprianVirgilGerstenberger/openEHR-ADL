@@ -1,0 +1,19 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-OBSERVATION.easi_score.v0,/,OBSERVATION,CComplexObject,at0000,EASI score
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Any event
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],CLUSTER,CComplexObject,at0004,Body area
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0009],ELEMENT,CComplexObject,at0009,Severity index
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0009]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0009]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0018],ELEMENT,CComplexObject,at0018,Affected area
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0018]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0025],ELEMENT,CComplexObject,at0025,Total EASI score
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.easi_score.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.easi_score.v0,/protocol[at0026],ITEM_TREE,CComplexObject,at0026,Item tree
+openEHR-EHR-OBSERVATION.easi_score.v0,/protocol[at0026]/items[at0027],CLUSTER,ArchetypeSlot,at0027,Extension

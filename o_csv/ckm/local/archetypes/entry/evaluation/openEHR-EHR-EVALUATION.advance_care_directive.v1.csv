@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/,EVALUATION,CComplexObject,at0000,Patientenverfügung,Fremtidig behandlingsvalg,Advance care directive
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Status,Status,Status
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Art der Richtlinie,Type fremtidig behandlingsvalg,Type of directive
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Beschreibung,Beskrivelse,Description
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Voraussetzung,Betingelse,Condition
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0038],ELEMENT,CComplexObject,at0038,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0038]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0052],CLUSTER,ArchetypeSlot,at0052,Einzelheiten zur Richtlinie,Detaljerte behandlingsvalg,Directive detail
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0058],CLUSTER,CComplexObject,at0058,Standort der Richtlinie,Plassering og kopiholder,Directive location
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0058]/items[at0030],ELEMENT,CComplexObject,at0030,Standort,Plassering,Location
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0058]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0058]/items[at0059],CLUSTER,ArchetypeSlot,at0059,Inhaber der Kopie,Kopiholder,Copy holder
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/data[at0001]/items[at0058]/items[at0060],CLUSTER,ArchetypeSlot,at0060,Digitale Repräsentation,Digital representasjon,Digital representation
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010],ITEM_TREE,CComplexObject,at0010,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Zeuge,Vitner,Witness
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0027],ELEMENT,CComplexObject,at0027,Auftrag,Grunnlag,Mandate
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0027]/value,DV_URI,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0053],ELEMENT,CComplexObject,at0053,Beginn der Gültigkeitsdauer,Gyldighetsperiode start,Valid period start
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0053]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0054],ELEMENT,CComplexObject,at0054,Ende der Gültigkeitsdauer,Gyldighetsperiode slutt,Valid period end
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0054]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0055],ELEMENT,CComplexObject,at0055,Letzte Aktualisierung,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0055]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0056],ELEMENT,CComplexObject,at0056,Überprüfung des Fälligkeitsdatums,Dato for fornyelse,Review due date
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0056]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_care_directive.v1,/protocol[at0010]/items[at0061],CLUSTER,ArchetypeSlot,at0061,Erweiterung,Tilleggsinformasjon,Extension

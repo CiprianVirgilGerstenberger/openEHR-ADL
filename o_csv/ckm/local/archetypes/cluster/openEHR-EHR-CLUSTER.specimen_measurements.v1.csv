@@ -1,0 +1,20 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_ar-sy,name_en
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/,CLUSTER,CComplexObject,at0000,*Specimen measurements(en),Fysiske mål til prøvemateriale,*Specimen measurements(en),Specimen measurements
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0020],ELEMENT,CComplexObject,at0020,Gewicht,Vekt,الوزن,Weight
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0020]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0020]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0020]/value/upper,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0042],ELEMENT,CComplexObject,at0042,*Dimension (en),Mål,*Dimension (en),Dimension
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0042]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0042]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0042]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0042]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0042]/value/upper,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0046],ELEMENT,CComplexObject,at0046,Volumen,Volum,*Volume(en),Volume
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0046]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0046]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0046]/value/upper,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0055],ELEMENT,CComplexObject,at0055,*Perimeter (en),Omkrets,*Perimeter (en),Perimeter
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0055]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0055]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.specimen_measurements.v1,/items[at0055]/value/upper,DV_QUANTITY,CDvQuantity

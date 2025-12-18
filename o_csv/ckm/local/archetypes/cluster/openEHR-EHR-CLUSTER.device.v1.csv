@@ -1,0 +1,35 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_es-ar,name_nb,name_pt-br,name_ar-sy,name_en
+openEHR-EHR-CLUSTER.device.v1,/,CLUSTER,CComplexObject,at0000,Medizingerät,Medicinsk utrustning,*Medical device(en),Medisinsk utstyr,Dispositivos médicos,*Medical device(en),Medical device
+openEHR-EHR-CLUSTER.device.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Gerätename,Namn på utrustning,*Device name(en),Navn på medisinsk utstyr,Prótese/órtese,*Device name(en),Device name
+openEHR-EHR-CLUSTER.device.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Beschreibung,Beskrivning,Descripción,Beskrivelse,Descrição,الوصف,Description
+openEHR-EHR-CLUSTER.device.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Gerätetyp,Typ,*Type(en),Type,Tipo,*Type(en),Type
+openEHR-EHR-CLUSTER.device.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Hersteller,Tillverkare,Fabricante,Produsent,Fabricante,المُصَنِّع,Manufacturer
+openEHR-EHR-CLUSTER.device.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Herstellungsdatum,Tillverknings datum,Fecha de fabricación,Produksjonsdato,Data de fabricação,تاريخ التصنيع,Date of manufacture
+openEHR-EHR-CLUSTER.device.v1,/items[at0005]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Chargennummer,Parti- / partinummer,Número de lote,Batch/lot-nummer,Número do Lote,رقم التشغيلة,Batch/Lot number
+openEHR-EHR-CLUSTER.device.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Ablaufdatum,Utgångsdatum,Fecha de vencimiento,Utløpsdato,Data de validade,تاريخ انتهاء الصلاحية,Date of expiry
+openEHR-EHR-CLUSTER.device.v1,/items[at0007]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Kommentar,kommentarer,Comentario,Kommentar,Comentários,تعليق,Comment
+openEHR-EHR-CLUSTER.device.v1,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0009],CLUSTER,ArchetypeSlot,at0009,Eigenschaften,Egenskaper,Detalles adicionales,Egenskaper,Propriedades,التفاصيل الإضافية,Properties
+openEHR-EHR-CLUSTER.device.v1,/items[at0018],CLUSTER,ArchetypeSlot,at0018,Komponenten,Komponenter,*Components(en),Komponenter,Componentes,*Components(en),Components
+openEHR-EHR-CLUSTER.device.v1,/items[at0019],CLUSTER,ArchetypeSlot,at0019,Geräteverwaltung,Kapitalförvaltning,*Cluster(en),Utstyrsforvaltning,Manutenção,*Cluster(en),Asset management
+openEHR-EHR-CLUSTER.device.v1,/items[at0020],ELEMENT,CComplexObject,at0020,Seriennummer,serienummer,*New element(en),Serienummer,Número de Série,*New element(en),Serial number
+openEHR-EHR-CLUSTER.device.v1,/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0021],ELEMENT,CComplexObject,at0021,Eindeutige Identifikationsnummer (ID),Unik utrustningsidentifierare (UDI),*New element(en),Unique device identifier (UDI),Identificador unívoco do dispositivo (UDI),*New element(en),Unique device identifier (UDI)
+openEHR-EHR-CLUSTER.device.v1,/items[at0021]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0022],ELEMENT,CComplexObject,at0022,Katalognummer,Katalognummer,*New element(en),Katalognummer,Número do catálogo,*New element(en),Catalogue number
+openEHR-EHR-CLUSTER.device.v1,/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Modellnummer,Modellnummer,*New element(en),Modellnummer,Número do modelo,*New element(en),Model number
+openEHR-EHR-CLUSTER.device.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0024],ELEMENT,CComplexObject,at0024,Weitere ID,Annan identifierare,*Other identifier(en),Øvrig identifikator,Outros identificadores,*Other identifier(en),Other identifier
+openEHR-EHR-CLUSTER.device.v1,/items[at0024]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0025],ELEMENT,CComplexObject,at0025,Softwareversion,Mjukvara-version,*Software version(en),Programvareversjon,Versão do software,*Software version(en),Software version
+openEHR-EHR-CLUSTER.device.v1,/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.device.v1,/items[at0026],CLUSTER,ArchetypeSlot,at0026,Erweiterung,Förlängning,*Cluster(en),Tilleggsinformasjon,Extensão,*Cluster(en),Extension
+openEHR-EHR-CLUSTER.device.v1,/items[at0027],CLUSTER,ArchetypeSlot,at0027,Multimedia,Multimedia,*Multimedia(en),Multimedia,Multimidia,*Multimedia(en),Multimedia

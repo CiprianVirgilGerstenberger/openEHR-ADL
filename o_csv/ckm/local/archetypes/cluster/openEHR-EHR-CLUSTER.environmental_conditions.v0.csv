@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/,CLUSTER,CComplexObject,at0000,Environmental conditions
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Ambient Temperature
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0001]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Relative humidity
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0002]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Wind Velocity
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0003]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0005],ELEMENT,CComplexObject,at0005,Wind Chill Temperature
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0005]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0010],ELEMENT,CComplexObject,at0010,Wet Bulb Globe Temperature
+openEHR-EHR-CLUSTER.environmental_conditions.v0,/items[at0010]/value,DV_QUANTITY,CDvQuantity

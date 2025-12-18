@@ -1,0 +1,63 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.guss.v0,/,OBSERVATION,CComplexObject,at0000,Gugging Swallowing Screen (GUSS),Gugging Swallowing Screen (GUSS)
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],CLUSTER,CComplexObject,at0004,Forundersøkelse/indirekte svelgtest,Preliminary Investigation/Indirect Swallowing Test
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0005],ELEMENT,CComplexObject,at0005,Våkenhet,Vigilance
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0008],ELEMENT,CComplexObject,at0008,Hosting/kremting,Coughing and/or throat clearing
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0011],ELEMENT,CComplexObject,at0011,Vellykket svelging,Swallowing successful
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0014],ELEMENT,CComplexObject,at0014,Sikling,Drooling
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0017],ELEMENT,CComplexObject,at0017,Stemmeforandring etter svelging,Voice change
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0034],ELEMENT,CComplexObject,at0034,Sum,Sum
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0034]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0034]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020],CLUSTER,CComplexObject,at0020,Tykt,Semisolid
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0021],ELEMENT,CComplexObject,at0021,Svelging,Deglutition
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0025],ELEMENT,CComplexObject,at0025,Hosting (spontant),Coughing (involuntary)
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0025]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0028],ELEMENT,CComplexObject,at0028,Sikling,Drooling
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0028]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0031],ELEMENT,CComplexObject,at0031,Stemmeforandring,Voice change
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0035],ELEMENT,CComplexObject,at0035,Sum,Sum
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0035]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0035]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036],CLUSTER,CComplexObject,at0036,Tynt,Liquid
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0037],ELEMENT,CComplexObject,at0037,Svelging,Deglutition
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0037]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0041],ELEMENT,CComplexObject,at0041,Hosting (spontant),Coughing (involuntary)
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0041]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0044],ELEMENT,CComplexObject,at0044,Sikling,Drooling
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0044]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0047],ELEMENT,CComplexObject,at0047,Stemmeforandring,Voice change
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0047]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0050],ELEMENT,CComplexObject,at0050,Sum,Sum
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0050]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/items[at0050]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051],CLUSTER,CComplexObject,at0051,Fast føde,Solid
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0052],ELEMENT,CComplexObject,at0052,Svelging,Deglutition
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0052]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0056],ELEMENT,CComplexObject,at0056,Hosting (spontant),Coughing (involuntary)
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0056]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0059],ELEMENT,CComplexObject,at0059,Sikling,Drooling
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0059]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0062],ELEMENT,CComplexObject,at0062,Stemmeforandring,Voice change
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0062]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0065],ELEMENT,CComplexObject,at0065,Sum,Sum
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0065]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/items[at0065]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0066],ELEMENT,CComplexObject,at0066,Sum,Sum
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0066]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0066]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0069],ELEMENT,CComplexObject,at0069,Resultat og alvorlighetsgrad,Results and severity code
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.guss.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0069]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.guss.v0,/protocol[at0067],ITEM_TREE,CComplexObject,at0067,Item tree,Item tree
+openEHR-EHR-OBSERVATION.guss.v0,/protocol[at0067]/items[at0068],CLUSTER,ArchetypeSlot,at0068,Tilleggsinformasjon,Extension

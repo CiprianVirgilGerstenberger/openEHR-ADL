@@ -1,0 +1,3 @@
+archetype_id,path,rm_type,aom_type,node_id,name_ru,name_en
+openEHR-EHR-SECTION.conclusion.v0,/,SECTION,CComplexObject,at0000,Заключение,Conclusion
+openEHR-EHR-SECTION.conclusion.v0,/items[at0001],EVALUATION,ArchetypeSlot,at0001,Оценка проблемы, диагноз и т.д.,Evaluation of a problem, diagnosis etc.

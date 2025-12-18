@@ -1,0 +1,43 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_en
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/,OBSERVATION,CComplexObject,at0000,Timed 25-Foot Walk,Timed 25-Foot Walk
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Test 1,Trial 1
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Zeit,Time
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Test nicht beendet?,Trial Not Completed?
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Gründe für Nichtbeenden,Reasons For Non-completion
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/state[at0009],ITEM_TREE,CComplexObject,at0009,Baum,Tree
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/state[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Begleitumstände,Confounding Factors
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0002]/state[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007],POINT_EVENT,CComplexObject,at0007,Test 2,Trial 2
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Zeit,Time
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0004]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0004]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Test nicht beendet?,Trial Not Completed?
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0005]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Gründe für Nichtbeenden,Reasons For Non-completion
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/data[at0003]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/state[at0009],ITEM_TREE,CComplexObject,at0009,Baum,Tree
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/state[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Begleitumstände,Confounding Factors
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/data[at0001]/events[at0007]/state[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011],ITEM_TREE,CComplexObject,at0011,Baum,Tree
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0012],ELEMENT,CComplexObject,at0012,Unilaterale Gehhilfe,Unilateral Assistive Device
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0012]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0017],ELEMENT,CComplexObject,at0017,Mehr als zwei Anläufe?,More Than Two Attempts?
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0017]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0017]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0018],ELEMENT,CComplexObject,at0018,Gründe für mehr als zwei Anläufe,Reasons For More Than Two Attempts
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0020],ELEMENT,CComplexObject,at0020,Bilaterale Gehhilfen,Bilateral Assistive Device
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.timed_25_foot_walk.v0,/protocol[at0011]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase

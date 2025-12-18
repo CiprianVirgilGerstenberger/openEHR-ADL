@@ -1,0 +1,52 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/,EVALUATION,CComplexObject,at0000,Antikonsepsjonssammendrag,Contraceptive use summary
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Samlet kommentar,Overall comment
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029],CLUSTER,CComplexObject,at0029,Per type,Per type
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0053],ELEMENT,CComplexObject,at0053,Beskrivelse,Description
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0053]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064],CLUSTER,CComplexObject,at0064,Per episode,Per episode
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0013],ELEMENT,CComplexObject,at0013,Episodens startdato,Episode start date
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0013]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0023],ELEMENT,CComplexObject,at0023,Spesifikt navn,Specific name
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0025],ELEMENT,CComplexObject,at0025,Hensikt,Goal
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Episodedetaljer,Episode details
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0030],ELEMENT,CComplexObject,at0030,Beskrivelse,Description
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0074],ELEMENT,CComplexObject,at0074,Årsak til opphør,Reason for cessation
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0074]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0081],ELEMENT,CComplexObject,at0081,Episodens navn,Episode label
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0081]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0082],ELEMENT,CComplexObject,at0082,Episodens sluttdato,Episode end date
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0082]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0087],ELEMENT,CComplexObject,at0087,Kommentar til episoden,Episode comment
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0087]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0168],ELEMENT,CComplexObject,at0168,Klinisk indikasjon,Clinical indication
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0168]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0069],ELEMENT,CComplexObject,at0069,Kommentar,Comment
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0077],CLUSTER,ArchetypeSlot,at0077,Detaljer om antikonsepsjonstypen,Type details
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0144],ELEMENT,CComplexObject,at0144,Status,Status
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0144]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0144]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0148],ELEMENT,CComplexObject,at0148,Startdato,Start date
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0148]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0149],ELEMENT,CComplexObject,at0149,Sluttdato,End date
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0149]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0151],ELEMENT,CComplexObject,at0151,Type,Type
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0151]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0029]/items[at0151]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0043],ELEMENT,CComplexObject,at0043,Overordnet beskrivelse,Overall description
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0089],ELEMENT,CComplexObject,at0089,Overordnet status,Overall status
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0089]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/data[at0001]/items[at0150],CLUSTER,ArchetypeSlot,at0150,Samlede detaljer,Overall details
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/protocol[at0021],ITEM_TREE,CComplexObject,at0021,Tree,Tree
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/protocol[at0021]/items[at0022],ELEMENT,CComplexObject,at0022,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/protocol[at0021]/items[at0022]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.contraceptive_summary.v1,/protocol[at0021]/items[at0073],CLUSTER,ArchetypeSlot,at0073,Tilleggsinformasjon,Extension

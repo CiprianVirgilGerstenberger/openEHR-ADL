@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_pt-pt,name_sv,name_nb,name_el,name_en,name_fr
+openEHR-EHR-CLUSTER.address.v1,/,CLUSTER,CComplexObject,at0000,Adresse,Morada,Adress,Adresse,Στοιχεία Διεύθυνσης,Address,Adresse
+openEHR-EHR-CLUSTER.address.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Adresszeile,Linha de endereço,Gatuadress,Adresselinje,Διεύθυνση,Address line,Ligne d'adresse
+openEHR-EHR-CLUSTER.address.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Stadt / Gemeinde,Cidade,Ort/Postort,By,Πόλη,City/Town,Ville
+openEHR-EHR-CLUSTER.address.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Bezirk / Landkreis,Distrito/Concelho,Kommun,Distrikt/fylke,Χώρα,District/County,District/Comté
+openEHR-EHR-CLUSTER.address.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Staat / Land / Bundesland,Estado/Território/Província,Region,Stat/territorium/provins,Πολιτεία /περιοχή /Επαρχία,State/Territory/Province,État/Territoire/Province
+openEHR-EHR-CLUSTER.address.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Postleitzahl,Código postal,Postnummer,Postnummer,Ταχυδρομικός κώδικας,Postal code,Code postal
+openEHR-EHR-CLUSTER.address.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Land,País,Land,Land,Χώρα,Country,Pays
+openEHR-EHR-CLUSTER.address.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Breitengrad,Latitude,Latitud,Breddegrad,Γεωγραφικό πλάτος,Latitude,Latitude
+openEHR-EHR-CLUSTER.address.v1,/items[at0007]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.address.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Längengrad,Longitude,Longitud,Lengdegrad,Γεωγραφικό Μήκος,Longitude,Longitude
+openEHR-EHR-CLUSTER.address.v1,/items[at0008]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.address.v1,/items[at0009],ELEMENT,CComplexObject,at0009,Höhe,Altitude,Altitud,Høyde,Υψόμετρο,Altitude,Altitude
+openEHR-EHR-CLUSTER.address.v1,/items[at0009]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.address.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Art,Tipo,Typ,Type,Τύπος,Type,Type
+openEHR-EHR-CLUSTER.address.v1,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.address.v1,/items[at0014],ELEMENT,CComplexObject,at0014,Verwendung,Uso,*Use(en),Bruksområde,Χρήση,Use,Utilisation
+openEHR-EHR-CLUSTER.address.v1,/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.address.v1,/items[at0018],ELEMENT,CComplexObject,at0018,Kommentar,Comentário,Kommentar,Kommentar,Σχόλιο,Comment,Commentaire
+openEHR-EHR-CLUSTER.address.v1,/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0019],ELEMENT,CComplexObject,at0019,Karte URL,URL do mapa,URL till karta,Kart URL,Χάρτης URL,Map URL,URL de la carte
+openEHR-EHR-CLUSTER.address.v1,/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.address.v1,/items[at0020],CLUSTER,ArchetypeSlot,at0020,Strukturierte Adresse,Endereço estruturado,*Structured address(en),Strukturert adresse,Διεύθυνση,Structured address,Adresse structurée
+openEHR-EHR-CLUSTER.address.v1,/items[at0021],ELEMENT,CComplexObject,at0021,Geolocation-Code,Código de geolocalização,*Geolocation code(en),Geolokaliseringskode,Kωδικός Γεωγραφικής Θέσης,Geolocation code,Code de géolocalisation
+openEHR-EHR-CLUSTER.address.v1,/items[at0021]/value,DV_TEXT,CComplexObject

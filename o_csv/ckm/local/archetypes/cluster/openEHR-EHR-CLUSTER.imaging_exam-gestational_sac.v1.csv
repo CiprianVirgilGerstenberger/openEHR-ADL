@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/,CLUSTER,CComplexObject,at0000.1,*Imaging examination of a gestational sac (en),Bildediagnostisk undersøkelse - gestasjonssekk,Imaging examination of a gestational sac
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.15],ELEMENT,CComplexObject,at0.15,*Number of embryos (en),Antall embryoer,Number of embryos
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.15]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.16],ELEMENT,CComplexObject,at0.16,Cardiac activity,Hjerteaktivitet,Cardiac activity
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.16]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.16]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.2],ELEMENT,CComplexObject,at0.2,Mean Sac Diameter (MSD),Gestasjonssekkens gjennomsnittlig diameter (MSD),Mean Sac Diameter (MSD)
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.2]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.4],ELEMENT,CComplexObject,at0.4,Yolk sac description,Beskrivelse av plommesekk.,Yolk sac description
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.4]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.6],ELEMENT,CComplexObject,at0.6,Amnion description,Beskrivelse av amnionsekk,Amnion description
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0.6]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0001.1],ELEMENT,CComplexObject,at0001.1,Körperstruktur,Kroppsstruktur,Body structure
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0001.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0001.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam-gestational_sac.v1,/items[at0007]/value,DV_TEXT,CComplexObject

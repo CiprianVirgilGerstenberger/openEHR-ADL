@@ -1,0 +1,32 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_fi,name_es-ar,name_nb,name_pt-br,name_ar-sy,name_en,name_fa,name_nl
+openEHR-EHR-OBSERVATION.respiration.v2,/,OBSERVATION,CComplexObject,at0000,Atemfrequenz,Andning,Hengitys,Respiraciones,Åndedrett,Respirações,التنفس,Respiration,تنفس,Ademhaling
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001],HISTORY,CComplexObject,at0001,History,Historik,history,*history(en),*history(en),*history(en),*history(en),history,*history(en),*history(en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Ospecificerad händelse,Mikä tahansa tapahtuma,Cualquier evento,Uspesifisert hendelse,Qualquer evento,إحدى الوقائع,Any event,هر رویداد,any event
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,*List(en),List,List,*List(en),*List(en),*List(en),*List(en),List,*List(en),*List(en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Messwert,Frekvens,Hengitysfrekvenssi,Frecuencia,Frekvens,Frequência,السرعة - المعدَّل,Rate,میزان,Frequentie
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Regelmäßigkeit,*Regularity (en),*Regularity (en),*Regularity (en),Regelmessighet,*Regularity (en),*Regularity (en),Regularity,*Regularity (en),*Regularity (en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Klinische Auswertung,Onormalt andningsmönster,Kliininen tulkinta,Patrones respiratorios anormales,Klinisk fortolkning,Interpretação clínica,النمط التنفسي غير الطبيعي,Clinical interpretation,الگوی غیر طبیعی تنفس,Afwijkend ademhalingspatroon
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Tiefe,Andningsdjup,Syvyys,Profundidad,Dybde,Profundidade,العمق,Depth,عمق,Diepte
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Klinische Beschreibung,*Clinical description (en),Kuvaus,*Clinical description (en),Beskrivelse,*Clinical description (en),*Clinical description (en),Clinical description,*Clinical description (en),*Clinical description (en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0062],ELEMENT,CComplexObject,at0062,Präsenz,*Presence (en),*Presence(en),*Presence (en),Spontant åndedrett,*Presence (en),*Presence (en),Presence,*Presence (en),*Presence (en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0062]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0062]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0070],ELEMENT,CComplexObject,at0070,Kommentar,*Comment (en),*Comment (en),*Comment (en),Kommentar,*Comment (en),*Comment (en),Comment,*Comment (en),*Comment (en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022],ITEM_TREE,CComplexObject,at0022,List,List,List,*List(en),*List(en),*List(en),*List(en),List,*List(en),*List(en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0037],CLUSTER,ArchetypeSlot,at0037,Anwendung,Ansträngning,Rasitus,Esfuerzo,Fysisk anstrengelse,Esforço,المجهود - عنقود,Exertion,تقلا,Inspanning
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0055],CLUSTER,ArchetypeSlot,at0055,Inspirierter Sauerstoff,Tillförd syrgas,Ilman happipitoisuus,*Inspired oxygen(en),Innåndet oksygen,*Inspired oxygen(en),الأكسجين المحيط - عنقود,Inspired oxygen,اکسیژن محیطی,Toegevoerde zuurstof
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0056],ELEMENT,CComplexObject,at0056,Störfaktoren,Påverkande faktorer,Sekoittavat tekijät,Factores confundidores,Konfunderende faktorer,Fatores de confusão,العوامل المُربِكة,Confounding factors,فاکتورهای جانبی,Beïnvloedende factoren
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0056]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0065],ELEMENT,CComplexObject,at0065,Körperposition,*Body position (en),*Body position(en),*Body position (en),Stilling,*Body position (en),*Body position (en),Body position,*Body position (en),*Body position (en)
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0065]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.respiration.v2,/data[at0001]/events[at0002]/state[at0022]/items[at0065]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.respiration.v2,/protocol[at0057],ITEM_TREE,CComplexObject,at0057,*Tree(en),*Tree(en),Tree,*Tree(en),Klinisk fortolkning,*Tree(en),*Tree(en),Tree,*Tree(en),*Tree(en)
+openEHR-EHR-OBSERVATION.respiration.v2,/protocol[at0057]/items[at0058],CLUSTER,ArchetypeSlot,at0058,Erweiterung,*Cluster(en),Laajennus,*Cluster(en),Tilleggsinformasjon,Extensão,*Cluster(en),Extension,*Cluster(en),*Cluster(en)

@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.pews.v0,/,OBSERVATION,CComplexObject,at0000,PEVS
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Respirasjon
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Sirkulasjon
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Adferd
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,CPAP/inhalasjon?
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Brekninger/oppkast postoperativt?
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,Totalscore
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.pews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value/magnitude,Integer,CPrimitiveObject

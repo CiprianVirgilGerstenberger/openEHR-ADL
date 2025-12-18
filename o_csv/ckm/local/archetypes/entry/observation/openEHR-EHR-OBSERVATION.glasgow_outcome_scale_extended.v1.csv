@@ -1,0 +1,84 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/,OBSERVATION,CComplexObject,at0000,Glasgow Outcome Scale - Extended (GOSE),Glasgow Outcome Scale - Extended (GOSE)
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Skadedato,Date of injury
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_DATE,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Alder ved skadetidspunkt,Age at injury
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Tid etter skade,Interval post-injury
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],CLUSTER,CComplexObject,at0008,Bevissthet,Consciousness
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0011],ELEMENT,CComplexObject,at0011,1. Er personen med hodeskade i stand til å respondere på enkel instruksjon, eller si noen ord?,1. Is the head injured person able to obey simple commands, or say any words?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],CLUSTER,CComplexObject,at0010,Selvhjulpenhet i hjemmet,Independence in the home
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0012],ELEMENT,CComplexObject,at0012,2a Kreves det personhjelp til daglige aktiviteter i hjemmet hver dag?,2a Is the assistance of another person at home essential every day for some activities of daily living?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0012]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0012]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0013],ELEMENT,CComplexObject,at0013,2b Trenger han/hun ofte hjelp eller tilsyn i hjemmet?,2b Do they need frequent help or someone to be around at home most of the time?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0014],ELEMENT,CComplexObject,at0014,2c Var det helt nødvendig med personhjelp i daglige aktiviteter i hjemmet før skaden?,2c Was the assistance at home essential before the injury?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0014]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015],CLUSTER,CComplexObject,at0015,Selvhjulpenhet utenfor hjemmet,Independence outside the home
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,3a Kan han/hun gjøre innkjøp uten hjelp?,3a Are they able to shop without assistance?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0017],ELEMENT,CComplexObject,at0017,3b Kunne han/hun gjøre innkjøp uten hjelp før skaden?,3b Were they able to shop without assistance before the injury?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0018],ELEMENT,CComplexObject,at0018,4a Kan han/hun reise lokalt uten hjelp?,4a Are they able to travel locally without assistance?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0018]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0019],ELEMENT,CComplexObject,at0019,4b Kunne han/hun reise lokalt uten hjelp før skaden?,4b Were they able to travel without assistance before the injury?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020],CLUSTER,CComplexObject,at0020,Arbeid,Work
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0022],ELEMENT,CComplexObject,at0022,5a Er han/hun for tiden i stand til å arbeide med samme kapasitet som tidligere?,5a Are they currently able to work to their previous capacity?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0022]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0022]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0023],ELEMENT,CComplexObject,at0023,5b Hvor store er hans/hennes begrensninger?,5b How restricted are they?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0024],ELEMENT,CComplexObject,at0024,5c Var han/hun i arbeid eller arbeidssøkende før skaden (svar "ja") eller ingen av delene (svar "nei")?,5c Were they either working or seeking employment before the injury (answer 'yes') or were they doing neither (answer 'no')?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0024]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0024]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025],CLUSTER,CComplexObject,at0025,Sosiale aktiviteter og fritidsaktiviteter,Social & leisure activities
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0026],ELEMENT,CComplexObject,at0026,6a Kan han/hun gjenoppta regelmessige sosiale aktiviteter og fritidsaktiviteter utenfor hjemmet?,6a Are they able to resume regular social and leisure activities outside home?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0026]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0026]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0027],ELEMENT,CComplexObject,at0027,6b Hvor omfattende er begrensningene i sosiale aktiviteter og fritidsaktiviteter (utenfor hjemmet)?,6b What is the extent of restricition on their social and leisure activities?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0027]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0028],ELEMENT,CComplexObject,at0028,6c Deltok han/hun jevnlig i sosiale aktiviteter og fritidsaktiviteter utenfor hjemmet før skaden?,6c Did they engage in regular social and leisure activities outside home before the injury?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0028]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0025]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],CLUSTER,CComplexObject,at0029,Familie og venner,Family & friendships
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030],ELEMENT,CComplexObject,at0030,7a Har det vært psykologiske problemer som har resultert i pågående belastninger eller splid i vennskap eller familieforhold?,7a Have there been psychological problems which have resulted in ongoing family disruption or disruption to friendships?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0031],ELEMENT,CComplexObject,at0031,7b Hva har vært omfanget av disse problemene?,7b What has been the extent of disruption or strain?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0032],ELEMENT,CComplexObject,at0032,7c Var det problemer i forhold til familie eller venner før skaden?,7c Were there problems with family or friends before the injury?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0032]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0032]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033],CLUSTER,CComplexObject,at0033,Tilbake til normalt liv,Return to normal life
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0034],ELEMENT,CComplexObject,at0034,8a Er det andre aktuelle problemer relatert til skaden som påvirker dagliglivet?,8a Are there any other current problems relating to the injury which affect daily life?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0089],ELEMENT,CComplexObject,at0089,8b Var de tilsvarende problemene tilstede også før skaden?,8b Were similar problems present before the injury?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0089]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Kategori,Category
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Respondent,Respondent
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0092],ELEMENT,CComplexObject,at0092,Siden skaden, har personen med hodeskade hatt noen epileptiske anfall?,Since the injury has the head injured person had any epileptic fits?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0092]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0092]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0093],ELEMENT,CComplexObject,at0093,Har han/hun blitt fortalt at han/hun for tiden har risiko for å utvikle epilepsi?,Have they been told that they are currently at risk of developing epilepsy?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0093]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0093]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0094],ELEMENT,CComplexObject,at0094,Hva er den viktigste utfallsfaktoren?,What is the most important factor in outcome?
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0094]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0094]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.glasgow_outcome_scale_extended.v1,/protocol[at0095],ITEM_TREE,CComplexObject,at0095,*Item tree (en),Item tree

@@ -1,0 +1,30 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.item_transport.v1,/,CLUSTER,CComplexObject,at0000,*Transportation of an item (en),Transport av et objekt,Transportation of an item
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Transportstatus,Transportstatus,Transport status
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Identifikator des Transporter,Transportør Id,Transporter identifier
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0004],ELEMENT,CComplexObject,at0004,*Pick up date/time (en),Transport start,Pick up date/time
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0007],ELEMENT,CComplexObject,at0007,*Delivery date/time (en),Transport slutt,Delivery date/time
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0007]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0008],ELEMENT,CComplexObject,at0008,*Pickup site (en),Hentested,Pickup site
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0009],ELEMENT,CComplexObject,at0009,Eingangsort,Leveringssted,Delivery site
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Transportbeschreibung,Transportbeskrivelse,Transport description
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0017],CLUSTER,ArchetypeSlot,at0017,Angaben zum Transporter,Transportør detaljer,Transporter details
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0022],CLUSTER,ArchetypeSlot,at0022,*Delivery details (en),Leveringsdetaljer,Delivery details
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0023],CLUSTER,ArchetypeSlot,at0023,*Pickup details (en),Hentedetaljer,Pickup details
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0024],CLUSTER,ArchetypeSlot,at0024,Zusätzliche Details,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0025],CLUSTER,CComplexObject,at0025,Transportschritt,Transportsekvens,Transportation step
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0025]/items[at0015],ELEMENT,CComplexObject,at0015,Transportschrittfolge,Transportetappe,Transport sequence
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0025]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0025]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Angabe zum Transportschritt,Transportetappe detaljer,Transport step detail
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0027],ELEMENT,CComplexObject,at0027,Transportanweisung,Transportinstruksjon,Transport instruction
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0028],ELEMENT,CComplexObject,at0028,*Item transported (en),Objekt transportert,Item transported
+openEHR-EHR-CLUSTER.item_transport.v1,/items[at0028]/value,DV_TEXT,CComplexObject

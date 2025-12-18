@@ -1,0 +1,54 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_ar-sy,name_en
+openEHR-EHR-CLUSTER.specimen.v1,/,CLUSTER,CComplexObject,at0000,Probe,Provmaterial,Prøvemateriale,Espécime,العينة,Specimen
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Laborprobenidentifikator,Laboritoriets providentifierare,Laboratoriets identifikator,Identificador laboratorial do espécime,*Laboratory Specimen Identifier(en),Laboratory specimen identifier
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Identifikator der übergeordneten Probe,Ursprungsprovets identifierare,Identifikator av overordnet prøve,Identificador de origem do espécime,*Parent Specimen Identifier(en),Parent specimen identifier
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Gefahrenhinweis,Riskvarning,Risikovarsel,*Hazard warning (en),*Hazard warning (en),Hazard warning
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Probenentnahmemethode,Provtagningsmetod,Prøvetakingsmetode,Método de coleta,*Collection Method(en),Collection method
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Probenentahmebedingung,Provtagningskontext,Prøvetakingsforhold,*Sampling context (en),*Sampling context (en),Sampling context
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0013],CLUSTER,ArchetypeSlot,at0013,Probenentnahmestelle strukturiert,Strukturerad anatomisk lokalisation,Strukturert anatomisk lokalisering,*Structured source site (en),*Structured source site (en),Structured source site
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0015],ELEMENT,CComplexObject,at0015,Zeitpunkt der Probenentnahme,Datum/tid för provtagning,Dato/tid for prøvetaking,*Collection date/time (en),*Collection date/time (en),Collection date/time
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0015]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0027],CLUSTER,ArchetypeSlot,at0027,Physikalische Eigenschaften,Fysiska egenskaper,Fysiske egenskaper,Propriedades físicas,*Physical properties(en),Physical properties
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0029],ELEMENT,CComplexObject,at0029,Probenart,Provtyp,Type prøvemateriale,Tipo de espécime,*Specimen Type(en),Specimen type
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0034],ELEMENT,CComplexObject,at0034,Zeitpunkt des Probeneingangs,Datum/tid ankomst till labb,Dato/tid for mottak,*Date/time received (en),*Date/time received (en),Date/time received
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0034]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0041],ELEMENT,CComplexObject,at0041,Eignung zur Analyse,Analysbarhet,Analyserbarhet,Adequação para teste,المناسبة لإتمام التحليل,Adequacy for testing
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0041]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0041]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0042],ELEMENT,CComplexObject,at0042,Qualitätsmangel der Probe,Provkvalitetsproblem,Kvalitetsproblem,*Specimen quality issue (en),*Specimen quality issue (en),Specimen quality issue
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0042]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0042]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0045],ELEMENT,CComplexObject,at0045,Kommentar,Kommentar,Kommentar,Comentário,تعليق,Comment
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0045]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0067],ELEMENT,CComplexObject,at0067,Umgebung der Probenentnahme,Provtagningsmiljö,Prøvetakingsomgivelser,Contexto da coleta,*Collection Setting(en),Collection setting
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0067]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0068],CLUSTER,ArchetypeSlot,at0068,Angaben zur Verarbeitung,Information om bearbetning,Prosesseringsdetaljer,Detalhes do processamento,*Additional Preparation(en),Processing details
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0070],ELEMENT,CComplexObject,at0070,Identifikator des Probenehmers,Provtagaridentifierare,Prøvetakers ID,Identificador do coletor do espécime,*Specimen Collector Identifier(en),Specimen collector identifier
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0071],CLUSTER,ArchetypeSlot,at0071,Angaben zum Probenehmer,Detaljer om provtagaren,Detaljer om prøvetaker,Detalhes do coletor do espécime,*Specimen Collector Details(en),Specimen collector details
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0079],ELEMENT,CComplexObject,at0079,Beschreibung der Entnahme,Beskrivning av provtagning,Beskrivelse av prøvetaking,*Collection description (en),*Collection description (en),Collection description
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0079]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0080],ELEMENT,CComplexObject,at0080,Anzahl der Behälter,Antal behållare,Antall beholdere,Número de recipientes,*Number of Containers(en),Number of containers
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0080]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0080]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0083],CLUSTER,ArchetypeSlot,at0083,Zusätzliche Angaben,Ytterligare detaljer,Ytterligere detaljer,*Additional details (en),*Additional details (en),Additional details
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0085],CLUSTER,ArchetypeSlot,at0085,Behälter Details,Detaljer om provbehållare,Detaljer om beholder,Detalhes do recipiente,*Container Details(en),Container details
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0087],ELEMENT,CComplexObject,at0087,Probenentnahmestelle,Provkälla,Opprinnelsessted,*Source site (en),*Source site (en),Source site
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0087]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0088],ELEMENT,CComplexObject,at0088,Externer Identifikator,Extern identifierare,Ekstern identifikator,*External identifier (en),*External identifier (en),External identifier
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0088]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0093],CLUSTER,ArchetypeSlot,at0093,Angaben zum Transport,Transportdetaljer,Transportdetaljer,*Transport details (en),*Transport details (en),Transport details
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0096],CLUSTER,ArchetypeSlot,at0096,Digitale Darstellung,Digital representation,Digital representasjon,*Digital representation (en),*Digital representation (en),Digital representation
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0097],ELEMENT,CComplexObject,at0097,Beschreibung der Probe,Provbeskrivning,Prøvemateriale beskrivelse,*Specimen description (en),*Specimen description (en),Specimen description
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0097]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0098],ELEMENT,CComplexObject,at0098,Probenbezeichnung,Provets benämning,Prøvemateriale navn,*Specimen label (en),*Specimen label (en),Specimen label
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0098]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0099],ELEMENT,CComplexObject,at0099,Anzahl der Fragmente,Antal fragment,Antall fragmenter,*Number of fragments (en),*Number of fragments (en),Number of fragments
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0099]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.specimen.v1,/items[at0100],CLUSTER,ArchetypeSlot,at0100,Angaben zur Lagerung,Lagringsdetaljer,Lagringsdetaljer,*Storage details (en),*Storage details (en),Storage details

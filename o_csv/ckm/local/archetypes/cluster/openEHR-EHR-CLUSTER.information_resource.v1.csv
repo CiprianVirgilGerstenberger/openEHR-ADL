@@ -1,0 +1,20 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.information_resource.v1,/,CLUSTER,CComplexObject,at0000,*Information resource (en),Informasjonsressurs,*Information resource (en),Information resource
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0001],ELEMENT,CComplexObject,at0001,*Content (en),Innhold,*Content (en),Content
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0001]/value,DV_URI,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0002],ELEMENT,CComplexObject,at0002,*Resource name (en),Navn på ressursen,*Resource name (en),Resource name
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Beschreibung,Beskrivelse,Descrição,Description
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0007],ELEMENT,CComplexObject,at0007,*Comment (en),Kommentar,*Comment (en),Comment
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0010],ELEMENT,CComplexObject,at0010,*Identifier (en),Identifikator,*Identifier (en),Identifier
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0012],CLUSTER,ArchetypeSlot,at0012,*Author (en),Forfatter,*Author (en),Author
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0013],CLUSTER,ArchetypeSlot,at0013,*Additional details (en),Ytterligere detaljer,*Additional details (en),Additional details
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0014],ELEMENT,CComplexObject,at0014,*Published (en),Publisert,*Published (en),Published
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0014]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0015],ELEMENT,CComplexObject,at0015,*Version (en),Versjon,*Version (en),Version
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0016],ELEMENT,CComplexObject,at0016,*Type of media (en),Type informasjonsressurs,*Type of media (en),Type of media
+openEHR-EHR-CLUSTER.information_resource.v1,/items[at0016]/value,DV_TEXT,CComplexObject

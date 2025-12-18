@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/,CLUSTER,CComplexObject,at0000,Modifiserte NIH-kriterier for risikovurdering av GIST,Modified NIH Criteria for GIST risk assessment
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Risikokategori,Risk category
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0025],ELEMENT,CComplexObject,at0025,Diameter,Diameter
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0025]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0027],ELEMENT,CComplexObject,at0027,Lokasjon,Location
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0027]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0027]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0028],ELEMENT,CComplexObject,at0028,Tumorruptur,Tumour rupture
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0028]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0033],ELEMENT,CComplexObject,at0033,Mitosetall,Mitotic count
+openEHR-EHR-CLUSTER.gist_modified_nih.v1,/items[at0033]/value,DV_QUANTITY,CDvQuantity

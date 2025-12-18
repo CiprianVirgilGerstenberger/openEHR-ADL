@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.stratify_no.v1,/,OBSERVATION,CComplexObject,at0000,STRATIFY,STRATIFY Falls Risk Assessment Tool
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse,Any event
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Fall de siste tre måneder,Falls during the last three months
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Urolig atferd,Agitation
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Synshemminger,Visual impairments
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Hyppige toalettbesøk,Frequent toileting
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Poeng totalt,Total score
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,CComplexObject,at0022,Forflytning + rørlighet/gangfunksjon,Transfer + Mobility
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0023],ELEMENT,CComplexObject,at0023,Forflytning fra seng til stol,Transfer
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0024],ELEMENT,CComplexObject,at0024,Rørlighet/gangfunksjon,Mobility
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025],ELEMENT,CComplexObject,at0025,Svarpoeng,Points
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.stratify_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.stratify_no.v1,/protocol[at0035],ITEM_TREE,CComplexObject,at0035,*Item tree (en),Item tree
+openEHR-EHR-OBSERVATION.stratify_no.v1,/protocol[at0035]/items[at0036],CLUSTER,ArchetypeSlot,at0036,Tilleggsinformasjon,Extension

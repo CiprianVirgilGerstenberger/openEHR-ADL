@@ -1,0 +1,42 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.adl_summary.v0,/,EVALUATION,CComplexObject,at0000,Aktiviteter i dagliglivet (ADL)-sammendrag,Activities of daily living (ADL) summary
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023],CLUSTER,CComplexObject,at0023,Spesifikk aktivitet,Specific activity
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0004],ELEMENT,CComplexObject,at0004,Aktivitetsnavn,Activity name
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0005],ELEMENT,CComplexObject,at0005,Klinisk beskrivelse,Clinical description
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0006],ELEMENT,CComplexObject,at0006,Evne,Capability
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0006]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0011],ELEMENT,CComplexObject,at0011,Beskrivelse av assistansebehov,Support description
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0012],ELEMENT,CComplexObject,at0012,Beskrivelse av hjelpemiddelbehov,Assistive device description
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Hjelpemiddeldetaljer,Assistive device details
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0014],CLUSTER,ArchetypeSlot,at0014,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0015],ELEMENT,CComplexObject,at0015,Kommentar,Comment
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0018],ELEMENT,CComplexObject,at0018,Begrensning,Limitation
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0020],ELEMENT,CComplexObject,at0020,Aktivitetskategori,Activity category
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0034],ELEMENT,CComplexObject,at0034,Assistansebehov,Support requirement
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0035],ELEMENT,CComplexObject,at0035,Hjelpemiddelbehov,Assistive device requirement
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0036],ELEMENT,CComplexObject,at0036,Vurderingsdato,Date assessed
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0023]/items[at0036]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Overordnet ADL-status,Overall ADL status
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0024]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,Overordnet beskrivelse,Overall description
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,Overordnet kommentar,Overall comment
+openEHR-EHR-EVALUATION.adl_summary.v0,/data[at0003]/items[at0031]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.adl_summary.v0,/protocol[at0016],ITEM_TREE,CComplexObject,at0016,Item tree,Item tree
+openEHR-EHR-EVALUATION.adl_summary.v0,/protocol[at0016]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.adl_summary.v0,/protocol[at0016]/items[at0032],ELEMENT,CComplexObject,at0032,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.adl_summary.v0,/protocol[at0016]/items[at0032]/value,DV_DATE_TIME,CComplexObject

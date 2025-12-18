@@ -1,0 +1,32 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_es-ar,name_en
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/,OBSERVATION,CComplexObject,at0000,Vätskebalans,Væskebalanse,Balance de fluidos,Fluid balance
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002],INTERVAL_EVENT,CComplexObject,at0002,Ospecificerad intervallhändelse,Uspesifisert hendelse,Cualquier evento de intervalo,Any interval event
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Vätskeförlust,Perspiratio,Pérdida insensible,Insensible loss
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Totalt vätskeintag,Totalt væskeinntak,Ingreso total,Total input
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Total vätskeutsöndring,Totalt væsketap,Egreso total,Total output
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Vätskebalans,Væskebalanse,Balance de fluidos,Fluid balance
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008],INTERVAL_EVENT,CComplexObject,at0008,24 timmar totalt,Væskebalanse døgn,Total de 24 horas,24 hour total
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Vätskeförlust,Perspiratio,Pérdida insensible,Insensible loss
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Totalt vätskeintag,Totalt væskeinntak,Ingreso total,Total input
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0005]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Total vätskeutsöndring,Totalt væsketap,Egreso total,Total output
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0006]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Vätskebalans,Væskebalanse,Balance de fluidos,Fluid balance
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/data[at0003]/items[at0007]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/math_function,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/math_function/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/width,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/data[at0001]/events[at0008]/width/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Tree,*Tree(en),Tree,Tree
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/protocol[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Formel för vätskeförlust,Formel for perspiratio,Fórmula de pérdida insensible,Insensible loss formula
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/protocol[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_balance.v1,/protocol[at0009]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Övriga upplysningar,Tilleggsinformasjon,Extensión,Extension

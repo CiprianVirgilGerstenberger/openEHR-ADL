@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_es-ar,name_pt-br,name_en
+openEHR-EHR-OBSERVATION.braden_scale.v1,/,OBSERVATION,CComplexObject,at0000,Braden-skala,Escala de Braden,Escala de Braden,Braden Scale
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event,Qualquer evento,Any event
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Evnen til å oppfatte og reagere på stimuli,Percepción sensorial,Percepção sensorial,Sensory perception
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Fuktighet,Humedad,Umidade,Moisture
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Aktivitet,Actividad,Atividade,Activity
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Mobilitet,Movilidad,Mobilidade,Mobility
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Ernæring,Nutrición,Nutrição,Nutrition
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,Friksjon og skyveeffekt,Fricción y deslizamiento,Atrito e cisalhamento,Friction and shear
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,Braden totalskår,Puntaje total,Score total,Total score
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Kommentar,Comentario,Comentários,Comment
+openEHR-EHR-OBSERVATION.braden_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject

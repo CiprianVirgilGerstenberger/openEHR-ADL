@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/,CLUSTER,CComplexObject,at0000,Legemiddel ytterligere detaljer NO
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Handelsvareproduktgruppe
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Antall strimler for blodsukkermåling pr. dag
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0006]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0006]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Forskrive teststrimler for blodsukkermåling
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0007]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0007]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0008],ELEMENT,CComplexObject,at0008,Produkttype
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0008]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_additional_details_no.v0,/items[at0008]/value/defining_code,CODE_PHRASE,CCodePhrase

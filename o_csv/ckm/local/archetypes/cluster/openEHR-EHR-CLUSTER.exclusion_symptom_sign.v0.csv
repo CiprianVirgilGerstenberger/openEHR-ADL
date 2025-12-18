@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.exclusion_symptom_sign.v0,/,CLUSTER,CComplexObject,at0000,Eksklusjon av et symptom,Exclusion of a Symptom
+openEHR-EHR-CLUSTER.exclusion_symptom_sign.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Eksklusjons utsagn,Exclusion Statement
+openEHR-EHR-CLUSTER.exclusion_symptom_sign.v0,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exclusion_symptom_sign.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Ekskludert symptom,Excluded Symptom
+openEHR-EHR-CLUSTER.exclusion_symptom_sign.v0,/items[at0002]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exclusion_symptom_sign.v0,/items[at0002]/value/defining_code,CODE_PHRASE,CCodePhrase

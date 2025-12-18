@@ -1,0 +1,30 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_nl
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/,OBSERVATION,CComplexObject,at0000,Fragebogen zum Substanzkonsum-Screening,Kartleggingsspørsmål om bruk av substanser,Substance use screening questionnaire,*Substance use screening questionnaire (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022],HISTORY,CComplexObject,at0022,Event Series,*HISTORY (en),Event Series,Event Series
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023],EVENT,CComplexObject,at0023,Beliebiges Ereignis,Uspesifisert hendelse,Any event,Willekeurig event
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026],CLUSTER,CComplexObject,at0026,Spezifische Substanz,Spesifikk substans,Specific substance,*Specific substance (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002],ELEMENT,CComplexObject,at0002,Zeitangaben,Tidsangivelse,Timing,*Timing (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003],ELEMENT,CComplexObject,at0003,Zuletzt verwendet,Sist brukt,Last used,*Last used (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0021],ELEMENT,CComplexObject,at0021,Name der Substanz,Substansnavn,Substance name,Medicatie naam
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024],ELEMENT,CComplexObject,at0024,Konsumiert?,Brukt?,Used?,*Used? (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentar,Kommentar,Comment,Commentaar
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0041],CLUSTER,ArchetypeSlot,at0041,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0040],ELEMENT,CComplexObject,at0040,Zweck des Screenings,Kartleggingsformål,Screening purpose,Doel van screening
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0042],ELEMENT,CComplexObject,at0042,Beschreibung,Beskrivelse,Description,*Description (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0042]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0043],CLUSTER,ArchetypeSlot,at0043,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0052],ELEMENT,CComplexObject,at0052,Haben Sie Drogen konsumiert?,Bruk av noen substanser?,Any substance use?,*Any substance use? (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0052]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0052]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0056],ELEMENT,CComplexObject,at0056,Allgemeine Bemerkungen,Overordnet kommentar,Overall comment,*Overall comment (en)
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0056]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.substance_use_screening.v1,/protocol[at0005]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Erweiterung,Ytterligere informasjon,Extension,Uitbreiding

@@ -1,0 +1,17 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_pt-br,name_en
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/,OBSERVATION,CComplexObject,at0000,Midjeomkrets,*Waist circumference(en),Waist circumference
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010],EVENT,CComplexObject,at0010,Uspesifisert hendelse,*Any event(en),Any event
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Midjeomkrets,*Waist circumference(en),Waist circumference
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,*Comment(en),Comment
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/data[at0003]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/state[at0008],ITEM_TREE,CComplexObject,at0008,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/state[at0008]/items[at0009],ELEMENT,CComplexObject,at0009,Konfunderende faktorer,*Confounding factors(en),Confounding factors
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/data[at0001]/events[at0010]/state[at0008]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/protocol[at0005]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Måleutstyr,*Device(en),Device
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/protocol[at0005]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Tilleggsinformasjon,Extensão,Extension
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/protocol[at0005]/items[at0013],ELEMENT,CComplexObject,at0013,Metode,*Method(en),Method
+openEHR-EHR-OBSERVATION.waist_circumference.v1,/protocol[at0005]/items[at0013]/value,DV_TEXT,CComplexObject

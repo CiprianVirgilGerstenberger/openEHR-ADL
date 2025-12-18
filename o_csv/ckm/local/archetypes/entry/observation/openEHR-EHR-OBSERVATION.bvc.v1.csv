@@ -1,0 +1,88 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.bvc.v1,/,OBSERVATION,CComplexObject,at0000,Brøset Violence Checklist (BVC),Brøset Violence Checklist (BVC)
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Dagvakt,Day shift
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Forvirret,Confused
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Irritabel,Irritable
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Brautende atferd,Boisterous
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Verbale trusler,Verbal threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Fysiske trusler,Physical threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Slag, spark mv mot gjenstander,Attacking objects
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Total skår,Total score
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088],POINT_EVENT,CComplexObject,at0088,Kveldsvakt,Evening shift
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Forvirret,Confused
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Irritabel,Irritable
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Brautende atferd,Boisterous
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Verbale trusler,Verbal threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Fysiske trusler,Physical threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Slag, spark mv mot gjenstander,Attacking objects
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Total skår,Total score
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0030]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0088]/data[at0003]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113],POINT_EVENT,CComplexObject,at0113,Nattevakt,Night shift
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Forvirret,Confused
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Irritabel,Irritable
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Brautende atferd,Boisterous
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Verbale trusler,Verbal threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Fysiske trusler,Physical threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Slag, spark mv mot gjenstander,Attacking objects
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Total skår,Total score
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0030]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0113]/data[at0003]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138],EVENT,CComplexObject,at0138,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Forvirret,Confused
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Irritabel,Irritable
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Brautende atferd,Boisterous
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Verbale trusler,Verbal threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Fysiske trusler,Physical threats
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Slag, spark mv mot gjenstander,Attacking objects
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Total skår,Total score
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0030]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.bvc.v1,/data[at0001]/events[at0138]/data[at0003]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.bvc.v1,/protocol[at0016],ITEM_TREE,CComplexObject,at0016,Item tree,Item tree
+openEHR-EHR-OBSERVATION.bvc.v1,/protocol[at0016]/items[at0163],CLUSTER,ArchetypeSlot,at0163,Tilleggsinformasjon,Extension

@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/,OBSERVATION,CComplexObject,at0000,Kroppssegment - sideforskjell,Body segment discrepancy
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Navn på kroppssegmentmåling,Body segment measurement
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Sideforskjell,Discrepancy
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Kommentar,Comment
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046],ELEMENT,CComplexObject,at0046,Lengste side,Longest side
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014],ITEM_TREE,CComplexObject,at0014,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0015],CLUSTER,ArchetypeSlot,at0015,Måleinstrument,Measuring device
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Tilleggsinformasjon,Extension
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0027],ELEMENT,CComplexObject,at0027,Målemetode,Measurement method
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0029],ELEMENT,CComplexObject,at0029,Startmålepunkt,Measurement origin
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Strukturert startmålepunkt,Structured origin
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0033],ELEMENT,CComplexObject,at0033,Sluttmålepunkt,Measurement endpoint
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_discrepancy.v1,/protocol[at0014]/items[at0035],CLUSTER,ArchetypeSlot,at0035,Strukturert sluttpunkt,Structured endpoint

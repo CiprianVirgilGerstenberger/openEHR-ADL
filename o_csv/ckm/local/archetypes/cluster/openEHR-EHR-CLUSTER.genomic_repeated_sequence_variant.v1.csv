@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/,CLUSTER,CComplexObject,at0000,Genomic repeated sequence variant,Genetisk variant- repetert sekvens,Genomic repeated sequence variant
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Start position,Startposisjon,Start position
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0001]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0003],ELEMENT,CComplexObject,at0003,End position,Sluttposisjonen,End position
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0003]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0008],CLUSTER,ArchetypeSlot,at0008,Reference sequence,Referansesekvens,Reference sequence
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009],CLUSTER,CComplexObject,at0009,Repeat unit,Repeterende sekvensenhet,Repeat unit
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0005],ELEMENT,CComplexObject,at0005,Repeated sequence,Repetert sekvens,Repeated sequence
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0007],ELEMENT,CComplexObject,at0007,Copy number,Kopitall,Copy number
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0007]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0007]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Repeat order,Repeteringsrekkefølgen,Repeat order
+openEHR-EHR-CLUSTER.genomic_repeated_sequence_variant.v1,/items[at0009]/items[at0010]/value,DV_COUNT,CComplexObject

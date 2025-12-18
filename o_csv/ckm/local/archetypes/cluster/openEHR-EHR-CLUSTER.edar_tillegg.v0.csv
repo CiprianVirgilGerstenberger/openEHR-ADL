@@ -1,0 +1,48 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/,CLUSTER,CComplexObject,at0000,eDår tillegg
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027],CLUSTER,CComplexObject,at0027,Tilleggsopplysninger om skade
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0001],ELEMENT,CComplexObject,at0001,Aktivitet ved dødsfall
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0047],ELEMENT,CComplexObject,at0047,Skade/forgiftning
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0047]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0050],ELEMENT,CComplexObject,at0050,Skadetidspunkt
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0050]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0051],ELEMENT,CComplexObject,at0051,Omstendighet
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0051]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0052],ELEMENT,CComplexObject,at0052,Sted for skade
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0027]/items[at0052]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029],CLUSTER,CComplexObject,at0029,Operasjon
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029]/items[at0037],ELEMENT,CComplexObject,at0037,Gjennomgått operasjon
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029]/items[at0037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029]/items[at0038],ELEMENT,CComplexObject,at0038,Operasjonsdato
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029]/items[at0038]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029]/items[at0039],ELEMENT,CComplexObject,at0039,Årsak til operasjon og funn
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0029]/items[at0039]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0030],CLUSTER,CComplexObject,at0030,Sted
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0030]/items[at0040],ELEMENT,CComplexObject,at0040,Dødskommune
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0030]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0030]/items[at0041],ELEMENT,CComplexObject,at0041,Dødssted
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0030]/items[at0041]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031],CLUSTER,CComplexObject,at0031,Klassifisering av dødsfall
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031]/items[at0007],ELEMENT,CComplexObject,at0007,Obduksjon
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031]/items[at0015],ELEMENT,CComplexObject,at0015,Revurdere dødsårsak
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031]/items[at0019],ELEMENT,CComplexObject,at0019,Klassifisering av dødsfall
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0031]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0032],CLUSTER,CComplexObject,at0032,Diverse
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0032]/items[at0064],ELEMENT,CComplexObject,at0064,Kjønn
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0032]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0032]/items[at0069],ELEMENT,CComplexObject,at0069,Meldingstype
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0032]/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0033],ELEMENT,CComplexObject,at0033,Meldeplikt ved unaturlig dødsfall
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073],CLUSTER,CComplexObject,at0073,Kontaktinformasjon
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0072],ELEMENT,CComplexObject,at0072,Virksomhet
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0072]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0074],ELEMENT,CComplexObject,at0074,Avdeling
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0074]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0075],ELEMENT,CComplexObject,at0075,Telefonnummer
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0075]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0076],ELEMENT,CComplexObject,at0076,E-post
+openEHR-EHR-CLUSTER.edar_tillegg.v0,/items[at0073]/items[at0076]/value,DV_TEXT,CComplexObject

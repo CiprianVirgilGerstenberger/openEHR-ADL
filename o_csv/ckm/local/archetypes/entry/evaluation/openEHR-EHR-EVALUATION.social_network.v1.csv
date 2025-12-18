@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en,name_fr
+openEHR-EHR-EVALUATION.social_network.v1,/,EVALUATION,CComplexObject,at0000,Sosialt nettverk,Social network,*Social network (en)
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Sivilstand,Partnership status,*Partnership status (en)
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Beskrivelse,Description,*Description (en)
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Nettverk,Network,*Network (en)
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0018],ELEMENT,CComplexObject,at0018,Kommentar,Comment,*Comment (en)
+openEHR-EHR-EVALUATION.social_network.v1,/data[at0001]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.social_network.v1,/protocol[at0010],ITEM_TREE,CComplexObject,at0010,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.social_network.v1,/protocol[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Sist oppdatert,Last updated,Dernière mise à jour
+openEHR-EHR-EVALUATION.social_network.v1,/protocol[at0010]/items[at0011]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.social_network.v1,/protocol[at0010]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Tilleggsinformasjon,Extension,Extension

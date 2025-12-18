@@ -1,0 +1,21 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.communication_capability.v1,/,EVALUATION,CComplexObject,at0000,Evne til kommunikasjon,Communication capability
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,ItemTree,ItemTree
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Beskrivelse,Description
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Overordnet kommentar,Overall comment
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015],CLUSTER,CComplexObject,at0015,Per språk,Per language
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015]/items[at0003],CLUSTER,ArchetypeSlot,at0003,Språk,Language
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015]/items[at0018],CLUSTER,ArchetypeSlot,at0018,Detaljer om evne,Capability details
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015]/items[at0021],ELEMENT,CComplexObject,at0021,Kommentar,Comment
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0015]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0022],ELEMENT,CComplexObject,at0022,Kommunikasjonshjelpemidler,Communication aid
+openEHR-EHR-EVALUATION.communication_capability.v1,/data[at0001]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.communication_capability.v1,/protocol[at0011],ITEM_TREE,CComplexObject,at0011,ItemTree,ItemTree
+openEHR-EHR-EVALUATION.communication_capability.v1,/protocol[at0011]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.communication_capability.v1,/protocol[at0011]/items[at0013],ELEMENT,CComplexObject,at0013,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.communication_capability.v1,/protocol[at0011]/items[at0013]/value,DV_DATE_TIME,CComplexObject

@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/,CLUSTER,CComplexObject,at0000,Genomic deletion variant,Genetisk variant - delesjon,Genomic deletion variant
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Start position,Startposisjon,Start position
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0001]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0005],ELEMENT,CComplexObject,at0005,End position,Sluttposisjon,End position
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0005]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Deleted sequence,Deletert sekvens,Deleted sequence
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_deletion_variant.v1,/items[at0009],CLUSTER,ArchetypeSlot,at0009,Reference sequence,Referansesekvens,Reference sequence

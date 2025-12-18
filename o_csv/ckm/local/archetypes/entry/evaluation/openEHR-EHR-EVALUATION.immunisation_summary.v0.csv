@@ -1,0 +1,30 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/,EVALUATION,CComplexObject,at0000,Vaksinasjonssammendrag,Immunisation Summary
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016],CLUSTER,CComplexObject,at0016,Spesifikk vaksine,Specific Vaccine
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0002],ELEMENT,CComplexObject,at0002,Infeksjonssykdom eller agens,Infectious Disease or Agent
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0003],ELEMENT,CComplexObject,at0003,Status på primærvaksinasjon,Primary Course Status
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0008],ELEMENT,CComplexObject,at0008,Dato primærvaksinasjonen ble fullført,Date Primary Course Completed
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0008]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0009],ELEMENT,CComplexObject,at0009,Dato for siste påfyllingsvaksine,Date of Last Booster
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0009]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0010],ELEMENT,CComplexObject,at0010,Vaksinasjonsstatus,Vaccination Status
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0010]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0020],ELEMENT,CComplexObject,at0020,Neste dose,Next Due
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0020]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0024],ELEMENT,CComplexObject,at0024,Kommentar,Comment
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0016]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Samlet vaksinasjonsstatus,Overall Vaccination Status
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Beskrivelse,Description
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/data[at0001]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/protocol[at0013],ITEM_TREE,CComplexObject,at0013,Tree,Tree
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/protocol[at0013]/items[at0014],ELEMENT,CComplexObject,at0014,Tidspunkt neste gjennomgang,Next Review Due
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/protocol[at0013]/items[at0014]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/protocol[at0013]/items[at0015],ELEMENT,CComplexObject,at0015,Sist oppdatert,Last Updated
+openEHR-EHR-EVALUATION.immunisation_summary.v0,/protocol[at0013]/items[at0015]/value,DV_DATE_TIME,CComplexObject

@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_ar-sy,name_sl,name_en
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/,CLUSTER,CComplexObject,at0000,Cirkulär anatomisk lokalisation,Sirkulær anatomisk lokalisering,*Circular anatomical location(en),*Circular anatomical location(en),Circular anatomical location
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Beskrivning,Beskrivelse,*Description(en),*Description(en),Description
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0054],CLUSTER,ArchetypeSlot,at0054,Digital representation,Multimediarepresentasjon,*Cluster(en),*Cluster(en),Multimedia representation
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0061],ELEMENT,CComplexObject,at0061,Cirkulär riktning,Sirkulær retning,*Circular direction(en),*Circular direction(en),Circular direction
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0061]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0061]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0061]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0065],ELEMENT,CComplexObject,at0065,Referensriktning,Referanseretning,*Reference direction(en),*Reference direction(en),Reference direction
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0065]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0079],ELEMENT,CComplexObject,at0079,Mittpunkt,Midtpunkt,*Centre landmark(en),*Centre landmark(en),Centre landmark
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0079]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0080],ELEMENT,CComplexObject,at0080,Avstånd från mittpunkten,Avstand fra midtpunktet,*Distance from landmark (en),*Distance from landmark (en),Distance from landmark
+openEHR-EHR-CLUSTER.anatomical_location_circle.v1,/items[at0080]/value,DV_QUANTITY,CDvQuantity

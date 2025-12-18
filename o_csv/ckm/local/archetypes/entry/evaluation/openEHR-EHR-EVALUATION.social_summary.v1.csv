@@ -1,0 +1,10 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en,name_it
+openEHR-EHR-EVALUATION.social_summary.v1,/,EVALUATION,CComplexObject,at0000,Sosialanamnese,Social summary,Riepilogo sociale
+openEHR-EHR-EVALUATION.social_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.social_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Sammendrag,Summary,Riepilogo
+openEHR-EHR-EVALUATION.social_summary.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.social_summary.v1,/data[at0001]/items[at0003],CLUSTER,ArchetypeSlot,at0003,Detaljer,Details,Dettagli
+openEHR-EHR-EVALUATION.social_summary.v1,/protocol[at0004],ITEM_TREE,CComplexObject,at0004,*Tree(en),Tree,Tree
+openEHR-EHR-EVALUATION.social_summary.v1,/protocol[at0004]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Utvidelse,Extension,Estensione
+openEHR-EHR-EVALUATION.social_summary.v1,/protocol[at0004]/items[at0006],ELEMENT,CComplexObject,at0006,Sist oppdatert,Last updated,Ultima modifica
+openEHR-EHR-EVALUATION.social_summary.v1,/protocol[at0004]/items[at0006]/value,DV_DATE_TIME,CComplexObject

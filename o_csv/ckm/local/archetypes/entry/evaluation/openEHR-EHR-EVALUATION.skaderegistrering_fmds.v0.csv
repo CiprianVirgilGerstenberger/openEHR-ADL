@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/,EVALUATION,CComplexObject,at0000,Skaderegistrering
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Data
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Når
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0002]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Kontaktårsak skade
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Skademekanisme
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0026],ELEMENT,CComplexObject,at0026,Aktivitet ved skade
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0026]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0036],ELEMENT,CComplexObject,at0036,Arbeidsgivers bransje
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0072],ELEMENT,CComplexObject,at0072,Skadested
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0072]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0072]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0086],ELEMENT,CComplexObject,at0086,Fremkomstmiddel (vei)
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0086]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0086]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0102],ELEMENT,CComplexObject,at0102,Skadekommune
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0102]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0105],CLUSTER,ArchetypeSlot,at0105,Lokale registreringer
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0106],CLUSTER,ArchetypeSlot,at0106,Alvorlighet ved skade 
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0124],ELEMENT,CComplexObject,at0124,Framkomstmiddel (utmark)
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0124]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-EVALUATION.skaderegistrering_fmds.v0,/data[at0001]/items[at0136],CLUSTER,ArchetypeSlot,at0136,Detaljert om skadested

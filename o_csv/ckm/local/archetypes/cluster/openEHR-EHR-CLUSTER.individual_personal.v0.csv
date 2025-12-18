@@ -1,0 +1,16 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_en
+openEHR-EHR-CLUSTER.individual_personal.v0,/,CLUSTER,CComplexObject,at0000,Persönliche Daten,Individual's personal demographics
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Geburtsdatum,Date of Birth
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0007]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0008],ELEMENT,CComplexObject,at0008,Art der Beziehung,Relationship to subject
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0013],CLUSTER,ArchetypeSlot,at0013,Name,Name
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0014],CLUSTER,ArchetypeSlot,at0014,Adressangaben,Address details
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0015],CLUSTER,ArchetypeSlot,at0015,Kontaktdetails,Telecom details
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0016],ELEMENT,CComplexObject,at0016,*New element(en),Identifier
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0017],ELEMENT,CComplexObject,at0017,*New element(en),Sex
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0018],CLUSTER,ArchetypeSlot,at0018,*Cluster(en),Ethnicity/Indigenous status 
+openEHR-EHR-CLUSTER.individual_personal.v0,/items[at0019],CLUSTER,ArchetypeSlot,at0019,*Cluster(en),Entitlements

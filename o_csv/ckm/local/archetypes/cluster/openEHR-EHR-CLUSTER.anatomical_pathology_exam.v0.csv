@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/,CLUSTER,CComplexObject,at0000,Patologiundersøkelse,Anatomical pathology examination
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005],CLUSTER,CComplexObject,at0005,Patologifunn,Anatomical pathology finding
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,Vev tilgjengelig,Tissue available
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0006]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0008],ELEMENT,CComplexObject,at0008,Funnbeskrivelse,Finding description
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Strukturerte funn,Structured findings
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0010],ELEMENT,CComplexObject,at0010,Tolkning,Pathology interpretation
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0017],ELEMENT,CComplexObject,at0017,Prøvebeholder-ID,Specimen container ID
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Multimedia representation
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0023],ELEMENT,CComplexObject,at0023,Funnavn,Finding label
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0005]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0011],ELEMENT,CComplexObject,at0011,Undersøkelsesbeskrivelse,Examination description
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0018],ELEMENT,CComplexObject,at0018,Prøvebeholder-ID,Specimen container ID
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0019],ELEMENT,CComplexObject,at0019,Undersøkelsestype,Examination type
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.anatomical_pathology_exam.v0,/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase

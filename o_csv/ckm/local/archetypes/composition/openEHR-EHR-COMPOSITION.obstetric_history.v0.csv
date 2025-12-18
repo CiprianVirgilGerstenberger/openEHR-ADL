@@ -1,0 +1,6 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-COMPOSITION.obstetric_history.v0,/,COMPOSITION,CComplexObject,at0000,Obstetric history
+openEHR-EHR-COMPOSITION.obstetric_history.v0,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.obstetric_history.v0,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.obstetric_history.v0,/content[at0002],EVALUATION,ArchetypeSlot,at0002,Obstetric summary
+openEHR-EHR-COMPOSITION.obstetric_history.v0,/content[at0003],EVALUATION,ArchetypeSlot,at0003,Pregnancies

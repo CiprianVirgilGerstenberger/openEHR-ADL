@@ -1,0 +1,11 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/,CLUSTER,CComplexObject,at0000,Boston Bowel Preparation Skala,Boston Bowel Preparation Scale
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Høyre kolon,Right colon
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0001]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0012],ELEMENT,CComplexObject,at0012,Totalskår,Total score
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0012]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0012]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0013],ELEMENT,CComplexObject,at0013,Transversum,Transverse
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0018],ELEMENT,CComplexObject,at0018,Venstre kolon,Left colon
+openEHR-EHR-CLUSTER.boston_bowel_preparation_scale.v1,/items[at0018]/value,DV_ORDINAL,CDvOrdinal

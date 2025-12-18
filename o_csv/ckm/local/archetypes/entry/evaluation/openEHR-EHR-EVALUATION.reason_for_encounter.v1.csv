@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_pt-br,name_en,name_es
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,/,EVALUATION,CComplexObject,at0000,Grund für den Kontakt,Kontaktårsak,Motivo para o encontro,Reason for encounter,Motivo de consulta
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,*Tree(en),Tree,Tree
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Kontakt Typ,Administrativ kontaktårsak,Tipo de contato,Contact type,Tipo de contacto
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Hauptbeschwerde,Klinisk kontaktårsak,Problema apresentado,Presenting problem,Problema presentado
+openEHR-EHR-EVALUATION.reason_for_encounter.v1,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject

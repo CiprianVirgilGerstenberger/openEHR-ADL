@@ -1,0 +1,15 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.parents.v0,/,CLUSTER,CComplexObject,at0000,Foreldre,Parents
+openEHR-EHR-CLUSTER.parents.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Fødselsdato,Date of birth
+openEHR-EHR-CLUSTER.parents.v0,/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.parents.v0,/items[at0005],ELEMENT,CComplexObject,at0005,Navn,Name
+openEHR-EHR-CLUSTER.parents.v0,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.parents.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Død,Dead
+openEHR-EHR-CLUSTER.parents.v0,/items[at0006]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.parents.v0,/items[at0006]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.parents.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Foreldrerett,Custody
+openEHR-EHR-CLUSTER.parents.v0,/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.parents.v0,/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.parents.v0,/items[at0010],ELEMENT,CComplexObject,at0010,Rolle,Role
+openEHR-EHR-CLUSTER.parents.v0,/items[at0010]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.parents.v0,/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase

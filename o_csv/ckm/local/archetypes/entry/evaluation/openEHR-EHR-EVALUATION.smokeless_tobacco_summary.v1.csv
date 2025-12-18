@@ -1,0 +1,74 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_en
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/,EVALUATION,CComplexObject,at0000,Sammanfattning av snusvanor och annat bruk av rökfri tobak,Røykfri tobakkanamnese,Smokeless tobacco summary
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Började använda rökfri tobak regelbundet,Start regelmessig bruk,Regular use commenced
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0015]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Övergripande slutdatum,Overordnet sluttdato,Overall quit date
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0016]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Övergripande kommentar,Overordnet kommentar,Overall comment
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029],CLUSTER,CComplexObject,at0029,Per typ,Per type,Per type
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0014],ELEMENT,CComplexObject,at0014,Slutdatum,Sluttdato,Quit date
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0014]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0017],ELEMENT,CComplexObject,at0017,Paketår,Pakkeår,Pack years
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0052],ELEMENT,CComplexObject,at0052,Status,Status,Status
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0052]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0052]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0053],ELEMENT,CComplexObject,at0053,Beskrivning,Beskrivelse,Description
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0053]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064],CLUSTER,CComplexObject,at0064,Per episod,Per episode,Per episode
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0013],ELEMENT,CComplexObject,at0013,Episodens startdatum,Episodens startdato,Episode start date
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0013]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0023],ELEMENT,CComplexObject,at0023,*Typical frequency (en),Typisk hyppighet,Typical frequency
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0023]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0025],ELEMENT,CComplexObject,at0025,Antal försök att sluta,Antall forsøk på å slutte,Number of quit attempts
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Episoddetaljer,Episodedetaljer,Episode details
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0030],ELEMENT,CComplexObject,at0030,Användningsmönster,Mønster,Pattern
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0065],ELEMENT,CComplexObject,at0065,Typisk användning (massa),Typisk bruk,Typical use
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0065]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0081],ELEMENT,CComplexObject,at0081,Episodbeteckning,Episodenavn,Episode label
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0081]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0082],ELEMENT,CComplexObject,at0082,Episodens slutdatum,Episodens sluttdato,Episode end date
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0082]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0087],ELEMENT,CComplexObject,at0087,Kommentar till episod,Kommentar til episoden,Episode comment
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0064]/items[at0087]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0069],ELEMENT,CComplexObject,at0069,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0077],CLUSTER,ArchetypeSlot,at0077,Typdetaljer,Typedetaljer,Type details
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0098],ELEMENT,CComplexObject,at0098,Typ,Type,Type
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0029]/items[at0098]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0043],ELEMENT,CComplexObject,at0043,Övergripande beskrivning,Overordnet beskrivelse,Overall description
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0074],ELEMENT,CComplexObject,at0074,Totala paketår,Samlet pakkeår,Overall pack years
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0074]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0074]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0080],ELEMENT,CComplexObject,at0080,Började använda rökfri tobak dagligen,Start daglig bruk,Daily use commenced
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0080]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0086],CLUSTER,ArchetypeSlot,at0086,Övergripande detaljer,Overordnede detaljer,Overall details
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0089],ELEMENT,CComplexObject,at0089,Övergripande status,Overordnet status,Overall status
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0089]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/data[at0001]/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021],ITEM_TREE,CComplexObject,at0021,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0022],ELEMENT,CComplexObject,at0022,Senast uppdaterad,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0022]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0071],ELEMENT,CComplexObject,at0071,Definition av slutdatum,Definisjon på Sluttdato,Quit date definition
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0071]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0072],ELEMENT,CComplexObject,at0072,Definition av ett Paket,Pakkedefinisjon,Pack definition
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0072]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0072]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0073],CLUSTER,ArchetypeSlot,at0073,Utökning,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0075],ELEMENT,CComplexObject,at0075,Definition av "Aktiv brukare",Definisjon på Nåværende bruker,Current user definition
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0075]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0076],ELEMENT,CComplexObject,at0076,Definition av "Före detta brukare",Definisjon på Tidligere bruker,Former user definition
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0076]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0079],ELEMENT,CComplexObject,at0079,Definition av "Har aldrig använt",Definisjon av Aldri brukt,Never used definition
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0079]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0085],ELEMENT,CComplexObject,at0085,Definition av "Försök att sluta",Definisjon på Forsøk på å slutte,Quit attempt definition
+openEHR-EHR-EVALUATION.smokeless_tobacco_summary.v1,/protocol[at0021]/items[at0085]/value,DV_TEXT,CComplexObject

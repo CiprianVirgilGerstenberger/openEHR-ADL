@@ -1,0 +1,77 @@
+archetype_id,path,rm_type,aom_type,node_id,name_fi,name_nb,name_en,name_sl
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/,OBSERVATION,CComplexObject,at0000,*Spirometry (en),Spirometriresultat,Spirometry result,*Spirometry (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001],HISTORY,CComplexObject,at0001,Tapahtumasarja,Event Series,Event Series,*Event Series(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Mikä tahansa tapahtuma,Uspesifisert hendelse,Any event,*Any event(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Ulospuhallusaika (FET),Forsert ekspiratorisk tid (FET),Forced expiratory time (FET),*Forced Expiratory Time (FET)(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052],CLUSTER,CComplexObject,at0052,Keuhkojen tilavuus,Volum,Volume,*Volume (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0044],ELEMENT,CComplexObject,at0044,*Measured/predicted ratio (en),Målt/forventet ratio,Measured/predicted ratio,*Measured/predicted ratio (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0044]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0044]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0044]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0053],ELEMENT,CComplexObject,at0053,Mitattu tulos,Resultat,Result,*Result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0053]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0054],ELEMENT,CComplexObject,at0054,Ennustettu tulos,Forventet resultat,Predicted result,*Predicted result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/items[at0054]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0052]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055],CLUSTER,CComplexObject,at0055,Keuhkojen virtausnopeuden suhde tilavuuteen,Ratio,Ratio,*Ratio (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0018],ELEMENT,CComplexObject,at0018,Ennustettu tulos,Forventet resultat,Predicted result,*Predicted result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0018]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0018]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0018]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0056],ELEMENT,CComplexObject,at0056,Mitattu tulos,Resultat,Result,*Result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0056]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0056]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/items[at0056]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057],CLUSTER,CComplexObject,at0057,Keuhkojen virtausnopeus,Luftstrømshastighet,Flow rate,*Flow rate (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0008],ELEMENT,CComplexObject,at0008,Ennustettu tulos,Forventet resultat,Predicted result,*Predicted result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0008]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0058],ELEMENT,CComplexObject,at0058,Mitattu tulos,Resultat,Result,*Result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0058]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0122],ELEMENT,CComplexObject,at0122,*Measured/predicted ratio (en),Målt/forventet ratio,Measured/predicted ratio,*Measured/predicted ratio (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0122]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0122]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/items[at0122]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0101],ELEMENT,CComplexObject,at0101,Kommentti,Kommentar,Comment,*Comment(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0101]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0130],ELEMENT,CComplexObject,at0130,Kokonaistulkinta,Klinisk tolkning,Clinical interpretation,*Clinical interpretation (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0130]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0131],CLUSTER,ArchetypeSlot,at0131,Spirometrian graafi,Multimediarepresentasjon,Multimedia representation,*Multimedia representation (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156],CLUSTER,CComplexObject,at0156,*Pressure (en),Trykk,Pressure,*Pressure (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0165],ELEMENT,CComplexObject,at0165,Mitattu tulos,Resultat,Result,*Result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0165]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0166],ELEMENT,CComplexObject,at0166,Ennustettu tulos,Forventet resultat,Predicted result,*Predicted result(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0166]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0167],ELEMENT,CComplexObject,at0167,*Measured/predicted ratio (en),Målt/forventet ratio,Measured/predicted ratio,*Measured/predicted ratio (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0167]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0167]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/items[at0167]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031],ITEM_TREE,CComplexObject,at0031,Tree,Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0098],ELEMENT,CComplexObject,at0098,Sekoittavat tekijät,Konfunderende faktorer,Confounding factors,*Confounding factors(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0098]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0115],ELEMENT,CComplexObject,at0115,Asento,Stilling,Position,*Position(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0115]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0115]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0191],CLUSTER,ArchetypeSlot,at0191,*Level of exertion (en),Fysisk anstrengelse,Level of exertion,*Level of exertion (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/data[at0001]/events[at0002]/state[at0031]/items[at0209],CLUSTER,ArchetypeSlot,at0209,*Environmental conditions (en),Omgivelsesforhold,Environmental conditions,*Environmental conditions (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029],ITEM_TREE,CComplexObject,at0029,Tree,Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Laite,Måleapparat,Device,*Device(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0132],CLUSTER,ArchetypeSlot,at0132,Laajennus,Tilleggsinformasjon,Extension,*Cluster(en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0185],CLUSTER,ArchetypeSlot,at0185,*Predicted results source (en),Kilden til forventede resultater,Predicted results source,*Predicted results source (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0192],ELEMENT,CComplexObject,at0192,*Challenge/reversibility (en),Provokasjon/reversibilitet,Challenge/reversibility,*Challenge/reversibility (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0192]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0192]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0196],ELEMENT,CComplexObject,at0196,*Type of measurement (en),Målingstype,Type of measurement,*Type of measurement (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0196]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0196]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0199],ELEMENT,CComplexObject,at0199,*Method (en),Metode,Method,*Method (en)
+openEHR-EHR-OBSERVATION.spirometry_result.v2,/protocol[at0029]/items[at0199]/value,DV_TEXT,CComplexObject

@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/,CLUSTER,CComplexObject,at0000,Genomic duplication variant,Genetisk variant - duplikasjon,Genomic duplication variant
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Start position,Startposisjon,Start position
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0001]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0003],ELEMENT,CComplexObject,at0003,End position,Sluttposisjon,End position
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0003]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Duplicated sequence,Duplisert sekvens,Duplicated sequence
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_duplication_variant.v1,/items[at0006],CLUSTER,ArchetypeSlot,at0006,Reference sequence,Referansesekvens,Reference sequence

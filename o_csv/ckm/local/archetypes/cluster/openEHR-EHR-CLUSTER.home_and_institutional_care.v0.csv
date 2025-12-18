@@ -1,0 +1,11 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/,CLUSTER,CComplexObject,at0000,Kommunale tjenester,Municipal services
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Type tjeneste,Type tjeneste
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0010],ELEMENT,CComplexObject,at0010,Tjeneste fra dato,Tjeneste fra dato
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0010]/value,DV_DATE,CComplexObject
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0010]/value/value,DV_DATE,CPrimitiveObject
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0011],ELEMENT,CComplexObject,at0011,Tjeneste frekvens,Tjeneste frekvens
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0011]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.home_and_institutional_care.v0,/items[at0013],CLUSTER,ArchetypeSlot,at0013,Detaljer,*Detaljer(nb)

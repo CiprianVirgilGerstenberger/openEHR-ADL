@@ -1,0 +1,27 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_nl
+openEHR-EHR-OBSERVATION.medication_statement.v0,/,OBSERVATION,CComplexObject,at0000,Aussage zur Medikamenteneinnahme,Erklæring om legemiddelbruk,Medication use statement,*Medication use statement (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History,History
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Uspesifisert hendelse,Any event,Elke gebeurtenis
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Medikamentenname,Legemiddelnavn,Medication name,*Medication name (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Klinische Indikation,Klinisk indikasjon,Clinical indication,Medische indicatie
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026],ELEMENT,CComplexObject,at0026,Zuletzt verabreicht,Sist administrert,Last administered,Recents toegediend
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,Kommentar,Kommentar,Comment,Opmerking
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,Art der Verabreichung,Administreringsvei,Route of administration,*Route of administration (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032],ELEMENT,CComplexObject,at0032,Beschreibung,Beskrivelse,Description,*Description (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Endzeitpunkt,Seponering,Endpoint,*Endpoint (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0045],CLUSTER,ArchetypeSlot,at0045,Strukturierte Dosis und Zeitangabe,Strukturerte anvisninger om dose og timing,Structured dose and timing,*Structured dose and timing (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0046],CLUSTER,ArchetypeSlot,at0046,Angaben zur Medikation,Legemiddeldetaljer,Medication details,*Medication details (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0047],ELEMENT,CComplexObject,at0047,Beschreibung der allgemeinen Anwendung,Overordnet anvisningsbeskrivelse,Overall directions description,*Overall directions description (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0047]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_statement.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0048],CLUSTER,ArchetypeSlot,at0048,Zusätzliche Angaben,Ytterligere detaljer,Addtional details,*Addtional details (en)
+openEHR-EHR-OBSERVATION.medication_statement.v0,/protocol[at0004],ITEM_TREE,CComplexObject,at0004,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.medication_statement.v0,/protocol[at0004]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Erweiterung,Tilleggsinformasjon,Extension,Uitbreiding

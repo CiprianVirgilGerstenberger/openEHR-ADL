@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.curb_65.v1,/,OBSERVATION,CComplexObject,at0000,CURB-65 skår,CURB-65 score
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Forvirring,Confusion
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Respirasjonsfrekvens,Respiratory rate
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Blodtrykk,Blood pressure
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Alder,Age
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Total skår,Total score
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018],ELEMENT,CComplexObject,at0018,Alvorlighetsgrad,Grade
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,Urea,Urea
+openEHR-EHR-OBSERVATION.curb_65.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.curb_65.v1,/protocol[at0013],ITEM_TREE,CComplexObject,at0013,Item tree,Item tree
+openEHR-EHR-OBSERVATION.curb_65.v1,/protocol[at0013]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Tilleggsinformasjon,Extension SLOT

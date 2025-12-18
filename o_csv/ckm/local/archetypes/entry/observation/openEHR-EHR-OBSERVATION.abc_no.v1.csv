@@ -1,0 +1,83 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.abc_no.v1,/,OBSERVATION,CComplexObject,at0000,ABC sjekkliste
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007],POINT_EVENT,CComplexObject,at0007,Uspesifisert tidspunkthendelse
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030],CLUSTER,CComplexObject,at0030,C: Vurdering av kompleksitet og rehabiliteringsnivå
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035],CLUSTER,CComplexObject,at0035,Medisinsk oppfølgning
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0036],ELEMENT,CComplexObject,at0036,1. Kompleks medisinsk tilstand, behov oppfølging av lege
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0040],ELEMENT,CComplexObject,at0040,2. Daglig eller flere ganger ukentlig behov for sykehusspesialister
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0040]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0043],ELEMENT,CComplexObject,at0043,3. Behov for døgn-/ akuttberedskap, intensivfunksjoner/monitorering, annet
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0043]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0049],ELEMENT,CComplexObject,at0049,4. Angst/depresjon/stressreaksjon/selvmordstanker
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0049]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0052],ELEMENT,CComplexObject,at0052,5. Påvist smitte som krever spesiell håndtering
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0035]/items[at0052]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0055],ELEMENT,CComplexObject,at0055,Forvirring/PTA med manglende orientering tid-sted-situasjon
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0055]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060],CLUSTER,CComplexObject,at0060,Kroppsfunksjoner
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0061],ELEMENT,CComplexObject,at0061,1. Problematikk lunge-/hjertefunksjon
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0061]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0065],ELEMENT,CComplexObject,at0065,2. Dysfagi, ernærings-/hydreringsproblematikk
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0065]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0069],ELEMENT,CComplexObject,at0069,3. Vannlating/eliminasjonsproblematikk
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0069]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0073],ELEMENT,CComplexObject,at0073,4. Synsvansker
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0073]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0077],ELEMENT,CComplexObject,at0077,5. Språk-/kommunikasjonproblematikk
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0077]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0081],ELEMENT,CComplexObject,at0081,6. Kognitive vansker
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0081]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0085],ELEMENT,CComplexObject,at0085,7. Lammelse, koordinasjonsforstyrrelse, sensoriske utfall, fallfare
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0085]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0089],ELEMENT,CComplexObject,at0089,8. Spastisitet/feilstillinger
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0089]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0093],ELEMENT,CComplexObject,at0093,9. Smerter
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0093]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0097],ELEMENT,CComplexObject,at0097,10. Sår
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0060]/items[at0097]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101],CLUSTER,CComplexObject,at0101,Omgivelser/nettverk/deltagelse/individuelle forhold
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0102],ELEMENT,CComplexObject,at0102,1. Mindreårige barn? Ektefelle eller barn med sykdom/pleiebehov?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0102]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0108],ELEMENT,CComplexObject,at0108,2. Evne til å ivareta seg selv i egen bolig?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0108]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0111],ELEMENT,CComplexObject,at0111,3. Yrkesaktiv alder eller i jobb?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0111]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0114],ELEMENT,CComplexObject,at0114,4. Behov for å kartlegge verge/medbestemmelsesevne?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0114]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0117],ELEMENT,CComplexObject,at0117,5. Behov for å kartlegge evne til å kjøre bil/håndtere skytevåpen?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0117]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0120],ELEMENT,CComplexObject,at0120,6. Behov for kartlegging/omfattende tilrettelegging av bolig?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0120]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0123],ELEMENT,CComplexObject,at0123,7. Behov for å utarbeide IP (Individuell Plan)?
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0101]/items[at0123]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0148],ELEMENT,CComplexObject,at0148,Sumskår
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0148]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0148]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0149],ELEMENT,CComplexObject,at0149,Antall 1'ere
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0149]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0149]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0150],ELEMENT,CComplexObject,at0150,Antall 2'ere
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0150]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0150]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0151],ELEMENT,CComplexObject,at0151,Antall 3'ere
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0151]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0030]/items[at0151]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134],CLUSTER,CComplexObject,at0134,A: Indikasjon for IKKE å anbefale rehabiliteringstiltak grunnet sykdom og symptomer
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134]/items[at0140],ELEMENT,CComplexObject,at0140,Alvorlig sykdom som krever opphold på spesialavdeling
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134]/items[at0140]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134]/items[at0141],ELEMENT,CComplexObject,at0141,Samtidig alvorlig sykdom med dårlig prognose
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134]/items[at0141]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134]/items[at0142],ELEMENT,CComplexObject,at0142,Ikke kontaktbar
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0134]/items[at0142]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135],CLUSTER,CComplexObject,at0135,B: Indikasjon for IKKE å anbefale rehabiliteringstiltak grunnet FRAVÆR av sykdom og symptomer
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135]/items[at0136],ELEMENT,CComplexObject,at0136,Ingen nye symptomer eller utfall
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135]/items[at0136]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135]/items[at0138],ELEMENT,CComplexObject,at0138,Er i stand til å utføre alle sine vanlige aktiviteter
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135]/items[at0138]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135]/items[at0139],ELEMENT,CComplexObject,at0139,Ingen behov for oppfølging av lege utover primærlege og evt. poliklinisk kontroll på sykehuset
+openEHR-EHR-OBSERVATION.abc_no.v1,/data[at0001]/events[at0007]/data[at0003]/items[at0135]/items[at0139]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.abc_no.v1,/protocol[at0012],ITEM_TREE,CComplexObject,at0012,Item tree
+openEHR-EHR-OBSERVATION.abc_no.v1,/protocol[at0012]/items[at0152],CLUSTER,ArchetypeSlot,at0152,Tilleggsinformasjon

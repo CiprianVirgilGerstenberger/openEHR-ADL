@@ -1,0 +1,51 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/,OBSERVATION,CComplexObject,at0000,Kroppsmåling - omkrets,Body segment circumference
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Navn på kroppsdel,Body segment name
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Lateralitet,Laterality
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Omkrets,Circumference
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Kommentar,Comment
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/state[at0010],ITEM_TREE,CComplexObject,at0010,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/state[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Konfunderende faktorer,Confounding factors
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/state[at0010]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/state[at0010]/items[at0031],ELEMENT,CComplexObject,at0031,Stilling,Body position
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/state[at0010]/items[at0031]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0002]/state[at0010]/items[at0031]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012],INTERVAL_EVENT,CComplexObject,at0012,Gjennomsnittsmåling,Average measurement
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003],ITEM_TREE,CComplexObject,at0003,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Navn på kroppsdel,Body segment name
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Lateralitet,Laterality
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Omkrets,Circumference
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0008]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Kommentar,Comment
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/math_function,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/math_function/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state[at0010],ITEM_TREE,CComplexObject,at0010,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Konfunderende faktorer,Confounding factors
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state[at0010]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state[at0010]/items[at0031],ELEMENT,CComplexObject,at0031,Stilling,Body position
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state[at0010]/items[at0031]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/data[at0001]/events[at0012]/state[at0010]/items[at0031]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014],ITEM_TREE,CComplexObject,at0014,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0015],CLUSTER,ArchetypeSlot,at0015,Måleinstrument,Measuring device
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Tilleggsinformasjon,Extension
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0027],ELEMENT,CComplexObject,at0027,Målemetode,Measurement method
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0029],ELEMENT,CComplexObject,at0029,Start/endemålepunkt,Measurement origin/endpoint
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.body_segment_circumference.v1,/protocol[at0014]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Strukturert start/endemålepunkt,Structured origin/endpoint

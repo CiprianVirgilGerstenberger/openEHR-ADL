@@ -1,0 +1,30 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_es,name_ca
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/,OBSERVATION,CComplexObject,at0000,Screening-Fragebogen zur diagnostischen Untersuchungen,Kartleggingsspørsmål om diagnostiske undersøkelser,Diagnostic investigation screening questionnaire,Cuestionario de detección de investigación diagnóstica,Qüestionari de detecció de recerca diagnòstica
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022],HISTORY,CComplexObject,at0022,Event Series,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023],EVENT,CComplexObject,at0023,Beliebiges Ereignis,Uspesifikk hendelse,Any event,Cualquier evento,Qualsevol esdeveniment
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026],CLUSTER,CComplexObject,at0026,Spezifische Untersuchung,Spesifikk undersøkelse,Specific investigation,Investigación específica,Investigació específica
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002],ELEMENT,CComplexObject,at0002,Schlussfolgerung,Konklusjon,Conclusion,Conclusion,Conclusió
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003],ELEMENT,CComplexObject,at0003,Zeitpunkt,Tidsangivelse,Timing,Tiempo,Temps
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0021],ELEMENT,CComplexObject,at0021,Name der Untersuchung,Undersøkelsesnavn,Investigation name,Nombre de la investigación,Nom de la investigació
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024],ELEMENT,CComplexObject,at0024,Durchgeführt?,Utført?,Done?,¿Realizado?,Realitzat?
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentar,Kommentar,Comment,Comentarios,Comentaris
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0041],CLUSTER,ArchetypeSlot,at0041,Zusätzliche Angaben,Ytterligere detaljer,Additional details,Detalles adicionales,Detalls addicionals
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0047],ELEMENT,CComplexObject,at0047,*Type (en),Type,Type,*Type (en),*Type (en)
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0047]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0027],ELEMENT,CComplexObject,at0027,Gibt es Untersuchungen?,Noen tidligere undersøkelser?,Any investigations?,¿Alguna investigación?,Alguna investigació?
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0027]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0027]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0040],ELEMENT,CComplexObject,at0040,Zweck des Screenings,Kartleggingsformål,Screening purpose,Propósito del screening,Propòsit de l'screening
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0043],ELEMENT,CComplexObject,at0043,Beschreibung,Beskrivelse,Description,Descripción,Descripció
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0044],CLUSTER,ArchetypeSlot,at0044,Zusätzliche Angaben,Ytterligere detaljer,Additional details,Detalles adicionales,Detalls addicionals
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.investigation_screening.v1,/protocol[at0005]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Erweiterung,Tilleggsinformasjon,Extension,Extensión,Extensió

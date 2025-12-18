@@ -1,0 +1,95 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/,OBSERVATION,CComplexObject,at0000,Bildgebendes Untersuchungsergebnis,Bilddiagnostiskt resultat,Bildediagnostisk svar,Imaging examination result
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Ospecificerad händelse,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Name der Studie,*Study name (en),Undersøkelsesnavn,Study name
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Zielgebiet strukturiert,*Structured target body site (en),Strukturert kroppsdel,Structured target body site
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Bildgebende Befunde,*Imaging findings (en),Funn,Imaging findings
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Klinische Zusammenfassung,*Clinical summary (en),Kliniske opplysninger,Clinical summary
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Bildgebende Diagnose,Diagnos,Bildediagnostisk diagnose,Imaging diagnosis
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,Schlussfolgerung,Slutsats,Resymé,Overall impression
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Kommentar,Kommentar,Kommentar,Comment
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],CLUSTER,ArchetypeSlot,at0044,Strukturierte bildgebende Befunde,*Structured imaging findings (en),Strukturerte funn,Structured imaging findings
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045],CLUSTER,ArchetypeSlot,at0045,Berichtsrepräsentation,*Report representation (en),Presentasjon av rapporten,Report representation
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055],ELEMENT,CComplexObject,at0055,Zielgebiet,*Target body site (en),Kroppsdel,Target body site
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0055]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0056],ELEMENT,CComplexObject,at0056,Vergleichsbefunde,*Comparison findings (en),Funn ved sammenligning,Comparison findings
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0057],ELEMENT,CComplexObject,at0057,Beschreibung der Qualität der Bildgebung,*Imaging quality description (en),Bildediagnostisk kvalitetsbeskrivelse,Imaging quality description
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0058],ELEMENT,CComplexObject,at0058,Bildgebende Differentialdiagnose,Differentialdiagnos,Bildediagnostisk differensialdiagnose,Imaging differential diagnosis
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0058]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0059],ELEMENT,CComplexObject,at0059,Empfehlung,Rekommendation,Anbefaling,Recommendation
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0059]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0061],ELEMENT,CComplexObject,at0061,Klinische Indikation,*Clinical indication (en),Problemstilling,Clinical indication
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0061]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0063],ELEMENT,CComplexObject,at0063,Qualität der Bildgebung,*Imaging quality (en),Bildediagnostisk kvalitet,Imaging quality
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0063]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0070],ELEMENT,CComplexObject,at0070,Zeitpunkt der Studie,*Study date (en),Undersøkelsesdato,Study date
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0070]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0071],ELEMENT,CComplexObject,at0071,Zeitstempel des Status,*Status timestamp (en),Tidsangivelse for overordnet resultatstatus,Status timestamp
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0071]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0072],ELEMENT,CComplexObject,at0072,Status des Gesamtergebnisses,*Overall result status (en),Status på undersøkelsesresultatet,Overall result status
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0072]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0072]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0091],ELEMENT,CComplexObject,at0091,Modalität,*Modality (en),Modalitet,Modality
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0091]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/state[at0047],ITEM_TREE,CComplexObject,at0047,Tree,Tree,*Tree(en),Tree
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/state[at0047]/items[at0048],ELEMENT,CComplexObject,at0048,Störfaktoren,Möjliga felkällor,Konfunderende faktorer,Confounding factors
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/state[at0047]/items[at0048]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/state[at0047]/items[at0107],CLUSTER,ArchetypeSlot,at0107,Stabilisierende Instrumente,*Stabilising appliance (en),Stabiliserende utstyr,Stabilising appliance
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/state[at0047]/items[at0108],ELEMENT,CComplexObject,at0108,Position,*Position (en),Stilling,Position
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/data[at0001]/events[at0002]/state[at0047]/items[at0108]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025],ITEM_TREE,CComplexObject,at0025,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Bildgebungsdienst,*Imaging service (en),Tjenesteleverandør,Imaging service
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027],CLUSTER,CComplexObject,at0027,Details zum Untersuchungsauftrag,Beställningsdetaljer,Henvisningsdetaljer,Examination request details
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0028],ELEMENT,CComplexObject,at0028,Auftragskennung des Anforderers,Beställnings-ID,Rekvirentens rekvisisjonsID,Requester order identifier
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0029],ELEMENT,CComplexObject,at0029,Name der angeforderter Untersuchung,Namn på beställd undersökning,Bestilt undersøkelsesnavn,Examination requested name
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Anforderer,Beställare,Rekvirent,Requester
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0031],ELEMENT,CComplexObject,at0031,Auftragskennung des Empfängers,*Receiver order identifier (en),Rekvisisjonsmottakers rekvisisjonsID,Receiver order identifier
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0027]/items[at0031]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0041],CLUSTER,ArchetypeSlot,at0041,Technische / klinische Verfahren strukturiert,*Structured technique/procedure (en),Strukturert teknikk/prosedyre,Structured technique/procedure
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0046],CLUSTER,ArchetypeSlot,at0046,Erweiterung,Tilläggsinformation,Tilleggsinformasjon,Extension
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0049],ELEMENT,CComplexObject,at0049,Zusammenfassung des technischen Verfahrens,*Technique summary (en),Sammendrag av teknikk,Technique summary
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0062],ELEMENT,CComplexObject,at0062,Zusammenfassung der Prozedur,*Procedure summary (en),Sammendrag av prosedyre,Procedure summary
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0062]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0065],CLUSTER,ArchetypeSlot,at0065,Seriendetails,*Series details (en),Detaljer om bildeserie/r,Series details
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0069],CLUSTER,ArchetypeSlot,at0069,Gerät,*Device (en),Utstyr,Device
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0083],CLUSTER,ArchetypeSlot,at0083,Verteilerliste,Distribution list,Kopimottakere,Distribution list
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0087],ELEMENT,CComplexObject,at0087,Technisches Verfahren,*Technique (en),Teknikk,Technique
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0087]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0088],ELEMENT,CComplexObject,at0088,Klinische Prozedur,*Procedure (en),Prosedyre,Procedure
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0088]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0092],ELEMENT,CComplexObject,at0092,Studieninstanz-ID,*Study instance identifier (en),Undersøkelses ID,Study instance identifier
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0092]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093],CLUSTER,CComplexObject,at0093,Details zur Vergleichsstudie,*Comparison study details (en),Detaljer om sammenlignende bilder,Comparison study details
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0067],CLUSTER,ArchetypeSlot,at0067,Details zur Vergleichsserie,*Comparison series details (en),Detaljer om sammenlignende serier,Comparison series details
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0094],ELEMENT,CComplexObject,at0094,Name der Studie,*Study name (en),Undersøkelsesnavn,Study name
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0094]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0095],ELEMENT,CComplexObject,at0095,Studienkennung,*Study identifier (en),Undersøkelses ID,Study identifier
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0095]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0096],ELEMENT,CComplexObject,at0096,Zeitpunkt der Studie,*Study date (en),Undersøkelsesdato,Study date
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0096]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0097],ELEMENT,CComplexObject,at0097,Studienendpunkt,*Study end point (en),Lagringssted,Study end point
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0093]/items[at0097]/value,DV_URI,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0098],ELEMENT,CComplexObject,at0098,Studienendpunkt,*Study end point (en),Lagringssted,Study end point
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0098]/value,DV_URI,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0099],ELEMENT,CComplexObject,at0099,Studienstatus,*Study status (en),Undersøkelsesstatus,Study status
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0099]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0099]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0104],ELEMENT,CComplexObject,at0104,Bericht-ID,*Report identifier (en),RapportID,Report identifier
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0104]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0105],ELEMENT,CComplexObject,at0105,Studienbeschreibung,*Study description (en),Klassifikasjon av undersøkelsen,Study description
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0105]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0106],ELEMENT,CComplexObject,at0106,Bildinformationen,*Image details (en),Bildedetaljer,Image details
+openEHR-EHR-OBSERVATION.imaging_exam_result.v1,/protocol[at0025]/items[at0106]/value,DV_URI,CComplexObject

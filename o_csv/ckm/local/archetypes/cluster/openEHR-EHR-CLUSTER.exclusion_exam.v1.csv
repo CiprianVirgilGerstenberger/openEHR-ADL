@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.exclusion_exam.v1,/,CLUSTER,CComplexObject,at0000,Ausschluss einer Untersuchung,Eksklusjon av en undersøkelse,Exclusion of examination
+openEHR-EHR-CLUSTER.exclusion_exam.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Nicht durchgeführte Untersuchung,Undersøkelse ikke utført,Examination not done
+openEHR-EHR-CLUSTER.exclusion_exam.v1,/items[at0001]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.exclusion_exam.v1,/items[at0001]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.exclusion_exam.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Grund,Årsak,Reason
+openEHR-EHR-CLUSTER.exclusion_exam.v1,/items[at0002]/value,DV_TEXT,CComplexObject

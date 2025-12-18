@@ -1,0 +1,5 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.professional_role.v0,/,CLUSTER,CComplexObject,at0000,Rolle,Profesjonsrolle,Professional role
+openEHR-EHR-CLUSTER.professional_role.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Unstrukturierte Rolle,Fritekst rolleangivelse,Unstructured role
+openEHR-EHR-CLUSTER.professional_role.v0,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.professional_role.v0,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Strukturierte Rolle,Strukturert rolleangivelse,Structured role

@@ -1,0 +1,226 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/,OBSERVATION,CComplexObject,at0000,Mini mental status evaluering (MMSE-NR3)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunktshendelse
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Språk/tolk
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Skolegang/utdanning
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Yrke
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Hørsel/høreapparat
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Syn/briller
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Geriatrisk leseprøve
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Teststed
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Er pasienten testet med MMSE-NR før?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Når/hvor/oppgavesett nr./skår
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Synes du hukommelsen din er blitt dårligere enn den var tidligere?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0147],ELEMENT,CComplexObject,at0147,Ordsett og starttall brukt i dag
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0147]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0147]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153],ELEMENT,CComplexObject,at0153,Orientering (oppgave 1–10)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0154],ELEMENT,CComplexObject,at0154,Umiddelbar gjenkalling (oppgave 11)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0154]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0154]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0155],ELEMENT,CComplexObject,at0155,Hoderegning (oppgave 12)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0155]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0155]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0156],ELEMENT,CComplexObject,at0156,Utsatt gjenkalling (oppgave 13)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0156]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0157],ELEMENT,CComplexObject,at0157,Språk og praksis (oppgave 14-19)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0157]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0157]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0158],ELEMENT,CComplexObject,at0158,Figurkopiering (oppgave 20)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0158]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0158]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0159],ELEMENT,CComplexObject,at0159,Total poengskåre
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0161],ELEMENT,CComplexObject,at0161,Vurderer du som TL at samarbeid/motivasjon/testinnsats var uten anmerkning?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0161]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0161]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0165],ELEMENT,CComplexObject,at0165,Vurderer du som TL at oppmerksomhet/bevissthetsnivå/våkenhet var uten anmerkning?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0165]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0165]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0169],ELEMENT,CComplexObject,at0169,Vurderes ikke resultat som valid/gyldig, angi årsak(er):
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0169]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0170],ELEMENT,CComplexObject,at0170,Merknader (atferd, bruk av pekeark, legemidler [inkl. dårlig legemiddeletterlevelse] som kan påvirke kognitiv funksjon, glemt briller/høreapparat e.l.):
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0170]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171],CLUSTER,CComplexObject,at0171,Orientering
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0021],ELEMENT,CComplexObject,at0021,Poeng fødselsdato
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0024],ELEMENT,CComplexObject,at0024,Poeng alder
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0027],ELEMENT,CComplexObject,at0027,Poeng årstall
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0027]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0030],ELEMENT,CComplexObject,at0030,Poeng årstid
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0030]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0033],ELEMENT,CComplexObject,at0033,Poeng måned
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0033]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0036],ELEMENT,CComplexObject,at0036,Poeng dag
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0039],ELEMENT,CComplexObject,at0039,Poeng dato
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0039]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0048],ELEMENT,CComplexObject,at0048,Poeng etasje
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0048]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199],CLUSTER,CComplexObject,at0199,Hvilken by/kommune/bygd (e.l.) er vi i (eller: er vi like i nærheten av) nå?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0042],ELEMENT,CComplexObject,at0042,Poeng by/kommune/bygd
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0042]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0200],ELEMENT,CComplexObject,at0200,Stedsalternativ
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0200]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0200]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0230],ELEMENT,CComplexObject,at0230,Hvilken by/kommune/bygd (e.l.) er vi i (eller: er vi like i nærheten av) nå?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0199]/items[at0230]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204],CLUSTER,CComplexObject,at0204,Hva heter dette stedet/sykehuset/sykehjemmet/legekontoret (e.l.)? (eller: Hvor er vi nå?)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0045],ELEMENT,CComplexObject,at0045,Poeng sted/sykehus/sykehjem/legekontor
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0045]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0205],ELEMENT,CComplexObject,at0205,Stedsalternativ
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0205]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0205]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0231],ELEMENT,CComplexObject,at0231,Hva heter dette stedet/sykehuset/sykehjemmet/legekontoret (e.l.)? (eller: Hvor er vi nå?)
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0204]/items[at0231]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0210],ELEMENT,CComplexObject,at0210,Kommentar
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0210]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0223],ELEMENT,CComplexObject,at0223,Hva er din fødselsdato?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0223]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0224],ELEMENT,CComplexObject,at0224,Hvor gammel er du?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0224]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0225],ELEMENT,CComplexObject,at0225,Hvilket årstall har vi nå?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0225]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0226],ELEMENT,CComplexObject,at0226,Hvilken årstid har vi nå?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0226]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0227],ELEMENT,CComplexObject,at0227,Hvilken måned har vi nå?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0227]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0228],ELEMENT,CComplexObject,at0228,Hvilken dag har vi i dag?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0228]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0229],ELEMENT,CComplexObject,at0229,Hvilken dato har vi i dag?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0229]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0232],ELEMENT,CComplexObject,at0232,I hvilken etasje er vi nå?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0171]/items[at0232]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174],CLUSTER,CComplexObject,at0174,Umiddelbar gjenkalling
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0052],ELEMENT,CComplexObject,at0052,Antall presentasjoner
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0052]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0052]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0061],ELEMENT,CComplexObject,at0061,Skår ord 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0061]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0064],ELEMENT,CComplexObject,at0064,Skår ord 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0064]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0067],ELEMENT,CComplexObject,at0067,Skår ord 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0067]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0211],ELEMENT,CComplexObject,at0211,Kommentar
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0211]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0233],ELEMENT,CComplexObject,at0233,Ord 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0233]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0234],ELEMENT,CComplexObject,at0234,Ord 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0234]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0235],ELEMENT,CComplexObject,at0235,Ord 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0174]/items[at0235]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178],CLUSTER,CComplexObject,at0178,Hoderegning
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0076],ELEMENT,CComplexObject,at0076,Tallsvar 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0076]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0077],ELEMENT,CComplexObject,at0077,Tallsvar 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0077]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0078],ELEMENT,CComplexObject,at0078,Tallsvar 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0078]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0079],ELEMENT,CComplexObject,at0079,Tallsvar 4
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0079]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0080],ELEMENT,CComplexObject,at0080,Tallsvar 5
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0080]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0086],ELEMENT,CComplexObject,at0086,Skår tall 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0086]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0089],ELEMENT,CComplexObject,at0089,Skår tall 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0089]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0092],ELEMENT,CComplexObject,at0092,Skår tall 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0092]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0095],ELEMENT,CComplexObject,at0095,Skår tall 4
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0095]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0098],ELEMENT,CComplexObject,at0098,Skår tall 5
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0098]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0212],ELEMENT,CComplexObject,at0212,Kommentar
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0212]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0217],ELEMENT,CComplexObject,at0217,Trakk fra/la til 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0217]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0218],ELEMENT,CComplexObject,at0218,Trakk fra/la til 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0218]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0219],ELEMENT,CComplexObject,at0219,Trakk fra/la til 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0219]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0220],ELEMENT,CComplexObject,at0220,Trakk fra/la til 4
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0220]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0221],ELEMENT,CComplexObject,at0221,Trakk fra/la til 5
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0178]/items[at0221]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179],CLUSTER,CComplexObject,at0179,Utsatt gjenkalling
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0181],ELEMENT,CComplexObject,at0181,Skår ord 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0181]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0184],ELEMENT,CComplexObject,at0184,Skår ord 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0184]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0187],ELEMENT,CComplexObject,at0187,Skår ord 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0187]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0213],ELEMENT,CComplexObject,at0213,Kommentar
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0213]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0236],ELEMENT,CComplexObject,at0236,Ord 1
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0236]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0237],ELEMENT,CComplexObject,at0237,Ord 2
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0237]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0238],ELEMENT,CComplexObject,at0238,Ord 3
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/items[at0238]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0196],CLUSTER,CComplexObject,at0196,Figurkopiering
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0196]/items[at0143],ELEMENT,CComplexObject,at0143,Kopier figuren så nøyaktig du kan her
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0196]/items[at0143]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0196]/items[at0216],ELEMENT,CComplexObject,at0216,Kommentar
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0196]/items[at0216]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214],CLUSTER,CComplexObject,at0214,Språk og praksis
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190],CLUSTER,CComplexObject,at0190,Benevning
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0117],ELEMENT,CComplexObject,at0117,Poeng skje
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0117]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0120],ELEMENT,CComplexObject,at0120,Poeng hammer
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0120]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0239],ELEMENT,CComplexObject,at0239,Hva heter dette (skje)?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0239]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0240],ELEMENT,CComplexObject,at0240,Hva heter dette (hammer)?
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0190]/items[at0240]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191],CLUSTER,CComplexObject,at0191,Fraserepetisjon
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0123],ELEMENT,CComplexObject,at0123,Poeng fraserepetisjon
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0123]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0126],ELEMENT,CComplexObject,at0126,Antall presentasjoner
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0126]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0126]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0241],ELEMENT,CComplexObject,at0241,Gjenta ordrett denne frasen nå: «Aldri annet enn om og men»
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0191]/items[at0241]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192],CLUSTER,CComplexObject,at0192,3-leddet kommando
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192]/items[at0127],ELEMENT,CComplexObject,at0127,Tar arket med kun én hånd
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192]/items[at0127]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192]/items[at0130],ELEMENT,CComplexObject,at0130,Bretter arket på midten kun én gang
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192]/items[at0130]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192]/items[at0133],ELEMENT,CComplexObject,at0133,Gir arket til TL
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0192]/items[at0133]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0193],CLUSTER,CComplexObject,at0193,Lesning
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0193]/items[at0136],ELEMENT,CComplexObject,at0136,Antall presentasjoner
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0193]/items[at0136]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0193]/items[at0136]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0193]/items[at0137],ELEMENT,CComplexObject,at0137,Pek på ansiktet ditt
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0193]/items[at0137]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0195],CLUSTER,CComplexObject,at0195,Setningsgenerering
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0195]/items[at0140],ELEMENT,CComplexObject,at0140,Poeng setningsgenerering
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0195]/items[at0140]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0195]/items[at0242],ELEMENT,CComplexObject,at0242,Skriv en meningsfull setning* her
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0195]/items[at0242]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0215],ELEMENT,CComplexObject,at0215,Kommentar
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/items[at0215]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0222],ELEMENT,CComplexObject,at0222,Antall år utdanning
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0222]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0222]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/protocol[at0197],ITEM_TREE,CComplexObject,at0197,Item tree
+openEHR-EHR-OBSERVATION.mmse_nr3_no.v1,/protocol[at0197]/items[at0198],CLUSTER,ArchetypeSlot,at0198,Tilleggsinformasjon

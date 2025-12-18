@@ -1,0 +1,54 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/,OBSERVATION,CComplexObject,at0000,Intraokulært trykk,Intraocular pressure
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0042],ELEMENT,CComplexObject,at0042,Trykk,Pressure
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0046],ELEMENT,CComplexObject,at0046,Tonometritype,Tonometry type
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0046]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0057],ELEMENT,CComplexObject,at0057,Undersøkt øye,Eye examined
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0057]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0061],ELEMENT,CComplexObject,at0061,Klinisk tolkning,Clinical interpretation
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0061]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0063],ELEMENT,CComplexObject,at0063,Kommentar,Comment
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0063]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0078],CLUSTER,ArchetypeSlot,at0078,Måling ikke utført,Test not done
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0081],ELEMENT,CComplexObject,at0081,Korrigert trykk,Corrected pressure
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0081]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0082],ELEMENT,CComplexObject,at0082,Korreksjonstype,Correction type
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0082]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0082]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0083],ELEMENT,CComplexObject,at0083,Palpasjonsfunn,Palpation finding
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0083]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0083]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0093],CLUSTER,ArchetypeSlot,at0093,Referanse til hornhinnetykkelse brukt for korrigering,Citation of central corneal thickness used for correction
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0094],ELEMENT,CComplexObject,at0094,Waveform score,Waveform score
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0094]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123],ELEMENT,CComplexObject,at0123,Inspeksjonsfunn,Inspection finding
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0123]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007],ITEM_TREE,CComplexObject,at0007,Tree,Tree
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0074],ELEMENT,CComplexObject,at0074,Konfunderende faktorer,Confounding factors
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0074]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0109],ELEMENT,CComplexObject,at0109,Kroppsstilling,Position
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0109]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0109]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0117],ELEMENT,CComplexObject,at0117,Pupilltilstand,Pupil state
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0117]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0117]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0127],ELEMENT,CComplexObject,at0127,Anestesitilstand,Anaesthesia state
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0127]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0127]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0132],ELEMENT,CComplexObject,at0132,Antall klasser av topikale trykksenkende legemidler,Number of topical pressure lowering medication classes
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0132]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0133],ELEMENT,CComplexObject,at0133,Antall klasser av systemiske trykksenkende medisiner,Number of systemic pressure lowering medication classes
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0133]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0134],ELEMENT,CComplexObject,at0134,Legemiddelregime,Medication regimen exposure
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0134]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/data[at0001]/events[at0002]/state[at0007]/items[at0134]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/protocol[at0068],ITEM_TREE,CComplexObject,at0068,Tree,Tree
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/protocol[at0068]/items[at0055],CLUSTER,ArchetypeSlot,at0055,Detaljer om måleenheten,Device details
+openEHR-EHR-OBSERVATION.intraocular_pressure.v0,/protocol[at0068]/items[at0079],CLUSTER,ArchetypeSlot,at0079,Utvidelse,Extension

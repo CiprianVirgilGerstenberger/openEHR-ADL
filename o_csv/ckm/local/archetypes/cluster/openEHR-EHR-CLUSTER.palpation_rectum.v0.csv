@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/,CLUSTER,CComplexObject,at0000,Palpasjon av rektum,Palpation of rectum
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Uten anmerkning,No abnormality detected
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0002]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0002]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Klinisk beskrivelse,Clinical description
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Spesifikke funn,Specific findings
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Multimedia,Multimedia representation
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Klinisk fortolkning,Clinical interpretation
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Comment
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0008],CLUSTER,ArchetypeSlot,at0008,Undersøkelse ikke utført,Examination not done
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0009],CLUSTER,CComplexObject,at0009,Funn,Finding
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Kliniske funn,Clinical finding
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0009]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Sted,Site
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0009]/items[at0012],ELEMENT,CComplexObject,at0012,Klinisk beskrivelse,Clinical description
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0009]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0013],ELEMENT,CComplexObject,at0013,Beskrivelse av fæces,Faeces description
+openEHR-EHR-CLUSTER.palpation_rectum.v0,/items[at0013]/value,DV_TEXT,CComplexObject

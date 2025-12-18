@@ -1,0 +1,17 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en
+openEHR-EHR-CLUSTER.media_file.v1,/,CLUSTER,CComplexObject,at0000,Mediendatei,*Media file (en),Mediafil,Media file
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Inhalt,Multimedia,Innhold,Content
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0001]/value,DV_MULTIMEDIA,CComplexObject
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Inhalt,*Content name (en),Navn på innhold,Content name
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Erstellt,Skapad,Opprettet dato,Created
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0004]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Beschreibung,Beskrivning,Beskrivelse,Description
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Version,Kommentar,Comment
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Identifikator,*Identifier (en),ID,Identifier
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0011],CLUSTER,ArchetypeSlot,at0011,Quellgerät,*Source device(en),Kildeenhet,Source device
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0012],CLUSTER,ArchetypeSlot,at0012,Urheber,*Creator(en),Forfatter,Creator
+openEHR-EHR-CLUSTER.media_file.v1,/items[at0013],CLUSTER,ArchetypeSlot,at0013,Zusätzliche Informationen,*Additional details(en),Ytterligere detaljer,Additional details

@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/,CLUSTER,CComplexObject,at0000.1,Bildgebende Untersuchung einer Körperstruktur,Bildediagnostisk undersøkelse - eggstokk,Imaging examination of an ovary
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.10],ELEMENT,CComplexObject,at0.10,*Follicle distribution (en),Follikkeldistribusjon,Follicle distribution
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.10]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.3],ELEMENT,CComplexObject,at0.3,Diameter,Diameter,Diameter
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.3]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.4],ELEMENT,CComplexObject,at0.4,Largest follicle diameter,Største follikkels diameter,Largest follicle diameter
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.4]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.5],ELEMENT,CComplexObject,at0.5,Number of antral follicles,Antall antrale follikler,Number of antral follicles
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.5]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.5]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6],CLUSTER,CComplexObject,at0.6,Per follicle,Per follikkel,Per follicle
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6]/items[at0.11],ELEMENT,CComplexObject,at0.11,*Label (en),Merkelapp,Label
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6]/items[at0.11]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6]/items[at0.7],ELEMENT,CComplexObject,at0.7,Diameter,Diameter,Diameter
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6]/items[at0.7]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6]/items[at0.8],ELEMENT,CComplexObject,at0.8,Description,Beskrivelse,Description
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.6]/items[at0.8]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.9],ELEMENT,CComplexObject,at0.9,*Volume (en),Volum,Volume
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0.9]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0001.1],ELEMENT,CComplexObject,at0001.1,Körperstruktur,Struktur,Body structure
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0001.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0001.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam-ovary.v1,/items[at0007]/value,DV_TEXT,CComplexObject

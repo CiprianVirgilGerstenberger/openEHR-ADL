@@ -1,0 +1,16 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/,OBSERVATION,CComplexObject,at0000,*PaO₂/FiO₂ ratio (en),PaO₂/FiO₂ ratio,PaO₂/FiO₂ ratio
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Beliebiges Ereignis zu einem Zeitpunkt.,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,*Ratio (en),Ratio,Ratio
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,*Clinical interpretation (en),Klinisk tolkning,Clinical interpretation
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,*Comment (en),Kommentar,Comment
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/state[at0009],ITEM_TREE,CComplexObject,at0009,*Item tree (en),*Item tree (en),Item tree
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/state[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,*Confounding factors (en),Konfunderende faktorer,Confounding factors
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/data[at0001]/events[at0002]/state[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.pf_ratio.v1,/protocol[at0005]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Erweiterung,Tilleggsinformasjon,Extension

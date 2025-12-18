@@ -1,0 +1,32 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/,OBSERVATION,CComplexObject,at0000,Fosterbiometri,Fetal biometry
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Hode-setelengde (CRL),Crown-rump lenght (CRL)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Biparietal diameter (BPD),Biparietal diameter (BPD)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Occipito-frontal diameter (OFD),Occipito-frontal diameter (OFD)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Hodeomkrets (HC),Head circumference (HC)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Transcerebellar diameter (TCD),Trans-cerebellar diameter (TCD)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Interokulær avstand (IOD),Interocular distance (IOD)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Binokulær avstand (BOD),Binocular distance (BOD)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Abdominalomkrets (AC),Abdominal circumference (AC)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Femurlengde (FL),Femur length (FL)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Humeruslengde (HL),Humeral length (HL)
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015],ELEMENT,CComplexObject,at0015,Kommentar,Comment
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/protocol[at0016],ITEM_TREE,CComplexObject,at0016,Item tree,Item tree
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/protocol[at0016]/items[at0017],ELEMENT,CComplexObject,at0017,Målemetode BPD,BPD method
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/protocol[at0016]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/protocol[at0016]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.fetal_biometry.v1,/protocol[at0016]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Tilleggsinformasjon,Extension

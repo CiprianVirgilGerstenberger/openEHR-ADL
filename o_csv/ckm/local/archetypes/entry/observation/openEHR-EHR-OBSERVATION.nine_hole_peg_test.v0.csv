@@ -1,0 +1,115 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_en,name_zh-cn
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/,OBSERVATION,CComplexObject,at0000,Nine Hole Peg Test,Nine Hole Peg Test,九孔插棒测验
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,*Event Series(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074],POINT_EVENT,CComplexObject,at0074,Dominante Hand - Test 1,Dominant Hand - Trial 1,优势手 - 试验 1
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Gesamtzeit,Total Time,总时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0017]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0017]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Zwischenzeit,Interim Time,过渡时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0035]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0035]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0050],ELEMENT,CComplexObject,at0050,Anzahl platzierter Stecker,Number Of Pegs Placed,插入插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0050]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0050]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Anzahl zurückgelegter Stecker,Number Of Pegs Returned,放回插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0051]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0051]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0080],ELEMENT,CComplexObject,at0080,Testlauf nicht beendet?,Trial Not Completed?,未完成当次测试吗？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0080]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0080]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0081],ELEMENT,CComplexObject,at0081,Grund für Nichtbeenden,Reason For Non-completion,关于未完成的原因
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/data[at0003]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/state[at0004],ITEM_TREE,CComplexObject,at0004,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/state[at0004]/items[at0064],ELEMENT,CComplexObject,at0064,Begleitumstände,Confounding Factors,干扰因素
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0074]/state[at0004]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075],POINT_EVENT,CComplexObject,at0075,Dominante Hand - Test 2,Dominant Hand - Trial 2,优势手 - 试验 2
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Gesamtzeit,Total Time,总时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0017]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0017]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Zwischenzeit,Interim Time,过渡时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0035]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0035]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0050],ELEMENT,CComplexObject,at0050,Anzahl platzierter Stecker,Number Of Pegs Placed,插入插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0050]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0050]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Anzahl zurückgelegter Stecker,Number Of Pegs Returned,放回插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0051]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0051]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0080],ELEMENT,CComplexObject,at0080,Testlauf nicht beendet?,Trial Not Completed?,未完成当次测试吗？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0080]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0080]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0081],ELEMENT,CComplexObject,at0081,Grund für Nichtbeenden,Reason For Non-completion,关于未完成的原因
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/data[at0003]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/state[at0004],ITEM_TREE,CComplexObject,at0004,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/state[at0004]/items[at0064],ELEMENT,CComplexObject,at0064,Begleitumstände,Confounding Factors,干扰因素
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0075]/state[at0004]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076],POINT_EVENT,CComplexObject,at0076,Nichtdominante Hand - Test 1,Non-dominant Hand - Trial 1,非优势手 - 试验 1
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Gesamtzeit,Total Time,总时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0017]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0017]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Zwischenzeit,Interim Time,过渡时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0035]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0035]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0050],ELEMENT,CComplexObject,at0050,Anzahl platzierter Stecker,Number Of Pegs Placed,插入插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0050]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0050]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Anzahl zurückgelegter Stecker,Number Of Pegs Returned,放回插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0051]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0051]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0080],ELEMENT,CComplexObject,at0080,Testlauf nicht beendet?,Trial Not Completed?,未完成当次测试吗？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0080]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0080]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0081],ELEMENT,CComplexObject,at0081,Grund für Nichtbeenden,Reason For Non-completion,关于未完成的原因
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/data[at0003]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/state[at0004],ITEM_TREE,CComplexObject,at0004,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/state[at0004]/items[at0064],ELEMENT,CComplexObject,at0064,Begleitumstände,Confounding Factors,干扰因素
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0076]/state[at0004]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077],POINT_EVENT,CComplexObject,at0077,Nichtdominante Hand - Test 2,Non-dominant Hand - Trial 2,非优势手 - 试验 2
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Gesamtzeit,Total Time,总时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0017]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0017]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Zwischenzeit,Interim Time,过渡时间
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0035]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0035]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0050],ELEMENT,CComplexObject,at0050,Anzahl platzierter Stecker,Number Of Pegs Placed,插入插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0050]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0050]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Anzahl zurückgelegter Stecker,Number Of Pegs Returned,放回插棒数量
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0051]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0051]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0080],ELEMENT,CComplexObject,at0080,Testlauf nicht beendet?,Trial Not Completed?,未完成当次测试吗？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0080]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0080]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0081],ELEMENT,CComplexObject,at0081,Grund für Nichtbeenden,Reason For Non-completion,关于未完成的原因
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/data[at0003]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/state[at0004],ITEM_TREE,CComplexObject,at0004,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/state[at0004]/items[at0064],ELEMENT,CComplexObject,at0064,Begleitumstände,Confounding Factors,干扰因素
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/data[at0001]/events[at0077]/state[at0004]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,Baum,Tree,*Baum(de)
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0013],ELEMENT,CComplexObject,at0013,Probelauf dominante Hand?,Practice Trial For Dominant Hand?,是否进行优势手测试练习？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0013]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0013]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0082],ELEMENT,CComplexObject,at0082,Probelauf nichtdominante Hand?,Practice Trial For Non-dominant Hand?,是否进行非优势手测试练习？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0082]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0082]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0083],ELEMENT,CComplexObject,at0083,Dominante Hand,Dominant Hand,优势手
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0083]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0083]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0084],ELEMENT,CComplexObject,at0084,Stecker platziert aber nicht zurückgelegt,Pegs Placed But Not Returned,插入但不放回插棒
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0084]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0084]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0087],ELEMENT,CComplexObject,at0087,Mehr als zwei Anläufe?,More Than Two Attempts?,多于两次尝试吗？
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0087]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0087]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0088],ELEMENT,CComplexObject,at0088,Grund für mehr als zwei Anläufe,Reason For More Than Two Attempts,关于多于两次尝试的原因
+openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0,/protocol[at0008]/items[at0088]/value,DV_TEXT,CComplexObject

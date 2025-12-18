@@ -1,0 +1,128 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/,OBSERVATION,CComplexObject,at0000,Svelgtest
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Er pasienten våken og responderer på tiltale?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Kan pasienten sitte oppreist med en viss hodekontroll, ev. sitte oppreist med støtte?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Kan pasienten rekke tunge?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Kan pasienten slikke seg rundt munnen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Kan pasienten svelge spyttet sitt?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Kan pasienten hoste/kremte på oppfordring?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],CLUSTER,CComplexObject,at0012,Vanntest
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013],CLUSTER,CComplexObject,at0013,Test med teskje
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014],CLUSTER,CComplexObject,at0014,Uten fortykning
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0015],ELEMENT,CComplexObject,at0015,Er svelgebevegelsen tydelig, fullstendig løfting/senking av strupehodet?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0015]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0016],ELEMENT,CComplexObject,at0016,Er svelgebevegelsen forsinket, forlenget svelgeigangsetting >3 sekunder?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0016]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0016]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0017],ELEMENT,CComplexObject,at0017,Er svelgebevegelsen ufullstendig, gjentatte svelginger på samme munnfull?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0018],ELEMENT,CComplexObject,at0018,Er svelgebevegelsen usikker?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0018]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0018]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0019],ELEMENT,CComplexObject,at0019,Ingen svelging
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0020],ELEMENT,CComplexObject,at0020,Hoster pasienten etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0020]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0021],ELEMENT,CComplexObject,at0021,Er stemmen surklete etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0021]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0022],ELEMENT,CComplexObject,at0022,Er pustemønsteret forandret etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0022]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0014]/items[at0022]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023],CLUSTER,CComplexObject,at0023,Med fortykning
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0015],ELEMENT,CComplexObject,at0015,Er svelgebevegelsen tydelig, fullstendig løfting/senking av strupehodet?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0015]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0016],ELEMENT,CComplexObject,at0016,Er svelgebevegelsen forsinket, forlenget svelgeigangsetting >3 sekunder?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0016]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0016]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0017],ELEMENT,CComplexObject,at0017,Er svelgebevegelsen ufullstendig, gjentatte svelginger på samme munnfull?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0018],ELEMENT,CComplexObject,at0018,Er svelgebevegelsen usikker?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0018]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0018]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0019],ELEMENT,CComplexObject,at0019,Ingen svelging
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0020],ELEMENT,CComplexObject,at0020,Hoster pasienten etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0020]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0021],ELEMENT,CComplexObject,at0021,Er stemmen surklete etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0021]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0022],ELEMENT,CComplexObject,at0022,Er pustemønsteret forandret etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0022]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0013]/items[at0023]/items[at0022]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024],CLUSTER,CComplexObject,at0024,Test med glass
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014],CLUSTER,CComplexObject,at0014,Uten fortykning
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0015],ELEMENT,CComplexObject,at0015,Er svelgebevegelsen tydelig, fullstendig løfting/senking av strupehodet?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0015]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0016],ELEMENT,CComplexObject,at0016,Er svelgebevegelsen forsinket, forlenget svelgeigangsetting >3 sekunder?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0016]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0016]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0017],ELEMENT,CComplexObject,at0017,Er svelgebevegelsen ufullstendig, gjentatte svelginger på samme munnfull?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0018],ELEMENT,CComplexObject,at0018,Er svelgebevegelsen usikker?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0018]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0018]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0019],ELEMENT,CComplexObject,at0019,Ingen svelging
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0020],ELEMENT,CComplexObject,at0020,Hoster pasienten etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0020]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0021],ELEMENT,CComplexObject,at0021,Er stemmen surklete etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0021]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0022],ELEMENT,CComplexObject,at0022,Er pustemønsteret forandret etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0022]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0014]/items[at0022]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023],CLUSTER,CComplexObject,at0023,Med fortykning
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0015],ELEMENT,CComplexObject,at0015,Er svelgebevegelsen tydelig, fullstendig løfting/senking av strupehodet?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0015]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0016],ELEMENT,CComplexObject,at0016,Er svelgebevegelsen forsinket, forlenget svelgeigangsetting >3 sekunder?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0016]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0016]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0017],ELEMENT,CComplexObject,at0017,Er svelgebevegelsen ufullstendig, gjentatte svelginger på samme munnfull?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0018],ELEMENT,CComplexObject,at0018,Er svelgebevegelsen usikker?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0018]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0018]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0019],ELEMENT,CComplexObject,at0019,Ingen svelging
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0020],ELEMENT,CComplexObject,at0020,Hoster pasienten etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0020]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0021],ELEMENT,CComplexObject,at0021,Er stemmen surklete etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0021]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0022],ELEMENT,CComplexObject,at0022,Er pustemønsteret forandret etter svelgingen?
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0022]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0024]/items[at0023]/items[at0022]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/protocol[at0025],ITEM_TREE,CComplexObject,at0025,Item tree
+openEHR-EHR-OBSERVATION.swallowing_screening_no.v1,/protocol[at0025]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Tilleggsinformasjon

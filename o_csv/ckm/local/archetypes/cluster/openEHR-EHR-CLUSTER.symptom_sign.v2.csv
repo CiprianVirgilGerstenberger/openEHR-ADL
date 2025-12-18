@@ -1,0 +1,78 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_fi,name_sv,name_nb,name_pt-br,name_ar-sy,name_en,name_nl
+openEHR-EHR-CLUSTER.symptom_sign.v2,/,CLUSTER,CComplexObject,at0000,Symptom/Krankheitsanzeichen,Oire,Symtom och tecken,Symptom/Sykdomstegn,Sintoma/sinal,*Symptom/Sign(en),Symptom/Sign,Symptoom
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0001],ELEMENT,CComplexObject,at0001,Name des Symptoms/Krankheitsanzeichens,Oireen nimi,Symtom- och teckennamn,Navn på symptom/sykdomstegn,Nome do sintoma/sinal,*Symptom/Sign name(en),Symptom/Sign name,Naam van het symptoom
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0002],ELEMENT,CComplexObject,at0002,Beschreibung,Kuvaus,Beskrivning,Beskrivelse,Descrição,*Description(en),Description,*Description(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0003],ELEMENT,CComplexObject,at0003,Muster,Malli,Mönster för episod,Mønster,Padrão,*Pattern(en),Pattern,*Pattern(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018],CLUSTER,CComplexObject,at0018,Einflussfaktor,Vaikuttajan kerroin,Påverkande faktor,Modifiserende faktor,Fator modificador,*Modifying factor(en),Modifying factor,*Modifying factor(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0017],ELEMENT,CComplexObject,at0017,Einfluss,Vaikutus,Effekt,Effekt,Efeito,*Effect(en),Effect,*Effect(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0019],ELEMENT,CComplexObject,at0019,Faktor,Vaikuttaja,Faktor,Faktor,Fator,*Factor(en),Factor,*Factor(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0056],ELEMENT,CComplexObject,at0056,Beschreibung,Kuvaus,Beskrivning,Beskrivelse,Descrição,*Description(en),Description,*Description(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0056]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0018]/items[at0197],CLUSTER,ArchetypeSlot,at0197,Detail zum Faktor,Vaikutustiedot,Faktordetalj,Faktordetaljer,Dealhes do fator,*Factor detail(en),Factor detail,*Factor detail(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0021],ELEMENT,CComplexObject,at0021,Schweregrad,Vakavuusasteikko,Svårighetsgrad,Alvorlighetskategori,Categoria de gravidade,*Severity category(en),Severity category,*Severity category(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028],ELEMENT,CComplexObject,at0028,Dauer,Kesto,Varaktighet,Varighet,Duração,*Duration(en),Duration,*Duration(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0028]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0031],ELEMENT,CComplexObject,at0031,Anzahl vorangegangener Episoden,Aikasempien kohtauksien lukumäärä,Antal tidigare inträffade episoder,Antall tidligere episoder,Número de episódios prévios,*Number of previous episodes(en),Number of previous episodes,*Number of previous episodes(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0031]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0031]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0037],ELEMENT,CComplexObject,at0037,Beschreibung der Episode,Kohtauksen kuvaus,Episodbeskrivning,Episodebeskrivelse,Descrição do episódio,*Episode description(en),Episode description,*Episode description(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0057],ELEMENT,CComplexObject,at0057,Beschreibung vorangegangener Episoden,Edellisen kohtausten kuvaus,Beskrivning av tidigare episoder,Beskrivelse av tidligere episoder,Descrição de episódios prévios,*Description of previous episodes(en),Description of previous episodes,*Description of previous episodes(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0057]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0063],CLUSTER,ArchetypeSlot,at0063,Assoziierte Symptome/Krankheitsanzeichen,Liittyvä oire,Associerade symtom och tecken,Tilknyttede symptomer/sykdomstegn,Sintoma/sinal associado,*Associated symptom/sign(en),Associated symptom/sign,*Associated symptom/sign(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0146],CLUSTER,ArchetypeSlot,at0146,Vorangegangene Episoden,Edelliset kohtaukset,Tidigare episoder,Tidligere episoder,Episódios prévios,*Previous episodes(en),Previous episodes,*Previous episodes(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0147],CLUSTER,ArchetypeSlot,at0147,Spezifische anatomische Lokalisation,Rakenteellinen kehon alue,Strukturerad lokalisation,Strukturert anatomisk lokalisering,Parte do corpo estruturada,*Structured body site(en),Structured body site,*Structured body site(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0151],ELEMENT,CComplexObject,at0151,Anatomische Lokalisation,Kehon alue,Lokalisation,Anatomisk lokalisering,Parte do corpo,*Body site(en),Body site,*Body site(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0151]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0152],ELEMENT,CComplexObject,at0152,Beginn der Episode,Kohtauksen alku,Episoddebut,Dato/tid for episodens debut,Início do episódio,*Onset date/time(en),Episode onset,*Episode onset(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0152]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0153],CLUSTER,ArchetypeSlot,at0153,Spezifische Details,Ominaistiedot,Specifika detaljer,Spesifikke detaljer,Detalhes específicos,*Specific details(en),Specific details,*Specific details(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0155],ELEMENT,CComplexObject,at0155,Auswirkungen,Vaikutus,Påverkan,Innvirkning,Impacto,*Impact(en),Impact,*Impact(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0155]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0161],ELEMENT,CComplexObject,at0161,Zeitpunkt des Rückgangs,Päättymisaika,Uppklarandedatum och tid,Dato/tid for opphør,Data/hora de resolução,*Resolution date/time(en),Resolution date/time,*Resolution date/time(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0161]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0163],ELEMENT,CComplexObject,at0163,Kommentar,Kommentti,Kommentar,Kommentar,Comentários,*Comment(en),Comment,*Comment(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0163]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0164],ELEMENT,CComplexObject,at0164,Art des ersten Auftretens,Oireen puhkeaminen,Typ av debut,Debuttype,Tipo de início,*Onset type(en),Onset type,*Onset type(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0164]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165],CLUSTER,CComplexObject,at0165,Auslösender Faktor,*Precipitating factor (en),Utlösande faktorer,Utløsende faktor,*Precipitating factor (en),*Precipitating factor (en),Precipitating factor,*Precipitating factor (en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0154],CLUSTER,ArchetypeSlot,at0154,Detail zum Faktor,Vaikutustiedot,Faktordetalj,Faktordetaljer,Dealhes do fator,*Factor detail(en),Factor detail,*Factor detail(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0170],ELEMENT,CComplexObject,at0170,Faktor,Vaikuttaja,Faktor,Faktor,Fator,*Factor(en),Factor,*Factor(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0170]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0171],ELEMENT,CComplexObject,at0171,Zeitintervall,Aikaväli,Tidsintervall,Tidsintervall,Intervalo de tempo,*Time interval(en),Time interval,*Time interval(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0171]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0185],ELEMENT,CComplexObject,at0185,Beschreibung,Kuvaus,Beskrivning,Beskrivelse,Descrição,*Description(en),Description,*Description(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0165]/items[at0185]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0175],ELEMENT,CComplexObject,at0175,Episode,Jaksollisuus,Episodicitet,Episodisitet,Episodicidade,*Episodicity(en),Episodicity,*Episodicity(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0175]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0175]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0180],ELEMENT,CComplexObject,at0180,Progression,Progressio,Progression,Progresjon,Progressão,*Progression(en),Progression,Beloop
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0180]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0180]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0186],ELEMENT,CComplexObject,at0186,Auftreten,*Occurrence (en),Förekomst,Forekomst,*Occurrence (en),*Occurrence (en),Occurrence,*Occurrence(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0186]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0186]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0189],ELEMENT,CComplexObject,at0189,Charakterisierung,*Character (en),Karaktär,Karakter,*Character (en),*Character (en),Character,*Character(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0189]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190],CLUSTER,CComplexObject,at0190,Rückbildender Faktor,*Resolving factor (en),Upphävande faktor,Avsluttende faktor,*Resolving factor (en),*Resolving factor (en),Resolving factor,*Resolving factor (en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0193],ELEMENT,CComplexObject,at0193,Faktor,Vaikuttaja,Faktor,Faktor,Fator,*Factor(en),Factor,*Factor(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0193]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0194],CLUSTER,ArchetypeSlot,at0194,Detail zum Faktor,Vaikutustiedot,Faktordetalj,Faktordetaljer,Dealhes do fator,*Factor detail(en),Factor detail,*Factor detail(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0195],ELEMENT,CComplexObject,at0195,Zeitintervall,Aikaväli,Tidsintervall,Tidsintervall,Intervalo de tempo,*Time interval(en),Time interval,*Time interval(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0195]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0196],ELEMENT,CComplexObject,at0196,Beschreibung,Kuvaus,Beskrivning,Beskrivelse,Descrição,*Description(en),Description,*Description(en)
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0190]/items[at0196]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.symptom_sign.v2,/items[at0198],CLUSTER,ArchetypeSlot,at0198,Schwere-Ratingskala,*Severity rating (en),*Severity rating (en),Gradering av alvorlighet,*Severity rating (en),*Severity rating (en),Severity rating,*Severity rating (en)

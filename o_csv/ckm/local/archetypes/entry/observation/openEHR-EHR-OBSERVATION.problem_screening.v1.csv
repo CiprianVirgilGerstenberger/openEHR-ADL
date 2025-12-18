@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_fr,name_nl,name_ca
+openEHR-EHR-OBSERVATION.problem_screening.v1,/,OBSERVATION,CComplexObject,at0000,Screening-Fragebogen zum Problem/zur Diagnose,Kartleggingsspørsmål om problemer eller diagnoser,Problem/Diagnosis screening questionnaire,Questionnaire de dépistage des problèmes/diagnostics,*Problem/Diagnosis screening questionnaire (en),Sondeig de detecció d'un problema/diagnòstic
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History,History,History,History
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Uspesifisert hendelse,Any event,Tout événement,Gebeurtenis,Qualsevol esdeveniment
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,CComplexObject,at0022,Bestimmter Zustand,Spesifikt problem eller diagnose,Specific problem or diagnosis,Problème ou diagnostic spécifique,*Specifieke aandoening,Problema o diagnòstic específic
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004],ELEMENT,CComplexObject,at0004,Name des Problems/ der Diagnose,Problem/diagnosenavn,Problem/diagnosis name,Nom du problème/diagnostic,*Problem/diagnosis name (en),Nom del problema/diagnòstic
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005],ELEMENT,CComplexObject,at0005,Vorhanden?,Tilstede?,Presence?,Présence ?,*Aanwezig?,Presència?
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentar,Kommentar,Comment,Commentaire,*Opmerking,Observacions
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0039],CLUSTER,ArchetypeSlot,at0039,Zusätzliche Angaben,Ytterligere detaljer,Additional details,Détails supplémentaires,*Additional details(en),Dades addicionals
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0040],ELEMENT,CComplexObject,at0040,Zeitpunkt,Tidsangivelse,Timing,Timing,*Timing (en),Data/hora
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0040]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Irgendwelche Probleme oder Diagnosen?,Problemer eller diagnoser?,Any problems or diagnoses?,Des problèmes ou des diagnostics ?,*Aanwezig?,Cap problema o diagnòstic?
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Zweck des Screenings,Kartleggingsformål,Screening purpose,Objectif du dépistage,*Doel van vragenlijst,Propòsit de la detecció
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042],CLUSTER,ArchetypeSlot,at0042,Zusätzliche Angaben,Ytterligere detaljer,Additional details,Détails supplémentaires,*Additional details (en),Dades addicionals
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0043],ELEMENT,CComplexObject,at0043,Beschreibung,Beskrivelse,Description,Description,*Description(en),Descripció
+openEHR-EHR-OBSERVATION.problem_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.problem_screening.v1,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Item tree,Item tree,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.problem_screening.v1,/protocol[at0007]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Erweiterung,Tilleggsinformasjon,Extension,Extension,Uitbreiding,Extensió

@@ -1,0 +1,19 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-SECTION.soap.v0,/,SECTION,CComplexObject,at0000,SOAP
+openEHR-EHR-SECTION.soap.v0,/items[at0001],SECTION,CComplexObject,at0001,S
+openEHR-EHR-SECTION.soap.v0,/items[at0001]/items[at0006],OBSERVATION,ArchetypeSlot,at0006,Story and reports from the person and others 
+openEHR-EHR-SECTION.soap.v0,/items[at0001]/items[at0007],SECTION,ArchetypeSlot,at0007,Subsections
+openEHR-EHR-SECTION.soap.v0,/items[at0002],SECTION,CComplexObject,at0002,O
+openEHR-EHR-SECTION.soap.v0,/items[at0002]/items[at0008],OBSERVATION,ArchetypeSlot,at0008,Observations and physical exam 
+openEHR-EHR-SECTION.soap.v0,/items[at0002]/items[at0009],SECTION,ArchetypeSlot,at0009,Subsections 
+openEHR-EHR-SECTION.soap.v0,/items[at0003],SECTION,CComplexObject,at0003,A
+openEHR-EHR-SECTION.soap.v0,/items[at0003]/items[at0010],EVALUATION,ArchetypeSlot,at0010,Assessment, summary and diagnoses 
+openEHR-EHR-SECTION.soap.v0,/items[at0003]/items[at0011],SECTION,ArchetypeSlot,at0011,Subsections
+openEHR-EHR-SECTION.soap.v0,/items[at0004],SECTION,CComplexObject,at0004,P
+openEHR-EHR-SECTION.soap.v0,/items[at0004]/items[at0012],INSTRUCTION,ArchetypeSlot,at0012,Planned actions 
+openEHR-EHR-SECTION.soap.v0,/items[at0004]/items[at0013],ACTION,ArchetypeSlot,at0013,Actions taken
+openEHR-EHR-SECTION.soap.v0,/items[at0004]/items[at0014],SECTION,ArchetypeSlot,at0014,Subsections
+openEHR-EHR-SECTION.soap.v0,/items[at0004]/items[at0015],ADMIN_ENTRY,ArchetypeSlot,at0015,Administrative notes
+openEHR-EHR-SECTION.soap.v0,/items[at0005],SECTION,CComplexObject,at0005,E
+openEHR-EHR-SECTION.soap.v0,/items[at0005]/items[at0016],INSTRUCTION,ArchetypeSlot,at0016,Planned educational activities 
+openEHR-EHR-SECTION.soap.v0,/items[at0005]/items[at0017],ACTION,ArchetypeSlot,at0017,Educational activities

@@ -1,0 +1,91 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/,CLUSTER,CComplexObject,at0000,Genomic variant result,Genetisk variant resultat,Genomic variant result
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0001],CLUSTER,ArchetypeSlot,at0001,Bioinformatic analysis workflow,Bioinformatisk pipeline,Bioinformatic analysis workflow
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0002],CLUSTER,ArchetypeSlot,at0002,Reference genome,Referansegenom,Reference genome
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008],CLUSTER,CComplexObject,at0008,Transcript,Transkript,Transcript
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Transcript reference sequence,Transkriptreferansesekvens,Transcript reference sequence
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0010],ELEMENT,CComplexObject,at0010,DNA region name,DNA regionnavn,DNA region name
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0011],ELEMENT,CComplexObject,at0011,DNA change,DNA-endring,DNA change
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0011]/value,DV_PARSABLE,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0012],ELEMENT,CComplexObject,at0012,Amino acid change,Aminosyre-endring,Amino acid change
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0012]/value,DV_PARSABLE,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0013],ELEMENT,CComplexObject,at0013,Amino acid change type,Type aminosyreendring,Amino acid change type
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0013]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0015],CLUSTER,CComplexObject,at0015,Predicted impact,Predikert betydning,Predicted impact
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0015]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Predicted impact knowledge base,Prediksjons kunnskapsbase,Predicted impact knowledge base
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0015]/items[at0017],ELEMENT,CComplexObject,at0017,Score,Prediksjonsskår,Score
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0015]/items[at0017]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0015]/items[at0018],ELEMENT,CComplexObject,at0018,Qualitative prediction,Kvalitativ prediksjon,Qualitative prediction
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0015]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019],CLUSTER,CComplexObject,at0019,Gene,Gen,Gene
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0020],ELEMENT,CComplexObject,at0020,Gene symbol,Gensymbol,Gene symbol
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0021],ELEMENT,CComplexObject,at0021,Gene name,Gen navn,Gene name
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0056],ELEMENT,CComplexObject,at0056,Copy number overlap,Kopitalloverlapp,Copy number overlap
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0056]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0057],ELEMENT,CComplexObject,at0057,Part of fusion,Fusjonsgen-del,Part of fusion
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0057]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0019]/items[at0057]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0052],CLUSTER,CComplexObject,at0052,Functional impact,Funksjonell betydning,Functional impact
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0052]/items[at0053],CLUSTER,ArchetypeSlot,at0053,Source,Kilde,Source
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0052]/items[at0054],ELEMENT,CComplexObject,at0054,Impact,Betydning,Impact
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0052]/items[at0054]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0058],ELEMENT,CComplexObject,at0058,ACMG classification,ACMG klassifikasjon,ACMG classification
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0058]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0058]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0059],ELEMENT,CComplexObject,at0059,Fusion exon,Fusjonsekson,Fusion exon
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0059]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0059]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0099],ELEMENT,CComplexObject,at0099,Distance from splicing site,Avstand fra spleisesetet,Distance from splicing site
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0099]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0100],ELEMENT,CComplexObject,at0100,RNA change,RNA endring,RNA change
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0008]/items[at0100]/value,DV_PARSABLE,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Best transcript candidate,Beste transkriptkandidat,Best transcript candidate
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0024],CLUSTER,CComplexObject,at0024,Conservation,Bevaring,Conservation
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0024]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Conservation score knowledge base,Bevaringspoeng kunnskapsbase,Conservation score knowledge base
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0024]/items[at0026],ELEMENT,CComplexObject,at0026,Score,Poeng,Score
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0024]/items[at0026]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0028],ELEMENT,CComplexObject,at0028,Allele depth,Allel dybde,Allele depth
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0028]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0029],CLUSTER,CComplexObject,at0029,Population allele frequency details,Populasjonsallelfrekvens detaljer,Population allele frequency details
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0029]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Population allele frequency knowledge base,Populasjonsallelfrekvens kunnskapsbase,Population allele frequency knowledge base
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0029]/items[at0031],ELEMENT,CComplexObject,at0031,Population allele frequency,Poulasjonens allelfrekvens,Population allele frequency
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0029]/items[at0031]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0039],ELEMENT,CComplexObject,at0039,Genotype,Genotype,Genotype
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0039]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0040],ELEMENT,CComplexObject,at0040,Allelic state,Allel-tilstand,Allelic state
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0040]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0041],ELEMENT,CComplexObject,at0041,Genotype quality,Genotypekvalitet,Genotype quality
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0041]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0041]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0045],CLUSTER,ArchetypeSlot,at0045,Structured variant,Strukturert variantbeskrivelse,Structured variant
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0047],ELEMENT,CComplexObject,at0047,Allele frequency,Allelfrekvens,Allele frequency
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0047]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0060],ELEMENT,CComplexObject,at0060,Read depth,Lesedybde,Read depth
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0060]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0060]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061],CLUSTER,CComplexObject,at0061,VCF quality filter,VCF kvalitetsfilter,VCF quality filter
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061]/items[at0062],ELEMENT,CComplexObject,at0062,Filter name,Filternavn,Filter name
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061]/items[at0062]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061]/items[at0063],ELEMENT,CComplexObject,at0063,Description,Filterbeskrivelse,Description
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061]/items[at0063]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061]/items[at0064],ELEMENT,CComplexObject,at0064,Filter passed,Filter passert,Filter passed
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0061]/items[at0064]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0067],ELEMENT,CComplexObject,at0067,Strand bias ratio,Strand bias ratio,Strand bias ratio
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0067]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0068],ELEMENT,CComplexObject,at0068,Strand bias p-value,Strand bias p-verdi,Strand bias p-value
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0068]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0069],ELEMENT,CComplexObject,at0069,Genotype probability,Genotypesannsynlighet,Genotype probability
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0070],ELEMENT,CComplexObject,at0070,Specimen identifier,Prøvemateriale identifikator,Specimen identifier
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0070]/value,DV_URI,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0098],CLUSTER,ArchetypeSlot,at0098,Additional details,Ytterlig informasjon,Additional details
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0101],ELEMENT,CComplexObject,at0101,Variant,Variant,Variant
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0101]/value,DV_PARSABLE,CComplexObject
+openEHR-EHR-CLUSTER.genomic_variant_result.v1,/items[at0102],CLUSTER,ArchetypeSlot,at0102,Variant identification,Variant identifikasjon,Variant identification

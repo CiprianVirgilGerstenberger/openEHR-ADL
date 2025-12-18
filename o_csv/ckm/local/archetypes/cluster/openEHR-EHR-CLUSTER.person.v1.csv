@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en,name_zh,name_es
+openEHR-EHR-CLUSTER.person.v1,/,CLUSTER,CComplexObject,at0000,Person,Person,Person,Person,人,Persona
+openEHR-EHR-CLUSTER.person.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Name,Namn,Navn,Name,*Name (en),Nombre
+openEHR-EHR-CLUSTER.person.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.person.v1,/items[at0002],CLUSTER,ArchetypeSlot,at0002,Name strukturiert,Strukturerat namn,Strukturert navn,Structured name,结构化姓名,Nombre estructurado
+openEHR-EHR-CLUSTER.person.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Identifikator,Identifierare,Identifikator,Identifier,标识符,Identificador
+openEHR-EHR-CLUSTER.person.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.person.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Rolle,Roll,Rolle,Role,角色,Rol
+openEHR-EHR-CLUSTER.person.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.person.v1,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Adresse,Adress,Adresse,Address,地址,Dirección
+openEHR-EHR-CLUSTER.person.v1,/items[at0006],CLUSTER,ArchetypeSlot,at0006,Elektronische Kommunikation,Elektronisk kommunikation,Elektronisk kommunikasjon,Electronic communication,*Electronic communication (en),Comunicación electrónica
+openEHR-EHR-CLUSTER.person.v1,/items[at0007],CLUSTER,ArchetypeSlot,at0007,Organisation,Organisation,Organisasjon,Organisation,*Organisation (en),Organización
+openEHR-EHR-CLUSTER.person.v1,/items[at0008],CLUSTER,ArchetypeSlot,at0008,Zusätzliche Angaben,Ytterligare detaljer,Ytterligere detaljer,Additional details,其他详细信息,Detalles adicionales
+openEHR-EHR-CLUSTER.person.v1,/items[at0009],CLUSTER,ArchetypeSlot,at0009,Foto,Foto,Bilde,Photo,*Photo (en),Foto
+openEHR-EHR-CLUSTER.person.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Kommentar,Kommentar,Kommentar,Comment,*Comment (en),Comentario
+openEHR-EHR-CLUSTER.person.v1,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.person.v1,/items[at0011],ELEMENT,CComplexObject,at0011,Bezeichnung,Beskrivning,Betegnelse,Label,*Label (en),Etiqueta
+openEHR-EHR-CLUSTER.person.v1,/items[at0011]/value,DV_TEXT,CComplexObject

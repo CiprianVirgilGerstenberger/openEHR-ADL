@@ -1,0 +1,4 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ko,name_en
+openEHR-EHR-SECTION.vital_signs.v0,/,SECTION,CComplexObject,at0000,Vitalparameter,생체 징후,Vital signs
+openEHR-EHR-SECTION.vital_signs.v0,/items[at0001],OBSERVATION,ArchetypeSlot,at0001,*Vital signs(en),생체 징후,Vital signs
+openEHR-EHR-SECTION.vital_signs.v0,/items[at0002],EVALUATION,ArchetypeSlot,at0002,*Synopsis(en),요약,Synopsis

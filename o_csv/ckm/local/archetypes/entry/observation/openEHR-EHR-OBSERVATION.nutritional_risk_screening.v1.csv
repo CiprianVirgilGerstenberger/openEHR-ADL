@@ -1,0 +1,29 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/,OBSERVATION,CComplexObject,at0000,NRS 2002,Nutritional Risk Screening (NRS 2002)
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert hendelse,Unspecified event
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031],CLUSTER,CComplexObject,at0031,Innledende screening,Initial screening
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0004],ELEMENT,CComplexObject,at0004,Er BMI < 20,5?,Is the body mass index <20.5 kg/m²?
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0005],ELEMENT,CComplexObject,at0005,Har pasienten tapt vekt i løpet av de 3 siste månedene?,Has the patient lost weight in the previous 3 months?
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0006],ELEMENT,CComplexObject,at0006,Har pasienten hatt redusert næringsinntak i den siste uken?,Was nutritional intake reduced in the previous week?
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0006]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0006]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0007],ELEMENT,CComplexObject,at0007,Er pasienten alvorlig / kritisk syk?,Is the patient very ill? (e.g. in intensive care)?
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032],CLUSTER,CComplexObject,at0032,Hovedscreening,Main screening
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0016],ELEMENT,CComplexObject,at0016,Ernæringsstatus,Nutritional status
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0017],ELEMENT,CComplexObject,at0017,Sykdommens alvorlighetsgrad,Illness severity
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0027],ELEMENT,CComplexObject,at0027,Er pasientens alder ≥ 70 år?,Is the patients age ≥ 70?
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0027]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0030],ELEMENT,CComplexObject,at0030,Total score,Total score (age adjusted)
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0030]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041],ELEMENT,CComplexObject,at0041,Kommentar,Comment
+openEHR-EHR-OBSERVATION.nutritional_risk_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value,DV_TEXT,CComplexObject

@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/,INSTRUCTION,CComplexObject,at0000,Ordinering av medisinsk utstyr,Therapeutic item order
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001],ACTIVITY,CComplexObject,at0001,Ordinering,Order
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002],ITEM_TREE,CComplexObject,at0002,Tree,Tree
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0009],ELEMENT,CComplexObject,at0009,Anvisningsbeskrivelse,Directions
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0011],ELEMENT,CComplexObject,at0011,Startkriterium,Start criterion
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0012],ELEMENT,CComplexObject,at0012,Startdato/tid,Start date/time
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0012]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0013],ELEMENT,CComplexObject,at0013,Stoppdatotid,Stop date/time
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0013]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0016],ELEMENT,CComplexObject,at0016,Stoppkriterium,Stop criterion
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0018],ELEMENT,CComplexObject,at0018,Klinisk indikasjon,Clinical indication
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0070],ELEMENT,CComplexObject,at0070,Utstyrsnavn,Item name
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0092],ELEMENT,CComplexObject,at0092,Anatomisk lokalisering,Body site
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0092]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0093],CLUSTER,ArchetypeSlot,at0093,Strukturert anatomisk lokalisering,Structured body site
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0107],ELEMENT,CComplexObject,at0107,Overvåkningsinstruksjon,Monitoring instruction
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0107]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0143],CLUSTER,ArchetypeSlot,at0143,Utstyrsdetaljer,Item details
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0148],ELEMENT,CComplexObject,at0148,Terapeutisk hensikt,Therapeutic intent
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0148]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0166],CLUSTER,ArchetypeSlot,at0166,Ytterligere detaljer,Additional details
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0167],ELEMENT,CComplexObject,at0167,Kommentar,Comment
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/activities[at0001]/description[at0002]/items[at0167]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Tree,Tree
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/protocol[at0005]/items[at0004],ELEMENT,CComplexObject,at0004,Ordineringsidentifikator,Order identifier
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/protocol[at0005]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.therapeutic_item_order.v1,/protocol[at0005]/items[at0008],CLUSTER,ArchetypeSlot,at0008,Tilleggsinformasjon,Extension

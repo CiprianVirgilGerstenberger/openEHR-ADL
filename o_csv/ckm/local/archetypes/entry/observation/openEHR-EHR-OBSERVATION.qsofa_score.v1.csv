@@ -1,0 +1,19 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/,OBSERVATION,CComplexObject,at0000,qSOFA-skår,qSOFA score
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,Event Series
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Kommentar,Comment
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,qSOFA-skår,qSOFA score
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Respirasjonsfrekvens,Respiratory rate
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Blodtrykk,Blood pressure
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Mental status,Mental status
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/data[at0001]/events[at0002]/state[at0016],ITEM_TREE,CComplexObject,at0016,Tree,Tree
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/protocol[at0017],ITEM_TREE,CComplexObject,at0017,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.qsofa_score.v1,/protocol[at0017]/items[at0018],CLUSTER,ArchetypeSlot,at0018,Tilleggsinformasjon,Extension

@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.service_direction.v1,/,CLUSTER,CComplexObject,at0000,Tjenesteanvisning,Service direction
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Anvisningsrekkefølge,Direction sequence
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0001]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0001]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Anvisningsbeskrivelse,Direction description
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003],CLUSTER,CComplexObject,at0003,Aktivitet,Activity
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Aktivitetssekvens,Activity sequence
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0004]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0004]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Mengde,Amount
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0005]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0005]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0005]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0003]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Tidspunkter innenfor en dag,Intraday timing
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Anvisningsvarighet,Direction duration
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0007]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0010],CLUSTER,ArchetypeSlot,at0010,Repetering av anvisning,Repetition timing
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0011],ELEMENT,CComplexObject,at0011,Total mengde,Total amount
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0011]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0011]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0011]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.service_direction.v1,/items[at0012],CLUSTER,ArchetypeSlot,at0012,Ytterligere detaljer,Additional details

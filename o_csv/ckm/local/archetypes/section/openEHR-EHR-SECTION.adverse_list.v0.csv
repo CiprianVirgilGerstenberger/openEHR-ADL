@@ -1,0 +1,3 @@
+archetype_id,path,rm_type,aom_type,node_id,name_ru,name_en
+openEHR-EHR-SECTION.adverse_list.v0,/,SECTION,CComplexObject,at0000,Список побочных реакций,Adverse Reaction List
+openEHR-EHR-SECTION.adverse_list.v0,/items[at0001],EVALUATION,ArchetypeSlot,at0001,наличие/отсутвие побочных реакций,Adverse reactions inclusions/exclusions

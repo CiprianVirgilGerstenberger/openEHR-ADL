@@ -1,0 +1,70 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/,CLUSTER,CComplexObject,at0000,Legemiddel ordineringsdetaljer NO
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001],CLUSTER,CComplexObject,at0001,Resept
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Refusjonshjemmel
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Refusjonskode
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Type resept
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032],CLUSTER,CComplexObject,at0032,Pakningsdetaljer
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0033],ELEMENT,CComplexObject,at0033,Pakningsstørrelse
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0034],ELEMENT,CComplexObject,at0034,Pakningsenhet
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0034]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0034]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0035],ELEMENT,CComplexObject,at0035,Antall pakninger
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0035]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0040],ELEMENT,CComplexObject,at0040,Pakningstype
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0040]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0040]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0041],ELEMENT,CComplexObject,at0041,PakningsId
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0041]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0042],ELEMENT,CComplexObject,at0042,Varenummer
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0042]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043],CLUSTER,CComplexObject,at0043,Pakningskomponent
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0044],ELEMENT,CComplexObject,at0044,Type
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0045],ELEMENT,CComplexObject,at0045,Mengde
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0045]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0046],ELEMENT,CComplexObject,at0046,Mengdeenhet
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0046]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0032]/items[at0043]/items[at0046]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0048],ELEMENT,CComplexObject,at0048,Refusjonshjemmeltekst
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0001]/items[at0048]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006],CLUSTER,CComplexObject,at0006,E-resept
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0007],ELEMENT,CComplexObject,at0007,Referansenummer
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0018],ELEMENT,CComplexObject,at0018,E-reseptID
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0019],ELEMENT,CComplexObject,at0019,MultidoseID
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0023],ELEMENT,CComplexObject,at0023,Person som opprinnelig registrerte resepten
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0023]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030],CLUSTER,CComplexObject,at0030,Reservasjon mot visning
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0008],ELEMENT,CComplexObject,at0008,Vergeinnsynsreservasjon
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0008]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0008]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0010],ELEMENT,CComplexObject,at0010,Låst resept
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0010]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0010]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0011],ELEMENT,CComplexObject,at0011,Forskrivning i legens navn
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0011]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0030]/items[at0011]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0047],ELEMENT,CComplexObject,at0047,RF-status
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0006]/items[at0047]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0013],ELEMENT,CComplexObject,at0013,Instituert av
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0013]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015],CLUSTER,CComplexObject,at0015,Søknadsinformasjon
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,Søknad sendt?
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0016]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0016]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0017],ELEMENT,CComplexObject,at0017,Dato sendt
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0017]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0017]/value/value,DV_DATE_TIME,CPrimitiveObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Søknadsdetaljer
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0037],ELEMENT,CComplexObject,at0037,Utskrevet fra sykehus
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0037]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.medication_order_details_no.v0,/items[at0015]/items[at0037]/value/value,Boolean,CPrimitiveObject

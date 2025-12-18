@@ -1,0 +1,17 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.range_of_motion.v1,/,CLUSTER,CComplexObject,at0000,Leddutslag,Range of motion of a joint
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Bevegelse,Movement
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0002]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Utgangsposisjon,Starting position
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0024],ELEMENT,CComplexObject,at0024,Undersøkelsesmetode,Mode of examination
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0024]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0027],ELEMENT,CComplexObject,at0027,Leddutslag,Range of motion
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0027]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0028],CLUSTER,ArchetypeSlot,at0028,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0029],ELEMENT,CComplexObject,at0029,Kommentar,Comment
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0035],ELEMENT,CComplexObject,at0035,Fortolkning,Clinical interpretation
+openEHR-EHR-CLUSTER.range_of_motion.v1,/items[at0035]/value,DV_TEXT,CComplexObject

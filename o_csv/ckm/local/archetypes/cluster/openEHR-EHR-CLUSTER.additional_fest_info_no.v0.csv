@@ -1,0 +1,4 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-CLUSTER.additional_fest_info_no.v0,/,CLUSTER,CComplexObject,at0000,Additional FEST info NO
+openEHR-EHR-CLUSTER.additional_fest_info_no.v0,/items[at0001],ELEMENT,CComplexObject,at0001,FEST last updated
+openEHR-EHR-CLUSTER.additional_fest_info_no.v0,/items[at0001]/value,DV_DATE_TIME,CComplexObject

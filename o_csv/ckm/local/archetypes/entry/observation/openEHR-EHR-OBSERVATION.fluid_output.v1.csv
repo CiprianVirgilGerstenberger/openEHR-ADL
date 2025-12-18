@@ -1,0 +1,21 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en,name_sl
+openEHR-EHR-OBSERVATION.fluid_output.v1,/,OBSERVATION,CComplexObject,at0000,Væsketap,Fluid output,*Fluid output(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,*Event Series(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event,*Any event(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,List,List,*List(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032],ELEMENT,CComplexObject,at0032,Kommentar,Comment,*Comment(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Mengde,Volume,*Volume(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Navn på væsken,Fluid name,*Fluid name(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038],CLUSTER,ArchetypeSlot,at0038,Ytterligere detaljer om væsken,Fluid details,*Fluid details(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041],ELEMENT,CComplexObject,at0041,Kilde,Source,*Source(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,List,List,*List(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008]/items[at0028],CLUSTER,ArchetypeSlot,at0028,Måleutstyr,Measurement device,*Measurement device(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008]/items[at0031],ELEMENT,CComplexObject,at0031,Målemetode,Method,*Method(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008]/items[at0031]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008]/items[at0031]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008]/items[at0033],CLUSTER,ArchetypeSlot,at0033,Utstyr,Output device,*Output device(en)
+openEHR-EHR-OBSERVATION.fluid_output.v1,/protocol[at0008]/items[at0040],CLUSTER,ArchetypeSlot,at0040,Tilleggsinformasjon,Extension,*Cluster(en)

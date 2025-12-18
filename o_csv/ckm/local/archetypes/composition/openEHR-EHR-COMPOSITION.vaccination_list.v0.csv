@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-COMPOSITION.vaccination_list.v0,/,COMPOSITION,CComplexObject,at0000,Vaksineliste,Vaccination List
+openEHR-EHR-COMPOSITION.vaccination_list.v0,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.vaccination_list.v0,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.vaccination_list.v0,/content[at0001],ACTION,ArchetypeSlot,at0001,Administrerte vaksiner,Vaccinations Administered
+openEHR-EHR-COMPOSITION.vaccination_list.v0,/content[at0002],EVALUATION,ArchetypeSlot,at0002,Ekslusjonsutsagn,Exclusion Statement
+openEHR-EHR-COMPOSITION.vaccination_list.v0,/content[at0003],EVALUATION,ArchetypeSlot,at0003,Fraværende informasjon,Absent Information

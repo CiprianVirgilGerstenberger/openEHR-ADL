@@ -1,0 +1,99 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/,OBSERVATION,CComplexObject,at0000,Short Physical Performance Battery
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],CLUSTER,CComplexObject,at0008,1. Statisk balanse
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0005],ELEMENT,CComplexObject,at0005,Tid samlede føtter 10 sekunder
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0005]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0006],ELEMENT,CComplexObject,at0006,Tid semi-tandem 10 sekunder
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0006]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0007],ELEMENT,CComplexObject,at0007,Tid tandem 10 sekunder
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0007]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0009],ELEMENT,CComplexObject,at0009,Årsak
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0009]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0009]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0011],ELEMENT,CComplexObject,at0011,Annet
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0018],ELEMENT,CComplexObject,at0018,Skår samlede føtter
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0018]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0021],ELEMENT,CComplexObject,at0021,Skår semi-tandem
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0021]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0024],ELEMENT,CComplexObject,at0024,Skår tandem
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0027],ELEMENT,CComplexObject,at0027,Sum skår balanse
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0027]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/items[at0027]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050],CLUSTER,CComplexObject,at0050,3. Reise/sette seg x5 uten armbruk
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0051],ELEMENT,CComplexObject,at0051,Setehøyde
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0051]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0052],ELEMENT,CComplexObject,at0052,Tid 5 repetisjoner uten armbruk
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0052]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0053],ELEMENT,CComplexObject,at0053,Årsak
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0053]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0053]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0060],ELEMENT,CComplexObject,at0060,Annet
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0060]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0061],ELEMENT,CComplexObject,at0061,Skår reise/sette seg x5 uten armbruk
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0050]/items[at0061]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068],ELEMENT,CComplexObject,at0068,Total skår SPPB
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151],CLUSTER,CComplexObject,at0151,Vedlegg/tillegg til orginaltesten
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0104],CLUSTER,CComplexObject,at0104,Reise/sette seg x5 med armbruk
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0104]/items[at0105],ELEMENT,CComplexObject,at0105,Setehøyde
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0104]/items[at0105]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0104]/items[at0106],ELEMENT,CComplexObject,at0106,Tid 5 repetisjoner med armbruk
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0104]/items[at0106]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154],CLUSTER,CComplexObject,at0154,Ganghastighet-test
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0155],ELEMENT,CComplexObject,at0155,Test 1 - distanse
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0155]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0156],ELEMENT,CComplexObject,at0156,Test 1 - tid
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0156]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0157],ELEMENT,CComplexObject,at0157,Test 1 - ganghastighet
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0157]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0158],ELEMENT,CComplexObject,at0158,Test 2 - tid
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0158]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0159],ELEMENT,CComplexObject,at0159,Test 2 - distanse
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0159]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0160],ELEMENT,CComplexObject,at0160,Test 2 - ganghastighet
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0160]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0161],ELEMENT,CComplexObject,at0161,Tolkning ganghastighet-test
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/items[at0154]/items[at0161]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153],CLUSTER,CComplexObject,at0153,2. Gangtest
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028],CLUSTER,CComplexObject,at0028,Gangtest 4 m
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0029],ELEMENT,CComplexObject,at0029,Ganghjelpemidler ved test
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0029]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0029]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0033],ELEMENT,CComplexObject,at0033,Annet ganghjelpemiddel ved test
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0034],ELEMENT,CComplexObject,at0034,Tid test 1
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0034]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0035],ELEMENT,CComplexObject,at0035,Tid test 2
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0035]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0036],ELEMENT,CComplexObject,at0036,Årsak
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0036]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0043],ELEMENT,CComplexObject,at0043,Annet
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0044],ELEMENT,CComplexObject,at0044,Skår gangtest 4 m
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0028]/items[at0044]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121],CLUSTER,CComplexObject,at0121,Gangtest 3 m
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0122],ELEMENT,CComplexObject,at0122,Ganghjelpemidler ved test
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0122]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0122]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0126],ELEMENT,CComplexObject,at0126,Annet ganghjelpemiddel ved test
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0126]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0127],ELEMENT,CComplexObject,at0127,Tid test 1
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0127]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0128],ELEMENT,CComplexObject,at0128,Tid test 2
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0128]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0129],ELEMENT,CComplexObject,at0129,Skår gangtest 3 m
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0129]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0135],ELEMENT,CComplexObject,at0135,Annet
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0135]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0136],ELEMENT,CComplexObject,at0136,Årsak
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0136]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0153]/items[at0121]/items[at0136]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/protocol[at0010],ITEM_TREE,CComplexObject,at0010,Item tree
+openEHR-EHR-OBSERVATION.short_physical_performance_battery_no.v1,/protocol[at0010]/items[at0067],CLUSTER,ArchetypeSlot,at0067,Tilleggsinformasjon

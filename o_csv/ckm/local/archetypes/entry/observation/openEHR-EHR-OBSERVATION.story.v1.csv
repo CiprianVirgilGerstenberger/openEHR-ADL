@@ -1,0 +1,10 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_es-ar,name_ko,name_nb,name_pt-br,name_ar-sy,name_en,name_it,name_nl
+openEHR-EHR-OBSERVATION.story.v1,/,OBSERVATION,CComplexObject,at0000,Geschichte/Historie,Sjukdomshistoria,*Story/History(en),*Story/History(en),Anamnese,História,*Story/History(en),Story/History,Storia/Cronologia,Anamnese
+openEHR-EHR-OBSERVATION.story.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Eventos,*Event Series(en),Event Series,Event Series,*Event Series(en),Event Series,Serie di eventi,*Event Series(en)
+openEHR-EHR-OBSERVATION.story.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Ospecificerad händelse,*Any event(en),*Any event(en),Uspesifisert hendelse,Algum Evento,إحدى الوقائع,Any event,Qualsiasi evento,*Any event(en)
+openEHR-EHR-OBSERVATION.story.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Arbol,*Tree(en),Tree,Tree,*Tree(en),Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.story.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Geschichte,Sjukdomshistoria,*Story(en),*Story(en),Anamnese,História,*Story(en),Story,Storia,*Story(en)
+openEHR-EHR-OBSERVATION.story.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.story.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Strukturierte Angabe,Strukturerade detaljer,*Structured detail(en),*Structured detail(en),Strukturerte detaljer,Detalhes Estruturados,*Structured detail(en),Structured detail,Dettaglio strutturato,*Structured detail(en)
+openEHR-EHR-OBSERVATION.story.v1,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Tree,Tree,*Tree(en),*Tree(en),*Tree(en),Tree,*Tree(en),Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.story.v1,/protocol[at0007]/items[at0008],CLUSTER,ArchetypeSlot,at0008,Erweiterung,Tilläggsinformation,*Extension(en),*Extension(en),Tilleggsinformasjon,Extensão,*Extension(en),Extension,Estensione,*Extension(en)

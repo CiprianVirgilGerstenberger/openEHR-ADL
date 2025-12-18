@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.education_record.v1,/,CLUSTER,CComplexObject,at0000,Utdanning,Education record
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Utdanningsinstitusjon,Educational institution
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0002],CLUSTER,ArchetypeSlot,at0002,Organisasjonsdetaljer,Organisation details
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Utdanningsnivå,Milestone
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Fagområde,Field of study
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Startdato,Date started
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0005]/value,DV_DATE,CComplexObject
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Sluttdato,Date ended
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0006]/value,DV_DATE,CComplexObject
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Beskrivelse,Description
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0009],CLUSTER,ArchetypeSlot,at0009,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Kommetar,Comment
+openEHR-EHR-CLUSTER.education_record.v1,/items[at0010]/value,DV_TEXT,CComplexObject

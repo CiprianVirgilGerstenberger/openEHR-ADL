@@ -1,0 +1,67 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.soas_r.v0,/,OBSERVATION,CComplexObject,at0000,Staff Observation Aggression Scale - Revised (SOAS-R),Staff Observation Aggression Scale - Revised (SOAS-R)
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Hendelse nummer,Incident number
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009],CLUSTER,CComplexObject,at0009,Provokasjon,Provocation
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0014],ELEMENT,CComplexObject,at0014,Ingen observerbar provokasjon,No understandle provocation
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0014]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0014]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0015],ELEMENT,CComplexObject,at0015,Provosert av,Provoked by
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0015]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0021],ELEMENT,CComplexObject,at0021,Andre provokasjoner,Other named provocations
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010],CLUSTER,CComplexObject,at0010,Mål for aggresjon,Target of aggression
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0039],ELEMENT,CComplexObject,at0039,Ingen,Nothing/nobody
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0039]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0039]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0040],ELEMENT,CComplexObject,at0040,Mål,Target
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0040]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0040]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0046],ELEMENT,CComplexObject,at0046,Andre personer,Other persons
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/items[at0046]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011],CLUSTER,CComplexObject,at0011,Hva brukte pasienten,Means used by the patient
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0022],ELEMENT,CComplexObject,at0022,Verbal aggresjon,Verbal aggression
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0022]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0022]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0023],ELEMENT,CComplexObject,at0023,Vanlige gjenstander,Ordinary objects
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0023]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0023]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0027],ELEMENT,CComplexObject,at0027,Andre objekter,Other named objects
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0028],ELEMENT,CComplexObject,at0028,Kroppsdeler,Parts of the body
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0028]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0033],ELEMENT,CComplexObject,at0033,Andre,Other
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0034],ELEMENT,CComplexObject,at0034,Farlige gjenstander eller metoder,Dangerous objects or methods
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0034]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0034]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0038],ELEMENT,CComplexObject,at0038,Andre gjenstander eller metoder,Other objects or methods
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/items[at0038]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012],CLUSTER,CComplexObject,at0012,Følge(r) for offer/ofre,Consequence(s) for victim(s)
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0047],ELEMENT,CComplexObject,at0047,Nei,No
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0047]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0047]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0048],ELEMENT,CComplexObject,at0048,Gjenstander,Objects
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0048]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0048]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0051],ELEMENT,CComplexObject,at0051,Personer,Persons
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0051]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0051]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0059],ELEMENT,CComplexObject,at0059,Andre,Other, namely
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/items[at0059]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013],CLUSTER,CComplexObject,at0013,Tiltak for å stoppe aggresjon,Measures to stop aggression
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0060],ELEMENT,CComplexObject,at0060,Ingen,None
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0060]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0060]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0061],ELEMENT,CComplexObject,at0061,Tiltak,Measures
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0061]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0061]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0070],ELEMENT,CComplexObject,at0070,Andre tiltak,Other measures
+openEHR-EHR-OBSERVATION.soas_r.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.soas_r.v0,/protocol[at0073],ITEM_TREE,CComplexObject,at0073,Item tree,Item tree
+openEHR-EHR-OBSERVATION.soas_r.v0,/protocol[at0073]/items[at0074],CLUSTER,ArchetypeSlot,at0074,Tileggsinformasjon,Extension

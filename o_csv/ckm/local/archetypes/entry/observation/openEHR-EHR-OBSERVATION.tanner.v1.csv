@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.tanner.v1,/,OBSERVATION,CComplexObject,at0000,Tanner-stadier,Tanner stages
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,*Event Series(nb)
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkt,Any point in time event
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,*Tree(nb)
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Genitalia,Genitals
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Bryst,Breasts
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Pubesbehåring,Pubic hair
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,Kommentar,Comment
+openEHR-EHR-OBSERVATION.tanner.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.tanner.v1,/protocol[at0022],ITEM_TREE,CComplexObject,at0022,*Tree(nb),Tree
+openEHR-EHR-OBSERVATION.tanner.v1,/protocol[at0022]/items[at0025],CLUSTER,ArchetypeSlot,at0025,Tilleggsinformasjon,Extension

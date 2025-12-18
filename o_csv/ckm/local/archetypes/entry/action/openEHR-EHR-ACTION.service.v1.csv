@@ -1,0 +1,86 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_pt-br,name_en,name_nl
+openEHR-EHR-ACTION.service.v1,/,ACTION,CComplexObject,at0000,Dienstleistung,Helsetjenesteaktivitet,Serviço,Service,Dienst
+openEHR-EHR-ACTION.service.v1,/description[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0011],ELEMENT,CComplexObject,at0011,Name der Dienstleistung,Tjenestenavn,Nome do serviço,Service name,Naam van de dienst
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Grund,Årsak,Razão,Reason,Reden
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Beschreibung,Beskrivelse,Descrição,Description,Beschrijving
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0014],ELEMENT,CComplexObject,at0014,Art der Dienstleistung,Tjenestetype,Tipo do serviço,Service type,Type dienst
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Abfolge,Sekvens,Sequência,Sequence,Volgorde
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0021]/value,DV_COUNT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0021]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Angesetztes Datum/angesetzte Uhrzeit,Planlagt dato/tid,Data/hora agendada,Scheduled date/time,Geplande datum/tijd
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0025]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0027],CLUSTER,ArchetypeSlot,at0027,Dienstleistungsdetails,Tjenestedetaljer,Detalhes do serviço,Service detail,Details over dienst
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0028],ELEMENT,CComplexObject,at0028,Kommentar,Kommentar,Comentário,Comment,Opmerking
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0029],CLUSTER,ArchetypeSlot,at0029,Multimediale Darstellung,Multimediarepresentasjon,*Multimedia representation (en),Multimedia representation,*Multimedia representation (en)
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0032],ELEMENT,CComplexObject,at0032,Geplantes Datum/geplante Uhrzeit,Ønsket dato/tid,*Planned date/time (en),Planned date/time,*Planned date/time (en)
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0032]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/description[at0001]/items[at0036],CLUSTER,ArchetypeSlot,at0036,*Additional details (en),Ytterligere detaljer,*Additional details (en),Additional details,*Additional details (en)
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0002],ISM_TRANSITION,CComplexObject,at0002,Dienstleistung geplant,Tjeneste planlagt,Serviço planejado,Service planned,Dienst gepland
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0002]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0002]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0002]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0002]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0003],ISM_TRANSITION,CComplexObject,at0003,Dienstleistung angesetzt,Tjeneste tidfestet,Serviço agendado,Service scheduled,Dienstafspraak gemaakt
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0003]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0003]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0003]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0003]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0004],ISM_TRANSITION,CComplexObject,at0004,Dienstleistung erbracht,Tjeneste utført,Serviço prestado,Service carried out,Dienst geleverd
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0004]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0004]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0004]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0004]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0005],ISM_TRANSITION,CComplexObject,at0005,Dienstleistung vollständig erbracht,Tjeneste fullført,Atividade de serviço concluída,Service activity complete,Dienstenactiviteit voltooid
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0005]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0005]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0005]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0005]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0006],ISM_TRANSITION,CComplexObject,at0006,Dienstleistung eingestellt,Tjeneste avbrutt,Serviço abandonado,Service abandoned,Dienst stopgezet
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0006]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0006]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0006]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0006]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0008],ISM_TRANSITION,CComplexObject,at0008,Dienstleistung verschoben,Tjeneste utsatt,Serviço adiado,Service postponed,Dienst uitgesteld
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0008]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0008]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0008]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0008]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0009],ISM_TRANSITION,CComplexObject,at0009,Dienstleistung storniert,Tjeneste avlyst,Serviço cancelado,Service cancelled,Dienst geannuleerd
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0009]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0009]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0009]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0009]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0010],ISM_TRANSITION,CComplexObject,at0010,Dienstleistung ausgesetzt,Tjeneste midlertidig stanset,Serviço suspenso,Service suspended,Dienst opgeschort
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0010]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0010]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0010]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0010]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0023],ISM_TRANSITION,CComplexObject,at0023,Dienstleistung abgelaufen,Tjeneste utløpt,Serviço expirado,Service expired,Dienst verlopen
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0023]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0023]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0023]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0023]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0026],ISM_TRANSITION,CComplexObject,at0026,Dienstleistungsanforderung versendet,Tjenesteforespørsel sendt,Solicitação de serviço enviada,Service request sent,Dienstverzoek verzonden
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0026]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0026]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0026]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0026]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0035],ISM_TRANSITION,CComplexObject,at0035,Dienstleistungsanforderung erhalten,Tjenesteforespørsel mottatt,*Service request received (en),Service request received,*Service request received (en)
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0035]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0035]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0035]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/ism_transition[at0035]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.service.v1,/protocol[at0015],ITEM_TREE,CComplexObject,at0015,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,Anforderer ID,Rekvisisjonsidentifikator,Identificador do solicitante,Requestor identifier,Identificatiecode aanvrager
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Antragsteller,Rekvirent,Solicitante,Requestor,Aanvrager
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0018],ELEMENT,CComplexObject,at0018,*Service provider identifier (en),Utførers identifikator,*Service provider identifier (en),Service provider identifier,*Service provider identifier (en)
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Empfänger,Mottaker,Receptor,Receiver,Ontvanger
+openEHR-EHR-ACTION.service.v1,/protocol[at0015]/items[at0031],CLUSTER,ArchetypeSlot,at0031,Erweiterung,Tilleggsinformasjon,*Extension (en),Extension,*Extension (en)

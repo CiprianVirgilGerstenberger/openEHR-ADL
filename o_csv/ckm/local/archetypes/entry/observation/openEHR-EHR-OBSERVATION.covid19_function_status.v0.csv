@@ -1,0 +1,11 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/,OBSERVATION,CComplexObject,at0000,COVID-19 funksjonsstatus,COVID-19 function status
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Funksjonsstatus,Function status
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Kommentar,Comment
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/protocol[at0011],ITEM_TREE,CComplexObject,at0011,Tree,Tree
+openEHR-EHR-OBSERVATION.covid19_function_status.v0,/protocol[at0011]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Tilleggsinformasjon,Extension

@@ -1,0 +1,46 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.tnm.v1,/,CLUSTER,CComplexObject,at0000,Klinische TNM-Klassifikation,TNM-klassifikasjon klinisk,TNM clinical classification
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Anatomische Lokalisation,Anatomisk lokalisering,Anatomical site
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Anatomischer Unterbereich der Lokalisation,Underordnet anatomisk lokalisasjon,Anatomical subsite
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Primärtumor (T),Primærtumor (T),Primary tumour (T)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Regionäre Lymphknoten (N),Regionale lymfeknuter (N),Regional lymph nodes (N)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Fernmetastasierung (M),Fjernmetastase (M),Distant metastasis (M)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Histopathologisches Grading (G),Histopatologisk gradering (G),Histopathological grade (G)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Residualtumor (R),Residualtumor (R),Residual tumour (R)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0012],ELEMENT,CComplexObject,at0012,Lymphgefäßinvasion (L),Infiltrasjon i lymfekar (L),Lymphatic invasion (L)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0012]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0012]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0016],ELEMENT,CComplexObject,at0016,Veneninvasion (V),Veneinfiltrasjon (V),Venous invasion (V)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0016]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0016]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0021],ELEMENT,CComplexObject,at0021,Perineurale Invasion (Pn),Perineural infiltrasjon (Pn),Perineural invasion (Pn)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0021]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0025],ELEMENT,CComplexObject,at0025,Multiple Primärtumoren (m),Multiple primærtumorer (m),Multiple primary tumours (m)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0025]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0026],ELEMENT,CComplexObject,at0026,Multimodale Therapie (y),Multimodal behandling (y),Multimodality therapy (y)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0026]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0026]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0027],ELEMENT,CComplexObject,at0027,Rezidiv (r),Residiv (r),Recurrent (r)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0027]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0027]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0028],ELEMENT,CComplexObject,at0028,Autopsie (a),Obduksjon (a),Autopsy (a)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0028]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0028]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0029],ELEMENT,CComplexObject,at0029,Carcinoma in situ (is),Carcinoma in situ (is),Carcinoma in situ (is)
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0029]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0029]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0030],ELEMENT,CComplexObject,at0030,TNM-Bewertung,TNM-vurdering,TNM assessment
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0031],ELEMENT,CComplexObject,at0031,Stadiumeinteilung,Stadium,Stage grouping
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0031]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0032],ELEMENT,CComplexObject,at0032,TNM Auflage,TNM-utgave,TNM Edition
+openEHR-EHR-CLUSTER.tnm.v1,/items[at0032]/value,DV_TEXT,CComplexObject

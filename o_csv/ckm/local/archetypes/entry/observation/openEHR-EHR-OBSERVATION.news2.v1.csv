@@ -1,0 +1,29 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en
+openEHR-EHR-OBSERVATION.news2.v1,/,OBSERVATION,CComplexObject,at0000,NEWS2 Score,NEWS2,National Early Warning Score 2 (NEWS2),National Early Warning Score 2 (NEWS2)
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Jedes Ereignis zu einem beliebigen Zeitpunkt,Ospecificerad händelse,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Systolischer Blutdruck,Systoliskt blodtryck,Systolisk blodtrykk,Systolic blood pressure
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Puls,Hjärtfrekvens,Puls,Pulse
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Atemfrequenz,Andningsfrekvens,Respirasjonsfrekvens,Respiration rate
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Temperatur,Temperatur,Temperatur,Temperature
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Bewusstsein,Medvetandegrad,Bevissthetsnivå,Consciousness
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Gesamtsumme,Totalpoäng (NEWS2),Totalskår,Total score
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,SpO₂ Skala 1,Syremättnad skala 1,SpO₂ Skala 1,SpO₂ Scale 1
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Luft oder Sauerstoff?,Luft eller syrgas?,Romluft eller oksygen?,Air or oxygen?
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0047],ELEMENT,CComplexObject,at0047,SpO₂ Skala 2,Syremättnad skala 2,SpO₂ Skala 2,SpO₂ Scale 2
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0047]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0056],ELEMENT,CComplexObject,at0056,Kategorie für klinisches Risiko,Klinisk riskkategori,Klinisk risiko,Clinical risk category
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.news2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0056]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.news2.v1,/protocol[at0045],ITEM_TREE,CComplexObject,at0045,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.news2.v1,/protocol[at0045]/items[at0046],CLUSTER,ArchetypeSlot,at0046,Erweiterung,Tilläggsinformation,Tilleggsinformasjon,Extension

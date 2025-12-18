@@ -1,0 +1,99 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/,OBSERVATION,CComplexObject,at0000,Termometer for grad av påkjenning - NCCN_ 2022
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Any event
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Termometer for grad av påkjenning
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018],CLUSTER,CComplexObject,at0018,Praktiske problemer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0025],ELEMENT,CComplexObject,at0025,Omsorg barn
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0025]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0028],ELEMENT,CComplexObject,at0028,Bolig
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0028]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0031],ELEMENT,CComplexObject,at0031,Økonomi
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0031]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0034],ELEMENT,CComplexObject,at0034,Transport
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0034]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0037],ELEMENT,CComplexObject,at0037,Jobb
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0037]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0040],ELEMENT,CComplexObject,at0040,Beslutning om behandling
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0040]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0153],ELEMENT,CComplexObject,at0153,Skole
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0153]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0154],ELEMENT,CComplexObject,at0154,Forsikring
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0154]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0155],ELEMENT,CComplexObject,at0155,Få nok mat
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0155]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0156],ELEMENT,CComplexObject,at0156,Tilgang til medisiner
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0156]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0157],ELEMENT,CComplexObject,at0157,Ta vare på meg selv
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0157]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0158],ELEMENT,CComplexObject,at0158,Ta vare på andre
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/items[at0158]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019],CLUSTER,CComplexObject,at0019,Sosiale problemer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0043],ELEMENT,CComplexObject,at0043,Forholdet til barna
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0043]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0046],ELEMENT,CComplexObject,at0046,Forholdet til ektefelle eller partner
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0046]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0049],ELEMENT,CComplexObject,at0049,Mulighet til å få barn
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0049]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0052],ELEMENT,CComplexObject,at0052,Forholdet til familiemedlemmer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0052]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0151],ELEMENT,CComplexObject,at0151,Forholdet til venner og kolleger
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0151]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0152],ELEMENT,CComplexObject,at0152,Kommunikasjon med helsetjeneste-teamet
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/items[at0152]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020],CLUSTER,CComplexObject,at0020,Emosjonelle problemer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0061],ELEMENT,CComplexObject,at0061,Nedstemthet eller depresjon
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0061]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0064],ELEMENT,CComplexObject,at0064,Sinne
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0064]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0067],ELEMENT,CComplexObject,at0067,Engstelse
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0067]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0070],ELEMENT,CComplexObject,at0070,Ensomhet
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0070]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0073],ELEMENT,CComplexObject,at0073,Bekymring eller angst
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0073]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0076],ELEMENT,CComplexObject,at0076,Manglende interesse eller glede
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0076]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0082],ELEMENT,CComplexObject,at0082,Endret utseende
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0082]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0149],ELEMENT,CComplexObject,at0149,Følelse av å være mindre verd eller en byrde
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0149]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0150],ELEMENT,CComplexObject,at0150,Sorg eller tap
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/items[at0150]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024],CLUSTER,CComplexObject,at0024,Fysiske problemer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0088],ELEMENT,CComplexObject,at0088,Tobakkbruk
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0088]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0100],ELEMENT,CComplexObject,at0100,Endringer i matinntaket
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0100]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0103],ELEMENT,CComplexObject,at0103,Tretthet
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0103]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0112],ELEMENT,CComplexObject,at0112,Tap av,  eller endring i fysiske ferdigheter
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0112]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0118],ELEMENT,CComplexObject,at0118,Hukommelse/konsentrasjon
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0118]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0130],ELEMENT,CComplexObject,at0130,Smerter
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0130]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0133],ELEMENT,CComplexObject,at0133,Seksuell helse
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0133]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0139],ELEMENT,CComplexObject,at0139,Søvn
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0139]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0142],ELEMENT,CComplexObject,at0142,Rusmisbruk
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/items[at0142]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0148],ELEMENT,CComplexObject,at0148,Andre problemer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0148]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159],CLUSTER,CComplexObject,at0159,Åndelige eller religiøse problemer
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0079],ELEMENT,CComplexObject,at0079,Følelse av mening eller hensikt
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0079]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0160],ELEMENT,CComplexObject,at0160,Endringer i tro eller overbevisning
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0160]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0161],ELEMENT,CComplexObject,at0161,Døden, det å dø, eller liv etter døden
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0161]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0162],ELEMENT,CComplexObject,at0162,Konflikt mellom overbevisning og behandling av kreft
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0162]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0163],ELEMENT,CComplexObject,at0163,Forhold til det hellige
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0163]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0164],ELEMENT,CComplexObject,at0164,Rituelle behov eller diettmessige krav
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0159]/items[at0164]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.nccns_2022_v2.v0,/protocol[at0004],ITEM_TREE,CComplexObject,at0004,Item tree

@@ -1,0 +1,28 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/,OBSERVATION,CComplexObject,at0000,Neurologic Assessment in Neuro-Oncology (NANO) scale,Neurologic Assessment in Neuro-Oncology (NANO) scale
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Gange,Gait
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Styrke,Strength
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Ataksi (overekstremiteter),Ataxia (upper extremity)
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018],ELEMENT,CComplexObject,at0018,Sensibilitet,Sensation
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,Synsfelt,Visual fields
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,Muskelstyrke i ansikt,Facial strength
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,Språk,Language
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Bevissthetsnivå,Level of consciousness
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0041],ELEMENT,CComplexObject,at0041,Atferd,Behavior
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0066],ELEMENT,CComplexObject,at0066,Overordnet NANO skår,Overall NANO score
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0066]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0066]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/protocol[at0046],ITEM_TREE,CComplexObject,at0046,ITEM_TREE,ITEM_TREE
+openEHR-EHR-OBSERVATION.neurologic_assessment_in_neuro_oncology_scale.v0,/protocol[at0046]/items[at0065],CLUSTER,ArchetypeSlot,at0065,Ytterligere detaljer,Additional details

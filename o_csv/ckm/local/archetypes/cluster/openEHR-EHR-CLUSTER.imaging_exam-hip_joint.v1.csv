@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/,CLUSTER,CComplexObject,at0000.1,*Imaging examination of a hip joint (en),Bildediagnostisk undersøkelse - hofteledd,Imaging examination of a hip joint
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.3],ELEMENT,CComplexObject,at0.3,*Acetabular roof angle (en),Acetabular helningsvinkel,Acetabular roof angle
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.3]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.4],ELEMENT,CComplexObject,at0.4,*Alpha angle (DDH) (en),Alfavinkel (DDH),Alpha angle (DDH)
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.4]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.5],ELEMENT,CComplexObject,at0.5,*Beta angle (en),Betavinkel,Beta angle
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.5]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.6],ELEMENT,CComplexObject,at0.6,*Alpha angle (cam morphology) (en),Alfavinkel (cam-morfologi),Alpha angle (cam morphology)
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0.6]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0001.1],ELEMENT,CComplexObject,at0001.1,Körperstruktur,Kroppsstruktur,Body structure
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0001.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0001.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam-hip_joint.v1,/items[at0007]/value,DV_TEXT,CComplexObject

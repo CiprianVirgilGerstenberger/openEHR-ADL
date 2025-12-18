@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_es-ar,name_nb,name_pt-br,name_en,name_ar-sy,name_fa,name_zh-cn
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,/,EVALUATION,CComplexObject,at0000,Klinische Synopsis,Klinisk synopsis,Sinopsis Clínica,Klinisk sammendrag,Sinopse Clínica,Clinical synopsis,المختصر السريري,خلاصه بالینی,临床提要
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,*List(en),List,*List(en),List,*List(en),List,*List(en),*List(en),*List(en)
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Synopsis,Synopsis,Sinopsis,Sammendrag,Sinopse,Synopsis,المختصر,خلاصه,提要
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,/protocol[at0003],ITEM_TREE,CComplexObject,at0003,*Tree(en),Tree,*Tree(en),Tree,*Tree(en),Tree,*Tree(en),*Tree(en),*Tree(en)
+openEHR-EHR-EVALUATION.clinical_synopsis.v1,/protocol[at0003]/items[at0004],CLUSTER,ArchetypeSlot,at0004,*Extension(en),*Extension(en),*Extension(en),Tilleggsinformasjon,*Extension(en),Extension,*Extension(en),*Extension(en),*Extension(en)

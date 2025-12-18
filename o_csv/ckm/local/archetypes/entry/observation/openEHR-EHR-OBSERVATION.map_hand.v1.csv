@@ -1,0 +1,52 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.map_hand.v1,/,OBSERVATION,CComplexObject,at0000,Measure of activity performance of the hand (MAP-Hand),Measure of activity performance of the hand (MAP-Hand)
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse,Point in time event
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,2. Trekke på sokker eller strømpebukser,2. Putting on socks or tights
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,1. Kneppe knapper,1. Buttoning buttons
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,3. Knyte skolisser,3. Tying shoelaces
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,4. Klemme ut av tuber,4. Squeezing out of tubes (e.g. toothpaste)
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,5. Pusse tenner,5. Brushing teeth
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,6. Tørke deg ved toalettbesøk,6. Wiping yourself after using the toilet
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,7. Åpne skrukorker på flasker,7. Opening bottle screw tops
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,8. Åpne hermetikkbokser,8. Opening hermetic cans
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032],ELEMENT,CComplexObject,at0032,9. Åpne syltetøyglass,9. Opening jam jars
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033],ELEMENT,CComplexObject,at0033,10. Skjære brød med kniv,10. Slicing bread using a knife
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,11. Skrelle rå grønnsaker,11. Peeling raw vegetables
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,12. Røre mat i en gryte,12. Stirring food in a pan
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,13. Vri kluter,13. Wringing out cloths
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,14. Bære handleposer,14. Carrying shopping bags
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038],ELEMENT,CComplexObject,at0038,15. Skrive for hånd,15. Writing by hand
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0039],ELEMENT,CComplexObject,at0039,16. Skrive på PC,16. Typing on a computer
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0039]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0040],ELEMENT,CComplexObject,at0040,17. Skyve fra med hendene når du reiser deg fra en stol,17. Pushing with hands when getting up from a chair
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0040]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041],ELEMENT,CComplexObject,at0041,18. Bære tunge gjenstander som kofferter og bager (over 5 kilo),18. Carrying heavy objects like suitcases and bags (over 5 kg/10lbs)
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0097],CLUSTER,CComplexObject,at0097,Egendefinerte aktiviteter,Self-defined activities
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0097]/items[at0094],ELEMENT,CComplexObject,at0094,Aktivitet,Activity
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0097]/items[at0094]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0097]/items[at0096],ELEMENT,CComplexObject,at0096,Gradering,Grading
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0097]/items[at0096]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179],ELEMENT,CComplexObject,at0179,Gjennomsnittskår standardiserte aktiviteter,Mean score of predefined activities
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0179]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0180],ELEMENT,CComplexObject,at0180,Gjennomsnittskår egendefinerte aktiviteter,Mean score of self-defined activites
+openEHR-EHR-OBSERVATION.map_hand.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0180]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.map_hand.v1,/protocol[at0095],ITEM_TREE,CComplexObject,at0095,Item tree,Item tree
+openEHR-EHR-OBSERVATION.map_hand.v1,/protocol[at0095]/items[at0102],CLUSTER,ArchetypeSlot,at0102,Tilleggsinformasjon,Extension

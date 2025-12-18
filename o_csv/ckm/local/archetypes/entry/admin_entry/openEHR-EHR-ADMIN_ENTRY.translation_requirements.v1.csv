@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/,ADMIN_ENTRY,CComplexObject,at0000,Tolkebehov,Translation requirement
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001]/items[at0002],CLUSTER,ArchetypeSlot,at0002,Administrasjonsspråk,Administrative language
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Trengs tolk?,Translation required?
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001]/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001]/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Kommentar,Comment
+openEHR-EHR-ADMIN_ENTRY.translation_requirements.v1,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject

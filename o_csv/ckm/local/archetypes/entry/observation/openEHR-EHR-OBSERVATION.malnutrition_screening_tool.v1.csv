@@ -1,0 +1,14 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/,OBSERVATION,CComplexObject,at0000,Malnutrition Screening Tool (MST),Malnutrition Screening Tool (MST)
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Har du/pasienten gått ned i vekt i det siste uten å ha gjort forsøk på det?,Have you lost weight recently without trying?
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Har du/pasienten spist mindre enn vanlig på grunn av nedsatt matlyst?,Have you been eating poorly because of a decreased appetite?
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Total poengskår,MST score
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/protocol[at0029],ITEM_TREE,CComplexObject,at0029,Item tree,Item tree
+openEHR-EHR-OBSERVATION.malnutrition_screening_tool.v1,/protocol[at0029]/items[at0030],CLUSTER,ArchetypeSlot,at0030,Tilleggsinformasjon,Extension

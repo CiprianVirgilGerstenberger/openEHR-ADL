@@ -1,0 +1,27 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt,name_pt-br,name_en,name_it,name_fr,name_es
+openEHR-EHR-CLUSTER.occupation_record.v1,/,CLUSTER,CComplexObject,at0000,Beschäftigung,Yrkesregistrering,Arbeidsforhold/rolle,Registro da ocupação,Registro da ocupação,Occupation record,Occupazione,Fiche d'occupation,Registro ocupacional
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Status der Erwerbstätigkeit,Betald anställningsstatus,Status lønnet arbeid,Status do emprego remunerado,Status de emprego remunerado,Paid employment status,Stato di retribuzione,Statut d'emploi rémunéré,Estado trabajo remunerado.
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Art der Branche,Branschkategori,Bransje,Categoria Industrial,Categoria Industrial,Industry category,Settore industriale,Catégorie d'industrie,Sector industrial
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Angaben zur Organisation,Organisationsinformation,Organisasjonsdetaljer,Detalhes organizacionais,Detalhes organizacionais,Organisation details,Dettagli sull'azienda,Détails de l'organisation,Detalles de la organización
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Berufsbezeichnung/Rolle,Jobbtitel / roll,Tittel/rolle,Cargo / Função,Cargo / função,Job title/role,Qualifica/ruolo,Titre/fonction du poste,Cargo/rol
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Art des Jobs,Jobbkategori,Yrkeskategori,Categoria ocupacional,Categoria de Emprego,Job category,Categoria professionale,Catégorie d'emploi,Categoría profesional
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0007],ELEMENT,CComplexObject,at0007,Beginn,Startdatum,Dato for oppstart,Data de início,Data de início,Date commenced,Data di inizio,Date de début,Fecha de inicio
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0007]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0008],ELEMENT,CComplexObject,at0008,Ende,Upphörandedatum,Dato for opphør,Data de término,Data de término,Date ceased,Data di cessazione,Date de fin,Fecha de fin
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0008]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0013],ELEMENT,CComplexObject,at0013,Vollzeitäquivalent,Heltidsekvivalent,Heltidsekvivalent,Equivalente a tempo integral,Equivalente a tempo integral,Full time equivalent,Equivalente a tempo pieno,Équivalent temps plein,Equivalencia a tiempo completo
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0013]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0013]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0013]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0014],ELEMENT,CComplexObject,at0014,Kommentar,Kommentar,Kommentar,Comentários,Comentários,Comment,Commento,Commentaire,Comentario
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0016],ELEMENT,CComplexObject,at0016,Beschreibung,Beskrivning,Beskrivelse,Descrição,Descrição,Description,Descrizione,Description,Descripción
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0018],CLUSTER,ArchetypeSlot,at0018,Zusätzliche Angaben,Ytterligare detaljer,Ytterligere detaljer,Detalhes adicionais,Detalhes adicionais,Additional details,Ulteriori dettagli,Informations complémentaires,Detalles adicionales
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0019],ELEMENT,CComplexObject,at0019,Zugewiesene Zeit,Tilldelad tid,Avsatt tid,Tempo alocado,Tempo alocado,Time allocated,Orario di lavoro,Temps alloué,Tiempo asignado
+openEHR-EHR-CLUSTER.occupation_record.v1,/items[at0019]/value,DV_QUANTITY,CDvQuantity

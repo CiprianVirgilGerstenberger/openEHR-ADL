@@ -1,0 +1,42 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/,OBSERVATION,CComplexObject,at0000,Menstruasjonsdagbok,Menstrual diary
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Blødningsmengde,Flow
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Volum,Volume
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Blodkoagler,Blood clots
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Farge,Color
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018],ELEMENT,CComplexObject,at0018,Beskrivelse av spesifikk dag,Description
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020],CLUSTER,ArchetypeSlot,at0020,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,Kommentar,Comment
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012],INTERVAL_EVENT,CComplexObject,at0012,Per dag,Per day
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Blødningsmengde,Flow
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Volum,Volume
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0010]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Blodkoagler,Blood clots
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0014]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0017],ELEMENT,CComplexObject,at0017,Farge,Color
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0018],ELEMENT,CComplexObject,at0018,Beskrivelse av spesifikk dag,Description
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0020],CLUSTER,ArchetypeSlot,at0020,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,Kommentar,Comment
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/data[at0003]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/width,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/data[at0001]/events[at0012]/width/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/protocol[at0011],ITEM_TREE,CComplexObject,at0011,Item tree,Item tree
+openEHR-EHR-OBSERVATION.menstrual_diary.v1,/protocol[at0011]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Tilleggsinformasjon,Extension

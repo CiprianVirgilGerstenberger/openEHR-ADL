@@ -1,0 +1,28 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_nl
+openEHR-EHR-OBSERVATION.medication_screening.v1,/,OBSERVATION,CComplexObject,at0000,Fragebogen zum Medikamenten-Screening,Kartleggingsspørsmål om legemidler,Medication screening questionnaire,Medicatiegebruik screening vragenlijst
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022],HISTORY,CComplexObject,at0022,Event Series,*HISTORY (en),Event Series,Event Series
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023],EVENT,CComplexObject,at0023,Beliebiges Ereignis,Uspesifisert hendelse,Any event,Willekeurig event
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026],CLUSTER,CComplexObject,at0026,Spezifisches Medikament,Spesifikt legemiddel,Specific medication,*Specific medication (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002],ELEMENT,CComplexObject,at0002,Zeitangaben,Tidsangivelse,Timing,*Timing (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0002]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003],ELEMENT,CComplexObject,at0003,Letzte Dosis,Siste dose,Latest dose,*Previous dose (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0021],ELEMENT,CComplexObject,at0021,Name des Medikaments,Legemiddelnavn,Medication name,Medicatie naam
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024],ELEMENT,CComplexObject,at0024,*Used (en),Brukt,Used,*Used (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0024]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentar,Kommentar,Comment,Commentaar
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0026]/items[at0041],CLUSTER,ArchetypeSlot,at0041,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0027],ELEMENT,CComplexObject,at0027,Irgendwelche Medikamente angewendet?,Bruk av noen legemidler?,Any medications used?,*Any medications used? (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0027]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0027]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0040],ELEMENT,CComplexObject,at0040,Zweck des Screenings,Kartleggingsformål,Screening purpose,Doel van screening
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0042],CLUSTER,ArchetypeSlot,at0042,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0043],ELEMENT,CComplexObject,at0043,Beschreibung,Beskrivelse,Description,*Description (en)
+openEHR-EHR-OBSERVATION.medication_screening.v1,/data[at0022]/events[at0023]/data[at0001]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.medication_screening.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.medication_screening.v1,/protocol[at0005]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Erweiterung,Ytterligere informasjon,Extension,Uitbreiding

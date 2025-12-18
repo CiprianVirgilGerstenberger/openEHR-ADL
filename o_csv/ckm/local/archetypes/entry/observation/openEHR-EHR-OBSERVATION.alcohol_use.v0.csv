@@ -1,0 +1,69 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/,OBSERVATION,CComplexObject,at0000,Alkohol bruk,Alcohol Use
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,*Any event(en),Any event
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],CLUSTER,CComplexObject,at0005,*Consumption Details(en),Consumption Details
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,*Form(en),Form
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015],CLUSTER,CComplexObject,at0015,*Amount(en),Amount
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0014],ELEMENT,CComplexObject,at0014,*Standard Drinks(en),Standard Drinks
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0014]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,*Grams Consumed(en),Grams Consumed
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0015]/items[at0016]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0017],ELEMENT,CComplexObject,at0017,*Triggers(en),Triggers
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0018],ELEMENT,CComplexObject,at0018,*Context(en),Context
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,*Behavioural Issues(en),Behavioural Issues
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,*Comment(en),Comment
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027],CLUSTER,ArchetypeSlot,at0027,*Readiness for Change(en),Readiness for Change
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022],INTERVAL_EVENT,CComplexObject,at0022,*Average Consumption Interval(en),Average Consumption Interval
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005],CLUSTER,CComplexObject,at0005,*Consumption Details(en),Consumption Details
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,*Form(en),Form
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0015],CLUSTER,CComplexObject,at0015,*Amount(en),Amount
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0015]/items[at0014],ELEMENT,CComplexObject,at0014,*Standard Drinks(en),Standard Drinks
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0015]/items[at0014]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,*Grams Consumed(en),Grams Consumed
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0015]/items[at0016]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0017],ELEMENT,CComplexObject,at0017,*Triggers(en),Triggers
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0018],ELEMENT,CComplexObject,at0018,*Context(en),Context
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0005]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,*Behavioural Issues(en),Behavioural Issues
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,*Comment(en),Comment
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/data[at0003]/items[at0027],CLUSTER,ArchetypeSlot,at0027,*Readiness for Change(en),Readiness for Change
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/math_function,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0022]/math_function/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023],POINT_EVENT,CComplexObject,at0023,*Specified Day(en),Specified Day
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005],CLUSTER,CComplexObject,at0005,*Consumption Details(en),Consumption Details
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,*Form(en),Form
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0015],CLUSTER,CComplexObject,at0015,*Amount(en),Amount
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0015]/items[at0014],ELEMENT,CComplexObject,at0014,*Standard Drinks(en),Standard Drinks
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0015]/items[at0014]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,*Grams Consumed(en),Grams Consumed
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0015]/items[at0016]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0017],ELEMENT,CComplexObject,at0017,*Triggers(en),Triggers
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0018],ELEMENT,CComplexObject,at0018,*Context(en),Context
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0005]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,*Behavioural Issues(en),Behavioural Issues
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0021],ELEMENT,CComplexObject,at0021,*Comment(en),Comment
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/data[at0001]/events[at0023]/data[at0003]/items[at0027],CLUSTER,ArchetypeSlot,at0027,*Readiness for Change(en),Readiness for Change
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/protocol[at0024],ITEM_TREE,CComplexObject,at0024,Tree,Tree
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/protocol[at0024]/items[at0025],ELEMENT,CComplexObject,at0025,*Standard Drink Definition(en),Standard Drink Definition
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/protocol[at0024]/items[at0025]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/protocol[at0024]/items[at0026],ELEMENT,CComplexObject,at0026,*Average Use Frequency(en),Average Use Frequency
+openEHR-EHR-OBSERVATION.alcohol_use.v0,/protocol[at0024]/items[at0026]/value,DV_QUANTITY,CDvQuantity

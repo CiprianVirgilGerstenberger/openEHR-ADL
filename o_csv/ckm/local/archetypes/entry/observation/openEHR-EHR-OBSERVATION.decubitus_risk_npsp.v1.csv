@@ -1,0 +1,16 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/,OBSERVATION,CComplexObject,at0000,Risiko for trykksår Pasientsikkerhetsprogrammet
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Trykksår
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Stillingsendring
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Risiko for trykksår
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar
+openEHR-EHR-OBSERVATION.decubitus_risk_npsp.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_TEXT,CComplexObject

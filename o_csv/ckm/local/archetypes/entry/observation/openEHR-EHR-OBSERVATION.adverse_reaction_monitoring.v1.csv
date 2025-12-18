@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/,OBSERVATION,CComplexObject,at0000,Monitorering for overfølsomhetsreaksjoner,Adverse reaction monitoring
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002],INTERVAL_EVENT,CComplexObject,at0002,Monitoreringsintervall,Monitoring interval
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Substans,Substance
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Reaksjon?,Reaction?
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Kommentar,Comment
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Formål,Purpose
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0014],CLUSTER,ArchetypeSlot,at0014,Substansdetaljer,Substance details
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Reaksjonshendelse,Reaction event
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/state[at0012],ITEM_TREE,CComplexObject,at0012,Item tree,Item tree
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/state[at0012]/items[at0011],ELEMENT,CComplexObject,at0011,Forebyggende tiltak,Mitigation factor
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/data[at0001]/events[at0002]/state[at0012]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Item tree,Item tree
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/protocol[at0009]/items[at0010],CLUSTER,ArchetypeSlot,at0010,Tilleggsinformasjon,Extension
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/protocol[at0009]/items[at0017],ELEMENT,CComplexObject,at0017,Metode,Method
+openEHR-EHR-OBSERVATION.adverse_reaction_monitoring.v1,/protocol[at0009]/items[at0017]/value,DV_TEXT,CComplexObject

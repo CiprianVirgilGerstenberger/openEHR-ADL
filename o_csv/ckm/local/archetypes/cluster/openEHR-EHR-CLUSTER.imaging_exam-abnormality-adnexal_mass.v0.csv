@@ -1,0 +1,51 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/,CLUSTER,CComplexObject,at0000.1.1,Bildgebende Untersuchung einer Körperstruktur,Bildediagnostisk undersøkelse - oppfylning i adneks,Imaging examination of an adnexal mass
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.13],ELEMENT,CComplexObject,at0.0.13,Number of papillary projections,Antall papillære utspring,Number of papillary projections
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.13]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.13]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.14],ELEMENT,CComplexObject,at0.0.14,Maximal septum width,Største bredde av skilleveggen,Maximal septum width
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.14]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.15],ELEMENT,CComplexObject,at0.0.15,Solid diameter,Solid diameter,Solid diameter
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.15]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.8],ELEMENT,CComplexObject,at0.0.8,Number of cyst locules,Antall cystiske kamre,Number of cyst locules
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.8]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.0.8]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.10],ELEMENT,CComplexObject,at0.10,Texture,Tekstur,Texture
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.10]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.11],ELEMENT,CComplexObject,at0.11,Definition,Avgrensning,Definition
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.11]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.11]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.14],ELEMENT,CComplexObject,at0.14,Contour,Kontur,Contour
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.14]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.15],ELEMENT,CComplexObject,at0.15,Margin,Grenseflate,Margin
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.15]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.16],ELEMENT,CComplexObject,at0.16,Calcification,Forkalkning,Calcification
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.16]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.16]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.19],ELEMENT,CComplexObject,at0.19,Effect,Effekt,Effect
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.19]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.20],ELEMENT,CComplexObject,at0.20,Vascularisation,Blodforsyning,Vascularisation
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.20]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.20]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.2],ELEMENT,CComplexObject,at0.2,Label,Identifisering,Label
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.2]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.3.1],ELEMENT,CComplexObject,at0.3.1,Type,Type,Type
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.3.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.3.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.4],ELEMENT,CComplexObject,at0.4,Diameter,Diameter,Diameter
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.4]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.9],ELEMENT,CComplexObject,at0.9,Shape,Form,Shape
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0.9]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0001.1.1],ELEMENT,CComplexObject,at0001.1.1,Körperstruktur,Struktur,Body structure
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0001.1.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0001.1.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam-abnormality-adnexal_mass.v0,/items[at0007]/value,DV_TEXT,CComplexObject

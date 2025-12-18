@@ -1,0 +1,39 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en,name_sl
+openEHR-EHR-CLUSTER.timing_daily.v1,/,CLUSTER,CComplexObject,at0000,Timing - døgn,Timing - daily,*Daily timing(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Frekvens,Frequency,*Frequency(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0003]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0003]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0003]/value/upper,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Spesifikt tidspunkt,Specific time,*Specific time(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0004]/value,DV_INTERVAL<DV_TIME>,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0004]/value/lower,DV_TIME,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0004]/value/upper,DV_TIME,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0014],ELEMENT,CComplexObject,at0014,Intervall,Interval,*Interval(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0014]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0014]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Nøyaktig timing kritisk,Exact timing critical?,*Exact timing critical(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0023]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0023]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0024],ELEMENT,CComplexObject,at0024,Ved behov,As required,*As required(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0024]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0024]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0025],ELEMENT,CComplexObject,at0025,Vilkår for "Ved behov",'As required' criterion,*As required criterion(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0027],ELEMENT,CComplexObject,at0027,Timingbeskrivelse,Timing description,*Timing description(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035],CLUSTER,CComplexObject,at0035,På / av-syklus,On / off cycle,*On / off cycle(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0036],ELEMENT,CComplexObject,at0036,På,On,*On(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0036]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0036]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0037],ELEMENT,CComplexObject,at0037,Av,Off,*Off(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0037]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0037]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0038],ELEMENT,CComplexObject,at0038,Repetisjoner,Repetitions,*Repetitions(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0038]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0035]/items[at0038]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0039],CLUSTER,CComplexObject,at0039,Spesifikk hendelse,Specific event,*Specific event(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0039]/items[at0026],ELEMENT,CComplexObject,at0026,Hendelsesnavn,Event name,*Event name(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0039]/items[at0026]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0039]/items[at0040],ELEMENT,CComplexObject,at0040,Tidsforskyvelse,Time offset,*Time offset(en)
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0039]/items[at0040]/value,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.timing_daily.v1,/items[at0039]/items[at0040]/value/value,DV_DURATION,CPrimitiveObject

@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt,name_en,name_nl
+openEHR-EHR-CLUSTER.medication.v2,/,CLUSTER,CComplexObject,at0000,Arzneimittel,*Medication details (en),Legemiddeldetaljer,*Medication details (en),Medication details,*Medication details (en)
+openEHR-EHR-CLUSTER.medication.v2,/items[at0003],ELEMENT,CComplexObject,at0003,Verfallsdatum,Hållbarhetsdatum,Holdbarhetsdato,*Expiry(en),Expiry,Houdbaarheid
+openEHR-EHR-CLUSTER.medication.v2,/items[at0003]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0071],ELEMENT,CComplexObject,at0071,Darreichungsform,Form,Form,*Form(en),Form,Vorm
+openEHR-EHR-CLUSTER.medication.v2,/items[at0071]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0115],ELEMENT,CComplexObject,at0115,Wirkstoffkonzentration,Styrka (koncentration),Styrke (konsentrasjon),*Strength (concentration)(en),Strength (concentration),Dosis (concentratie)
+openEHR-EHR-CLUSTER.medication.v2,/items[at0115]/value,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0127],ELEMENT,CComplexObject,at0127,Funktion,Roll,Rolle,*Role(en),Role,Rol
+openEHR-EHR-CLUSTER.medication.v2,/items[at0127]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0127]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication.v2,/items[at0132],ELEMENT,CComplexObject,at0132,Name,Namn,Navn,*Name(en),Name,Naam
+openEHR-EHR-CLUSTER.medication.v2,/items[at0132]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0133],ELEMENT,CComplexObject,at0133,Beschreibung,Beskrivning,Beskrivelse,*Description(en),Description,Beschrijving
+openEHR-EHR-CLUSTER.medication.v2,/items[at0133]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0138],CLUSTER,ArchetypeSlot,at0138,Bestandteil,Beståndsdelar,Bestanddel,*Constituent details(en),Constituent,Bestanddeel
+openEHR-EHR-CLUSTER.medication.v2,/items[at0139],ELEMENT,CComplexObject,at0139,Menge,Mängd,Mengde,*Amount(en),Amount,Hoeveelheid
+openEHR-EHR-CLUSTER.medication.v2,/items[at0139]/value,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0141],CLUSTER,ArchetypeSlot,at0141,Strukturierte Angaben,Strukturerade detaljer,Strukturerte detaljer,*Structured details(en),Structured details,*Structured details (en)
+openEHR-EHR-CLUSTER.medication.v2,/items[at0142],ELEMENT,CComplexObject,at0142,Kategorie,Kategori,Kategori,*Category(en),Category,Categorie
+openEHR-EHR-CLUSTER.medication.v2,/items[at0142]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0142]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.medication.v2,/items[at0148],ELEMENT,CComplexObject,at0148,Alternative Menge,Alternativ mängd,Alternativ mengde,*Alternate amount(en),Alternate amount,Alternatieve hoeveelheid
+openEHR-EHR-CLUSTER.medication.v2,/items[at0148]/value,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0150],ELEMENT,CComplexObject,at0150,Batch ID,Batch ID,Batch-ID,*Batch ID(en),Batch ID,Batch ID
+openEHR-EHR-CLUSTER.medication.v2,/items[at0150]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0151],ELEMENT,CComplexObject,at0151,Hersteller,Tillverkare,Produsent,*Manufacturer(en),Manufacturer,Fabrikant
+openEHR-EHR-CLUSTER.medication.v2,/items[at0151]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0152],CLUSTER,CComplexObject,at0152,Wirkstärke (Darreichungsform),Styrka,Styrke (presentasjon),*Strength (presentation)(en),Strength (presentation),Dosis (presentatie)
+openEHR-EHR-CLUSTER.medication.v2,/items[at0152]/items[at0153],ELEMENT,CComplexObject,at0153,Wirkstärke (Zähler),Styrka i täljare,Styrketeller,*Strength numerator(en),Strength numerator,Dosis teller
+openEHR-EHR-CLUSTER.medication.v2,/items[at0152]/items[at0153]/value,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.medication.v2,/items[at0152]/items[at0157],ELEMENT,CComplexObject,at0157,Wirkstärke (Nenner),Styrka i nämnare,Styrkenevner,*Strength denominator(en),Strength denominator,Dosis noemer
+openEHR-EHR-CLUSTER.medication.v2,/items[at0152]/items[at0157]/value,DV_QUANTITY,CComplexObject

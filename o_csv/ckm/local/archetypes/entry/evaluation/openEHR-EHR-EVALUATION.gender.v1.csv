@@ -1,0 +1,24 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_pt-pt,name_sv,name_nb,name_en
+openEHR-EHR-EVALUATION.gender.v1,/,EVALUATION,CComplexObject,at0000,Geschlecht,*Gender(en),Kön,Kjønn,Gender
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002],ITEM_TREE,CComplexObject,at0002,*Tree(en),Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0001],ELEMENT,CComplexObject,at0001,Geschlechtsidentität,*Gender identity(en),Könsidentitet,Kjønnsidentitet,Gender identity
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0014],ELEMENT,CComplexObject,at0014,Kommentar,*Comment(en),Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0019],ELEMENT,CComplexObject,at0019,Geschlechtszuweisung bei der Geburt,*Sex assigned at birth(en),Kön tilldelat vid födsel,Kjønn tildelt ved fødsel,Sex assigned at birth
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0020],ELEMENT,CComplexObject,at0020,Bevorzugtes Pronomen,*Preferred pronoun(en),Föredraget pronomen,Foretrukket pronomen,Preferred pronoun
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0022],ELEMENT,CComplexObject,at0022,Administratives Geschlecht,*Administrative gender(en),Administrativt kön,Administrativt kjønn,Administrative gender
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0023],CLUSTER,ArchetypeSlot,at0023,Zusätzliche Details,*Additional details(en),Ytterligare information,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0025],ELEMENT,CComplexObject,at0025,Ausdruck des Geschlechts,*Gender expression(en),Könsuttryck,Kjønnsuttrykk,Gender expression
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0026],ELEMENT,CComplexObject,at0026,Rechtliches Geschlecht,*Legal gender(en),Juridiskt kön,Juridisk kjønn,Legal gender
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0026]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0027],ELEMENT,CComplexObject,at0027,Geschlechterkategorie,*Gender category(en),*Gender category (en),Kjønnskategori,Gender category
+openEHR-EHR-EVALUATION.gender.v1,/data[at0002]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/protocol[at0003],ITEM_TREE,CComplexObject,at0003,*Tree(en),Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.gender.v1,/protocol[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Letzte Aktualisierung,*Last updated(en),Senast uppdaterad,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.gender.v1,/protocol[at0003]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.gender.v1,/protocol[at0003]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Erweiterung,*Extension(en),Tilläggsinformation,Tilleggsinformasjon,Extension

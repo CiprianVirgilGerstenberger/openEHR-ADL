@@ -1,0 +1,10 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.structured_name.v1,/,CLUSTER,CComplexObject,at0000,Strukturierter Name der Person,Strukturert navn,Structured name of a person
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Titel,Tittel,Title
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Vorname,Fornavn,Given name
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Nachname,Etternavn,Family name
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0006],ELEMENT,CComplexObject,at0006,Suffix,Suffiks,Suffix
+openEHR-EHR-CLUSTER.structured_name.v1,/items[at0006]/value,DV_TEXT,CComplexObject

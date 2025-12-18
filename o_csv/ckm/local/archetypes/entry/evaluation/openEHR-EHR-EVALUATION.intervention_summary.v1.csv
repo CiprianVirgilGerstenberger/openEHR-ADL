@@ -1,0 +1,45 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.intervention_summary.v1,/,EVALUATION,CComplexObject,at0000,Intervensjonssammendrag,Intervention summary
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Intervensjonsnavn,Intervention name
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Sluttdato,Stop date
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Gjennomføringsresultat,Delivery outcome
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Begrunnelse for gjennomføringsresultat,Reason for delivery outcome
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Terapeutisk resultat,Therapeutic outcome
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Dato for siste kontakt,Date of last interaction
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0010]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Kommentar,Comment
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0027],ELEMENT,CComplexObject,at0027,Begrunnelse for terapeutisk resultat,Reason for therapeutic outcome
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0028],ELEMENT,CComplexObject,at0028,Beskrivelse,Description
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0032],ELEMENT,CComplexObject,at0032,Startdato,Start date
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0032]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0033],ELEMENT,CComplexObject,at0033,Klinisk indikasjon,Clinical indication
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0034],ELEMENT,CComplexObject,at0034,Intensjon,Intent
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0051],ELEMENT,CComplexObject,at0051,Terapeutisk sekvens,Therapeutic sequence
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0051]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0054],ELEMENT,CComplexObject,at0054,Klinisk protokoll,Clinical protocol
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0054]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0055],ELEMENT,CComplexObject,at0055,Terapeutisk rolle,Therapeutic role
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0055]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0058],ELEMENT,CComplexObject,at0058,Intervensjonstype,Intervention type
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0058]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0059],ELEMENT,CComplexObject,at0059,Intervensjonskategori,Intervention category
+openEHR-EHR-EVALUATION.intervention_summary.v1,/data[at0001]/items[at0059]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/protocol[at0002],ITEM_TREE,CComplexObject,at0002,Item tree,Item tree
+openEHR-EHR-EVALUATION.intervention_summary.v1,/protocol[at0002]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.intervention_summary.v1,/protocol[at0002]/items[at0018],ELEMENT,CComplexObject,at0018,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.intervention_summary.v1,/protocol[at0002]/items[at0018]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.intervention_summary.v1,/protocol[at0002]/items[at0057],ELEMENT,CComplexObject,at0057,Intervensjons ID,Intervention ID
+openEHR-EHR-EVALUATION.intervention_summary.v1,/protocol[at0002]/items[at0057]/value,DV_TEXT,CComplexObject

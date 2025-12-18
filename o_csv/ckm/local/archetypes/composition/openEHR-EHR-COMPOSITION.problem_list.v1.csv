@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_ko,name_nb,name_pt-br,name_ar-sy,name_en
+openEHR-EHR-COMPOSITION.problem_list.v1,/,COMPOSITION,CComplexObject,at0000,문제 목록,Problemliste,Lista de problemas,قائمة المشكلات,Problem list
+openEHR-EHR-COMPOSITION.problem_list.v1,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.problem_list.v1,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.problem_list.v1,/content[at0002],EVALUATION,ArchetypeSlot,at0002,문제 또는 진단,Problemer, diagnoser eller helseproblemer,Problemas, diagnósticos, preocupações ou tópicos relacionados à Saúde,فعل,Problems, diagnoses, concerns or Health issue threads
+openEHR-EHR-COMPOSITION.problem_list.v1,/content[at0003],ACTION,ArchetypeSlot,at0003,처치,Prosedyrer,Pocedimentos,*Procedures(en),Procedures
+openEHR-EHR-COMPOSITION.problem_list.v1,/content[at0004],EVALUATION,ArchetypeSlot,at0004,*Exclusion statements(en),Eksklusjonsutsagn,Declarações de exclusão,*Exclusion statements(en),Exclusion statements
+openEHR-EHR-COMPOSITION.problem_list.v1,/content[at0005],EVALUATION,ArchetypeSlot,at0005,정보 없음,Fravær av informasjon,Informação ausente,*Absent Information(en),Absent information
+openEHR-EHR-COMPOSITION.problem_list.v1,/content[at0007],SECTION,ArchetypeSlot,at0007,*ENTRY(en),Annet,Outros,*ENTRY(en),Other
+openEHR-EHR-COMPOSITION.problem_list.v1,/context,EVENT_CONTEXT,CComplexObject
+openEHR-EHR-COMPOSITION.problem_list.v1,/context/other_context[at0006],ITEM_TREE,CComplexObject,at0006,*Tree(en),Tree,Tree,*Tree(en),Tree
+openEHR-EHR-COMPOSITION.problem_list.v1,/context/other_context[at0006]/items[at0008],CLUSTER,ArchetypeSlot,at0008,*Extension(en),Tilleggsinformasjon,Extensão,*Extension(en),Extension

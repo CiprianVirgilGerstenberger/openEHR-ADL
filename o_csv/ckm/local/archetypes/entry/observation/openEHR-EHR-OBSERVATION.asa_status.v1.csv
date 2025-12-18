@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_es-ar,name_pt-br,name_en
+openEHR-EHR-OBSERVATION.asa_status.v1,/,OBSERVATION,CComplexObject,at0000,ASA-klassifikasjon,Clasificación ASA de Estado Físico,Classificação do Estado Físico ASA,ASA Physical Status Classification
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015],HISTORY,CComplexObject,at0015,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016],POINT_EVENT,CComplexObject,at0016,Uspesifisert tidspunkthendelse,Point in time,*Any event(en),Any point in time event
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/data[at0017],ITEM_TREE,CComplexObject,at0017,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/data[at0017]/items[at0001],ELEMENT,CComplexObject,at0001,ASA-status,Estado ASA del paciente,Estado do paciente ASA,ASA patient status
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/data[at0017]/items[at0001]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/data[at0017]/items[at0001]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/data[at0017]/items[at0014],ELEMENT,CComplexObject,at0014,Kommentar,Comentario,Comentário,Comment
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/data[at0017]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.asa_status.v1,/data[at0015]/events[at0016]/state[at0002],ITEM_TREE,CComplexObject,at0002,ItemTree,ItemTree,ItemTree,Tree
+openEHR-EHR-OBSERVATION.asa_status.v1,/protocol[at0018],ITEM_TREE,CComplexObject,at0018,ItemTree,ItemTree,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.asa_status.v1,/protocol[at0018]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Tilleggsinformasjon,Extensión,*Extension(en),Extension

@@ -1,0 +1,25 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_es-ar,name_pt-br,name_en
+openEHR-EHR-EVALUATION.precaution.v1,/,EVALUATION,CComplexObject,at0000,Försiktighetsåtgärd,Forholdsregel,Precaución,Precaução,Precaution
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Tillstånd,Tilstand,Condición,Condição,Condition
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Belägg,Underlag,Evidencia,Evidência,Evidence
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Kommentar,Kommentar,Comentario,Comentário,Comment
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Kategori,Kategori,Categoría,Categoria,Category
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0014],ELEMENT,CComplexObject,at0014,Status,Status,Estado,Estado,Status
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.precaution.v1,/data[at0001]/items[at0025],CLUSTER,ArchetypeSlot,at0025,*Additional details(en),Ytterligere detaljer,*Additional details (en),*Additional details (en),Additional details
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006],ITEM_TREE,CComplexObject,at0006,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0004],ELEMENT,CComplexObject,at0004,Senast uppdaterad,Sist oppdatert,Última actualización,Última atualização,Last updated
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0009],ELEMENT,CComplexObject,at0009,Granskningsdatum,Evalueringsdato,Fecha de Revisión,Data de revisão,Review date
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0009]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0020],CLUSTER,ArchetypeSlot,at0020,Tilläggsinformation,Tilleggsinformasjon,Extensión,Extensão,Extension
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0022],ELEMENT,CComplexObject,at0022,Giltlig startperiod,Gyldighetsperiode start,Comienzo del período de validez,Início do período válido,Valid period start
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0022]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0024],ELEMENT,CComplexObject,at0024,Giltlig slutperiod,Gyldighetsperiode slutt,Final del período de validez,Final do período válido,Valid period end
+openEHR-EHR-EVALUATION.precaution.v1,/protocol[at0006]/items[at0024]/value,DV_DATE_TIME,CComplexObject

@@ -1,0 +1,35 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/,CLUSTER,CComplexObject,at0000,Bildgebende Untersuchung einer Anomalie,Bildediagnostisk undersøkelse - anomali,Imaging examination of an anomaly
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Körperstelle,Anatomisk lokalisasjon,Body site
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Körperstelle strukturiert,Strukturert anatomisk lokalisasjon,Structured body site
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Bildgebende Befunde,Funn,Imaging findings
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Interpretation,Resymé,Impression
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0035],ELEMENT,CComplexObject,at0035,*Label(en),Merkelapp,Label
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0036],ELEMENT,CComplexObject,at0036,*Type,Type,Type
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0037],ELEMENT,CComplexObject,at0037,*Dimension(en),Dimensjon,Dimension
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0037]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0037]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0037]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0038],ELEMENT,CComplexObject,at0038,*Shape(en),Form,Shape
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0038]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0039],ELEMENT,CComplexObject,at0039,Beschaffenheit,Tekstur,Texture
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0039]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0040],ELEMENT,CComplexObject,at0040,Rand,Grenseflate,Margin
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0041],ELEMENT,CComplexObject,at0041,Kalzifizierung,Forkalkning,Calcification
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0041]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0041]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0042],ELEMENT,CComplexObject,at0042,*Calcification description(en),Beskrivelse av forkalkning,Calcification description
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0042]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0043],ELEMENT,CComplexObject,at0043,*Effect,Effekt,Effect
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0044],ELEMENT,CComplexObject,at0044,Beschreibung der Vaskularisierung.,Beskrivelse av blodforsyning,Vascularisation description
+openEHR-EHR-CLUSTER.imaging_exam_anomaly.v0,/items[at0044]/value,DV_TEXT,CComplexObject

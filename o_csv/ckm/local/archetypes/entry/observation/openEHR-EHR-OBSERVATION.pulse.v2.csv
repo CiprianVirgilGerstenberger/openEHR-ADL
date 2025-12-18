@@ -1,0 +1,76 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ru,name_sv,name_fi,name_nb,name_pt-br,name_ar-sy,name_en,name_es,name_nl,name_es-co
+openEHR-EHR-OBSERVATION.pulse.v2,/,OBSERVATION,CComplexObject,at0000,Pulsfrequenz/Herzfrequenz,*Pulse/Heart beat(en),Puls/Hjärtfrekvens,Pulssi/syke,Puls/Hjertefrekvens,Pulso/Batimento Cardíaco,*Pulse/Heart beat(en),Pulse/Heart beat,Pulso/Frecuencia cardiaca,Pols/Hartfrequentie,*Pulse/Heart beat(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002],HISTORY,CComplexObject,at0002,History,История,history,history,history,history,*history(en),history,historia,history,*history(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003],EVENT,CComplexObject,at0003,Jedes Ereignis,*Any event(en),Ospecificerad händelse,Mikä tahansa tapahtuma,Uspesifisert hendelse,Algum evento,*Any event(en),Any event,evento,Elke gebeurtenis,*Any event(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,Дерево,structure,structure,structure,structure,*structure(en),structure,estructura,structure,*structure(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Frequenz,*Rate(en),Frekvens,Taajuus,Frekvens,Frequência,*Rate(en),Rate,Frecuencia,Frequentie,*Rate(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Regelmäßigkeit,*Regular?(en),Regelbunden,Säännöllinen?,Rytme,Regular?,*Regular?(en),Regularity,Regularidad,Regulariteit.,*Regular?(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1005],ELEMENT,CComplexObject,at1005,Vorhandensein,*Presence(en),Närvaro,Läsnäolo,Tilstedeværelse,Presença,*Presence(en),Presence,Presencia del pulso,Aanwezigheid,*Presence(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1022],ELEMENT,CComplexObject,at1022,Klinische Beschreibung,*Clinical description(en),Klinisk beskrivning,Kliininen kuvaus,Klinisk beskrivelse,Descrição clínica,*Clinical description(en),Clinical description,Descripción clínica,Klinische beschrijving,*Clinical description(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1023],ELEMENT,CComplexObject,at1023,Klinische Interpretation,*Clinical interpretation(en),Klinisk tolkning,Kliininen tulkinta,Klinisk tolkning,Interpretação clínica,*Clinical interpretation(en),Clinical interpretation,Interpretación clínica,Klinische interpretatie.,*Clinical interpretation(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1023]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1023]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1030],ELEMENT,CComplexObject,at1030,Merkmal,*Character(en),Karaktär,Luonne,Karakter,Característica,*Character(en),Character,Carácter del pulso,Karakter,*Character(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1055],ELEMENT,CComplexObject,at1055,Unregelmäßiger Typ,*Irregular type(en),Oregelbunden typ,Tyypiltään epäsäännöllinen,Type uregelmessighet,Tipo irregular,*Irregular type(en),Irregular type,Tipo irregular,Irregulair type.,*Irregular type(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1055]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1055]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1059],ELEMENT,CComplexObject,at1059,Kommentar,*Comment(en),Kommentar,Kommentti,Kommentar,Comentários,*Comment(en),Comment,Comentarios,Opmerking,*Comment(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/data[at0001]/items[at1059]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012],ITEM_TREE,CComplexObject,at0012,List,Дерево,List,List,List,List,*List(en),List,lista,List,*List(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012]/items[at0013],ELEMENT,CComplexObject,at0013,Körperhaltung,*Position(en),Kroppsställning,Asento,Stilling,Posição,*Position(en),Position,Posición,Houding,*Position(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012]/items[at0013]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012]/items[at0013]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012]/items[at1017],CLUSTER,ArchetypeSlot,at1017,Anstrengung,*Exertion(en),Ansträngning,Rasitus,Fysisk anstrengelse,Esforço,*Exertion(en),Exertion,Ejercicio,Inspanning,*Exertion(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012]/items[at1018],ELEMENT,CComplexObject,at1018,Störfaktoren,*Confounding factors(en),Möjliga felkällor,Sekoittavat tekijät,Konfunderende faktorer,Fatores de confusão,*Confounding factors(en),Confounding factors,Factores de confusión,Beïnvloedende factoren,*Confounding factors(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at0003]/state[at0012]/items[at1018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036],INTERVAL_EVENT,CComplexObject,at1036,Maximum,*Maximum(en),Maximum,Korkein,Maksimum,Máximo,*Maximum(en),Maximum,Máximo,Maximum,*Maximum(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001],ITEM_TREE,CComplexObject,at0001,Structure,Дерево,structure,structure,structure,structure,*structure(en),structure,estructura,structure,*structure(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Frequenz,*Rate(en),Frekvens,Taajuus,Frekvens,Frequência,*Rate(en),Rate,Frecuencia,Frequentie,*Rate(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Regelmäßigkeit,*Regular?(en),Regelbunden,Säännöllinen?,Rytme,Regular?,*Regular?(en),Regularity,Regularidad,Regulariteit.,*Regular?(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1005],ELEMENT,CComplexObject,at1005,Vorhandensein,*Presence(en),Närvaro,Läsnäolo,Tilstedeværelse,Presença,*Presence(en),Presence,Presencia del pulso,Aanwezigheid,*Presence(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1022],ELEMENT,CComplexObject,at1022,Klinische Beschreibung,*Clinical description(en),Klinisk beskrivning,Kliininen kuvaus,Klinisk beskrivelse,Descrição clínica,*Clinical description(en),Clinical description,Descripción clínica,Klinische beschrijving,*Clinical description(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1023],ELEMENT,CComplexObject,at1023,Klinische Interpretation,*Clinical interpretation(en),Klinisk tolkning,Kliininen tulkinta,Klinisk tolkning,Interpretação clínica,*Clinical interpretation(en),Clinical interpretation,Interpretación clínica,Klinische interpretatie.,*Clinical interpretation(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1023]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1023]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1030],ELEMENT,CComplexObject,at1030,Merkmal,*Character(en),Karaktär,Luonne,Karakter,Característica,*Character(en),Character,Carácter del pulso,Karakter,*Character(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1055],ELEMENT,CComplexObject,at1055,Unregelmäßiger Typ,*Irregular type(en),Oregelbunden typ,Tyypiltään epäsäännöllinen,Type uregelmessighet,Tipo irregular,*Irregular type(en),Irregular type,Tipo irregular,Irregulair type.,*Irregular type(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1055]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1055]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1059],ELEMENT,CComplexObject,at1059,Kommentar,*Comment(en),Kommentar,Kommentti,Kommentar,Comentários,*Comment(en),Comment,Comentarios,Opmerking,*Comment(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/data[at0001]/items[at1059]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/math_function,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/math_function/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012],ITEM_TREE,CComplexObject,at0012,List,Дерево,List,List,List,List,*List(en),List,lista,List,*List(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012]/items[at0013],ELEMENT,CComplexObject,at0013,Körperhaltung,*Position(en),Kroppsställning,Asento,Stilling,Posição,*Position(en),Position,Posición,Houding,*Position(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012]/items[at0013]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012]/items[at0013]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012]/items[at1017],CLUSTER,ArchetypeSlot,at1017,Anstrengung,*Exertion(en),Ansträngning,Rasitus,Fysisk anstrengelse,Esforço,*Exertion(en),Exertion,Ejercicio,Inspanning,*Exertion(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012]/items[at1018],ELEMENT,CComplexObject,at1018,Störfaktoren,*Confounding factors(en),Möjliga felkällor,Sekoittavat tekijät,Konfunderende faktorer,Fatores de confusão,*Confounding factors(en),Confounding factors,Factores de confusión,Beïnvloedende factoren,*Confounding factors(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/data[at0002]/events[at1036]/state[at0012]/items[at1018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010],ITEM_TREE,CComplexObject,at0010,List,Дерево,List,List,List,List,*List(en),List,lista,List,*List(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1013],CLUSTER,ArchetypeSlot,at1013,Gerät,*Device(en),Utrustning,Laite,Måleapparat,Dispositivo,*Device(en),Device,Dispositivo,Apparaat,*Device(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1019],ELEMENT,CComplexObject,at1019,Methode,*Method(en),Metod,Menetelmä,Målemetode,Método,*Method(en),Method,Método,Methode,*Method(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1019]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1019]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1037],ELEMENT,CComplexObject,at1037,Körperstelle,*Body site(en),Lokalisation,Kehon kohta,Målested,Local do corpo,*Body site(en),Body site,Localización corporal,Lichaamslocatie,*Body site(en)
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1037]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.pulse.v2,/protocol[at0010]/items[at1056],CLUSTER,ArchetypeSlot,at1056,Erweiterung,*Extension(en),Tilläggsinformation,Laajennus,Tilleggsinformasjon,Extensão,*Extension(en),Extension,Extensión,Uitbreiding,*Extension(en)

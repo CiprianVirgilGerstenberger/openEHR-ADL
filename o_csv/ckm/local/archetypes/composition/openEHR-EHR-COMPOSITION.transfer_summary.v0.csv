@@ -1,0 +1,7 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-COMPOSITION.transfer_summary.v0,/,COMPOSITION,CComplexObject,at0000,Sammendrag ved omsorgsoverføring,Transfer of care summary
+openEHR-EHR-COMPOSITION.transfer_summary.v0,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.transfer_summary.v0,/category/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.transfer_summary.v0,/context,EVENT_CONTEXT,CComplexObject
+openEHR-EHR-COMPOSITION.transfer_summary.v0,/context/other_context[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-COMPOSITION.transfer_summary.v0,/context/other_context[at0001]/items[at0002],CLUSTER,ArchetypeSlot,at0002,Tilleggsinformasjon,Extension

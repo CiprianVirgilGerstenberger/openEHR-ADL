@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.cgas.v1,/,OBSERVATION,CComplexObject,at0000,CGAS,Children's Global Assessment Scale
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Unspecified event
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Skår,Score
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Kommentar,Comment
+openEHR-EHR-OBSERVATION.cgas.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.cgas.v1,/protocol[at0012],ITEM_TREE,CComplexObject,at0012,Tree,Tree
+openEHR-EHR-OBSERVATION.cgas.v1,/protocol[at0012]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Tilleggsinformasjon,Extension

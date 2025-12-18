@@ -1,0 +1,202 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/,CLUSTER,CComplexObject,at0000,Microscopy renal biopsy non neoplastic
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001],CLUSTER,CComplexObject,at0001,Renal biopsy overall description
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Cortex
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0003]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0003]/value/is_integral,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0003]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Medulla
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0007]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0007]/value/is_integral,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0007]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0011],ELEMENT,CComplexObject,at0011,Renale capsule
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0011]/name,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0011]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0011]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Other tissue elements
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0001]/items[at0012]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015],CLUSTER,CComplexObject,at0015,Glomeruli
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0016],ELEMENT,CComplexObject,at0016,Glomeruli
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0016]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0017],ELEMENT,CComplexObject,at0017,Scorable glomeruli
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0019],ELEMENT,CComplexObject,at0019,Glomeruli solely with necrosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0019]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0020],ELEMENT,CComplexObject,at0020,Glomeruli with crescents
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0020]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0021],ELEMENT,CComplexObject,at0021,Glomeruli with ischemic changes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0021]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0022],ELEMENT,CComplexObject,at0022,Glomeruli with segmental sclerosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0022]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0023],ELEMENT,CComplexObject,at0023,Glomeruli with global sclerosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0023]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0024],ELEMENT,CComplexObject,at0024,Normal glomeruli
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0024]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0026],ELEMENT,CComplexObject,at0026,Description of glomeruli
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0026]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0028],CLUSTER,ArchetypeSlot,at0028,Details of specific  glomerular changes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088],CLUSTER,CComplexObject,at0088,Podocytes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0089],ELEMENT,CComplexObject,at0089,Hypertrophy
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0089]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0089]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0096],ELEMENT,CComplexObject,at0096,Bi- or multinucleated podocytes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0096]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0096]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0101],ELEMENT,CComplexObject,at0101,Resorption droplets
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0101]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0101]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0107],ELEMENT,CComplexObject,at0107,Pseudocysts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0107]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0107]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0117],ELEMENT,CComplexObject,at0117,No abnormality detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0117]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0117]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0125],ELEMENT,CComplexObject,at0125,Details of podocytes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0088]/items[at0125]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115],CLUSTER,CComplexObject,at0115,Mesangium
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0116],ELEMENT,CComplexObject,at0116,No abnormality detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0116]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0116]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0118],ELEMENT,CComplexObject,at0118,Details of the mesangium
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0118]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0119],ELEMENT,CComplexObject,at0119,Mesangial matrix increase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0119]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0119]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0119]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0128],ELEMENT,CComplexObject,at0128,Mesangial hypercellularity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0128]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0128]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0128]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0193],ELEMENT,CComplexObject,at0193,Mesangial nodularity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0193]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0193]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0115]/items[at0193]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138],CLUSTER,CComplexObject,at0138,Capillaries
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0139],ELEMENT,CComplexObject,at0139,No abnormality detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0139]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0139]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0140],ELEMENT,CComplexObject,at0140,Capillary wall thickening
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0140]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0140]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0140]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0142],ELEMENT,CComplexObject,at0142,Details of glomerular capillaries
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0142]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0150],ELEMENT,CComplexObject,at0150,Capillary wall duplication
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0150]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0150]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0150]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159],CLUSTER,CComplexObject,at0159,Capillary lumen
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170],CLUSTER,CComplexObject,at0170,Endocapillary hypercellularity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0160],ELEMENT,CComplexObject,at0160,Endocapillary hypercellularity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0160]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0160]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0160]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0171],ELEMENT,CComplexObject,at0171,Cell type
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0171]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0170]/items[at0171]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184],CLUSTER,CComplexObject,at0184,Thrombi
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184]/items[at0168],ELEMENT,CComplexObject,at0168,Thrombi
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184]/items[at0168]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184]/items[at0168]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184]/items[at0185],ELEMENT,CComplexObject,at0185,Thrombus type
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184]/items[at0185]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0159]/items[at0184]/items[at0185]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0188],ELEMENT,CComplexObject,at0188,Mesangial cell interposition
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0188]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0138]/items[at0188]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0208],ELEMENT,CComplexObject,at0208,Glomeruli with adhesions
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0015]/items[at0208]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029],CLUSTER,CComplexObject,at0029,Tubules
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030],CLUSTER,CComplexObject,at0030,Tubular casts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0031],ELEMENT,CComplexObject,at0031,Myeloma casts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0031]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0031]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0032],ELEMENT,CComplexObject,at0032,Tamm Horsfall protein
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0032]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0032]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0033],ELEMENT,CComplexObject,at0033,Hyaline casts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0033]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0033]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0034],ELEMENT,CComplexObject,at0034,Granular casts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0034]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0034]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0035],ELEMENT,CComplexObject,at0035,Detached cells
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0035]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0035]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0036],ELEMENT,CComplexObject,at0036,Red blood cells
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0036]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0036]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0037],ELEMENT,CComplexObject,at0037,Granulocytes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0037]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0037]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0038],ELEMENT,CComplexObject,at0038,Crystals
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0038]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0038]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0081],ELEMENT,CComplexObject,at0081,Mixed casts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0081]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0081]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0082],ELEMENT,CComplexObject,at0082,Pigmented casts
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0082]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0030]/items[at0082]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0041],CLUSTER,CComplexObject,at0041,Tubular atrophy
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0041]/items[at0042],ELEMENT,CComplexObject,at0042,Tubular atrophy semiquantitative
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0041]/items[at0042]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0041]/items[at0042]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0048],ELEMENT,CComplexObject,at0048,Tubules description
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0048]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0080],ELEMENT,CComplexObject,at0080,Casts in tubules
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0080]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0080]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0202],ELEMENT,CComplexObject,at0202,Tubular epithelial cell changes
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0202]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0202]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0209],ELEMENT,CComplexObject,at0209,No abnormality detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0209]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0029]/items[at0209]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049],CLUSTER,CComplexObject,at0049,Interstitium
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050],CLUSTER,CComplexObject,at0050,Quantification of interstitial fibrosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0051],CLUSTER,ArchetypeSlot,at0051,Image analysis details
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0052],ELEMENT,CComplexObject,at0052,Technique
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0052]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0052]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0056],ELEMENT,CComplexObject,at0056,Percentage interstitial fibrosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0056]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0079],ELEMENT,CComplexObject,at0079,Multimedia representation of image analysis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0079]/value,DV_MULTIMEDIA,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0050]/items[at0079]/value/media_type,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0057],ELEMENT,CComplexObject,at0057,Cortical area with fibrosis estimated
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0057]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0058],ELEMENT,CComplexObject,at0058,Fibrous tissue estimated
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0058]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0059],ELEMENT,CComplexObject,at0059,Interstitium description
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0059]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0210],ELEMENT,CComplexObject,at0210,No abnormality detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0210]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0049]/items[at0210]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060],CLUSTER,CComplexObject,at0060,Vasculature
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0061],ELEMENT,CComplexObject,at0061,Number of arteries
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0061]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0062],ELEMENT,CComplexObject,at0062,Arteriosclerosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0062]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0062]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0067],ELEMENT,CComplexObject,at0067,Arteriolosclerosis
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0067]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0067]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0071],ELEMENT,CComplexObject,at0071,Vasculature description
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0071]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0211],ELEMENT,CComplexObject,at0211,No abnormality detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0211]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0060]/items[at0211]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0072],CLUSTER,CComplexObject,at0072,Amyloid
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0072]/items[at0076],CLUSTER,ArchetypeSlot,at0076,Details of amyloid deposition 
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0072]/items[at0212],ELEMENT,CComplexObject,at0212,Amyloid not detected
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0072]/items[at0212]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0072]/items[at0212]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0077],CLUSTER,ArchetypeSlot,at0077,Specific clinical situations
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0078],ELEMENT,CComplexObject,at0078,Multimedia representation
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0078]/value,DV_MULTIMEDIA,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_renal_biopsy_non_neoplastic.v0,/items[at0078]/value/media_type,CODE_PHRASE,CCodePhrase

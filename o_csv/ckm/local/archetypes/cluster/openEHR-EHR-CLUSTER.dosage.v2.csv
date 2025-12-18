@@ -1,0 +1,24 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.dosage.v2,/,CLUSTER,CComplexObject,at0000,Dosierung,Dosering,Dosering,Dose,Dosage
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0037],CLUSTER,ArchetypeSlot,at0037,Tägliche Verabreichungszeiten,Daglig timing,Administreringstidspunkt,Tempo,Daily timing
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102],ELEMENT,CComplexObject,at0102,Verabreichungsdauer,Administrationens varaktighet,Administreringsvarighet,Duração da administração,Administration duration
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102]/value,DV_INTERVAL<DV_DURATION>,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0102]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0134],ELEMENT,CComplexObject,at0134,Verabreichungsrate,Administrationshastighet,Administreringshastighet,Taxa de administração,Administration rate
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0134]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0135],ELEMENT,CComplexObject,at0135,Dosisformel,Doseringsformel,Doseringsformel,Fórmula da dose,Dose formula
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0135]/value,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0144],ELEMENT,CComplexObject,at0144,Dosis,*Dose (en),Dose,*Dose (en),Dose
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0144]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0164],ELEMENT,CComplexObject,at0164,Dosierungsreihenfolge,Doseringssekvens,Doseringsrekkefølge,Sequência de dosagem,Dosage sequence
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0164]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0164]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0176],ELEMENT,CComplexObject,at0176,Alternative Dosis,*Alternate dose (en),Alternativ dose,*Alternate dose (en),Alternate dose
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0176]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0176]/value/upper,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0178],ELEMENT,CComplexObject,at0178,Dosisbeschreibung,Doseringsbeskrivning,Dosebeskrivelse,Descrição da dose,Dose description
+openEHR-EHR-CLUSTER.dosage.v2,/items[at0178]/value,DV_TEXT,CComplexObject

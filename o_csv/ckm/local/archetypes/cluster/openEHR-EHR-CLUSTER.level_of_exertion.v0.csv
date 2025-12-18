@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en,name_ar-sy
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/,CLUSTER,CComplexObject,at0000,Anstrengelsesnivå,Level of exertion,مستوى المجهود
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0009],ELEMENT,CComplexObject,at0009,Fase,Phase,الطور
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0009]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0009]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010],CLUSTER,CComplexObject,at0010,Treningsintensitet,Exercise intensity,شدة التمرين
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0005],ELEMENT,CComplexObject,at0005,Målt,Measured,تم قياسه
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0005]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Intensitet,Intensity,الشدة
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0011]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0011]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0016],ELEMENT,CComplexObject,at0016,Beskrivelse,Description,الوصف
+openEHR-EHR-CLUSTER.level_of_exertion.v0,/items[at0010]/items[at0016]/value,DV_TEXT,CComplexObject

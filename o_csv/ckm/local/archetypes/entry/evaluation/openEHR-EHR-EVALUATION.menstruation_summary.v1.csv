@@ -1,0 +1,49 @@
+archetype_id,path,rm_type,aom_type,node_id,name_fi,name_nb,name_en
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/,EVALUATION,CComplexObject,at0000,Kuukautiskierron yhteenveto,Sammendrag om menstruasjon,Menstruation summary
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,*Age at menarche (en),Alder ved menarke,Age at menarche
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0002]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0002]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,*Menstrual status (en),Menstruasjonsstatus,Menstrual status
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,*Age at menopause (en),Alder ved menopause,Age at menopause
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0004]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0004]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010],CLUSTER,CComplexObject,at0010,*Per episode (en),Per tidsepisode,Per episode
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,*Episode label (en),Episodenavn,Episode label
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0012],ELEMENT,CComplexObject,at0012,*Episode start date (en),Episodens startdato,Episode start date
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0012]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0013],ELEMENT,CComplexObject,at0013,*Description (en),Beskrivelse,Description
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0014],ELEMENT,CComplexObject,at0014,*Typical pattern (en),Typisk mønster,Typical pattern
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0014]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017],ELEMENT,CComplexObject,at0017,*Typical cycle length (en),Typisk sykluslengde,Typical cycle length
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017]/value,DV_INTERVAL<DV_DURATION>,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0017]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018],ELEMENT,CComplexObject,at0018,*Typical menses duration (en),Typisk varighet,Typical menses duration
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018]/value,DV_INTERVAL<DV_DURATION>,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0018]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0020],CLUSTER,ArchetypeSlot,at0020,*Additional details (en),Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0021],ELEMENT,CComplexObject,at0021,*Episode end date (en),Episodens sluttdato,Episode end date
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0021]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0022],ELEMENT,CComplexObject,at0022,*Episode comment (en),Kommentar til episoden,Episode comment
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0010]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0023],ELEMENT,CComplexObject,at0023,*Comment (en),Kommentar,Comment
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,*Overall description (en),Overordnet beskrivelse,Overall description
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/data[at0001]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,*Item tree (en),*Item tree (en),Item tree
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/protocol[at0008]/items[at0009],CLUSTER,ArchetypeSlot,at0009,*Extension (en),Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/protocol[at0008]/items[at0024],ELEMENT,CComplexObject,at0024,*Date last updated (en),Sist oppdatert,Date last updated
+openEHR-EHR-EVALUATION.menstruation_summary.v1,/protocol[at0008]/items[at0024]/value,DV_DATE_TIME,CComplexObject

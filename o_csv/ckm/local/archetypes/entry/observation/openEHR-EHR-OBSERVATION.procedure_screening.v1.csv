@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_it,name_fr
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/,OBSERVATION,CComplexObject,at0000,Screening-Fragebogen zur Prozeduren,Kartleggingsspørsmål om prosedyrer,Procedure screening questionnaire,Questionario di screening della procedura,Questionnaire d'évaluation de la procédure
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History,History,History
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Uspesifisert hendelse,Any event,Qualsiasi evento,Tout événement
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,CComplexObject,at0022,Spezifische Prozedur,Spesifikk prosedyre,Specific procedure,Procedura specifica,Procédure spécifique
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004],ELEMENT,CComplexObject,at0004,Name der Prozedur,Prosedyrenavn,Procedure name,Nome della procedura,Nom de la procédure
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005],ELEMENT,CComplexObject,at0005,Durchgeführt?,Utført?,Carried out?,*Carried out? (en),*Carried out? (en)
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025],ELEMENT,CComplexObject,at0025,Kommentar,Kommentar,Comment,Commento,Commentaire
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0036],CLUSTER,ArchetypeSlot,at0036,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en),Détails supplémentaires
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037],ELEMENT,CComplexObject,at0037,Zeitangaben,Tidsangivelse,Timing,*Timing (en),Timing
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Irgendwelche frühere Prozeduren?,Noen tidligere prosedyrer?,Any previous procedures?,*Any previous procedures? (en),Y a-t-il eu des procédures antérieures ?
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Zweck des Screenings,Kartleggingsformål,Screening purpose,Scopo dello screening,Objectif du dépistage
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0040],CLUSTER,ArchetypeSlot,at0040,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en),Détails supplémentaires
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041],ELEMENT,CComplexObject,at0041,Beschreibung,Beskrivelse,Description,*Description (en),Description
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Item tree,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.procedure_screening.v1,/protocol[at0007]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Erweiterung,Tilleggsinformasjon,Extension,Estensione,Extension

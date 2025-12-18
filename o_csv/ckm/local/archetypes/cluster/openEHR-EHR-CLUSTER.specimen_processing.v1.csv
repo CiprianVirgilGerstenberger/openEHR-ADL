@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.specimen_processing.v1,/,CLUSTER,CComplexObject,at0000,*Specimen processing (en),Prøvebehandling,Specimen processing
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0074],ELEMENT,CComplexObject,at0074,*Method (en),Metode,Method
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0074]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0086],CLUSTER,CComplexObject,at0086,*Process activity (en),Behandlingsaktivitet,Process activity
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0086]/items[at0071],ELEMENT,CComplexObject,at0071,*Sequence (en),Sekvensnummer,Sequence
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0086]/items[at0071]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0086]/items[at0092],CLUSTER,ArchetypeSlot,at0092,*Process activity details (en),Behandlingsaktivitet detaljer,Process activity details
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0088],CLUSTER,ArchetypeSlot,at0088,Gerätebeschreibung,Medisinsk utstyr,Device details
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0089],ELEMENT,CComplexObject,at0089,*Description (en),Beskrivelse,Description
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0089]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0091],ELEMENT,CComplexObject,at0091,*Additive (en),Tilsetningsstoff,Additive
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0091]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0093],CLUSTER,ArchetypeSlot,at0093,*Additional details (en),Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0094],ELEMENT,CComplexObject,at0094,*Process name (en),Prøvebehandlingsnavn,Process name
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0094]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0095],ELEMENT,CComplexObject,at0095,*Comment (en),Kommentar,Comment
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0095]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0096],ELEMENT,CComplexObject,at0096,*Start date/time (en),Start dato/tid,Start date/time
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0096]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0097],ELEMENT,CComplexObject,at0097,*End date/time (en),Slutt dato/tid,End date/time
+openEHR-EHR-CLUSTER.specimen_processing.v1,/items[at0097]/value,DV_DATE_TIME,CComplexObject

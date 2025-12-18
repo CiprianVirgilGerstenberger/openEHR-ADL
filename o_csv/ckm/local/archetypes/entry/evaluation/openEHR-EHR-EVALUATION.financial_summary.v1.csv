@@ -1,0 +1,19 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.financial_summary.v1,/,EVALUATION,CComplexObject,at0000,Økonomisammendrag,Financial summary
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Beskrivelse,Description
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Økonomisk trygghet,Financial security status
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0003]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Hovedinntekstkilde,Main source of income
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0008],CLUSTER,ArchetypeSlot,at0008,Økonomi,Financial record
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,Kommentar,Comment
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Beskrivelse av økonomisk trygghet,Financial security description
+openEHR-EHR-EVALUATION.financial_summary.v1,/data[at0001]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.financial_summary.v1,/protocol[at0010],ITEM_TREE,CComplexObject,at0010,*Item tree (en),Item tree
+openEHR-EHR-EVALUATION.financial_summary.v1,/protocol[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.financial_summary.v1,/protocol[at0010]/items[at0011]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.financial_summary.v1,/protocol[at0010]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Tilleggsinformasjon,Extension

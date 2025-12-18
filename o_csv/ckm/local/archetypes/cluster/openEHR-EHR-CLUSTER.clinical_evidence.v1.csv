@@ -1,0 +1,21 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/,CLUSTER,CComplexObject,at0000,Klinische Evidenz,Kliniska bevis,Klinisk grunnlag,Clinical evidence
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Beschreibung der Methode,Metodbeskrivning,Metodebeskrivelse,Method description
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0003],ELEMENT,CComplexObject,at0003,*Befund,*Fynd,Grunnlag,Evidence
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0004],ELEMENT,CComplexObject,at0004,Befundbeschreibung,Beskrivning av fynd,Oppsummering,Summary
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0005],ELEMENT,CComplexObject,at0005,*Ergebnis,Resultat,Resultat,Result
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0006],ELEMENT,CComplexObject,at0006,*Feststellungsdatum,Identifieringsdatum,Dato,Date/time of result
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0006]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0007],CLUSTER,ArchetypeSlot,at0007,Zitat,Citat,Referanse,Citation
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0018],CLUSTER,ArchetypeSlot,at0018,Multimediale Darstellung,Multimedia representation,Multimediarepresentasjon,Multimedia representation
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0022],ELEMENT,CComplexObject,at0022,Methode,Metod,Metode,Method
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0023],ELEMENT,CComplexObject,at0023,Kommentar,Kommentar,Kommentar,Comment
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0024],CLUSTER,ArchetypeSlot,at0024,Zusätzliche Angaben,*Additional details (en),Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0025],CLUSTER,ArchetypeSlot,at0025,*CLUSTER_SLOT (en),*CLUSTER_SLOT (en),Strukturert resultat,Structured result
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0026],ELEMENT,CComplexObject,at0026,*DV_DATE_TIME (en),*DV_DATE_TIME (en),Dato/tid for klinisk relevans,Date/time clinically relevant
+openEHR-EHR-CLUSTER.clinical_evidence.v1,/items[at0026]/value,DV_DATE_TIME,CComplexObject

@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.housing_summary.v1,/,EVALUATION,CComplexObject,at0000,Boligsammendrag,Housing summary
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Beskrivelse,Description
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001]/items[at0003],CLUSTER,ArchetypeSlot,at0003,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Kommentar,Comment
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.housing_summary.v1,/data[at0001]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Bolig,Housing record
+openEHR-EHR-EVALUATION.housing_summary.v1,/protocol[at0012],ITEM_TREE,CComplexObject,at0012,Tree,Tree
+openEHR-EHR-EVALUATION.housing_summary.v1,/protocol[at0012]/items[at0013],ELEMENT,CComplexObject,at0013,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.housing_summary.v1,/protocol[at0012]/items[at0013]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.housing_summary.v1,/protocol[at0012]/items[at0014],CLUSTER,ArchetypeSlot,at0014,Tilleggsinformasjon,Extension

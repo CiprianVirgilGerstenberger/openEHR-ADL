@@ -1,0 +1,53 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.pasi_score.v1,/,OBSERVATION,CComplexObject,at0000,Psoriasis Area Severity Index (PASI),Psoriasis Area Severity Index (PASI)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],CLUSTER,CComplexObject,at0004,Head region (h),Head region (h)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0005],ELEMENT,CComplexObject,at0005,Erythema (E),Erythema (E)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0011],ELEMENT,CComplexObject,at0011,Infiltration (I),Infiltration (I)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0017],ELEMENT,CComplexObject,at0017,Desquamation (D),Desquamation (D)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0023],ELEMENT,CComplexObject,at0023,Body surface area involvement (A),Body surface area involvement (A)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0038],ELEMENT,CComplexObject,at0038,Score head region,Score head region
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/items[at0038]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032],CLUSTER,CComplexObject,at0032,Trunk region (t),Trunk region (t)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0005],ELEMENT,CComplexObject,at0005,Erythema (E),Erythema (E)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0011],ELEMENT,CComplexObject,at0011,Infiltration (I),Infiltration (I)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0017],ELEMENT,CComplexObject,at0017,Desquamation (D),Desquamation (D)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0023],ELEMENT,CComplexObject,at0023,Body surface area involvement (A),Body surface area involvement (A)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0039],ELEMENT,CComplexObject,at0039,Score trunk region,Score trunk region
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/items[at0039]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033],CLUSTER,CComplexObject,at0033,Upper extremities region (u),Upper extremities region (u)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0005],ELEMENT,CComplexObject,at0005,Erythema (E),Erythema (E)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0011],ELEMENT,CComplexObject,at0011,Infiltration (I),Infiltration (I)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0017],ELEMENT,CComplexObject,at0017,Desquamation (D),Desquamation (D)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0023],ELEMENT,CComplexObject,at0023,Body surface area involvement (A),Body surface area involvement (A)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0040],ELEMENT,CComplexObject,at0040,Score upper extremities region,Score upper extremities region
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/items[at0040]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],CLUSTER,CComplexObject,at0034,Lower extremities region (l),Lower extremities region (l)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0005],ELEMENT,CComplexObject,at0005,Erythema (E),Erythema (E)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0011],ELEMENT,CComplexObject,at0011,Infiltration (I),Infiltration (I)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0017],ELEMENT,CComplexObject,at0017,Desquamation (D),Desquamation (D)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0017]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0023],ELEMENT,CComplexObject,at0023,Body surface area involvement (A),Body surface area involvement (A)
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0041],ELEMENT,CComplexObject,at0041,Score lower extremities region,Score lower extremities region
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/items[at0041]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Total PASI-score,Total PASI-score
+openEHR-EHR-OBSERVATION.pasi_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.pasi_score.v1,/protocol[at0036],ITEM_TREE,CComplexObject,at0036,Item tree,Item tree
+openEHR-EHR-OBSERVATION.pasi_score.v1,/protocol[at0036]/items[at0037],CLUSTER,ArchetypeSlot,at0037,Tilleggsinformasjon,Extension

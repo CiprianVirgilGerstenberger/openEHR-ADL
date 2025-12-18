@@ -1,0 +1,33 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/,OBSERVATION,CComplexObject,at0000,Fragebogen zur Familienanamnese,Kartleggingsspørsmål om familieanamnese,Family history screening questionnaire
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Jedes Ereignis,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Untersuchungsgrund,Kartleggingsformål,Screening purpose
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],CLUSTER,CComplexObject,at0009,Spezifisches Problem oder Diagnose,Spesifikk relasjon,Specific relationship
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Präsenz,Tilstede?,Presence?
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0010]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0018],ELEMENT,CComplexObject,at0018,Beziehung,Relasjon,Relationship
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0028],ELEMENT,CComplexObject,at0028,Kommentar,Kommentar,Comment
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0035],ELEMENT,CComplexObject,at0035,Problem-/Diagnosenname,Problem/diagnosenavn,Problem/diagnosis name
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0036],CLUSTER,ArchetypeSlot,at0036,Zusätzliche Details,Tilleggsinformasjon,Additional details
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0049],ELEMENT,CComplexObject,at0049,Zeitablauf,Tidsangivelse,Timing
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038],ELEMENT,CComplexObject,at0038,Beschreibung,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0039],CLUSTER,ArchetypeSlot,at0039,Zusätzliche Details,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042],CLUSTER,CComplexObject,at0042,*Any family member (en),I familien,Any family member
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0043],ELEMENT,CComplexObject,at0043,Problem-/Diagnosename,Problem/diagnosenavn,Problem/diagnosis name
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0044],ELEMENT,CComplexObject,at0044,Präsenz,Tilstede?,Presence?
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0044]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0050],ELEMENT,CComplexObject,at0050,*Comment (en),Kommentar,Comment
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/items[at0050]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/protocol[at0021],ITEM_TREE,CComplexObject,at0021,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.family_history_screening_questionnaire.v1,/protocol[at0021]/items[at0029],CLUSTER,ArchetypeSlot,at0029,Erweiterung,Utvidelse,Extension

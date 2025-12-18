@@ -1,0 +1,638 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/,OBSERVATION,CComplexObject,at0000,Yale Global Tic Severity Scale - Revidert (YGTSS-R),Yale Global Tic Severity Scale - Revised (YGTSS-R)
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002],INTERVAL_EVENT,CComplexObject,at0002,I løpet av den siste uken,Over the past week
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],CLUSTER,CComplexObject,at0006,Sjekkliste for enkle motoriske tics,Simple Motor Tics Checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0007],ELEMENT,CComplexObject,at0007,Blunking,Eye blinking
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0007]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0007]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0009],ELEMENT,CComplexObject,at0009,Øyebevegelser,Eye movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0009]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0009]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0011],ELEMENT,CComplexObject,at0011,Nesebevegelser,Nose movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0011]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0011]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0013],ELEMENT,CComplexObject,at0013,Ansiktsgrimaser,Facial grimace
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0013]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0013]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0015],ELEMENT,CComplexObject,at0015,Hoderykninger/-bevegelser,Head jerks/movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0015]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0015]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0017],ELEMENT,CComplexObject,at0017,Skuldertrekninger,Shoulder shrugs
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0017]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0017]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0019],ELEMENT,CComplexObject,at0019,Armbevegelser,Arm movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0019]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0019]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0021],ELEMENT,CComplexObject,at0021,Håndbevegelser,Hand movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0021]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0021]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0023],ELEMENT,CComplexObject,at0023,Spenning av magemuskler,Abdominal tensing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0023]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0023]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0025],ELEMENT,CComplexObject,at0025,Ben-, fot- eller tåbevegelser,Leg, foot, or toe movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0025]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0025]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0104],CLUSTER,CComplexObject,at0104,Andre enkle motoriske tics,Other simple motor tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0104]/items[at0105],ELEMENT,CComplexObject,at0105,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0104]/items[at0105]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0104]/items[at0106],ELEMENT,CComplexObject,at0106,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0104]/items[at0106]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0158],ELEMENT,CComplexObject,at0158,Munnbevegelser,Mouth movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0158]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0158]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0167],ELEMENT,CComplexObject,at0167,Beskrivelse av blunking,Eye blinking description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0167]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0168],ELEMENT,CComplexObject,at0168,Beskrivelse av øyebevegelser,Eye movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0168]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0169],ELEMENT,CComplexObject,at0169,Beskrivelse av nesebevegelser,Nose movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0169]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0170],ELEMENT,CComplexObject,at0170,Beskrivelse av munnbevegelser,Mouth movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0170]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0171],ELEMENT,CComplexObject,at0171,Beskrivelse av ansiktsgrimaser,Facial grimace description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0171]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0172],ELEMENT,CComplexObject,at0172,Beskrivelse av hoderykninger/-bevegelser,Head jerks/movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0172]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0173],ELEMENT,CComplexObject,at0173,Beskrivelse av skuldertrekninger,Shoulder shrugs description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0173]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0174],ELEMENT,CComplexObject,at0174,Beskrivelse av armbevegelser,Arm movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0174]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0175],ELEMENT,CComplexObject,at0175,Beskrivelse av håndbevegelser,Hand movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0175]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0176],ELEMENT,CComplexObject,at0176,Beskrivelse av spenning av magemuskler,Abdominal tensing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0176]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0177],ELEMENT,CComplexObject,at0177,Beskrivelse av ben-, fot- eller tåbevegelser,Leg, foot, or toe movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0177]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029],CLUSTER,CComplexObject,at0029,Sjekkliste for komplekse motoriske tics,Complex Motor Tics Checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030],ELEMENT,CComplexObject,at0030,Øyebevegelser,Eye movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0030]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0032],ELEMENT,CComplexObject,at0032,Munnbevegelser,Mouth movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0032]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0032]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0034],ELEMENT,CComplexObject,at0034,Ansiktsbevegelser eller ansiktsuttrykk,Facial movements or expressions
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0034]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0034]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0036],ELEMENT,CComplexObject,at0036,Hodegester eller -bevegelser,Head gestures or movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0036]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0036]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0038],ELEMENT,CComplexObject,at0038,Skulderbevegelser,Shoulder movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0038]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0038]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0040],ELEMENT,CComplexObject,at0040,Armbevegelser,Arm movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0040]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0040]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0042],ELEMENT,CComplexObject,at0042,Håndbevegelser,Hand movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0042]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0042]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0044],ELEMENT,CComplexObject,at0044,Skrivetics,Writing tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0044]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0044]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0046],ELEMENT,CComplexObject,at0046,Dystone stillinger,Dystonic postures
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0046]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0046]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0048],ELEMENT,CComplexObject,at0048,Bøying eller snurring,Bending or gyrating
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0048]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0048]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0050],ELEMENT,CComplexObject,at0050,Rotering,Rotating
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0050]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0050]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0052],ELEMENT,CComplexObject,at0052,Ben-, fot- eller tåbevegelser,Leg or foot or toe movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0052]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0052]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0054],ELEMENT,CComplexObject,at0054,Blokkering,Blocking
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0054]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0054]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0056],ELEMENT,CComplexObject,at0056,Tic-relatert tvangsmessig atferd,Tic related compulsive behaviors
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0056]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0056]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0058],ELEMENT,CComplexObject,at0058,Kopropraksi,Copropraxia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0058]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0058]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0060],ELEMENT,CComplexObject,at0060,Selvskadende atferd,Self-abusive behavior
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0060]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0060]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0062],ELEMENT,CComplexObject,at0062,Utbrudd av tics (fremstillinger),Paroxysms of tics (displays)
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0062]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0062]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0064],ELEMENT,CComplexObject,at0064,Utbrudd av tics,Paroxysms of tics duration
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0064]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0064]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0069],CLUSTER,CComplexObject,at0069,Andre komplekse motoriske tics,Other complex motor tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0069]/items[at0027],ELEMENT,CComplexObject,at0027,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0069]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0069]/items[at0028],ELEMENT,CComplexObject,at0028,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0069]/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0102],ELEMENT,CComplexObject,at0102,Uhemmet atferd,Disinhibited behavior
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0102]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0102]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0103],ELEMENT,CComplexObject,at0103,Beskrivelse av uhemmet atferd,Disinhibited behavior description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0103]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0178],ELEMENT,CComplexObject,at0178,Beskrivelse av øyebevegelser,Eye movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0178]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0179],ELEMENT,CComplexObject,at0179,Beskrivelse av munnbevegelser,Mouth movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0179]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0180],ELEMENT,CComplexObject,at0180,Beskrivelse av ansiktsbevegelser eller ansiktsuttrykk,Facial movements or expressions description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0180]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0181],ELEMENT,CComplexObject,at0181,Beskrivelse av skulderbevegelser,Shoulder movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0181]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0182],ELEMENT,CComplexObject,at0182,Beskrivelse av hodegester eller -bevegelser,Head gestures or movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0182]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0183],ELEMENT,CComplexObject,at0183,Beskrivelse av armbevegelser,Arm movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0183]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0184],ELEMENT,CComplexObject,at0184,Beskrivelse av håndbevegelser,Hand movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0184]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0185],ELEMENT,CComplexObject,at0185,Beskrivelse av skrivetics,Writing tics description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0185]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0186],ELEMENT,CComplexObject,at0186,Beskrivelse av dystone stillinger,Dystonic postures description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0186]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0187],ELEMENT,CComplexObject,at0187,Beskrivelse av bøying eller snurring,Bending or gyrating description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0187]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0188],ELEMENT,CComplexObject,at0188,Beskrivelse av rotering,Rotating description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0188]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0189],ELEMENT,CComplexObject,at0189,Beskrivelse av ben-, fot- eller tåbevegelser,Leg or foot or toe movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0189]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0190],ELEMENT,CComplexObject,at0190,Beskrivelse av blokkering,Blocking description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0190]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0191],ELEMENT,CComplexObject,at0191,Beskrivelse av tic-relatert tvangsmessig atferd,Tic related compulsive behaviors description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0191]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0192],ELEMENT,CComplexObject,at0192,Beskrivelse av kopropraksi,Copropraxia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0192]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0193],ELEMENT,CComplexObject,at0193,Beskrivelse av selvskadende atferd,Self-abusive behavior description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0193]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0194],ELEMENT,CComplexObject,at0194,Beskrivelse av utbrudd av tics (fremstillinger),Paroxysms of tics (displays) description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/items[at0194]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067],CLUSTER,CComplexObject,at0067,Sjekkliste for komplekse vokale symptomer,Complex Phonic Symptoms Checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0090],ELEMENT,CComplexObject,at0090,Stavelser,Syllables
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0090]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0090]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0091],ELEMENT,CComplexObject,at0091,Ord,Words
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0091]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0091]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0092],ELEMENT,CComplexObject,at0092,Setninger,Phrases
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0092]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0092]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0093],ELEMENT,CComplexObject,at0093,Koprolali,Coprolalia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0093]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0093]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0094],ELEMENT,CComplexObject,at0094,Ekkolali,Echolalia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0094]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0094]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0095],ELEMENT,CComplexObject,at0095,Palilali,Palalalia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0095]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0095]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0096],ELEMENT,CComplexObject,at0096,Blokkering,Blocking
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0096]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0096]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0097],ELEMENT,CComplexObject,at0097,Atypisk tale,Speech atypicalities
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0097]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0097]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0098],ELEMENT,CComplexObject,at0098,Uhemmet tale,Disinhibited speech
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0098]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0098]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0099],CLUSTER,CComplexObject,at0099,Andre komplekse vokale tics,Other complex phonic tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0099]/items[at0100],ELEMENT,CComplexObject,at0100,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0099]/items[at0100]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0099]/items[at0101],ELEMENT,CComplexObject,at0101,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0099]/items[at0101]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0161],ELEMENT,CComplexObject,at0161,Beskrivelse av stavelser,Syllables descripion
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0161]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0162],ELEMENT,CComplexObject,at0162,Beskrivelse av ord,Words description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0162]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0163],ELEMENT,CComplexObject,at0163,Beskrivelse av setninger,Phrases description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0163]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0164],ELEMENT,CComplexObject,at0164,Beskrivelse av koprolali,Coprolalia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0164]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0165],ELEMENT,CComplexObject,at0165,Beskrivelse av atypisk tale,Speech atypicalities description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0165]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0166],ELEMENT,CComplexObject,at0166,Beskrivelse av uhemmet tale,Disinhibited speech description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0166]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0208],ELEMENT,CComplexObject,at0208,Beskrivelse av ekkolali,Echolalia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0208]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0209],ELEMENT,CComplexObject,at0209,Beskrivelse av palilali,Palalalia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0209]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0210],ELEMENT,CComplexObject,at0210,Beskrivelse av blokkering,Blocking description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0067]/items[at0210]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068],CLUSTER,CComplexObject,at0068,Sjekkliste for enkle vokale symptomer,Simple Phonic symptoms checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0070],ELEMENT,CComplexObject,at0070,Hosting,Coughing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0070]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0070]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0071],ELEMENT,CComplexObject,at0071,Harking,Throat clearing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0071]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0071]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0072],ELEMENT,CComplexObject,at0072,Snufsing,Sniffing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0072]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0072]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0073],ELEMENT,CComplexObject,at0073,Snøfting,Snorting
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0073]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0073]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0074],ELEMENT,CComplexObject,at0074,Grynting,Grunting
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0074]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0074]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0075],ELEMENT,CComplexObject,at0075,Gulping,Gulping
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0075]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0075]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0076],ELEMENT,CComplexObject,at0076,Plystring,Whistling
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0076]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0076]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0077],ELEMENT,CComplexObject,at0077,Nynning,Humming
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0077]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0077]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0078],ELEMENT,CComplexObject,at0078,Munnlyder,Mouth noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0078]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0078]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0079],ELEMENT,CComplexObject,at0079,Raping,Burping
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0079]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0079]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0080],ELEMENT,CComplexObject,at0080,Hikking,Hiccups
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0080]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0080]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0081],ELEMENT,CComplexObject,at0081,Atypiske pustetics,Atypical breathing tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0081]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0081]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0082],ELEMENT,CComplexObject,at0082,Kvitrelyder eller andre fuglelyder,Chirping or other bird noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0082]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0082]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0084],ELEMENT,CComplexObject,at0084,Bjeffing eller andre hundelyder,Barking or other dog noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0084]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0084]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0086],ELEMENT,CComplexObject,at0086,Andre dyrelyder,Other animal noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0086]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0086]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0087],CLUSTER,CComplexObject,at0087,Andre enkle vokale tics,Other simple phonic tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0087]/items[at0088],ELEMENT,CComplexObject,at0088,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0087]/items[at0088]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0087]/items[at0089],ELEMENT,CComplexObject,at0089,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0087]/items[at0089]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0159],ELEMENT,CComplexObject,at0159,Beskrivelse av kvitrelyder eller andre fuglelyder,Chirping or other bird noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0159]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0160],ELEMENT,CComplexObject,at0160,Beskrivelse av bjeffing eller andre hundelyder,Barking or other dog noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0160]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0195],ELEMENT,CComplexObject,at0195,Beskrivelse av hosting,Coughing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0195]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0196],ELEMENT,CComplexObject,at0196,Beskrivelse av harking,Throat clearing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0196]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0197],ELEMENT,CComplexObject,at0197,Beskrivelse av snufsing.,Sniffing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0197]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0198],ELEMENT,CComplexObject,at0198,Beskrivelse av snøfting,Snorting description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0198]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0199],ELEMENT,CComplexObject,at0199,Beskrivelse av grynting,Grunting description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0199]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0200],ELEMENT,CComplexObject,at0200,Beskrivelse av gulping,Gulping description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0200]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0201],ELEMENT,CComplexObject,at0201,Beskrivelse av plystring,Whistling
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0201]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0202],ELEMENT,CComplexObject,at0202,Beskrivelse av nynning,Humming description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0202]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0203],ELEMENT,CComplexObject,at0203,Beskrivelse av munnlyder,Mouth noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0203]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0204],ELEMENT,CComplexObject,at0204,Beskrivelse av raping,Burping description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0204]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0205],ELEMENT,CComplexObject,at0205,Beskrivelse av hikking,Hiccups description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0205]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0206],ELEMENT,CComplexObject,at0206,Beskrivelse av atypiske pustetics,Atypical breathing tics description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0206]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0207],ELEMENT,CComplexObject,at0207,Beskrivelse av andre dyrelyder,Other animal noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0068]/items[at0207]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107],CLUSTER,CComplexObject,at0107,Skår,Score
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0108],ELEMENT,CComplexObject,at0108,Antall,Number
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0108]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0115],ELEMENT,CComplexObject,at0115,Frekvens,Frequency
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0115]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0122],ELEMENT,CComplexObject,at0122,Intensitet,Intensity
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0122]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0129],ELEMENT,CComplexObject,at0129,Kompleksitet,Complexity
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0129]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0136],ELEMENT,CComplexObject,at0136,Interferens,Interference
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/items[at0136]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0107]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0143],ELEMENT,CComplexObject,at0143,Skala for funksjonsnedsettelse,Impairment scale
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0143]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0150],ELEMENT,CComplexObject,at0150,Total poengskår for tics,Total tic score
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0150]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0150]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151],ELEMENT,CComplexObject,at0151,Global alvorlighetsgrad skår,Global severity score
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0151]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/width,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0002]/width/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004],EVENT,CComplexObject,at0004,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006],CLUSTER,CComplexObject,at0006,Sjekkliste for enkle motoriske tics,Simple Motor Tics Checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0007],ELEMENT,CComplexObject,at0007,Blunking,Eye blinking
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0007]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0007]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0009],ELEMENT,CComplexObject,at0009,Øyebevegelser,Eye movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0009]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0009]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0011],ELEMENT,CComplexObject,at0011,Nesebevegelser,Nose movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0011]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0011]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0013],ELEMENT,CComplexObject,at0013,Ansiktsgrimaser,Facial grimace
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0013]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0013]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0015],ELEMENT,CComplexObject,at0015,Hoderykninger/-bevegelser,Head jerks/movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0015]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0015]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0017],ELEMENT,CComplexObject,at0017,Skuldertrekninger,Shoulder shrugs
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0017]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0017]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0019],ELEMENT,CComplexObject,at0019,Armbevegelser,Arm movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0019]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0019]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0021],ELEMENT,CComplexObject,at0021,Håndbevegelser,Hand movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0021]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0021]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0023],ELEMENT,CComplexObject,at0023,Spenning av magemuskler,Abdominal tensing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0023]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0023]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0025],ELEMENT,CComplexObject,at0025,Ben-, fot- eller tåbevegelser,Leg, foot, or toe movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0025]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0025]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0104],CLUSTER,CComplexObject,at0104,Andre enkle motoriske tics,Other simple motor tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0104]/items[at0105],ELEMENT,CComplexObject,at0105,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0104]/items[at0105]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0104]/items[at0106],ELEMENT,CComplexObject,at0106,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0104]/items[at0106]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0158],ELEMENT,CComplexObject,at0158,Munnbevegelser,Mouth movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0158]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0158]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0167],ELEMENT,CComplexObject,at0167,Beskrivelse av blunking,Eye blinking description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0167]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0168],ELEMENT,CComplexObject,at0168,Beskrivelse av øyebevegelser,Eye movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0168]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0169],ELEMENT,CComplexObject,at0169,Beskrivelse av nesebevegelser,Nose movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0169]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0170],ELEMENT,CComplexObject,at0170,Beskrivelse av munnbevegelser,Mouth movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0170]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0171],ELEMENT,CComplexObject,at0171,Beskrivelse av ansiktsgrimaser,Facial grimace description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0171]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0172],ELEMENT,CComplexObject,at0172,Beskrivelse av hoderykninger/-bevegelser,Head jerks/movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0172]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0173],ELEMENT,CComplexObject,at0173,Beskrivelse av skuldertrekninger,Shoulder shrugs description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0173]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0174],ELEMENT,CComplexObject,at0174,Beskrivelse av armbevegelser,Arm movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0174]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0175],ELEMENT,CComplexObject,at0175,Beskrivelse av håndbevegelser,Hand movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0175]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0176],ELEMENT,CComplexObject,at0176,Beskrivelse av spenning av magemuskler,Abdominal tensing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0176]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0177],ELEMENT,CComplexObject,at0177,Beskrivelse av ben-, fot- eller tåbevegelser,Leg, foot, or toe movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0006]/items[at0177]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029],CLUSTER,CComplexObject,at0029,Sjekkliste for komplekse motoriske tics,Complex Motor Tics Checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0030],ELEMENT,CComplexObject,at0030,Øyebevegelser,Eye movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0030]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0030]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0032],ELEMENT,CComplexObject,at0032,Munnbevegelser,Mouth movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0032]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0032]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0034],ELEMENT,CComplexObject,at0034,Ansiktsbevegelser eller ansiktsuttrykk,Facial movements or expressions
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0034]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0034]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0036],ELEMENT,CComplexObject,at0036,Hodegester eller -bevegelser,Head gestures or movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0036]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0036]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0038],ELEMENT,CComplexObject,at0038,Skulderbevegelser,Shoulder movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0038]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0038]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0040],ELEMENT,CComplexObject,at0040,Armbevegelser,Arm movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0040]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0040]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0042],ELEMENT,CComplexObject,at0042,Håndbevegelser,Hand movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0042]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0042]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0044],ELEMENT,CComplexObject,at0044,Skrivetics,Writing tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0044]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0044]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0046],ELEMENT,CComplexObject,at0046,Dystone stillinger,Dystonic postures
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0046]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0046]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0048],ELEMENT,CComplexObject,at0048,Bøying eller snurring,Bending or gyrating
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0048]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0048]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0050],ELEMENT,CComplexObject,at0050,Rotering,Rotating
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0050]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0050]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0052],ELEMENT,CComplexObject,at0052,Ben-, fot- eller tåbevegelser,Leg or foot or toe movements
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0052]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0052]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0054],ELEMENT,CComplexObject,at0054,Blokkering,Blocking
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0054]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0054]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0056],ELEMENT,CComplexObject,at0056,Tic-relatert tvangsmessig atferd,Tic related compulsive behaviors
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0056]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0056]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0058],ELEMENT,CComplexObject,at0058,Kopropraksi,Copropraxia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0058]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0058]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0060],ELEMENT,CComplexObject,at0060,Selvskadende atferd,Self-abusive behavior
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0060]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0060]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0062],ELEMENT,CComplexObject,at0062,Utbrudd av tics (fremstillinger),Paroxysms of tics (displays)
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0062]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0062]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0064],ELEMENT,CComplexObject,at0064,Utbrudd av tics,Paroxysms of tics duration
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0064]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0064]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0069],CLUSTER,CComplexObject,at0069,Andre komplekse motoriske tics,Other complex motor tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0069]/items[at0027],ELEMENT,CComplexObject,at0027,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0069]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0069]/items[at0028],ELEMENT,CComplexObject,at0028,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0069]/items[at0028]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0102],ELEMENT,CComplexObject,at0102,Uhemmet atferd,Disinhibited behavior
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0102]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0102]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0103],ELEMENT,CComplexObject,at0103,Beskrivelse av uhemmet atferd,Disinhibited behavior description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0103]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0178],ELEMENT,CComplexObject,at0178,Beskrivelse av øyebevegelser,Eye movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0178]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0179],ELEMENT,CComplexObject,at0179,Beskrivelse av munnbevegelser,Mouth movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0179]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0180],ELEMENT,CComplexObject,at0180,Beskrivelse av ansiktsbevegelser eller ansiktsuttrykk,Facial movements or expressions description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0180]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0181],ELEMENT,CComplexObject,at0181,Beskrivelse av skulderbevegelser,Shoulder movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0181]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0182],ELEMENT,CComplexObject,at0182,Beskrivelse av hodegester eller -bevegelser,Head gestures or movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0182]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0183],ELEMENT,CComplexObject,at0183,Beskrivelse av armbevegelser,Arm movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0183]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0184],ELEMENT,CComplexObject,at0184,Beskrivelse av håndbevegelser,Hand movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0184]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0185],ELEMENT,CComplexObject,at0185,Beskrivelse av skrivetics,Writing tics description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0185]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0186],ELEMENT,CComplexObject,at0186,Beskrivelse av dystone stillinger,Dystonic postures description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0186]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0187],ELEMENT,CComplexObject,at0187,Beskrivelse av bøying eller snurring,Bending or gyrating description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0187]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0188],ELEMENT,CComplexObject,at0188,Beskrivelse av rotering,Rotating description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0188]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0189],ELEMENT,CComplexObject,at0189,Beskrivelse av ben-, fot- eller tåbevegelser,Leg or foot or toe movements description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0189]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0190],ELEMENT,CComplexObject,at0190,Beskrivelse av blokkering,Blocking description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0190]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0191],ELEMENT,CComplexObject,at0191,Beskrivelse av tic-relatert tvangsmessig atferd,Tic related compulsive behaviors description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0191]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0192],ELEMENT,CComplexObject,at0192,Beskrivelse av kopropraksi,Copropraxia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0192]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0193],ELEMENT,CComplexObject,at0193,Beskrivelse av selvskadende atferd,Self-abusive behavior description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0193]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0194],ELEMENT,CComplexObject,at0194,Beskrivelse av utbrudd av tics (fremstillinger),Paroxysms of tics (displays) description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0029]/items[at0194]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067],CLUSTER,CComplexObject,at0067,Sjekkliste for komplekse vokale symptomer,Complex Phonic Symptoms Checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0090],ELEMENT,CComplexObject,at0090,Stavelser,Syllables
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0090]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0090]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0091],ELEMENT,CComplexObject,at0091,Ord,Words
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0091]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0091]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0092],ELEMENT,CComplexObject,at0092,Setninger,Phrases
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0092]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0092]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0093],ELEMENT,CComplexObject,at0093,Koprolali,Coprolalia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0093]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0093]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0094],ELEMENT,CComplexObject,at0094,Ekkolali,Echolalia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0094]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0094]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0095],ELEMENT,CComplexObject,at0095,Palilali,Palalalia
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0095]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0095]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0096],ELEMENT,CComplexObject,at0096,Blokkering,Blocking
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0096]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0096]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0097],ELEMENT,CComplexObject,at0097,Atypisk tale,Speech atypicalities
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0097]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0097]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0098],ELEMENT,CComplexObject,at0098,Uhemmet tale,Disinhibited speech
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0098]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0098]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0099],CLUSTER,CComplexObject,at0099,Andre komplekse vokale tics,Other complex phonic tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0099]/items[at0100],ELEMENT,CComplexObject,at0100,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0099]/items[at0100]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0099]/items[at0101],ELEMENT,CComplexObject,at0101,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0099]/items[at0101]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0161],ELEMENT,CComplexObject,at0161,Beskrivelse av stavelser,Syllables descripion
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0161]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0162],ELEMENT,CComplexObject,at0162,Beskrivelse av ord,Words description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0162]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0163],ELEMENT,CComplexObject,at0163,Beskrivelse av setninger,Phrases description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0163]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0164],ELEMENT,CComplexObject,at0164,Beskrivelse av koprolali,Coprolalia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0164]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0165],ELEMENT,CComplexObject,at0165,Beskrivelse av atypisk tale,Speech atypicalities description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0165]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0166],ELEMENT,CComplexObject,at0166,Beskrivelse av uhemmet tale,Disinhibited speech description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0166]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0208],ELEMENT,CComplexObject,at0208,Beskrivelse av ekkolali,Echolalia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0208]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0209],ELEMENT,CComplexObject,at0209,Beskrivelse av palilali,Palalalia description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0209]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0210],ELEMENT,CComplexObject,at0210,Beskrivelse av blokkering,Blocking description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0067]/items[at0210]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068],CLUSTER,CComplexObject,at0068,Sjekkliste for enkle vokale symptomer,Simple Phonic symptoms checklist
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0070],ELEMENT,CComplexObject,at0070,Hosting,Coughing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0070]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0070]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0071],ELEMENT,CComplexObject,at0071,Harking,Throat clearing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0071]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0071]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0072],ELEMENT,CComplexObject,at0072,Snufsing,Sniffing
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0072]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0072]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0073],ELEMENT,CComplexObject,at0073,Snøfting,Snorting
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0073]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0073]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0074],ELEMENT,CComplexObject,at0074,Grynting,Grunting
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0074]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0074]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0075],ELEMENT,CComplexObject,at0075,Gulping,Gulping
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0075]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0075]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0076],ELEMENT,CComplexObject,at0076,Plystring,Whistling
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0076]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0076]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0077],ELEMENT,CComplexObject,at0077,Nynning,Humming
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0077]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0077]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0078],ELEMENT,CComplexObject,at0078,Munnlyder,Mouth noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0078]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0078]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0079],ELEMENT,CComplexObject,at0079,Raping,Burping
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0079]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0079]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0080],ELEMENT,CComplexObject,at0080,Hikking,Hiccups
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0080]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0080]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0081],ELEMENT,CComplexObject,at0081,Atypiske pustetics,Atypical breathing tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0081]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0081]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0082],ELEMENT,CComplexObject,at0082,Kvitrelyder eller andre fuglelyder,Chirping or other bird noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0082]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0082]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0084],ELEMENT,CComplexObject,at0084,Bjeffing eller andre hundelyder,Barking or other dog noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0084]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0084]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0086],ELEMENT,CComplexObject,at0086,Andre dyrelyder,Other animal noises
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0086]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0086]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0087],CLUSTER,CComplexObject,at0087,Andre enkle vokale tics,Other simple phonic tics
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0087]/items[at0088],ELEMENT,CComplexObject,at0088,Navn,Name
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0087]/items[at0088]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0087]/items[at0089],ELEMENT,CComplexObject,at0089,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0087]/items[at0089]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0159],ELEMENT,CComplexObject,at0159,Beskrivelse av kvitrelyder eller andre fuglelyder,Chirping or other bird noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0159]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0160],ELEMENT,CComplexObject,at0160,Beskrivelse av bjeffing eller andre hundelyder,Barking or other dog noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0160]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0195],ELEMENT,CComplexObject,at0195,Beskrivelse av hosting,Coughing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0195]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0196],ELEMENT,CComplexObject,at0196,Beskrivelse av harking,Throat clearing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0196]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0197],ELEMENT,CComplexObject,at0197,Beskrivelse av snufsing.,Sniffing description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0197]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0198],ELEMENT,CComplexObject,at0198,Beskrivelse av snøfting,Snorting description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0198]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0199],ELEMENT,CComplexObject,at0199,Beskrivelse av grynting,Grunting description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0199]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0200],ELEMENT,CComplexObject,at0200,Beskrivelse av gulping,Gulping description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0200]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0201],ELEMENT,CComplexObject,at0201,Beskrivelse av plystring,Whistling
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0201]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0202],ELEMENT,CComplexObject,at0202,Beskrivelse av nynning,Humming description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0202]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0203],ELEMENT,CComplexObject,at0203,Beskrivelse av munnlyder,Mouth noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0203]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0204],ELEMENT,CComplexObject,at0204,Beskrivelse av raping,Burping description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0204]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0205],ELEMENT,CComplexObject,at0205,Beskrivelse av hikking,Hiccups description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0205]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0206],ELEMENT,CComplexObject,at0206,Beskrivelse av atypiske pustetics,Atypical breathing tics description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0206]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0207],ELEMENT,CComplexObject,at0207,Beskrivelse av andre dyrelyder,Other animal noises description
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0068]/items[at0207]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107],CLUSTER,CComplexObject,at0107,Skår,Score
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0108],ELEMENT,CComplexObject,at0108,Antall,Number
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0108]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0115],ELEMENT,CComplexObject,at0115,Frekvens,Frequency
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0115]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0122],ELEMENT,CComplexObject,at0122,Intensitet,Intensity
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0122]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0129],ELEMENT,CComplexObject,at0129,Kompleksitet,Complexity
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0129]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0136],ELEMENT,CComplexObject,at0136,Interferens,Interference
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/items[at0136]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0107]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0143],ELEMENT,CComplexObject,at0143,Skala for funksjonsnedsettelse,Impairment scale
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0143]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0150],ELEMENT,CComplexObject,at0150,Total poengskår for tics,Total tic score
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0150]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0150]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0151],ELEMENT,CComplexObject,at0151,Global alvorlighetsgrad skår,Global severity score
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0151]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/data[at0001]/events[at0004]/data[at0003]/items[at0151]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/protocol[at0152],ITEM_TREE,CComplexObject,at0152,Item tree,Item tree
+openEHR-EHR-OBSERVATION.ygtss_revised.v1,/protocol[at0152]/items[at0153],CLUSTER,ArchetypeSlot,at0153,Tilleggsinformasjon,Extension

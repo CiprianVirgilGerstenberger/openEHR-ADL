@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_sv,name_nb,name_en
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/,OBSERVATION,CComplexObject,at0000,*Capillary refill time (CRT) (en),Kapillær fylningstid (CRT),Capillary refill time (CRT)
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,ospecificerad händelse,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Klinisk tolkning,Klinisk tolkning,Clinical interpretation
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,*Refill time (en),Fylningstid,Refill time
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0040],ELEMENT,CComplexObject,at0040,Kommentar,Kommentar,Comment
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/state[at0021],ITEM_TREE,CComplexObject,at0021,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/state[at0021]/items[at0023],ELEMENT,CComplexObject,at0023,Tillfredsställande faktorer,Konfunderende faktorer,Confounding factors
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/data[at0001]/events[at0002]/state[at0021]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019],ITEM_TREE,CComplexObject,at0019,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0020],CLUSTER,ArchetypeSlot,at0020,Förlängning,Tilleggsinformasjon,Extension
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0024],ELEMENT,CComplexObject,at0024,Mätplats,Målested,Location of measurement
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0037],CLUSTER,ArchetypeSlot,at0037,Utrustning,Måleapparat,Device
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0039],CLUSTER,ArchetypeSlot,at0039,Strukturerad mätplats,Strukturert målested,Structured measurement location
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0041],ELEMENT,CComplexObject,at0041,*Measurement method(en),Målemetode,Measurement method
+openEHR-EHR-OBSERVATION.capillary_refill.v1,/protocol[at0019]/items[at0041]/value,DV_TEXT,CComplexObject

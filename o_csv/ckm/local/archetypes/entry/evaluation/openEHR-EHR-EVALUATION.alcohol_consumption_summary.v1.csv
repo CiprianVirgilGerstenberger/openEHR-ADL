@@ -1,0 +1,81 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en,name_fr,name_nl
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/,EVALUATION,CComplexObject,at0000,Zusammenfassung des Alkoholkonsums,Sammanfattning av konsumtion av alkohol,Alkoholanamnese,Alcohol consumption summary,Résumé de la consommation d'alcool,Alcohol consumptie overzicht
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Beginn des regelmäßigen Alkoholkonsums,Började konsumera regelbundet,Startet å drikke regelmessig,Regular consumption commenced,La consommation régulière a commencé,Regelmatige consumptie begonnen
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0015]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Allgemeiner Zeitpunkt des Aufhörens,Övergripande slutdatum,Overordnet sluttdato,Overall quit date,Date globale d'arrêt,Algemene stopdatum
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0016]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Allgemeiner Kommentar,Övergripande kommentar,Overordnet kommentar,Overall comment,Commentaire général,Algemene opmerkingen
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0043],ELEMENT,CComplexObject,at0043,Allgemeine Beschreibung,Övergripande beskrivning,Overordnet beskrivelse,Overall description,Description générale,Algemene beschrijving
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064],CLUSTER,CComplexObject,at0064,Pro Episode,Per episod,Per episode,Per episode,Par épisode,Per episode
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0013],ELEMENT,CComplexObject,at0013,Startdatum der Episode,Episodens startdatum,Episodens startdato,Episode start date,Date de début de l'épisode,Episode startdatum
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0013]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0014],ELEMENT,CComplexObject,at0014,Datum des Aufhörens,Slutdatum,Sluttdato,Quit date,Date d'arrêt,Stopdatum
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0014]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0023],ELEMENT,CComplexObject,at0023,Typische Verwendung (Alkoholeinheiten),Typisk konsumtion (alkoholenheter),Typisk bruk (alkoholenheter),Typical consumption (alcohol units),Consommation type (unités d'alcool),Typische consumptie (alcohol eenheden)
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0023]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0025],ELEMENT,CComplexObject,at0025,Anzahl der Aufhörversuche,Antal försök att sluta,Antall forsøk på å slutte,Number of quit attempts,Nombre de tentatives d'arrêt,Aantal stoppogingen
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0025]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Details zur Episode,Episoddetaljer,Detaljer om episoden,Episode details,Détails de l'épisode,Episode details
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029],CLUSTER,CComplexObject,at0029,Pro Typ,Per typ,Per type,Per type,Par type,Per type
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0053],ELEMENT,CComplexObject,at0053,Beschreibung,Beskrivning,Beskrivelse,Description,Description,Beschrijving
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0053]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0069],ELEMENT,CComplexObject,at0069,Kommentar,Kommentar,Kommentar,Comment,Commentaire,Opmerking
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0069]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0077],CLUSTER,ArchetypeSlot,at0077,Details zum Typ,Typdetaljer,Detaljer om typen,Type details,Détails du type,Type details
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0108],ELEMENT,CComplexObject,at0108,Typ,Typ,Type,Type,Type,Type
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0108]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0108]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0111],ELEMENT,CComplexObject,at0111,Typische Verwendung (Alkoholeinheiten),Typisk konsumtion (alkoholenheter),Typisk bruk (alkoholenheter),Typical consumption (alcohol units),Consommation type (unités d'alcool),Typische consumptie (alcohol eenheden)
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/items[at0111]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0029]/name,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0030],ELEMENT,CComplexObject,at0030,Muster des Alkoholkonsums,Mönster,Mønster,Pattern,Schéma,Patroon
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0030]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0052],ELEMENT,CComplexObject,at0052,Status,Status,Status,Status,Statut,Status
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0052]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0052]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0081],ELEMENT,CComplexObject,at0081,Bezeichnung der Episode,Episodbeteckning,Episodenavn,Episode label,Étiquette d'épisode,Episode label
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0081]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0081]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0082],ELEMENT,CComplexObject,at0082,Enddatum der Episode,Episodens slutdatum,Episodens sluttdato,Episode end date,Date de fin de l'épisode,Episode einddatum
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0082]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0087],ELEMENT,CComplexObject,at0087,Kommentar zur Episode,Episodkommentar,Kommentarer til episoden,Episode comment,Commentaire de l'épisode,Episode opmerkingen
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0087]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0097],ELEMENT,CComplexObject,at0097,Frequenz des Alkoholkonsums,Berusningsdrickande frekvens,Frekvens for episodisk høyt forbruk,Binge drinking frequency,Fréquence de consommation excessive,Overmatig drinken frequentie
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0097]/value,DV_INTERVAL<DV_QUANTITY>,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0097]/value/lower,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0097]/value/upper,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0110],ELEMENT,CComplexObject,at0110,Alkoholfreie Tage,Alkoholfria dagar,Alkoholfrie dager,Alcohol free days,Journées sans alcool,Alcoholvrije dagen
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0110]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0112],ELEMENT,CComplexObject,at0112,Beschreibung der Episode,Episodbeskrivning,Beskrivelse av episoden,Episode description,Description de l'épisode,Episode beschrijving
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0112]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0113],ELEMENT,CComplexObject,at0113,Beschreibung des Alkoholexzesses,Berusningsdrickandebeskrivning,Beskrivelse av episodisk høyt forbruk,Binge drinking description,Description de la consommation excessive,Overmatig drinken beschrijving
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0064]/items[at0113]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0080],ELEMENT,CComplexObject,at0080,Beginn des täglichen Alkoholkonsums,Började konsumera dagligen,Startet daglig alkoholbruk,Daily consumption commenced,Début de la consommation quotidienne,Dagelijke consumptie begonnen
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0080]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0086],CLUSTER,ArchetypeSlot,at0086,Allgemeine Details,Övergripande detaljer,Overordnede detaljer,Overall details,Détails généraux,Algemene details
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0089],ELEMENT,CComplexObject,at0089,Allgemeiner Status,Övergripande status,Overordnet status,Overall status,Situation générale,Algemene status
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0089]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0114],ELEMENT,CComplexObject,at0114,Datum des ersten Alkoholrausches,Datum först berusad,Første gang beruset,Date first intoxicated,Date de la première intoxication,Datum eerste dronkenschap
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/data[at0001]/items[at0114]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021],ITEM_TREE,CComplexObject,at0021,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0022],ELEMENT,CComplexObject,at0022,Zuletzt geändert,Senaste uppdatering,Sist oppdatert,Last updated,Dernière mise à jour,Laatst bijgewerkt
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0022]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0071],ELEMENT,CComplexObject,at0071,Definition Datum des Aufhörens,Definition av slutdatum,Definisjon på Sluttdato,Quit date definition,Définition de la date d'arrêt,Stopdatum definitie
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0071]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0073],CLUSTER,ArchetypeSlot,at0073,Erweiterung,Utökning,Tilleggsinformasjon,Extension,Extension,Uitbreiding
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0075],ELEMENT,CComplexObject,at0075,Definition Derzeitiger Trinker,Definition av "Dricker alkohol",Definisjon på "Drikker",Current drinker definition,Définition du buveur actuel,Huidige drinker definitie
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0075]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0076],ELEMENT,CComplexObject,at0076,Definition Ehemaliger Trinker,Definition av "Slutat dricka alkohol",Definisjon på "Drukket tidligere",Former drinker definition,Définition de l'ancien buveur,Ex-drinker definitie
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0076]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0079],ELEMENT,CComplexObject,at0079,Definition Lebenslager Nicht-Konsument,Definition av "Dricker inte alkohol",Definisjon på "Aldri drukket",Lifetime non-drinker definition,Définition de non-buveur à vie,NIet-drinker definitie
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0079]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0085],ELEMENT,CComplexObject,at0085,Definition Aufhörversuch,Definition av "Försök att sluta",Definisjon på "Forsøk på å slutte",Quit attempt definition,Définition de tentative d'arrêt,Stoppoging definitie
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0085]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0104],ELEMENT,CComplexObject,at0104,Definition Alkoholeinheit (Masse),Definition av Alkoholenhet (mass),Definisjon av Alkoholenhet (mengde),Alcohol unit definition (mass),Définition de l'unité d'alcool (masse),Alcohol eenheden definitie (massa)
+openEHR-EHR-EVALUATION.alcohol_consumption_summary.v1,/protocol[at0021]/items[at0104]/value,DV_QUANTITY,CDvQuantity

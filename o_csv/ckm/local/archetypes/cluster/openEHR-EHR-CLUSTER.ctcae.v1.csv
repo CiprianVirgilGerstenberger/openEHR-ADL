@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en
+openEHR-EHR-CLUSTER.ctcae.v1,/,CLUSTER,CComplexObject,at0000,Common Terminology Criteria of Adverse Events (CTCAE),Common Terminology Criteria for Adverse Events (CTCAE),Common Terminology Criteria for Adverse Events (CTCAE),Common Terminology Criteria for Adverse Events (CTCAE)
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0001],ELEMENT,CComplexObject,at0001,*Category (en),*Category (en),Kategori,Category
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Terme,Term,Term,Term
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0003],ELEMENT,CComplexObject,at0003,*Grade category(en),*Grade category(en),Kategori for grad,Grade category
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0003]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0009],ELEMENT,CComplexObject,at0009,CTCAE Version,CTCAE-version,CTCAE- versjon,CTCAE version
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0020],ELEMENT,CComplexObject,at0020,*Grade description (en),*Grade description (en),Beskrivelse av grad,Grade description
+openEHR-EHR-CLUSTER.ctcae.v1,/items[at0020]/value,DV_TEXT,CComplexObject

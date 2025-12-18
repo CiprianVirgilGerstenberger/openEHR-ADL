@@ -1,0 +1,28 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/,OBSERVATION,CComplexObject,at0000,Screening-Fragebogen zur Exposition,Kartleggingsspørsmål om eksponering,Exposure screening questionnaire
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Zweck des Screenings,Kartleggingsformål,Screening purpose
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Exposition vorhanden?,Eksponert?,Any exposure?
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],CLUSTER,CComplexObject,at0009,Spezifische Exposition,Spesifikk eksponering,Specific exposure
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Situation,Situasjon,Situation
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0011],ELEMENT,CComplexObject,at0011,Anwesenheit?,Tilstede?,Presence?
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0011]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0011]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0015],ELEMENT,CComplexObject,at0015,Zeitpunkt,Timing,Timing
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Zusätzliche Details,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0017],ELEMENT,CComplexObject,at0017,Kommentar,Kommentar,Comment
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Name des Erregers,Agens,Agent name
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,Beschreibung,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023],CLUSTER,ArchetypeSlot,at0023,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/protocol[at0018],ITEM_TREE,CComplexObject,at0018,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.exposure_screening.v1,/protocol[at0018]/items[at0019],CLUSTER,ArchetypeSlot,at0019,Erweiterung,Tilleggsinformasjon,Extension

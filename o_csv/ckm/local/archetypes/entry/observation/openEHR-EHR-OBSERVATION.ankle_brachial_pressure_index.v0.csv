@@ -1,0 +1,23 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/,OBSERVATION,CComplexObject,at0000,Ankle brachial pressure index
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Any event
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Ankle-brachial pressure index
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/is_integral,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Brachial pressure
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Ankle pressure
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Comment
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/state[at0010],ITEM_TREE,CComplexObject,at0010,Tree
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/state[at0010]/items[at0011],ELEMENT,CComplexObject,at0011,Confounding factors
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/data[at0001]/events[at0002]/state[at0010]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,Tree
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/protocol[at0008]/items[at0012],ELEMENT,CComplexObject,at0012,Method
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/protocol[at0008]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/protocol[at0008]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Device
+openEHR-EHR-OBSERVATION.ankle_brachial_pressure_index.v0,/protocol[at0008]/items[at0014],CLUSTER,ArchetypeSlot,at0014,Extension

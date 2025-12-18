@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/,EVALUATION,CComplexObject,at0000,Differensialdiagnoser,Differential diagnoses
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Overordnet beskrivelse,Overall description
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003],CLUSTER,CComplexObject,at0003,Differensialdiagnose,Per differential
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Diagnosenavn,Diagnosis name
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Status,Status
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Begrunnelse,Rationale
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0010],CLUSTER,ArchetypeSlot,at0010,Klinisk grunnlag,Clinical evidence
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Rangering,Order
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0011]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Kommentar,Comment
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/data[at0001]/items[at0003]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/protocol[at0013],ITEM_TREE,CComplexObject,at0013,Item tree,Item tree
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/protocol[at0013]/items[at0014],CLUSTER,ArchetypeSlot,at0014,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/protocol[at0013]/items[at0015],ELEMENT,CComplexObject,at0015,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.differential_diagnoses.v1,/protocol[at0013]/items[at0015]/value,DV_DATE_TIME,CComplexObject

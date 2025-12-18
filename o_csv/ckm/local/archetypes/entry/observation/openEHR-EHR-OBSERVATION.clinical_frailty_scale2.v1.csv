@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/,OBSERVATION,CComplexObject,at0000,Clinical Frailty Scale (CFS 2.0),Clinical Frailty Scale (CFS 2.0)
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse,Any point in time event
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Vurdering,Assessment
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/protocol[at0014],ITEM_TREE,CComplexObject,at0014,ItemTree,ItemTree
+openEHR-EHR-OBSERVATION.clinical_frailty_scale2.v1,/protocol[at0014]/items[at0015],CLUSTER,ArchetypeSlot,at0015,Tilleggsinformasjon,Extension

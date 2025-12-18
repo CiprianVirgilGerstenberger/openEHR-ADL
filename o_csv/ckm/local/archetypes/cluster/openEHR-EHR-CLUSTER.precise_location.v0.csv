@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-CLUSTER.precise_location.v0,/,CLUSTER,CComplexObject,at0000,Precise anatomical location
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Position frame of reference
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0002],ELEMENT,CComplexObject,at0002,X offset
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0002]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0002]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Y offset
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0003]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0003]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Z offset
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0004]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.precise_location.v0,/items[at0004]/value/magnitude,Integer,CPrimitiveObject

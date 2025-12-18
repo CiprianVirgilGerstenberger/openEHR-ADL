@@ -1,0 +1,17 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en
+openEHR-EHR-CLUSTER.exam-placenta.v0,/,CLUSTER,CComplexObject,at0000.1,*Examination of a placenta (en),*Examination of a placenta (en),Undersøkelse av en placenta.,*Examination of a placenta (en),Examination of a placenta
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0001.1],ELEMENT,CComplexObject,at0001.1,Untersuchtes System oder untersuchte Struktur,System eller struktur som undersökts,Undersøkt organsystem eller struktur,Sistema ou estrutura examinada,System or structure examined
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0001.1]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0001.1]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Klinische Beschreibung,Klinisk beskrivning,Klinisk beskrivelse,Descrição clínica,Clinical description
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Untersuchungsergebnisse,Fynd vid undersökning,Spesifikke funn,Resultados do exame,Examination findings
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0005],CLUSTER,ArchetypeSlot,at0005,Multimediale Darstellung,Multimedia-representation,Multimediarepresentasjon,Representação multimídia,Multimedia representation
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Klinische Interpretation,Klinisk tolkning,Fortolkning,Interpretação clínica,Clinical interpretation
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Kommentar,Kommentar,Kommentar,Comentário,Comment
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0008],CLUSTER,ArchetypeSlot,at0008,Nicht durchgeführte Untersuchung,Undersökning ej genomförd,Undersøkelse ikke utført,Exame não realizado,Examination not done
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0011],CLUSTER,ArchetypeSlot,at0011,Strukturierte Körperstelle,Strukturerad anatomisk plats,Strukturert anatomisk lokalisasjon,Local do corpo estruturado,Structured body site
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0012],ELEMENT,CComplexObject,at0012,Körperstelle,Anatomisk plats,Anatomisk lokalisasjon,Local do corpo,Body site
+openEHR-EHR-CLUSTER.exam-placenta.v0,/items[at0012]/value,DV_TEXT,CComplexObject

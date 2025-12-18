@@ -1,0 +1,11 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en
+openEHR-EHR-OBSERVATION.acvpu.v1,/,OBSERVATION,CComplexObject,at0000,ACVPU-Skala,*ACVPU scale (en),ACVPU skala,*ACVPU scale (en),ACVPU scale
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series,Event Series
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Jedes Ereignis zu einem beliebigen Zeitpunkt,Ospecificerad händelse,Uspesifisert tidspunkthendelse,Qualquer evento,Any point in time event
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,ACVPU,*ACVPU (en),ACVPU,*ACVPU (en),ACVPU
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.acvpu.v1,/data[at0001]/events[at0002]/state[at0013],ITEM_TREE,CComplexObject,at0013,Tree,Tree,*Tree(en),*Tree(en),Tree
+openEHR-EHR-OBSERVATION.acvpu.v1,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Tree,Tree,Tree,*Tree(en),Tree
+openEHR-EHR-OBSERVATION.acvpu.v1,/protocol[at0009]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Erweiterung,Tilläggsinformation,Tilleggsinformasjon,*Extension(en),Extension

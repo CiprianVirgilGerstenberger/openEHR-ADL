@@ -1,0 +1,309 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/,OBSERVATION,CComplexObject,at0000,Undersøkelse av oocytt og embryo,Oocyte and embryo assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027],POINT_EVENT,CComplexObject,at0027,Vurdering ved befruktning,Fertilisation assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0027]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028],POINT_EVENT,CComplexObject,at0028,Vurdering ved syngami,Syngamy assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0028]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029],POINT_EVENT,CComplexObject,at0029,Vurdering ved tidlig celledeling,Early cleavage assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0029]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030],POINT_EVENT,CComplexObject,at0030,Vurdering av dag 2 embryo,Day-2 embryo assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0030]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031],POINT_EVENT,CComplexObject,at0031,Vurdering av dag 3 embryo,Day-3 embryo assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0031]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032],POINT_EVENT,CComplexObject,at0032,Vurdering av dag 4 embryo,Day-4 embryo assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0032]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033],POINT_EVENT,CComplexObject,at0033,Vurdering av dag 5 embryo,Day-5 embryo assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0033]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062],POINT_EVENT,CComplexObject,at0062,Vurdering ved nedfrysing,Freezing assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0062]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063],POINT_EVENT,CComplexObject,at0063,Vurdering ved opptining,Thawing assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0063]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064],POINT_EVENT,CComplexObject,at0064,Vurdering ved embryo transfer,Embryo transfer assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0064]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065],POINT_EVENT,CComplexObject,at0065,Vurdering av dag 6 embryo,Day-6 embryo assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0065]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066],POINT_EVENT,CComplexObject,at0066,Vurdering ved egguttak,Oocyte collection assessment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Merking,Label
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,ID,ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0013],CLUSTER,ArchetypeSlot,at0013,Morfologiske funn,Morphological findings
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0022],CLUSTER,ArchetypeSlot,at0022,Multimediarepresentasjon,Image representation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Varighet siden inseminering,Time post-insemination
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0024],ELEMENT,CComplexObject,at0024,Tolkning,Interpretation
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Beskrivelse,Description
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,Utviklingsstadium,Developmental stage
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0036]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Hendelse under utvikling,Developmental event
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0044]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/data[at0001]/events[at0066]/data[at0003]/items[at0044]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004],ITEM_TREE,CComplexObject,at0004,Item tree,Item tree
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0005],CLUSTER,ArchetypeSlot,at0005,Medisinsk utstyr,Device
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0006],ELEMENT,CComplexObject,at0006,Dyrkningsskål ID,Culture dish ID
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0006]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0007],ELEMENT,CComplexObject,at0007,Metode,Method
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.embryo_assessment.v1,/protocol[at0004]/items[at0067],CLUSTER,ArchetypeSlot,at0067,Tilleggsinformasjon,Extension

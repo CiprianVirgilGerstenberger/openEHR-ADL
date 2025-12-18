@@ -12,11 +12,12 @@ import org.openehr.rm.common.resource.TranslationDetails
 class Example1 {
 
    private static String PS = File.separator
-   private static String path = "."+ PS +"resources"+ PS +"archetypes"
+   private static String path = "."+ PS +"ckm"+ PS +"local"+ PS +"archetypes"+ PS +"entry"+ PS + "observation" + PS
+      
 
    static void main(String[] args)
    {
-      def f = new File(path + PS + 'entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v1.adl')
+      def f = new File(path + PS + 'entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl')
       ADLParser parser = null
 
       try {
@@ -32,7 +33,7 @@ class Example1 {
       }
 
       if (archetype) {
-         assert archetype.archetypeId.value == 'openEHR-EHR-OBSERVATION.blood_pressure.v1'
+         assert archetype.archetypeId.value == 'openEHR-EHR-OBSERVATION.blood_pressure.v2'
          assert archetype.definition.getClass().getSimpleName() == 'CComplexObject'
          archetype.physicalPaths().sort().each { path ->
             println path

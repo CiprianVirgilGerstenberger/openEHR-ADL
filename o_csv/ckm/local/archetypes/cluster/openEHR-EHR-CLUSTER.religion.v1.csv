@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.religion.v1,/,CLUSTER,CComplexObject,at0000,Livssyn,Religious affiliation
+openEHR-EHR-CLUSTER.religion.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Livssyn,Religious affiliation
+openEHR-EHR-CLUSTER.religion.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.religion.v1,/items[at0002],ELEMENT,CComplexObject,at0002,Kommentar,Comment
+openEHR-EHR-CLUSTER.religion.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.religion.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Innvirkning på behandling,Impact on care
+openEHR-EHR-CLUSTER.religion.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.religion.v1,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Detaljer,Details

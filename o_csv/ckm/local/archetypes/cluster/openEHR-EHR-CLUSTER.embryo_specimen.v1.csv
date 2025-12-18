@@ -1,0 +1,8 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/,CLUSTER,CComplexObject,at0000,Embryo prøvemateriale,Embryo specimen
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Embryo utviklingsstadie,Embryo development stage
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/items[at0001]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Embryo dag,Embryo preservation day
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.embryo_specimen.v1,/items[at0003]/value/defining_code,CODE_PHRASE,CCodePhrase

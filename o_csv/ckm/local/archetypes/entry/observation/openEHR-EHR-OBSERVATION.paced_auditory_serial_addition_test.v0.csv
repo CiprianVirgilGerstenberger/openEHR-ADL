@@ -1,0 +1,77 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_en
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/,OBSERVATION,CComplexObject,at0000,Paced Auditory Serial Addition Test,Paced Auditory Serial Addition Test
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002],HISTORY,CComplexObject,at0002,Event Series,Event Series
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064],POINT_EVENT,CComplexObject,at0064,PASAT-3'',PASAT-3''
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001],ITEM_TREE,CComplexObject,at0001,Baum,Tree
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Anzahl korrekter Ergebnisse,Total Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0015]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0015]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0029],ELEMENT,CComplexObject,at0029,Anzahl korrekter Ergebnisse in der ersten Hälfte,First Half Total Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0029]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0029]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0030],ELEMENT,CComplexObject,at0030,Anzahl korrekter Ergebnisse in der zweiten Hälfte,Second Half Total Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0030]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0030]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0031],ELEMENT,CComplexObject,at0031,Anzahl der Rechenfehler,Total Errors of Commission
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0031]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0031]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0032],ELEMENT,CComplexObject,at0032,Anzahl der Auslassungsfehler,Total Errors of Omission
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0032]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0032]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0049],ELEMENT,CComplexObject,at0049,Grund für Nichtbeenden,Reason for Non-completion
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0055],ELEMENT,CComplexObject,at0055,Test nicht beendet?,Test Not Completed?
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0055]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0055]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0063],ELEMENT,CComplexObject,at0063,Prozentwert korrekter Ergebnisse,Percentage of Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0063]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0063]/value/denominator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0063]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/data[at0001]/items[at0063]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/state[at0050],ITEM_TREE,CComplexObject,at0050,Baum,Tree
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/state[at0050]/items[at0054],ELEMENT,CComplexObject,at0054,Begleitumstände,Confounding Factors
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0064]/state[at0050]/items[at0054]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065],POINT_EVENT,CComplexObject,at0065,PASAT-2'',PASAT-2''
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001],ITEM_TREE,CComplexObject,at0001,Baum,Tree
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Anzahl korrekter Ergebnisse,Total Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0015]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0015]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0029],ELEMENT,CComplexObject,at0029,Anzahl korrekter Ergebnisse in der ersten Hälfte,First Half Total Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0029]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0029]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0030],ELEMENT,CComplexObject,at0030,Anzahl korrekter Ergebnisse in der zweiten Hälfte,Second Half Total Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0030]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0030]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0031],ELEMENT,CComplexObject,at0031,Anzahl der Rechenfehler,Total Errors of Commission
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0031]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0031]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0032],ELEMENT,CComplexObject,at0032,Anzahl der Auslassungsfehler,Total Errors of Omission
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0032]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0032]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0049],ELEMENT,CComplexObject,at0049,Grund für Nichtbeenden,Reason for Non-completion
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0049]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0055],ELEMENT,CComplexObject,at0055,Test nicht beendet?,Test Not Completed?
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0055]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0055]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0063],ELEMENT,CComplexObject,at0063,Prozentwert korrekter Ergebnisse,Percentage of Correct Answers
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0063]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0063]/value/denominator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0063]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/data[at0001]/items[at0063]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/state[at0050],ITEM_TREE,CComplexObject,at0050,Baum,Tree
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/state[at0050]/items[at0054],ELEMENT,CComplexObject,at0054,Begleitumstände,Confounding Factors
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/data[at0002]/events[at0065]/state[at0050]/items[at0054]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Baum,Tree
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0012],ELEMENT,CComplexObject,at0012,Verwendete Zahlensequenz,Number Sequence Used
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0012]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0012]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0068],ELEMENT,CComplexObject,at0068,Übungssequenz durchgeführt?,Practice Trial Conducted?
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0068]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0068]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0069],ELEMENT,CComplexObject,at0069,Zusätzliche Anläufe?,Additional Attempts?
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0069]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0069]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0070],ELEMENT,CComplexObject,at0070,Grund für zusätzliche Anläufe,Reason for Additional Attempts
+openEHR-EHR-OBSERVATION.paced_auditory_serial_addition_test.v0,/protocol[at0007]/items[at0070]/value,DV_TEXT,CComplexObject

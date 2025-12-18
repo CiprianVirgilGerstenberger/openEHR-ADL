@@ -1,0 +1,88 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-EVALUATION.death_details_nor.v0,/,EVALUATION,CComplexObject,at0000,death_details_nor
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Deceased
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0002]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0002]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Surgery
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Date of surgery
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Reason for surgery
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Autopsy
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Autopsy findings
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Manner of death
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0010]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0010]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,External cause or poisoning
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Place of occurence
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0021]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0021]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0034],ELEMENT,CComplexObject,at0034,Activity
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0034]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0034]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0042],CLUSTER,ArchetypeSlot,at0042,Additional death details
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043],CLUSTER,CComplexObject,at0043,Fetal or infant death
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0044],ELEMENT,CComplexObject,at0044,Stillborn
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0044]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0045],ELEMENT,CComplexObject,at0045,First 24h
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0045]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0045]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0046],ELEMENT,CComplexObject,at0046,Birth weight
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0046]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0051],ELEMENT,CComplexObject,at0051,Age of mother
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0051]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0052],ELEMENT,CComplexObject,at0052,Completed weeks of pregnancy
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0052]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0052]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0053],ELEMENT,CComplexObject,at0053,Multiple pregnancy
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0053]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0054],ELEMENT,CComplexObject,at0054,Perinatal death
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0054]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055],CLUSTER,CComplexObject,at0055,Additional perinatal death details
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0056],ELEMENT,CComplexObject,at0056,Labour
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0056]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0056]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0060],ELEMENT,CComplexObject,at0060,Mothers date of birth
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0060]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0061],ELEMENT,CComplexObject,at0061,Number of previous live births
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0061]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0062],ELEMENT,CComplexObject,at0062,Number of previous stillbirths
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0062]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0063],ELEMENT,CComplexObject,at0063,Number of previous abortions
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0063]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0064],ELEMENT,CComplexObject,at0064,Date of last pregnancy
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0064]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0065],ELEMENT,CComplexObject,at0065,Outcome of last previous pregnancy
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0065]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0065]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0069],ELEMENT,CComplexObject,at0069,Menstrual periode
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0069]/value,DV_DATE,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0070],ELEMENT,CComplexObject,at0070,Delivery
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0070]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0073],ELEMENT,CComplexObject,at0073,Delivery specified
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0073]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0074],ELEMENT,CComplexObject,at0074,Child
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0074]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0074]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0086],ELEMENT,CComplexObject,at0086,Attendant at birth
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0086]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0086]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0090],ELEMENT,CComplexObject,at0090,Attendant specified
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0090]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0099],ELEMENT,CComplexObject,at0099,Other multiple specified
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0043]/items[at0055]/items[at0099]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0091],ELEMENT,CComplexObject,at0091,Time of death
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0091]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0092],ELEMENT,CComplexObject,at0092,Approximate time of death
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0092]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0093],ELEMENT,CComplexObject,at0093,Manner of death specified
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0093]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0094],ELEMENT,CComplexObject,at0094,Place of occurence specified
+openEHR-EHR-EVALUATION.death_details_nor.v0,/data[at0001]/items[at0094]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_details_nor.v0,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Item tree

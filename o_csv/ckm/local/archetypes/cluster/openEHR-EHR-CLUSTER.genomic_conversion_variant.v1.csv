@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/,CLUSTER,CComplexObject,at0000,Genomic conversion variant,Genetisk variant - genkonversjon,Genomic conversion variant
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Start converted position,Startposisjon til konvertert sekvens,Start converted position
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0003]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0004],ELEMENT,CComplexObject,at0004,End converted position,Sluttposisjonen til konvertert sekvens,End converted position
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0004]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0009],ELEMENT,CComplexObject,at0009,Replacing sequence start position,Startposisjon til erstatningssekvensen,Replacing sequence start position
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0009]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0010],ELEMENT,CComplexObject,at0010,Replacing sequence end position,Sluttposisjon til erstatningssekvensen,Replacing sequence end position
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0010]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0011],CLUSTER,ArchetypeSlot,at0011,Converted reference sequence,Konvertert referansesekvens,Converted reference sequence
+openEHR-EHR-CLUSTER.genomic_conversion_variant.v1,/items[at0012],CLUSTER,ArchetypeSlot,at0012,Replacing reference sequence,Erstatnings referansesekvens,Replacing reference sequence

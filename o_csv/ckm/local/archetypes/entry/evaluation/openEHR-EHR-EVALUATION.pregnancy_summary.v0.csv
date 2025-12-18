@@ -1,0 +1,81 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_pt-br,name_en,name_es-co
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/,EVALUATION,CComplexObject,at0000,Graviditetssammenfatning,*Pregnancy summary(en),Pregnancy summary,*Pregnancy summary(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Antall foster,*Number of fetuses (en),Number of fetuses,*Number of fetuses (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0007]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0007]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Fødselsstart,*Onset of labour(en),Onset of labour,*Onset of labour(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0008]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0008]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Fødselens totale varighet,*Total duration of labor(en),Total duration of labor,*Total duration of labor(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0016]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0016]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0022],ELEMENT,CComplexObject,at0022,Riestimmulerende metode,*Augmentation method(en),Augmentation method,*Augmentation method(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028],CLUSTER,CComplexObject,at0028,Per nyfødt,*Per newborn (en),Per newborn,*Per newborn (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0029],ELEMENT,CComplexObject,at0029,Fødselstidspunkt,*Date/time of delivery (en),Date/time of delivery,*Date/time of delivery (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0029]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0036],ELEMENT,CComplexObject,at0036,Navn (label),*Label/name (en),Label/name,*Label/name (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0037],ELEMENT,CComplexObject,at0037,Tilordnet kjønn,*Assigned sex (en),Assigned sex,*Assigned sex (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0037]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0037]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0038],ELEMENT,CComplexObject,at0038,Vekt,*Weight (en),Weight,*Weight (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0038]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0045],ELEMENT,CComplexObject,at0045,Ledende del,*Presenting part(en),Presenting part,*Presenting part(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0045]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0045]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061],CLUSTER,CComplexObject,at0061,Nyfødt komplikasjon,*Newborn complication (en),Newborn complication,*Newborn complication (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061]/items[at0062],ELEMENT,CComplexObject,at0062,Komplikasjon,*Complication(en),Complication,*Complication(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061]/items[at0062]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061]/items[at0063],ELEMENT,CComplexObject,at0063,Startidspunkt/dato,*Date/time of onset (en),Date/time of onset,*Date/time of onset (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061]/items[at0063]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061]/items[at0064],ELEMENT,CComplexObject,at0064,Beskrivelse,Descrição,Description,Descripción
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0061]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0109],ELEMENT,CComplexObject,at0109,Ernæring,Alimentação,Feeding,Alimentación
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0109]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0149],ELEMENT,CComplexObject,at0149,Leie,*Position (en),Position,*Position (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0149]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0149]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0160],CLUSTER,ArchetypeSlot,at0160,Fødselssammendrag,*Birth summary (en),Birth summary,*Birth summary (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0163],ELEMENT,CComplexObject,at0163,Fødselsutfall,*Delivery outcome (en),Delivery outcome,*Delivery outcome (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0028]/items[at0163]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065],CLUSTER,CComplexObject,at0065,Maternell komplikasjon,*Maternal complication(en),Maternal complication,*Maternal complication(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065]/items[at0066],ELEMENT,CComplexObject,at0066,Komplikasjon,Complicação,Complication,Complicación
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065]/items[at0066]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065]/items[at0067],ELEMENT,CComplexObject,at0067,Starttidspunkt/dato,*Date/Time of onset(en),Date/Time of onset,*Date/Time of onset(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065]/items[at0067]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065]/items[at0068],ELEMENT,CComplexObject,at0068,Beskrivelse,Descrição,Description,Descripción
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0065]/items[at0068]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0083],ELEMENT,CComplexObject,at0083,Graviditetssammenfattning,*Pregnancy synopsis(en),Pregnancy synopsis,*Pregnancy synopsis(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0083]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0094],ELEMENT,CComplexObject,at0094,Graviditetsutfall,*Pregnancy outcome(en),Pregnancy outcome,*Pregnancy outcome(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0094]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0096],ELEMENT,CComplexObject,at0096,Induksjonsmetode,*Induction method(en),Induction method,*Induction method(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0096]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0097],ELEMENT,CComplexObject,at0097,Induksjonsindikasjon,*Reason for induction(en),Reason for induction,*Reason for induction(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0097]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0104],ELEMENT,CComplexObject,at0104,Assistert reproduksjon?,*Assisted reproduction?(en),Assisted reproduction?,*Assisted reproduction?(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0104]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0104]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0105],ELEMENT,CComplexObject,at0105,Assistert reproduksjon type,*Assisted reproduction type(en),Assisted reproduction type,*Assisted reproduction type(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0105]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0118],ELEMENT,CComplexObject,at0118,Perineum,Períneo,Perineum,perineo
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0118]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0118]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0119],ELEMENT,CComplexObject,at0119,Estimert blødning,*Estimated blood loss (en),Estimated blood loss,*Estimated blood loss (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0119]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0146],ELEMENT,CComplexObject,at0146,Graviditet (label),*Pregnancy label (en),Pregnancy label,*Pregnancy label (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0146]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0157],ELEMENT,CComplexObject,at0157,Episiotomi,*Episiotomy (en),Episiotomy,*Episiotomy (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0157]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0158],ELEMENT,CComplexObject,at0158,Graviditet bekreftet,*Pregnancy confirmed (en),Pregnancy confirmed,*Pregnancy confirmed (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0158]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0159],ELEMENT,CComplexObject,at0159,Graviditetens varighet,*Pregnancy duration (en),Pregnancy duration,*Pregnancy duration (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0159]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0159]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/data[at0001]/items[at0161],CLUSTER,ArchetypeSlot,at0161,Ytterligere detaljer,*Additional details (en),Additional details,*Additional details (en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/protocol[at0081],ITEM_TREE,CComplexObject,at0081,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/protocol[at0081]/items[at0082],ELEMENT,CComplexObject,at0082,Sist oppdatert,*Last updated(en),Last updated,*Last updated(en)
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/protocol[at0081]/items[at0082]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.pregnancy_summary.v0,/protocol[at0081]/items[at0164],CLUSTER,ArchetypeSlot,at0164,Tilleggsinformasjon,*Extension (en),Extension,*Extension (en)

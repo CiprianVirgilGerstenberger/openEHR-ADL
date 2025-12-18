@@ -1,0 +1,29 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-EVALUATION.contraindication.v1,/,EVALUATION,CComplexObject,at0000,Kontraindikasjon,Contraindication
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Kontraindisert intervensjon,Contraindicated intervention
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Rasjonale,Rationale
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0007],ELEMENT,CComplexObject,at0007,Kritikalitet,Criticality
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Kommentar,Comment
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Kategori,Category
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0014],ELEMENT,CComplexObject,at0014,Status,Status
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Klinisk indikasjon,Clinical indication
+openEHR-EHR-EVALUATION.contraindication.v1,/data[at0001]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006],ITEM_TREE,CComplexObject,at0006,Tree,Tree
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0004],ELEMENT,CComplexObject,at0004,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0009],ELEMENT,CComplexObject,at0009,Dato for evaluering,Review date
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0009]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0020],CLUSTER,ArchetypeSlot,at0020,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0022],ELEMENT,CComplexObject,at0022,Gyldighetsperiode start,Valid period start
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0022]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0023],ELEMENT,CComplexObject,at0023,Gyldighetsperiode slutt,Valid period end
+openEHR-EHR-EVALUATION.contraindication.v1,/protocol[at0006]/items[at0023]/value,DV_DATE_TIME,CComplexObject

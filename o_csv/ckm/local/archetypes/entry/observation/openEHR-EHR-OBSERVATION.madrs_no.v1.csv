@@ -1,0 +1,32 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.madrs_no.v1,/,OBSERVATION,CComplexObject,at0000,MADRS
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Synlig tristhet
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Tristhet
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Indre spenning
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Redusert nattesøvn
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,Svekket appetitt
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Konsentrasjonsvansker
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Initiativløshet
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Svekkede følelsesmessige reaksjoner
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012],ELEMENT,CComplexObject,at0012,Depressivt tankeinnhold
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0012]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013],ELEMENT,CComplexObject,at0013,Suicidaltanker
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0013]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0084],ELEMENT,CComplexObject,at0084,MADRS skår
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0084]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0084]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0085],ELEMENT,CComplexObject,at0085,Kommentar
+openEHR-EHR-OBSERVATION.madrs_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0085]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.madrs_no.v1,/protocol[at0086],ITEM_TREE,CComplexObject,at0086,Tree
+openEHR-EHR-OBSERVATION.madrs_no.v1,/protocol[at0086]/items[at0087],CLUSTER,ArchetypeSlot,at0087,Tilleggsinformasjon

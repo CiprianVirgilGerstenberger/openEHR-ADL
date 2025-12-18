@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/,CLUSTER,CComplexObject,at0000,Genomic copy number variant,Genetisk variant - kopitall,Genomic copy number variant
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0001],ELEMENT,CComplexObject,at0001,Start,Start,Start
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0001]/value,DV_INTERVAL<DV_COUNT>,CComplexObject
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0002],ELEMENT,CComplexObject,at0002,End,Slutt,End
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0002]/value,DV_INTERVAL<DV_COUNT>,CComplexObject
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Total copy number,Totalt kopitall,Total copy number
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0003]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0003]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Reference sequence,Referansesekvens,Reference sequence
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Copy number change type,Kopitall endringstype,Copy number change type
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.genomic_copy_number_variant.v1,/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase

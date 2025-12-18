@@ -1,0 +1,48 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/,OBSERVATION,CComplexObject,at0000,St. Mark's inkontinensskår,St. Mark's incontinence score
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Lekkasje av fast avføring,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Må bruke bleie/bind eller plugg mot avføringslekkasje,Need to wear a pad or plug
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,Bruker forstoppende medisin,Taking constipating medicines
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Kan ikke utsette avføring i 15 minutter etter første følelse av trang,Lack of ability to defer defecation for 15 minutes
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038],ELEMENT,CComplexObject,at0038,Total skår,Total score
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0038]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0039],ELEMENT,CComplexObject,at0039,Lekkasje av flytende avføring,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0039]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045],ELEMENT,CComplexObject,at0045,Lekkasje av gass,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0045]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Endring av livsstil,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0051]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059],INTERVAL_EVENT,CComplexObject,at0059,Siste fire uker,Last four weeks
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Lekkasje av fast avføring,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Må bruke bleie/bind eller plugg mot avføringslekkasje,Need to wear a pad or plug
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0028]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,Bruker forstoppende medisin,Taking constipating medicines
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Kan ikke utsette avføring i 15 minutter etter første følelse av trang,Lack of ability to defer defecation for 15 minutes
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0038],ELEMENT,CComplexObject,at0038,Total skår,Total score
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0038]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0038]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0039],ELEMENT,CComplexObject,at0039,Lekkasje av flytende avføring,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0039]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0045],ELEMENT,CComplexObject,at0045,Lekkasje av gass,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0045]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0051],ELEMENT,CComplexObject,at0051,Endring av livsstil,Incontinence for solid stool
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/data[at0003]/items[at0051]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/math_function,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/math_function/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/width,DV_DURATION,CComplexObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/data[at0001]/events[at0059]/width/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/protocol[at0057],ITEM_TREE,CComplexObject,at0057,*Item tree (en),Item tree
+openEHR-EHR-OBSERVATION.st_marks_score.v1,/protocol[at0057]/items[at0058],CLUSTER,ArchetypeSlot,at0058,Tilleggsinformasjon,Extension

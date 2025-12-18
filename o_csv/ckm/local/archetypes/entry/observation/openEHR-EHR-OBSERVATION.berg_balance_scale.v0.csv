@@ -1,0 +1,43 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/,OBSERVATION,CComplexObject,at0000,Bergs balanseskala
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,1. Sittende til stående
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,2. Stående uten støtte
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,3. Sitte uten ryggstøtte med føttene på golvet eller på en skammel.
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,4. Stående til sittende
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,5. Fra sittende på en stol med armlene til en annen uten armlen og vice versa
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0029],ELEMENT,CComplexObject,at0029,6. Stå uten støtte med lukkede øyne
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0029]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030],ELEMENT,CComplexObject,at0030,7. Stående med føttene inntil hverandre
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0030]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0031],ELEMENT,CComplexObject,at0031,8. Stå og strekke seg fremover med utstrakt arm
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0031]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032],ELEMENT,CComplexObject,at0032,9. Ta opp noe fra gulvet
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0032]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0033],ELEMENT,CComplexObject,at0033,10. Vri seg og se bak over høyre og venstre skulder
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0033]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,11. Snu seg 360 grader
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0035],ELEMENT,CComplexObject,at0035,12. Sette en og en fot vekselvis på et trappetrinn
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0035]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036],ELEMENT,CComplexObject,at0036,13. Stå med en fot fremfor den andre
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0036]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,14. Stå på ett ben
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0038],ELEMENT,CComplexObject,at0038,Totalskår
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0038]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0038]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0039],ELEMENT,CComplexObject,at0039,Kommentar
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0039]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/state[at0098],ITEM_TREE,CComplexObject,at0098,Tree
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/state[at0098]/items[at0099],ELEMENT,CComplexObject,at0099,Konfunderende faktorer
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/data[at0001]/events[at0002]/state[at0098]/items[at0099]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/protocol[at0040],ITEM_TREE,CComplexObject,at0040,Tree
+openEHR-EHR-OBSERVATION.berg_balance_scale.v0,/protocol[at0040]/items[at0046],CLUSTER,ArchetypeSlot,at0046,Tilleggsinformasjon

@@ -1,0 +1,20 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_en,name_sl
+openEHR-EHR-CLUSTER.specimen_container.v1,/,CLUSTER,CComplexObject,at0000,Probenbehälter,Provbehållare,Prøvebeholder,Specimen container,*Specimen container(en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Behälter-ID,*Container ID (en),Prøvebeholder ID,Container ID,*Container ID (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Behältertyp,*Container type (en),Prøvebeholder type,Container type,*Container type (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0013],ELEMENT,CComplexObject,at0013,Beschreibung,Beskrivning,Beskrivelse,Description,*Description(en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0026],ELEMENT,CComplexObject,at0026,Additive,*Additive/s (en),Tilsetningsstoffer,Additive/s,*Additive/s (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0026]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0028],CLUSTER,ArchetypeSlot,at0028,Zusätzliche Angaben,*Additional details (en),Tilleggsinformasjon,Additional details,*Additional details (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0029],CLUSTER,ArchetypeSlot,at0029,Inhalt,*Contents (en),Innhold,Contents,*Contents (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0035],ELEMENT,CComplexObject,at0035,Fassungsvermögen,*Capacity (en),Kapasitet,Capacity,*Capacity (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0035]/value,DV_QUANTITY,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0036],ELEMENT,CComplexObject,at0036,Kommentar,*Comment (en),Kommentar,Comment,*Comment (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0037],ELEMENT,CComplexObject,at0037,Bestandteile,*Components (en),Komponenter,Components,*Components (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0038],ELEMENT,CComplexObject,at0038,Mindestvolumen,*Minimum volum (en),Minimum volum,Minimum volum,*Minimum volum (en)
+openEHR-EHR-CLUSTER.specimen_container.v1,/items[at0038]/value,DV_QUANTITY,CComplexObject

@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-COMPOSITION.health_certificate.v1,/,COMPOSITION,CComplexObject,at0000,Zertifikat,Helseattest,Health certificate
+openEHR-EHR-COMPOSITION.health_certificate.v1,/category[at0001],DV_CODED_TEXT,CComplexObject,at0001,Codierter Text,Coded text,Coded text
+openEHR-EHR-COMPOSITION.health_certificate.v1,/category[at0001]/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002],EVENT_CONTEXT,CComplexObject,at0002,Ereigniskontext,Event Context,Event Context
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003],ITEM_TREE,CComplexObject,at0003,Item tree,Item tree,Item tree
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003]/items[at0004],CLUSTER,ArchetypeSlot,at0004,Person,Individ,Individual
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Zertifikats-ID,Attest ID,Certificate ID
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Erweiterung,Tilleggsinformasjon,Extension
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Zertifikatstyp,Attesttype,Certificate type
+openEHR-EHR-COMPOSITION.health_certificate.v1,/context[at0002]/other_context[at0003]/items[at0010]/value,DV_TEXT,CComplexObject

@@ -1,0 +1,79 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.dwelling.v0,/,CLUSTER,CComplexObject,at0000,Boligegenskaper,Dwelling
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Overordnet beskrivelse,Overall description
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Type bolig,Type
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0003],CLUSTER,ArchetypeSlot,at0003,Ytterligere detaljer,Additional details
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0004],ELEMENT,CComplexObject,at0004,Kommentar,Comment
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0005],ELEMENT,CComplexObject,at0005,Adkomst,Access/egress
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Inngang,Entrance
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Parkering,Parking
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0008],ELEMENT,CComplexObject,at0008,Entré/Gang,Hallway
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0009],ELEMENT,CComplexObject,at0009,Innvendige trapper/heis.,Internal stairs/lifts
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0010],ELEMENT,CComplexObject,at0010,Stue,Living room
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0011],ELEMENT,CComplexObject,at0011,Kjøkken,Kitchen
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0011]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0012],ELEMENT,CComplexObject,at0012,Soverom,Bedroom
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0013],ELEMENT,CComplexObject,at0013,Toalett,Toilet
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0014],ELEMENT,CComplexObject,at0014,Bad,Bathroom
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0015],ELEMENT,CComplexObject,at0015,Klesvask,Laundry facilities
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0016],ELEMENT,CComplexObject,at0016,Uteområde,Outdoor space
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0017],ELEMENT,CComplexObject,at0017,Fasttelefon,Landline phone
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0018],ELEMENT,CComplexObject,at0018,Brannsikring,Fire protection
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0020],ELEMENT,CComplexObject,at0020,Ringeklokke,Doorbell
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0021],ELEMENT,CComplexObject,at0021,Søppeloppsamling,Rubbish collection
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0022],ELEMENT,CComplexObject,at0022,Post,Mail
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0023],ELEMENT,CComplexObject,at0023,Vanntilførsel,Water supply
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0024],ELEMENT,CComplexObject,at0024,Søppelhåndtering,Rubbish disposal
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0025],ELEMENT,CComplexObject,at0025,Lagring av vann,Water storage
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0026],ELEMENT,CComplexObject,at0026,Type toalett,Toilet type
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0026]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0028],ELEMENT,CComplexObject,at0028,Antall soverom,Number of bedrooms
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0029],ELEMENT,CComplexObject,at0029,Antall baderom,Number of bathrooms
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0029]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0033],ELEMENT,CComplexObject,at0033,Vannkilde,Water source
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0034],ELEMENT,CComplexObject,at0034,Kloakksystem,Sewage disposal
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0035],ELEMENT,CComplexObject,at0035,Antall toalett,Number of toilets
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0035]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0036],ELEMENT,CComplexObject,at0036,Tilstand,Condition
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0036]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0037],ELEMENT,CComplexObject,at0037,Oppvarming/kjøling,Heating/cooling
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0038],ELEMENT,CComplexObject,at0038,Energiforsyning,Energy supply
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0038]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0039],ELEMENT,CComplexObject,at0039,Trygghetstiltak,Security and safety
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0039]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0040],ELEMENT,CComplexObject,at0040,Oppkobling,Connectivity
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0041],ELEMENT,CComplexObject,at0041,Antall etasjer,Number of floors
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0041]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0042],ELEMENT,CComplexObject,at0042,Kritiske apparater/tjenester,Critical appliances/services
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0042]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0042]/name/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0042]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0043],ELEMENT,CComplexObject,at0043,Apparat,Appliance
+openEHR-EHR-CLUSTER.dwelling.v0,/items[at0043]/value,DV_TEXT,CComplexObject

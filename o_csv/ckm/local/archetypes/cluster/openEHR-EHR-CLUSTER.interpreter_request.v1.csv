@@ -1,0 +1,17 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.interpreter_request.v1,/,CLUSTER,CComplexObject,at0000,Forespørsel om tolk,Interpreter request
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Kommentar,Comment
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Foretrukket tolk,Preferred interpreter
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0009],ELEMENT,CComplexObject,at0009,Kommunikasjonskanal,Communication channel
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0009]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0027],ELEMENT,CComplexObject,at0027,Foretrukket kjønn,Preferred gender
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0027]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0027]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0039],CLUSTER,CComplexObject,at0039,Per språk,Per language
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0039]/items[at0031],CLUSTER,ArchetypeSlot,at0031,Språk,Language
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0039]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Comment
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0039]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0039]/name,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.interpreter_request.v1,/items[at0039]/name/defining_code,CODE_PHRASE,CCodePhrase

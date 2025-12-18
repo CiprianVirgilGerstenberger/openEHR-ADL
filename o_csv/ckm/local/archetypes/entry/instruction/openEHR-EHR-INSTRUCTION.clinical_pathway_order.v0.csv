@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/,INSTRUCTION,CComplexObject,at0000,Ordinering av klinisk forløp,Care pathway order
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001],ACTIVITY,CComplexObject,at0001,Ordinering,Order
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002],ITEM_TREE,CComplexObject,at0002,Tre,Tree
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0003],ELEMENT,CComplexObject,at0003,Forløpsnavn,Care pathway name
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0004],ELEMENT,CComplexObject,at0004,Dato/tid for start,Start date/time
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0004]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0005],ELEMENT,CComplexObject,at0005,Beskrivelse,Description
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0005]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Ytterligere detaljer,Additional details
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0013],ELEMENT,CComplexObject,at0013,Kommentar,Comment
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0014],ELEMENT,CComplexObject,at0014,Klinisk indikasjon,Clinical indication
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0015],ELEMENT,CComplexObject,at0015,Slutt dato/tid,End date/time
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0015]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/activities[at0001]/description[at0002]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Referanse til kunnskapsbase,Knowledge base reference
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Tre,Tree
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/protocol[at0007]/items[at0010],CLUSTER,ArchetypeSlot,at0010,Tilleggsinformasjon,Extension
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/protocol[at0007]/items[at0016],ELEMENT,CComplexObject,at0016,Dato for revurdering,Review date
+openEHR-EHR-INSTRUCTION.clinical_pathway_order.v0,/protocol[at0007]/items[at0016]/value,DV_DATE_TIME,CComplexObject

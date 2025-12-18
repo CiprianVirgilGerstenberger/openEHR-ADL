@@ -1,0 +1,21 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/,OBSERVATION,CComplexObject,at0000,Bishop skår (norsk modifikasjon)
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Ledende del
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Mormunn
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0009]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014],ELEMENT,CComplexObject,at0014,Mormunnslengde
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0014]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019],ELEMENT,CComplexObject,at0019,Konsistens
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0019]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Posisjon
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0023]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,Totalskår (5 variabler)
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Totalskår (3 variabler)
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.modified_bishop_score_no.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/magnitude,Integer,CPrimitiveObject

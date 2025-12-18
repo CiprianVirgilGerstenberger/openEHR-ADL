@@ -1,0 +1,4 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-COMPOSITION.review.v0,/,COMPOSITION,CComplexObject,at0000,Review
+openEHR-EHR-COMPOSITION.review.v0,/category,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-COMPOSITION.review.v0,/category/defining_code,CODE_PHRASE,CCodePhrase

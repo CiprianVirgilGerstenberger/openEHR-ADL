@@ -1,0 +1,16 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_en
+openEHR-EHR-OBSERVATION.msfc_score.v0,/,OBSERVATION,CComplexObject,at0000,MSFC-Wert,MSFC Score
+openEHR-EHR-OBSERVATION.msfc_score.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.msfc_score.v0,/data[at0001]/events[at0010],EVENT,CComplexObject,at0010,Jedes Ereignis,Any Event
+openEHR-EHR-OBSERVATION.msfc_score.v0,/data[at0001]/events[at0010]/data[at0003],ITEM_TREE,CComplexObject,at0003,Baum,Tree
+openEHR-EHR-OBSERVATION.msfc_score.v0,/data[at0001]/events[at0010]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,MSFC-Wert,MSFC Score
+openEHR-EHR-OBSERVATION.msfc_score.v0,/data[at0001]/events[at0010]/data[at0003]/items[at0004]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Baum,Tree
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0006],ELEMENT,CComplexObject,at0006,Referenzpopulation,Reference Population
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0006]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0007],ELEMENT,CComplexObject,at0007,Aufzeichnung des Timed 25-Foot Walk,Timed 25-Foot Walk Record
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0007]/value,DV_EHR_URI,CComplexObject
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0008],ELEMENT,CComplexObject,at0008,Aufzeichnung des Nine Hole Peg Test,Nine Hole Peg Test Record
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0008]/value,DV_EHR_URI,CComplexObject
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0009],ELEMENT,CComplexObject,at0009,Aufzeichnung des Paced Auditory Serial Addition Test,Paced Auditory Serial Addition Test Record
+openEHR-EHR-OBSERVATION.msfc_score.v0,/protocol[at0005]/items[at0009]/value,DV_EHR_URI,CComplexObject

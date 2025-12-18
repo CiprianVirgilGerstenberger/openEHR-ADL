@@ -1,0 +1,5 @@
+archetype_id,path,rm_type,aom_type,node_id,name_ru,name_en
+openEHR-EHR-SECTION.diagnostic_reports.v0,/,SECTION,CComplexObject,at0000,Обоснование диагноза,Diagnostic Reports
+openEHR-EHR-SECTION.diagnostic_reports.v0,/items[at0001],OBSERVATION,ArchetypeSlot,at0001,Отчеты о лабораторных данных,Laboratory reports
+openEHR-EHR-SECTION.diagnostic_reports.v0,/items[at0002],OBSERVATION,ArchetypeSlot,at0002,Отчеты по методам визуализации,Imaging reports
+openEHR-EHR-SECTION.diagnostic_reports.v0,/items[at0003],EVALUATION,ArchetypeSlot,at0003,Эпикриз с обоснованием диагноза,Diagnostic report synopsis

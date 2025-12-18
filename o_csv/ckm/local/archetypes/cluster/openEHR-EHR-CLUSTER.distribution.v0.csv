@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en,name_sl
+openEHR-EHR-CLUSTER.distribution.v0,/,CLUSTER,CComplexObject,at0000,Distribution,Obveščanje
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0003],ELEMENT,CComplexObject,at0003,Communication mode,Način komunikacija
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0006],ELEMENT,CComplexObject,at0006,Date sent,Datum odpošiljanja
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0006]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0008],ELEMENT,CComplexObject,at0008,Group category,Skupina
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011],CLUSTER,CComplexObject,at0011,Individual recipient,Posamezni prejemnik
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011]/items,ELEMENT,ArchetypeInternalRef
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011]/items[at0003],ELEMENT,CComplexObject,at0003,Communication mode,Način komunikacija
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011]/items[at0007],CLUSTER,ArchetypeSlot,at0007,Recipient details,Podrobnosti o prejemniku
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011]/items[at0010],ELEMENT,CComplexObject,at0010,Recipient identifier,ID prejemnika
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0011]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0012],ELEMENT,CComplexObject,at0012,Urgent,Nujno
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0012]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-CLUSTER.distribution.v0,/items[at0012]/value/value,Boolean,CPrimitiveObject

@@ -1,0 +1,51 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_pt-br,name_en,name_es-co
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/,EVALUATION,CComplexObject,at0000,Obstetrisk sammendrag,*Obstetric counts (en),Obstetric summary,*Obstetric counts (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Gravida,*Gravidity (en),Gravidity,*Gravidity (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0002]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0002]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Para,*Parity(en),Parity,*Parity(en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0003]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0003]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Spontane aborter,*Miscarriages(en),Miscarriages,*Miscarriages(en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0004]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0004]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0005],ELEMENT,CComplexObject,at0005,Provoserte aborter,Aborto induzido,Terminations,Embarazos interrumpidos
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0005]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0005]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0006],ELEMENT,CComplexObject,at0006,Levendefødte,*Live births (en),Live births,*Live births (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0006]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0006]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0011],ELEMENT,CComplexObject,at0011,Ekstrauterine graviditeter,*Ectopic pregnancies (en),Ectopic pregnancies,*Ectopic pregnancies (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0011]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0011]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,Dødfødsler,*Stillbirths(en),Stillbirths,*Stillbirths(en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0012]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0012]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Fødsler til termin,*Term births (en),Term births,*Term births (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0015]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0015]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Preterme fødsler,*Preterm births (en),Preterm births,*Preterm births (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0016]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0016]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Aborter,*Abortions (en),Abortions,*Abortions (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0017]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0017]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0018],ELEMENT,CComplexObject,at0018,Flerlingefødsler,*Multiple births (en),Multiple births,*Multiple births (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0018]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0018]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0025],ELEMENT,CComplexObject,at0025,Beskrivelse,*Description (en),Description,*Description (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0025]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0026],ELEMENT,CComplexObject,at0026,Kommentar,*Comment (en),Comment,*Comment (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0026]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0027],ELEMENT,CComplexObject,at0027,Keisersnitt,*Caesarean sections (en),Caesarean sections,*Caesarean sections (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0027]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0028],ELEMENT,CComplexObject,at0028,Neonatale dødsfall,*Neonatal deaths (en),Neonatal deaths,*Neonatal deaths (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/data[at0001]/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008]/items[at0009],ELEMENT,CComplexObject,at0009,Sist oppdatert,*Last updated (en),Last updated,*Last updated (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008]/items[at0009]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008]/items[at0021],ELEMENT,CComplexObject,at0021,Definisjon av levedyktighet,*Definition of viability (en),Definition of viability,*Definition of viability (en)
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008]/items[at0021]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008]/items[at0021]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.obstetric_summary.v1,/protocol[at0008]/items[at0024],CLUSTER,ArchetypeSlot,at0024,Tilleggsinformasjon,*Extension (en),Extension,*Extension (en)

@@ -1,0 +1,26 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en,name_it
+openEHR-EHR-OBSERVATION.management_screening.v2,/,OBSERVATION,CComplexObject,at0000,Screening-Fragebogen zur Managementaktivitäten,Kartleggingsspørsmål om sykdomshåndtering,Management screening questionnaire,*Management screening questionnaire (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History,History
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Uspesifisert hendelse,Any event,Qualsiasi evento
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022],CLUSTER,CComplexObject,at0022,Managementaktivität,Sykdomshåndteringsaktivitet,Management activity,*Management activity (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004],ELEMENT,CComplexObject,at0004,Name der Aktivität,Navn på sykdomshåndtering,Management name,*Management name (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005],ELEMENT,CComplexObject,at0005,Bestimmte Managementaktivität?,Spesifikk sykdomshåndtering?,Specific management?,*Specific management or treatment? (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0035],ELEMENT,CComplexObject,at0035,Kommentar,Kommentar,Comment,Commento
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0035]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0036],CLUSTER,ArchetypeSlot,at0036,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037],ELEMENT,CComplexObject,at0037,Zeitpunkt,Tidsangivelse,Timing,*Timing (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/items[at0037]/value,DV_INTERVAL<DV_DURATION>,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Zweck des Screenings,Kartleggingsformål,Screening purpose,Scopo dello screening
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0039],ELEMENT,CComplexObject,at0039,Irgendwelche Managementaktivitäten?,Sykdomshåndtering?,Any management?,*Any management or treatment? (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0039]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0039]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0043],CLUSTER,ArchetypeSlot,at0043,Zusätzliche Angaben,Ytterligere detaljer,Additional details,*Additional details (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Beschreibung,Beskrivelse,Description,*Description (en)
+openEHR-EHR-OBSERVATION.management_screening.v2,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.management_screening.v2,/protocol[at0007],ITEM_TREE,CComplexObject,at0007,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.management_screening.v2,/protocol[at0007]/items[at0021],CLUSTER,ArchetypeSlot,at0021,Erweiterung,Tilleggsinformasjon,Extension,Estensione

@@ -1,0 +1,18 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.mews.v0,/,OBSERVATION,CComplexObject,at0000,Modified Early Warning Score (MEWS),Modified Early Warning Score
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Tidspunkt,Point in time
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Systolisk blodtrykk,Systolic Blood Pressure
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Hjertefrekvens,Heart Rate
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0005]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006],ELEMENT,CComplexObject,at0006,Respirasjonsfrekvens,Respiratory Rate
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0007],ELEMENT,CComplexObject,at0007,Temperatur,Temperature
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0007]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0008],ELEMENT,CComplexObject,at0008,AVPU (Våken, tale, smerte, bevisstløs- vurdering),AVPU
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0008]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Total score,Total Score
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.mews.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value/magnitude,Integer,CPrimitiveObject

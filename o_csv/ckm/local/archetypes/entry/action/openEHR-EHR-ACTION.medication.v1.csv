@@ -1,0 +1,179 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_ru,name_sv,name_es-ar,name_nb,name_pt-br,name_ar-sy,name_sl,name_en,name_zh-cn,name_ca,name_es
+openEHR-EHR-ACTION.medication.v1,/,ACTION,CComplexObject,at0000,Arzneimittelanwendung,*Medication management(en),Hantering av läkemedelsregim,*Medication management(en),Legemiddelhåndtering,Gestão de medicação,*Medication management(en),*Medication management(en),Medication management,药物管理,Gestió de la medicació,Gestión de la medicación
+openEHR-EHR-ACTION.medication.v1,/description[at0017],ITEM_TREE,CComplexObject,at0017,Tree,*Tree(en),Tree,*Tree(en),Tree,Tree,*Tree(en),Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0020],ELEMENT,CComplexObject,at0020,Arzneimittel,*Medication item(en),Läkemedelsartikel,*Medication item(en),Legemiddel,Item de medicação,*Medication item(en),*Medication item(en),Medication item,用药项,Medicament,Medicamento
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0021],ELEMENT,CComplexObject,at0021,Begründung,*Reason(en),Orsak,*Reason(en),Årsak,Motivo,*Reason(en),*Reason(en),Reason,原因,Motiu,Motivo
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0024],ELEMENT,CComplexObject,at0024,Kommentar,*Comment(en),Kommentar,*Comment(en),Kommentar,Comentário,*Comment(en),*Comment(en),Comment,备注,Comentaris,Comentarios
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0025],ELEMENT,CComplexObject,at0025,Sequenznummer,*Sequence number(en),Sekvensnummer,*Sequence number(en),Sekvensnummer,Número sequencial,*Sequence number(en),*Sequence number(en),Sequence number,顺序编号,Seqüència numèrica,Secuencia numérica
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0025]/value,DV_COUNT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0033],ELEMENT,CComplexObject,at0033,Patientenanweisung,*Patient guidance(en),Patientvägledning,*Patient guidance(en),Pasientinstruksjoner,Orientação ao paciente,*Patient guidance(en),*Patient guidance(en),Patient guidance,患者指导,Orientació al pacient,Orientación al paciente
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0033]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0043],ELEMENT,CComplexObject,at0043,Ursprünglich geplantes Datum/Uhrzeit,*Original scheduled date/time(en),Ursprungligt datum/tid,*Original scheduled date/time(en),Opprinnelig planlagt tid,Data/hora original do agendamento,*Original scheduled date/time(en),*Original scheduled date/time(en),Original scheduled date/time,原始排程/安排的日期/时间,Data/hora programada original,Fecha/hora programada original
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0043]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0053],CLUSTER,ArchetypeSlot,at0053,Zusätzliche Details,*Additional details(en),Övrig information,*Additional details(en),Ytterligere detaljer,Detalhes adicionais,*Additional details(en),*Additional details(en),Additional details,其他详情,Detalls addicionals,Detalles adicionales
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0104],CLUSTER,ArchetypeSlot,at0104,Arzneimitteldetails,*Medication details(en),Läkemedelsinformation,*Medication details(en),Legemiddeldetaljer,Detalhes da medicação,*Medication details(en),*Medication details(en),Medication details,药物详情,Detalls de la medicació,Detalles del medicamento
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0131],CLUSTER,ArchetypeSlot,at0131,Dosis,*Amount(en),Kvantitet,*Amount(en),Mengde,Quantidade,*Amount(en),*Amount(en),Amount,数量,Quantitat,Cantidad
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0132],ELEMENT,CComplexObject,at0132,Substitution,*Substitution(en),Substitution,*Substitution(en),Generisk bytte,Substituição,*Substitution(en),*Substitution(en),Substitution,替换,Substitució,Sustitución
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0132]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0132]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0133],ELEMENT,CComplexObject,at0133,Grund für die Substitution,*Substitution reason(en),Orsak för substitution,*Substitution reason(en),Årsak for bytte/ikke bytte,Motivo da substituição,*Substitution reason(en),*Substitution reason(en),Substitution reason,替换原因,Motiu de la substitució,Motivo de la sustitución
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0133]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140],CLUSTER,CComplexObject,at0140,Details zur Verabreichung,*Administration details(en),Administreringsinformation,*Administration details(en),Administreringsdetaljer,Detalhes da administração,*Administration details(en),*Administration details(en),Administration details,施用/给药详情,Detalls de l'administració,Detalles de la administración
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0141],ELEMENT,CComplexObject,at0141,Körperstelle,*Body site(en),Anatomisk lokalisering,*Body site(en),Anatomisk lokalisering,Local do corpo,*Body site(en),*Body site(en),Body site,身体部位,Zona corporal,Zona corporal
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0141]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0142],CLUSTER,ArchetypeSlot,at0142,Lokalisation,*Structured body site(en),Exakt anatomisk lokalisering,*Structured body site(en),Strukturert anatomisk lokalisering,Local do corpo estruturado,*Structured body site(en),*Structured body site(en),Structured body site,结构化身体部位,Zona corporal estructurada,Zona corporal estructurada
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0143],ELEMENT,CComplexObject,at0143,Methode der Verabreichung,*Administration method(en),Administreringsmetod,*Administration method(en),Administreringsmetode,Método de administração,*Administration method(en),*Administration method(en),Administration method,施用/给药方法,Mètode d'administració,Método de administración
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0143]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0144],CLUSTER,ArchetypeSlot,at0144,Verabreichungsmittel,*Administration device(en),Utrustning för administrering,*Administration device(en),Administreringsutstyr,Dispositivo de administração,*Administration device(en),*Administration device(en),Administration device,施用/给药装置,Dispositiu d'administració,Dispositivo de administración
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0147],ELEMENT,CComplexObject,at0147,Verabreichungsweg,*Route(en),Administreringsväg,*Route(en),Administreringsvei,Via,*Route(en),*Route(en),Route,途径,Via d'administració,Vía de administración
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0140]/items[at0147]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0149],ELEMENT,CComplexObject,at0149,Nachkontrolliert?,*Double-checked?(en),Dubbelkontrollerat?,*Double-checked?(en),Dobbeltkontrollert?,Dupla checagem?,*Double-checked?(en),*Double-checked?(en),Double-checked?,复核情况,Doble comprovació?,¿Doble comprobación?
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0149]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0154],ELEMENT,CComplexObject,at0154,Datum/Uhrzeit des Neustarts,*Restart date/time(en),Datum/tid för omstart,*Restart date/time(en),Dato/tid for ny oppstart,Data/hora do reinício,*Restart date/time(en),*Restart date/time(en),Restart date/time,重新开始日期/时间,Data/hora de reinici,Fecha/hora de reinicio
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0154]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0155],ELEMENT,CComplexObject,at0155,Kriterium des Neustarts,*Restart criterion(en),Omstartskriterium,*Restart criterion(en),Kriterium for ny oppstart,Critério do reinício,*Restart criterion(en),*Restart criterion(en),Restart criterion,重新开始的评判准则,Criteri de reinici,Criterio de reinicio
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0155]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0156],ELEMENT,CComplexObject,at0156,Klinische Indikation,*Clinical indication (en),Klinisk indikation,*Clinical indication (en),Klinisk indikasjon,*Clinical indication (en),*Clinical indication (en),*Clinical indication (en),Clinical indication,临床适应证,Indicació clínica,Indicación clínica
+openEHR-EHR-ACTION.medication.v1,/description[at0017]/items[at0156]/value,DV_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0002],ISM_TRANSITION,CComplexObject,at0002,Rezept ausgestellt,*Prescription issued(en),Utfärdad ordination,*Prescription issued(en),Resept utstedt,Prescrição emitida,*Prescription issued(en),*Prescription issued(en),Prescription issued,已签发的处方,Prescripció expedida,Prescripción emitida
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0002]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0002]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0002]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0002]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0003],ISM_TRANSITION,CComplexObject,at0003,Rezept wurde ausgegeben/eingelöst,*Prescription dispensed(en),Utdelad ordination,*Prescription dispensed(en),Resept ekspedert,Prescrição aviada,*Prescription dispensed(en),*Prescription dispensed(en),Prescription dispensed,已配发的处方,Prescripció dispensada,Prescripción dispensada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0003]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0003]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0003]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0003]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0004],ISM_TRANSITION,CComplexObject,at0004,Arzneimittelbehandlung hat begonnen,*Medication course commenced(en),Påbörjad läkemedelsbehandling,*Medication course commenced(en),Medisinering startet,Curso da medicação iniciado,*Medication course commenced(en),*Medication course commenced(en),Medication course commenced,已开始的药物治疗过程,Començament de la medicació,Curso de medicación iniciado
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0004]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0004]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0004]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0004]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0005],ISM_TRANSITION,CComplexObject,at0005,Arzneimittel wurde neu bewertet,*Medication course reviewed(en),Omprövning av läkemedel,*Medication course reviewed(en),Legemiddel revurdert,Curso da medicação revisado,*Medication course reviewed(en),*Medication course reviewed(en),Medication reassessed,已重新评估的药物,Medicació reavaluada,Medicación reevaluada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0005]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0005]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0005]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0005]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0006],ISM_TRANSITION,CComplexObject,at0006,Dosis wurde verabreicht,*Dose administered(en),Administrerad dos,*Dose administered(en),Legemiddel administrert,Dose administrada,*Dose administered(en),*Dose administered(en),Dose administered,已施用/给药的剂量,Dosi administrada,Dosis administrada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0006]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0006]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0006]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0006]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0007],ISM_TRANSITION,CComplexObject,at0007,Arzneimittelbehandlung ist abgeschlossen,*Medication course completed(en),Fullföljd läkemedelsbehandling,*Medication course completed(en),Medisinering fullført,Final do tratamento medicamentoso,*Medication course completed(en),*Medication course completed(en),Medication course completed,已完成的药物治疗过程,Curs de medicació completat,Curso de medicación completado
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0007]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0007]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0007]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0007]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0008],ISM_TRANSITION,CComplexObject,at0008,Verzögerung der Rezeptabgabe,*Prescription supply delayed(en),Försenad receptleverans,*Prescription supply delayed(en),Forsinket levering,Suprimento da prescrição atrasado,*Prescription supply delayed(en),*Prescription supply delayed(en),Prescription supply delayed,已延迟的处方供应,Retard en el subministrament de medicaments receptats,Retraso en el suministro de prescripciones
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0008]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0008]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0008]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0008]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0009],ISM_TRANSITION,CComplexObject,at0009,Verabreichung wurde ausgesetzt,*Administrations suspended(en),Indragen administrering,*Administrations suspended(en),Administrering satt på vent,Administração suspensa,*Administrations suspended(en),*Administrations suspended(en),Administrations suspended,已暂停的施用/给药,Administració suspesa,Administración suspendida
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0009]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0009]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0009]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0009]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0010],ISM_TRANSITION,CComplexObject,at0010,Rezept neu ausgestellt,*Prescription re-issued(en),Förnyelse av ordination,*Prescription re-issued(en),Resept fornyet,Nova liberação de prescrição,*Prescription re-issued(en),*Prescription re-issued(en),Prescription re-issued,已重新签发的处方,Prescripció reemesa,Prescripción reexpedida
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0010]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0010]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0010]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0010]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0011],ISM_TRANSITION,CComplexObject,at0011,Re-Autorisierug des Rezepts ausstehend,*Prescription re-issue suspended(en),Återauktorisering av recept inväntas,*Prescription re-issue suspended(en),Reautorisering av resept satt på vent,Reemissão da prescrição suspensa,*Prescription re-issue suspended(en),*Prescription re-issue suspended(en),Prescription re-authorisation pending,待处理的处方重新授权,Reautorització de prescripció pendent,Reautorización de prescripción pendiente
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0011]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0011]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0011]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0011]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0012],ISM_TRANSITION,CComplexObject,at0012,Arzneimittelbehandlung wurde abgesagt,*Medication course cancelled(en),Avbruten läkemedelsbehandling,*Medication course cancelled(en),Planlagt medisinering avbrutt,Curso da medicação cancelado,*Medication course cancelled(en),*Medication course cancelled(en),Medication course cancelled,已取消的药物治疗过程,Curs de medicació cancel·lat,Curso de medicación cancelado
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0012]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0012]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0012]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0012]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0013],ISM_TRANSITION,CComplexObject,at0013,Arzneimittelbehandlung wurde verschoben,*Medication course postponed(en),Uppskjuten läkemedelsbehandling,*Medication course postponed(en),Planlagt medisinering satt på vent,Curso da medicação adiado,*Medication course postponed(en),*Medication course postponed(en),Medication course postponed,已推迟的药物治疗过程,Curs de medicació posposat,Curso de medicación pospuesto
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0013]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0013]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0013]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0013]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0015],ISM_TRANSITION,CComplexObject,at0015,Arzneimittelbehandlung gestoppt,*Medication course stopped(en),Avbruten läkemedelsbehandling,*Medication course stopped(en),Legemiddel seponert,Curso da medicação interrompido,*Medication course stopped(en),*Medication course stopped(en),Medication course stopped,已停止的药物治疗过程,Interrupció de la medicació,Interrupción de la medicación
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0015]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0015]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0015]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0015]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0016],ISM_TRANSITION,CComplexObject,at0016,Arzneimittel Startdatum/Voraussetzung,*Medication start date/condition set(en),Läkemedlets startdatum/fastställda villkor,*Medication start date/condition set(en),Oppstartsdato satt,Data do início/ Condição de início,*Medication start date/condition set(en),*Medication start date/condition set(en),Medication start date/condition set,已设定的用药开始日期/条件,Data d'inici de medicació/condició establerta,Fecha de inicio de la medicación/condición establecida
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0016]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0016]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0016]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0016]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0018],ISM_TRANSITION,CComplexObject,at0018,Verabreichung einer Dosis wurde ausgelassen,*Dose administration omitted(en),Utelämnad dos,*Dose administration omitted(en),Enkeltdose ikke administrert,Omissão da administração da dose,*Dose administration omitted(en),*Dose administration omitted(en),Dose administration omitted,已省略的剂量管理,Administració de dosi omesa,Administración de dosis omitida
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0018]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0018]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0018]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0018]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0039],ISM_TRANSITION,CComplexObject,at0039,Größere Änderung der Verordnung,*Major change to order.(en),Större orderändring,*Major change to order.(en),Omfattende endring av ordinering,Alteração significativa na prescrição,*Major change to order.(en),*Major change to order.(en),Major change to order,医嘱的重大变更,Canvi important a l'ordre,Cambio importante en la orden médica
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0039]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0039]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0039]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0039]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0041],ISM_TRANSITION,CComplexObject,at0041,Geringfügige Änderung der Verordnung,*Minor change to order(en),Mindre orderändring,*Minor change to order(en),Mindre endring av ordinering,Prescrição com mínimas mudanças,*Minor change to order(en),*Minor change to order(en),Minor change to order,医嘱的微小变更,Canvi menor a l'ordre,Cambio menor en la orden
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0041]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0041]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0041]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0041]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0044],ISM_TRANSITION,CComplexObject,at0044,Verabreichung einer Dosis wurde verschoben,*Dose administration deferred(en),Uppskjuten dos,*Dose administration deferred(en),Administrering utsatt,Administração da dose adiada,*Dose administration deferred(en),*Dose administration deferred(en),Dose administration deferred,已延期的施用/给药,Administració de dosi ajornada,Administración de dosis aplazada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0044]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0044]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0044]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0044]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0106],ISM_TRANSITION,CComplexObject,at0106,Rezept ist re-autorisiert,*Prescription re-authorised(en),Förnyelse av receptbeläggning,*Prescription re-authorised(en),Resept reautorisert,Prescrição reautorizada,*Prescription re-authorised(en),*Prescription re-authorised(en),Prescription re-authorised,已重新授权的处方,Prescripció reautoritzada,Prescripción reautorizada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0106]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0106]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0106]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0106]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0109],ISM_TRANSITION,CComplexObject,at0109,Arzneimittel empfohlen,*Medication recommended(en),Rekommenderat läkemedel,*Medication recommended(en),Anbefalt medisinering,Medicamento recomendado,*Medication recommended(en),*Medication recommended(en),Medication recommended,已推荐的药物,Medicació recomanada,Medicación recomendada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0109]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0109]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0109]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0109]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0145],ISM_TRANSITION,CComplexObject,at0145,Rezept wartet auf Genehmigung,*Prescription awaiting authorisation(en),Ordination som inväntar tillstånd,*Prescription awaiting authorisation(en),Resept avventer autorisering,Prescrição no aguardo de autorização,*Prescription awaiting authorisation(en),*Prescription awaiting authorisation(en),Prescription awaiting authorisation,等待授权的处方,Prescripció en espera per autorització,Prescripción pendiente de autorización
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0145]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0145]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0145]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0145]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0148],ISM_TRANSITION,CComplexObject,at0148,Arzneimittel wurde vorbereitet,*Medication prepared(en),Förberedelse av läkemedel,*Medication prepared(en),Legemiddel istandgjort,Medicamento preparado,*Medication prepared(en),*Medication prepared(en),Medication prepared,已准备好的药物,Medicació preparada,Medicación preparada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0148]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0148]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0148]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0148]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0150],ISM_TRANSITION,CComplexObject,at0150,Rezept wurde widerrufen,*Prescription cancelled(en),Avbruten ordination,*Prescription cancelled(en),Resept avbrutt,Prescrição cancelada,*Prescription cancelled(en),*Prescription cancelled(en),Prescription cancelled,已取消的处方,Prescripció cancel·lada,Prescripción anulada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0150]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0150]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0150]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0150]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0151],ISM_TRANSITION,CComplexObject,at0151,Rezept ist ungültig oder abgelaufen,*Prescription invalid or expired(en),Ogiltigt eller utgånget recept,*Prescription invalid or expired(en),Resept ugyldig eller utgått,Prescrição inválida ou cancelada,*Prescription invalid or expired(en),*Prescription invalid or expired(en),Prescription invalid or expired,无效或过期的处方,Prescripció no vàlida o caducada,Prescripción no válida o caducada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0151]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0151]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0151]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0151]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0152],ISM_TRANSITION,CComplexObject,at0152,Rezept wurde ausgeführt,*Prescription fulfilled(en),Uppfyllt recept,*Prescription fulfilled(en),Resept ferdig ekspedert,Prescrição aviada,*Prescription fulfilled(en),*Prescription fulfilled(en),Prescription fulfilled,已执行的处方,Prescripció realitzada,Prescripción cumplida
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0152]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0152]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0152]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0152]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0153],ISM_TRANSITION,CComplexObject,at0153,Arzneimittel wurde genehmigt,*Medication authorised(en),Godkännande av läkemedel,*Medication authorised(en),Legemiddel autorisert,Medicação autorizada,*Medication authorised(en),*Medication authorised(en),Medication authorised,已授权的药物,Medicament autoritzat,Medicación autorizada
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0153]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0153]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0153]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0153]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0157],ISM_TRANSITION,CComplexObject,at0157,*Medication double checked (en),*Medication double checked (en),*Medication double checked (en),*Medication double checked (en),Legemiddel dobbeltkontrollert,*Medication double checked (en),*Medication double checked (en),*Medication double checked (en),Medication double checked,*Medication double checked (en),*Medication double checked (en),*Medication double checked (en)
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0157]/careflow_step,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0157]/careflow_step/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0157]/current_state,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-ACTION.medication.v1,/ism_transition[at0157]/current_state/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-ACTION.medication.v1,/protocol[at0030],ITEM_TREE,CComplexObject,at0030,Tree,*Tree(en),Tree,*Tree(en),Tree,Tree,*Tree(en),Tree(en),Tree,Tree,Tree,Tree
+openEHR-EHR-ACTION.medication.v1,/protocol[at0030]/items[at0085],CLUSTER,ArchetypeSlot,at0085,Erweiterung,*Cluster(en),Tilläggsinformation,*Cluster(en),Tilleggsinformasjon,Extensão,*Cluster(en),*Cluster(en),Extension,扩展,Ampliació,Ampliación
+openEHR-EHR-ACTION.medication.v1,/protocol[at0030]/items[at0103],ELEMENT,CComplexObject,at0103,ID der Verordnung,*Order ID(en),Beställnings-ID,*Order ID(en),OrdineringsID,Identificação da solicitação,*Order ID(en),*Order ID(en),Order ID,医嘱标识符,ID de la ordre,ID de la orden
+openEHR-EHR-ACTION.medication.v1,/protocol[at0030]/items[at0103]/value,DV_TEXT,CComplexObject

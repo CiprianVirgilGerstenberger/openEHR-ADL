@@ -1,0 +1,22 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/,OBSERVATION,CComplexObject,at0000,SOFA-skår
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Respirasjon
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010],ELEMENT,CComplexObject,at0010,Sirkulasjon
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0010]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Sentralnervesystemet
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0016]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022],ELEMENT,CComplexObject,at0022,Nyrefunksjon
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0022]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028],ELEMENT,CComplexObject,at0028,Lever
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0028]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034],ELEMENT,CComplexObject,at0034,Koagulasjon
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0034]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041],ELEMENT,CComplexObject,at0041,SOFA-skår
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value,DV_COUNT,CComplexObject
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0041]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044],ELEMENT,CComplexObject,at0044,Kommentar
+openEHR-EHR-OBSERVATION.sofa_score_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0044]/value,DV_TEXT,CComplexObject

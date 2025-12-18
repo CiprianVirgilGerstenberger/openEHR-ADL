@@ -1,0 +1,10 @@
+archetype_id,path,rm_type,aom_type,node_id,name_no,name_nb,name_en
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/,CLUSTER,CComplexObject,at0000,Spesielle behov kirurgi,Spesielle behov kirurgi,*Spesielle behov kirurgi(nb)
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Spesialutstyr,Spesialutstyr,*Beskrivelse(nb)
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0007]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0010],ELEMENT,CComplexObject,at0010,Blodprodukter,Blodprodukter,*New element(nb)
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0013],ELEMENT,CComplexObject,at0013,Nanvngitt stue,Navngitt stue,*Nanvngitt stue(nb)
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0014],ELEMENT,CComplexObject,at0014,Andre behov,Andre behov,*Andre behov(nb)
+openEHR-EHR-CLUSTER.special_requirements_surgery.v0,/items[at0014]/value,DV_TEXT,CComplexObject

@@ -1,0 +1,57 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_nb,name_pt-br,name_en,name_fr,name_zh-cn
+openEHR-EHR-EVALUATION.family_history.v2,/,EVALUATION,CComplexObject,at0000,Familienanamnese,Familjeanamnes,Familieanamnese,História familiar,Family history,Antécédents familiaux,家族史
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Zusammenfassung,Sammanfattning,Sammendrag,Resumo,Summary,Résumé,摘要
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003],CLUSTER,CComplexObject,at0003,Pro Familienmitglied,Per familjemedlem,Per familiemedlem,Por membro da família,Per family member,Par membre de la famille,按家族成员
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Name des Familienmitglieds,Familjemedlemmens namn,Navn på familiemedlem,Nome do membro da família,Family member name,Nom du membre de la famille,家族成员姓名
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Geburtsdatum,Födelsedatum,Fødselsdato,Data de nascimento,Date of birth,Date de naissance,出生日期
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0005]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008],CLUSTER,CComplexObject,at0008,Klinische Anamnese,Klinisk anamnes,Klinisk historie,*Clinical history(en),Clinical history,Historique clinique,临床病史
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0009],ELEMENT,CComplexObject,at0009,Name des Problems/der Diagnose,Hälsoproblem/diagnos,Problem/diagnosenavn,*Problem/diagnosis name(en),Problem/diagnosis name,Nom du problème/diagnostic,问题/诊断名称
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0009]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0010],ELEMENT,CComplexObject,at0010,Erkrankungsalter,Ålder vid start,Debutalder,Idade da detecção do problema/diagnóstico,Age at onset,L'âge au début,发病年龄
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0010]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0012],ELEMENT,CComplexObject,at0012,Klinische Beschreibung,Klinisk beskrivning,Klinisk beskrivelse,Descrição clínica,Clinical description,Description clinique,临床描述
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0012]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0014],ELEMENT,CComplexObject,at0014,Todesursache?,Dödsorsak?,Dødsårsak?,*Cause of death?(en),Cause of death?,Cause du décès ?,死亡原因
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0008]/items[at0014]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,Todesalter,Ålder vid dödsfall,Alder ved død,*Age at death(en),Age at death,L'âge au décès,死亡年龄
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0011]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0016],ELEMENT,CComplexObject,at0016,Verwandtschaftsverhältnis,Relation,Slektsforhold,*Relationship(en),Relationship,Relation,关系
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0020],ELEMENT,CComplexObject,at0020,Alias/Pseudonym,Alias,Alias,Alias,Alias,Alias,别名
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0023],ELEMENT,CComplexObject,at0023,Verstorben?,Avliden?,Død?,*Deceased?(en),Deceased?,Décédé ?,是否已故？
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0023]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0023]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0024],CLUSTER,CComplexObject,at0024,Biomarker,Biomarkörer,Biomarkører,*Biomarkers(en),Biomarkers,Biomarqueurs,生物标志物
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0024]/items[at0022],ELEMENT,CComplexObject,at0022,Beschreibung des Biomarkers,Beskrivning av biomarkör,Beskrivelse av biomarkør,Descrição do marcador biológico,Biomarker description,Description des biomarqueurs,生物标记物描述
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0024]/items[at0022]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0024]/items[at0027],CLUSTER,ArchetypeSlot,at0027,Angaben zum Biomarker,Detaljer om biomarkör,Detaljer om biomarkør,*Biomarker details(en),Biomarker details,Détails sur les biomarqueurs,生物标记物详情
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0046],ELEMENT,CComplexObject,at0046,Anmerkung,Kommentar,Kommentar,Comentários,Comment,Commentaire,注释
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0046]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0048],CLUSTER,ArchetypeSlot,at0048,Angaben zum Familienmitglied,Uppgifter om familjemedlem,Detaljer om familiemedlem,*Family member details(en),Family member details,Informations sur le membre de la famille,家族成员详情
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0058],ELEMENT,CComplexObject,at0058,Todesdatum,Datum för dödsfall,Dødsdato,Data de falecimento,Date of death,Date du décès,死亡日期
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0058]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0060],ELEMENT,CComplexObject,at0060,Biologisches Geschlecht,Biologiskt kön,Biologisk kjønn,*Sex(en),Biological sex,Sexe biologique,生物性别
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0060]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0064],ELEMENT,CComplexObject,at0064,Grad der Verwandtschaft,Grad av släktskap,Type familierelasjon,*Relationship degree (en),Relationship degree,*Relationship degree (en),*Relationship degree (en)
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0064]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0064]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0068],ELEMENT,CComplexObject,at0068,Familiäre Linie,Släktlinje,Slektslinje,*Family line (en),Family line,*Family line (en),*Family line (en)
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0068]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0003]/items[at0068]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0028],CLUSTER,CComplexObject,at0028,Pro Problem,Per problem,Per problem,*Per problem(en),Per problem,Par problème,按问题
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0028]/items[at0029],ELEMENT,CComplexObject,at0029,Name des Problems/der Diagnose,Hälsoproblem/typ av diagnos,Problem/diagnosenavn,*Problem/diagnosis name(en),Problem/diagnosis name,Nom du problème/diagnostic,问题/诊断名称
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0028]/items[at0029]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0028]/items[at0030],ELEMENT,CComplexObject,at0030,Beschreibung,Beskrivning,Beskrivelse,*Description(en),Description,Description,描述
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0028]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0028]/items[at0059],CLUSTER,ArchetypeSlot,at0059,Angaben zum Problem,Problemedtaljer,Problemdetaljer,*Problem details(en),Problem details,Détails du problème,问题详情
+openEHR-EHR-EVALUATION.family_history.v2,/data[at0001]/items[at0053],CLUSTER,ArchetypeSlot,at0053,Multimedia,Multimedia,Multimedia,*Multimedia(en),Multimedia,Multimédia,多媒体
+openEHR-EHR-EVALUATION.family_history.v2,/protocol[at0025],ITEM_TREE,CComplexObject,at0025,Tree,Tree,Tree,Tree,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.family_history.v2,/protocol[at0025]/items[at0026],ELEMENT,CComplexObject,at0026,Letzte Aktualisierung,Senast uppdaterat,Sist oppdatert,Última atualização,Last Updated,Dernière mise à jour,最后更新日期
+openEHR-EHR-EVALUATION.family_history.v2,/protocol[at0025]/items[at0026]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.family_history.v2,/protocol[at0025]/items[at0045],CLUSTER,ArchetypeSlot,at0045,Erweiterung,Tilläggsinformation,Utvidelse,Extensão,Extension,Extension,扩展

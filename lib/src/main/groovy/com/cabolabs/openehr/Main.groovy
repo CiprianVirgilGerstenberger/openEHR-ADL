@@ -13,11 +13,11 @@ class Main {
     * ingen // generador de instancias
     * inval // validador de instancias con XSD
     */
-   static void main(String[] args)
-   {
+   static void main(String[] args) {
+
       println args
-      if (args.size() == 0 || args[0] == 'help')
-      {
+
+      if (args.size() == 0 || args[0] == 'help') {
          println 'usage: adl command [options]'
          println 'command: [csv]'
          println 'csv: generates a CSV file with path information from set of ADL files'
@@ -26,12 +26,11 @@ class Main {
          System.exit(0)
       }
 
-      switch (args[0])
-      {
+      switch (args[0]) {
+
          case 'csv':
 
-            if (args.size() < 2)
-            {
+            if (args.size() < 2) {
                println 'usage: adl csv path_to_folder'
                System.exit(-1)
             }
@@ -39,14 +38,19 @@ class Main {
             def fpath = args[1]
             def folder = new File(fpath)
 
-            if (!folder.exists())
-            {
+            if (!folder.exists()) {
                println "folder doesn't exists"
                System.exit(-1)
             }
 
             def loader = ArchetypeManager.getInstance(fpath)
             loader.loadAll()
+
+            // Output folder mirrors input path under "o_csv/"
+            def mirroredPath = fpath
+            if (mirroredPath.startsWith(PS)) mirroredPath = mirroredPath.substring(1)
+            def outDir = new File("o_csv" + PS + mirroredPath)
+            if (!outDir.exists()) outDir.mkdirs()
 
             // archetype_id | path | rm_type | aom_type | node_id | name_lang1 | name_lang2 | ...
             def header, rows
@@ -59,7 +63,7 @@ class Main {
                rows = ''
 
                archetype.ontology.languages.each { lang ->
-                  header += ',name_'+ lang
+                  header += ',name_' + lang
                }
 
                header += "\n"
@@ -68,19 +72,19 @@ class Main {
                //    rows += archId + ',' + path
                // }
 
-               archetype.pathNodeMap.sort{it.key}.each { path, node ->
+               archetype.pathNodeMap.sort { it.key }.each { path, node ->
 
                   assert node instanceof CObject
 
-                  rows += archId + ',' + path +','+ node.rmTypeName +','+  node.getClass().getSimpleName()
+                  rows += archId + ',' + path + ',' + node.rmTypeName + ',' + node.getClass().getSimpleName()
 
-                  if (node.nodeId)
-                  {
-                     rows += ','+ node.nodeId // to avoid printing "null"
+                  if (node.nodeId) {
+
+                     rows += ',' + node.nodeId // to avoid printing "null"
 
                      archetype.ontology.languages.each { lang ->
                         term = archetype.ontology.termDefinition(lang, node.nodeId)
-                        rows += ','+ term.text
+                        rows += ',' + term.text
                      }
                   }
 
@@ -89,16 +93,16 @@ class Main {
                }
 
                // https://gist.github.com/js1972/22d9c24a62776d8e85cc
-               out = new File(fpath + PS + archId +'.csv').newWriter() // with newWriter it overwrites the file, without it, it appends to the existing
+               out = new File(outDir, archId + '.csv').newWriter() // with newWriter it overwrites the file, without it, it appends to the existing
                out << header + rows
                out.close() // writer needs to be closed
             }
 
-            println "Generated "+ loader.getLoadedArchetypes().size() +" CSV files"
+            println "Generated " + loader.getLoadedArchetypes().size() + " CSV files"
+            break
 
-         break
          default:
-            println "command "+ args[0] +" not recognized"
+            println "command " + args[0] + " not recognized"
       }
    }
 }

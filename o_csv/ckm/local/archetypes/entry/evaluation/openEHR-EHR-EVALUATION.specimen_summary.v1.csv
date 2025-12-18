@@ -1,0 +1,43 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.specimen_summary.v1,/,EVALUATION,CComplexObject,at0000,Zusammenfassung zur Probe,Prøvematerialesammendrag,Specimen_summary
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Aufbewahrungs-Proben-ID,Lagret prøvematerialeID,Stored specimen ID
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0008],CLUSTER,ArchetypeSlot,at0008,Probendetails,Prøvematerialdetaljer,Specimen details
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0009],CLUSTER,ArchetypeSlot,at0009,Biobank-Lagerung,Biobank plassering,Biobank location
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Entsorgungsgrund,Disponeringsårsak,Disposal reason
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0011],ELEMENT,CComplexObject,at0011,Zeitpunkt der Entsorgung,Disponeringsdato,Date of disposal
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0011]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0012],ELEMENT,CComplexObject,at0012,*Use by date (en),Utløpsdato,Use by date
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0012]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0016],ELEMENT,CComplexObject,at0016,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0016]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0018],ELEMENT,CComplexObject,at0018,Zeitpunkt der Lagerung,Lagring startet,Storage started
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0018]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0020],ELEMENT,CComplexObject,at0020,Probenlagerung,Prøvemateriale lagerplass,Specimen storage
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0020]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022],CLUSTER,CComplexObject,at0022,Verwendung,Bruk,Use
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0023],ELEMENT,CComplexObject,at0023,Verwendungsgrund,Årsak til bruk,Reason for use
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0023]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0024],ELEMENT,CComplexObject,at0024,Zeitpunkt der Verwendung,Dato for bruk,Date of use
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0024]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0026],CLUSTER,ArchetypeSlot,at0026,Verwendete Menge,Mengde brukt,Amount used
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0027],ELEMENT,CComplexObject,at0027,Kommentar zur Verwendung,Bruk kommentar,Use comment
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0029],ELEMENT,CComplexObject,at0029,Verwendete Anzahl,Antall brukt,Number used
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0022]/items[at0029]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0028],CLUSTER,ArchetypeSlot,at0028,Restmenge,Restmengde,Amount remaining
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0030],ELEMENT,CComplexObject,at0030,Verbleibende Anzahl,Antall gjenværende,Number remaining
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0030]/value,DV_COUNT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0031],ELEMENT,CComplexObject,at0031,Beschreibung,Beskrivelse,Description
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0031]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0032],ELEMENT,CComplexObject,at0032,Probenbezeichnung,Prøvematerialeetikett,Specimen label
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0032]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0033],ELEMENT,CComplexObject,at0033,*Legally expiry date (en),Juridisk utløpsdato,Legally expiry date
+openEHR-EHR-EVALUATION.specimen_summary.v1,/data[at0001]/items[at0033]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/protocol[at0013],ITEM_TREE,CComplexObject,at0013,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.specimen_summary.v1,/protocol[at0013]/items[at0014],ELEMENT,CComplexObject,at0014,Letzte Aktualisierung,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.specimen_summary.v1,/protocol[at0013]/items[at0014]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.specimen_summary.v1,/protocol[at0013]/items[at0015],CLUSTER,ArchetypeSlot,at0015,Erweiterung,Utvidelse,Extension

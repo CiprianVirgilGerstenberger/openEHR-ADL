@@ -1,0 +1,72 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/,CLUSTER,CComplexObject,at0000,Microscopic findings - Melanoma of skin
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0001],CLUSTER,CComplexObject,at0001,Depth of invasion
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Breslow thickness
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0001]/items[at0002]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Comment on invasion measurement
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0001]/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0007],ELEMENT,CComplexObject,at0007,Clark Level
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0013],ELEMENT,CComplexObject,at0013,Mitotic rate per mm2
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0013]/value,DV_COUNT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0013]/value/magnitude,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0020],CLUSTER,CComplexObject,at0020,Ulceration
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0020]/items[at0022],ELEMENT,CComplexObject,at0022,Ulceration
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0020]/items[at0022]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0020]/items[at0022]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0020]/items[at0023],ELEMENT,CComplexObject,at0023,Extent of ulceration
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0020]/items[at0023]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026],CLUSTER,CComplexObject,at0026,Microsatellites
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026]/items[at0027],ELEMENT,CComplexObject,at0027,Microsatellites
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026]/items[at0027]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026]/items[at0027]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026]/items[at0028],ELEMENT,CComplexObject,at0028,In-transit microsatellites
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026]/items[at0028]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0026]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034],CLUSTER,CComplexObject,at0034,Regression
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034]/items[at0051],ELEMENT,CComplexObject,at0051,Intermediate/late regression
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034]/items[at0051]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034]/items[at0051]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034]/items[at0112],CLUSTER,ArchetypeSlot,at0112,Extent of regression
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034]/items[at0113],ELEMENT,CComplexObject,at0113,Marginal clearance of regression
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0034]/items[at0113]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037],CLUSTER,CComplexObject,at0037,Desmoplasia
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0038],ELEMENT,CComplexObject,at0038,Desmoplasia
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0038]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0038]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0039],ELEMENT,CComplexObject,at0039,Extent of desmoplasia
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0039]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0039]/value/denominator,Real,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0039]/value/is_integral,Boolean,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0039]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0037]/items[at0039]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047],CLUSTER,CComplexObject,at0047,Tumour infiltrating lymphocytes
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047]/items[at0032],ELEMENT,CComplexObject,at0032,Distribution
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047]/items[at0032]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047]/items[at0032]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047]/items[at0083],ELEMENT,CComplexObject,at0083,Density
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047]/items[at0083]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0047]/items[at0083]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0067],CLUSTER,ArchetypeSlot,at0067,Surgical margins 
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0091],CLUSTER,CComplexObject,at0091,Growth pattern/phase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0091]/items[at0045],ELEMENT,CComplexObject,at0045,Intraepidermal growth pattern
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0091]/items[at0045]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0091]/items[at0045]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0091]/items[at0090],ELEMENT,CComplexObject,at0090,Growth phase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0091]/items[at0090]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0092],CLUSTER,CComplexObject,at0092,Associated benign melanocytic lesion(s)
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0092]/items[at0044],ELEMENT,CComplexObject,at0044,Associated benign melanocytic lesion
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0092]/items[at0044]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0100],CLUSTER,CComplexObject,at0100,Solar elastosis
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0100]/items[at0101],ELEMENT,CComplexObject,at0101,Solar elastosis
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0100]/items[at0101]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0100]/items[at0101]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0100]/items[at0105],ELEMENT,CComplexObject,at0105,Severity of solar elastosis
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0100]/items[at0105]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0106],CLUSTER,CComplexObject,at0106,Predominant cell type(s)
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0106]/items[at0107],ELEMENT,CComplexObject,at0107,Predominant cell type
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0106]/items[at0107]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0106]/items[at0107]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0125],CLUSTER,ArchetypeSlot,at0125,Lymphovascular invasion
+openEHR-EHR-CLUSTER.microscopy_melanoma.v0,/items[at0127],CLUSTER,ArchetypeSlot,at0127,Neurotropism

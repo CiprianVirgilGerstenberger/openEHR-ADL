@@ -1,0 +1,48 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/,EVALUATION,CComplexObject,at0000,Frühzeitige Interventionsentscheidungen,Behandlingsbegrensning,Advance intervention decisions
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Intention der Behandlung,Intensjon med behandling,Intent of care
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0002]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0008],ELEMENT,CComplexObject,at0008,Beschreibung der Entscheidungen,Beskrivelse av behandlingsbegrensning,Decisions description
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0008]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0009],ELEMENT,CComplexObject,at0009,CPR Entscheidung,HLR-beslutning,CPR decision
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0009]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0009]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014],CLUSTER,CComplexObject,at0014,Pro Intervention,Per intervensjon,Per intervention
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0015],ELEMENT,CComplexObject,at0015,Intervention,Intervensjon,Intervention
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0015]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0034],ELEMENT,CComplexObject,at0034,Entscheidung,Beslutning,Decision
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0034]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0034]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0039],ELEMENT,CComplexObject,at0039,Voraussetzung,Forutsetninger,Precondition
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0039]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0040],ELEMENT,CComplexObject,at0040,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0014]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0041],CLUSTER,ArchetypeSlot,at0041,Zusätzliche Details,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0042],ELEMENT,CComplexObject,at0042,Kenntnis des Patienten,Pasient informert,Patient awareness
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0042]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0043],ELEMENT,CComplexObject,at0043,Kenntnis der Betreuer,Pårørende informert,Carer awareness
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0043]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0044],ELEMENT,CComplexObject,at0044,Allgemeiner Kommentar,Overordnet kommentar,Overall comment
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0044]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0056],ELEMENT,CComplexObject,at0056,Begründung,Begrunnelse,Rationale
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/data[at0001]/items[at0056]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045],ITEM_TREE,CComplexObject,at0045,Tree,Tree,Tree
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0046],ELEMENT,CComplexObject,at0046,Zuletzt aktualisiert,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0046]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0047],ELEMENT,CComplexObject,at0047,Beginn des Gültigkeitszeitraums,Gyldighetsperiode start,Valid period start
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0047]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0048],ELEMENT,CComplexObject,at0048,Ende des Gültigkeitszeitraums,Gyldighetsperiode slutt,Valid period end
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0048]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0049],ELEMENT,CComplexObject,at0049,Fälligkeit der Überprüfung,Dato for fornyelse,Review due
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0049]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0050],ELEMENT,CComplexObject,at0050,Mandat,Grunnlag,Mandate
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0050]/value,DV_EHR_URI,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0051],CLUSTER,ArchetypeSlot,at0051,Digitale Darstellung,Digital representasjon,Digital representation
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0052],CLUSTER,CComplexObject,at0052,Speicherort des Dokuments,Dokumentets plassering,Document location
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0052]/items[at0053],ELEMENT,CComplexObject,at0053,Standort,Plassering,Location
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0052]/items[at0053]/value,DV_URI,CComplexObject
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0052]/items[at0054],CLUSTER,ArchetypeSlot,at0054,Kopienhalter,Kopiholder,Copy holder
+openEHR-EHR-EVALUATION.advance_intervention_decisions.v1,/protocol[at0045]/items[at0055],CLUSTER,ArchetypeSlot,at0055,Erweiterung,Tilleggsinformasjon,Extension

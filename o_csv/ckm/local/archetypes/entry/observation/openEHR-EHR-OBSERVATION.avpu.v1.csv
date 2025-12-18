@@ -1,0 +1,12 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-OBSERVATION.avpu.v1,/,OBSERVATION,CComplexObject,at0000,AVPU,AVPU
+openEHR-EHR-OBSERVATION.avpu.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series
+openEHR-EHR-OBSERVATION.avpu.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Uspesifisert hendelse,Any event
+openEHR-EHR-OBSERVATION.avpu.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree
+openEHR-EHR-OBSERVATION.avpu.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,AVPU-observasjon,AVPU observation
+openEHR-EHR-OBSERVATION.avpu.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.avpu.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.avpu.v1,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Tree,Tree
+openEHR-EHR-OBSERVATION.avpu.v1,/protocol[at0009]/items[at0010],ELEMENT,CComplexObject,at0010,Smertestimuli,Pain stimuli
+openEHR-EHR-OBSERVATION.avpu.v1,/protocol[at0009]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.avpu.v1,/protocol[at0009]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Tilleggsinformasjon,Extension

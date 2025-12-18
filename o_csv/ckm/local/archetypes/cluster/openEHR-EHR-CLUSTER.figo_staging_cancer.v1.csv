@@ -1,0 +1,13 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/,CLUSTER,CComplexObject,at0000,FIGO-stadium for gynekologisk kreft,FIGO staging of gynaecological cancer
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0002],ELEMENT,CComplexObject,at0002,FIGO-stadium,FIGO stage
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0003],ELEMENT,CComplexObject,at0003,Molekylær subtype,Molecular subtype
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0003]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0004],ELEMENT,CComplexObject,at0004,FIGO-versjon,FIGO version
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0005],ELEMENT,CComplexObject,at0005,Kriteriesett,Staging criteria
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0006],ELEMENT,CComplexObject,at0006,FIGO- stadium med moleklyær klassifisering,FIGO stage with molecular classification
+openEHR-EHR-CLUSTER.figo_staging_cancer.v1,/items[at0006]/value,DV_TEXT,CComplexObject

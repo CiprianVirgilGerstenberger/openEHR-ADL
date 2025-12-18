@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_es-ar,name_en,name_nl
+openEHR-EHR-OBSERVATION.progress_note.v1,/,OBSERVATION,CComplexObject,at0000,Fortschrittbericht,Tidfestet fritekst,Nota de evolución,Progress note,Beloopsnotitie
+openEHR-EHR-OBSERVATION.progress_note.v1,/data[at0001],HISTORY,CComplexObject,at0001,Event Series,Event Series,Event Series,Event Series,*Event Series(en)
+openEHR-EHR-OBSERVATION.progress_note.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Beliebiges Ereignis,Uspesifisert hendelse,Cualquier evento,Any event,*Any event(en)
+openEHR-EHR-OBSERVATION.progress_note.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.progress_note.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Fortschrittbericht,Tidfestet fritekst,Nota de evolución,Progress Note,Beloopsnotitie
+openEHR-EHR-OBSERVATION.progress_note.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.progress_note.v1,/protocol[at0005],ITEM_TREE,CComplexObject,at0005,Tree,*Tree(en),Tree,Tree,*Tree(en)
+openEHR-EHR-OBSERVATION.progress_note.v1,/protocol[at0005]/items[at0006],CLUSTER,ArchetypeSlot,at0006,Erweiterung,Tilleggsinformasjon,Extensión,Extension,*Extension(en)

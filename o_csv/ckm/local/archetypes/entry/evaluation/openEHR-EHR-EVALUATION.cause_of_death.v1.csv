@@ -1,0 +1,44 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.cause_of_death.v1,/,EVALUATION,CComplexObject,at0000,Todesursache,Dødsårsak,Cause of death
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Direkte Ursache,Umiddelbar dødsårsak,Direct cause
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003],CLUSTER,CComplexObject,at0003,Vorhergehende Ursache(n),Forutgående årsak(er),Antecedent cause(s)
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Ursache,Årsak,Cause
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0005],ELEMENT,CComplexObject,at0005,Ordnung,Rekkefølge,Order
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0005]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0005]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009],ELEMENT,CComplexObject,at0009,Dauer,Varighet,Duration
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0003]/items[at0009]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0012],CLUSTER,ArchetypeSlot,at0012,Zusätzliche Informationen,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0013],ELEMENT,CComplexObject,at0013,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017],ELEMENT,CComplexObject,at0017,Direkte Ursache Dauer,Varighet Umiddelbar dødsårsak,Direct cause duration
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0017]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0019],ELEMENT,CComplexObject,at0019,Beschreibung,Beskrivelse,Description
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0019]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020],CLUSTER,CComplexObject,at0020,Beteiligte Zustände,Medvirkende årsaker,Contributing conditions
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0018],ELEMENT,CComplexObject,at0018,Zustand,Tilstand,Condition
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0018]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021],ELEMENT,CComplexObject,at0021,Dauer,Varighet,Duration
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021]/value/lower,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021]/value/lower/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021]/value/upper,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021]/value/upper/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/data[at0001]/items[at0020]/items[at0021]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/protocol[at0014],ITEM_TREE,CComplexObject,at0014,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.cause_of_death.v1,/protocol[at0014]/items[at0015],ELEMENT,CComplexObject,at0015,Zuletzt aktualisiert,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.cause_of_death.v1,/protocol[at0014]/items[at0015]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.cause_of_death.v1,/protocol[at0014]/items[at0016],CLUSTER,ArchetypeSlot,at0016,Erweiterung,Tilleggsinformasjon,Extension

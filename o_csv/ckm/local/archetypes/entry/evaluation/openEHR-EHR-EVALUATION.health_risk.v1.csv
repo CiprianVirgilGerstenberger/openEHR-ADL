@@ -1,0 +1,40 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_sv,name_fi,name_es-ar,name_nb,name_ar-sy,name_en,name_it
+openEHR-EHR-EVALUATION.health_risk.v1,/,EVALUATION,CComplexObject,at0000,Bewertung des Gesundheitsrisikos,Riskbedömning,Terveysriski arvio,Evaluacion de riesgo para la salud,Helserisiko,*Health risk assessment(en),Health risk assessment,Valutazione del rischio sanitario
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,structure,structure,structure,structure,structure,*structure(en),structure,structure
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0002],ELEMENT,CComplexObject,at0002,Gesundheitsrisiko,Risk,Terveysriski,Riesgo para la salud,Helserisiko,*Health risk(en),Health risk,Rischio sanitario
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0003],ELEMENT,CComplexObject,at0003,Risikobewertung,Riskbedömning,Riskiarvio,Evaluación de riesgo,Risikovurdering,*Risk assessment(en),Risk assessment,Valutazione del rischio
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0003]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0004],ELEMENT,CComplexObject,at0004,Begründung,Motivering,Perustelut,Razón,Berettigelse,*Rationale(en),Rationale,Motivazione
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0004]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0015],ELEMENT,CComplexObject,at0015,Kommentar,Kommentar,*Comment(en),Comentario,Kommentar,*Comment(en),Comment,Commento
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0015]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016],CLUSTER,CComplexObject,at0016,Risikofaktoren,Riskfaktorer,*Risk factors(en),Factores de riesgo,Risikofaktorer,*Risk factors(en),Risk factors,Fattori di rischio
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0012],ELEMENT,CComplexObject,at0012,Link zum Nachweis,Länk till evidens,*Link to evidence(en),Vínculo a la evidencia,Lenke til underlag,*Link to evidence(en),Link to evidence,Collegamento alle prove
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0012]/value,DV_URI,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0013],ELEMENT,CComplexObject,at0013,Risikofaktor,Riskfaktor,*Risk factor(en),Factor de riesgo,Risikofaktor,*Risk factor(en),Risk factor,Fattore di rischio
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0013]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0014],ELEMENT,CComplexObject,at0014,Beschreibung,Beskrivning,*Description(en),Descripción,Beskrivelse,*Description(en),Description,Descrizione
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0014]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0017],ELEMENT,CComplexObject,at0017,Vorhandensein,Förekomst,*Presence(en),Presencia,Tilstedeværelse,*Presence(en),Presence,Presenza
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0017]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0017]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0027],CLUSTER,ArchetypeSlot,at0027,Details,Detaljer,*Detail(en),Detalle,Detaljer,*Detail(en),Detail,Dettaglio
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0028],ELEMENT,CComplexObject,at0028,Verringert,Minskad/mildrad,*Mitigated(en),Mitigado,Moderert,*Mitigated(en),Mitigated,Mitigato
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0028]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0028]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0029],ELEMENT,CComplexObject,at0029,Identifizierungszeitpunkt,Datum för konstaterande,*Date identified(en),*Date identified(en),Dato påvist,*Date identified(en),Date identified,Data identificazione rischio
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0029]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0030],ELEMENT,CComplexObject,at0030,Kommentar,Kommentar,*Comment(en),*Comment(en),Kommentar,*Comment(en),Comment,Commento
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0016]/items[at0030]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0020],ELEMENT,CComplexObject,at0020,Art der Bewertung,Bedömningstyp,*Assessment type(en),Tipo de evaluación,Vurderingstype,*Assessment type(en),Assessment type,Tipo di valutazione
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0020]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0020]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0023],ELEMENT,CComplexObject,at0023,Zeitraum,Tidsperiod,*Time period(en),Período de tiempo,Tidsramme,*Time period(en),Time period,Periodo di tempo
+openEHR-EHR-EVALUATION.health_risk.v1,/data[at0001]/items[at0023]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/protocol[at0010],ITEM_TREE,CComplexObject,at0010,*Tree(en),Tree,Tree,Tree,Tree,*Tree(en),Tree,*Tree(en)
+openEHR-EHR-EVALUATION.health_risk.v1,/protocol[at0010]/items[at0011],CLUSTER,ArchetypeSlot,at0011,Erweiterung,Extension,*Extension(en),Extensión,Tilleggsinformasjon,*Extension(en),Extension,Extension
+openEHR-EHR-EVALUATION.health_risk.v1,/protocol[at0010]/items[at0024],ELEMENT,CComplexObject,at0024,Letzte Aktualisierung,Senast uppdaterad,*Last updated(en),Última actualización,Sist oppdatert,*Last Updated(en),Last updated,Ultimo aggiornamento
+openEHR-EHR-EVALUATION.health_risk.v1,/protocol[at0010]/items[at0024]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.health_risk.v1,/protocol[at0010]/items[at0025],ELEMENT,CComplexObject,at0025,Bewertungsmethode,Bedömningsmetod,*Assessment method(en),Método de evaluación,Vurderingsmetode,*Assessment method(en),Assessment method,Metodo di valutazione
+openEHR-EHR-EVALUATION.health_risk.v1,/protocol[at0010]/items[at0025]/value,DV_TEXT,CComplexObject

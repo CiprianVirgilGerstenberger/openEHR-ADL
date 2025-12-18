@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_pt,name_nb,name_en,name_nl
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/,OBSERVATION,CComplexObject,at0000,*Karnofsky Performance Status (KPS) scale (en),Karnofsky Performance Status (KPS) scale,Karnofsky Performance Status (KPS) scale,Karnofsky Performance Status (KPS) score
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/data[at0001],HISTORY,CComplexObject,at0001,History,History,History,History
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/data[at0001]/events[at0002],EVENT,CComplexObject,at0002,Qualquer evento pontual,Uspesifisert tidspunkthendelse,Any point in time event,Willekeurig moment in de tijd
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree,Tree,Tree,Tree
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004],ELEMENT,CComplexObject,at0004,Status de desempenho,Karnofsky performance status,Karnofsky performance status,Karnofsky Performance Status
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/protocol[at0016],ITEM_TREE,CComplexObject,at0016,Item tree,Item tree,Item tree,Item tree
+openEHR-EHR-OBSERVATION.karnofsky_performance_status_scale.v1,/protocol[at0016]/items[at0017],CLUSTER,ArchetypeSlot,at0017,Extension,Tilleggsinformasjon,Extension,Uitbreiding

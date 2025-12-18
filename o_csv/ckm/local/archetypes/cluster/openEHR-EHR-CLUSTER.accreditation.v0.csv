@@ -1,0 +1,9 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-CLUSTER.accreditation.v0,/,CLUSTER,CComplexObject,at0000,Accreditation
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0001],ELEMENT,CComplexObject,at0001,Category
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0001]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0002],ELEMENT,CComplexObject,at0002,Standard
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0002]/value,DV_TEXT,CComplexObject
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0004],CLUSTER,ArchetypeSlot,at0004,Accreditation body
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0005],ELEMENT,CComplexObject,at0005,Godkjenningsnummer
+openEHR-EHR-CLUSTER.accreditation.v0,/items[at0005]/value,DV_TEXT,CComplexObject

@@ -1,0 +1,4 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-CLUSTER.pi_rads_2_1.v1,/,CLUSTER,CComplexObject,at0000,PI-RADS v2.1,PI-RADS v2.1
+openEHR-EHR-CLUSTER.pi_rads_2_1.v1,/items[at0001],ELEMENT,CComplexObject,at0001,PI-RADS,PI-RADS
+openEHR-EHR-CLUSTER.pi_rads_2_1.v1,/items[at0001]/value,DV_ORDINAL,CDvOrdinal

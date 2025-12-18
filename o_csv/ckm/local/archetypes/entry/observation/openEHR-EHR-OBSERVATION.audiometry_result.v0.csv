@@ -1,0 +1,212 @@
+archetype_id,path,rm_type,aom_type,node_id,name_en
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/,OBSERVATION,CComplexObject,at0000,Audiometry Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001],HISTORY,CComplexObject,at0001,Event Series
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Any Event
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006],CLUSTER,CComplexObject,at0006,Result Details
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0007],ELEMENT,CComplexObject,at0007,Test Ear
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055],CLUSTER,CComplexObject,at0055,Hearing Threshold Interpretation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0056],ELEMENT,CComplexObject,at0056,Pure Tone Average
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0056]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0065],ELEMENT,CComplexObject,at0065,Type of Loss
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0065]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0065]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0070],ELEMENT,CComplexObject,at0070,Clinical Interpretation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0126],ELEMENT,CComplexObject,at0126,Articulation Index
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value/is_integral,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0135],ELEMENT,CComplexObject,at0135,Degree of Loss
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0055]/items[at0135]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139],CLUSTER,CComplexObject,at0139,Air Conduction Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048],CLUSTER,CComplexObject,at0048,Measurement
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0011],ELEMENT,CComplexObject,at0011,Frequency
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0011]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012],ELEMENT,CComplexObject,at0012,Threshold Level
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012]/null_flavour,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012]/null_flavour/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0153],ELEMENT,CComplexObject,at0153,No Response
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0153]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0153]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0122],ELEMENT,CComplexObject,at0122,No Test Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0122]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0122]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0123],ELEMENT,CComplexObject,at0123,Reason for No Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0123]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0141],ELEMENT,CComplexObject,at0141,Air Conduction Masking
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0141]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0139]/items[at0141]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140],CLUSTER,CComplexObject,at0140,Bone Conduction Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0142],ELEMENT,CComplexObject,at0142,Bone Conduction Masking
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0142]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0142]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143],CLUSTER,CComplexObject,at0143,Measurement
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0144],ELEMENT,CComplexObject,at0144,Frequency
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0144]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0145],ELEMENT,CComplexObject,at0145,Threshold Level
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0145]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0154],ELEMENT,CComplexObject,at0154,No Response
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0154]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0154]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0146],ELEMENT,CComplexObject,at0146,No Test Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0146]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0146]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0147],ELEMENT,CComplexObject,at0147,Reason for No Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0006]/items[at0140]/items[at0147]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026],ELEMENT,CComplexObject,at0026,Test Result Image
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026]/value,DV_MULTIMEDIA,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0026]/value/media_type,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,Comment
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Test Result Name
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0071],ELEMENT,CComplexObject,at0071,Sensorineural Symmetry
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0071]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0071]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0121],ELEMENT,CComplexObject,at0121,Overall Interpretation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0121]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0131],ELEMENT,CComplexObject,at0131,Laterality of Loss
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0131]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/data[at0003]/items[at0131]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/state[at0013],ITEM_TREE,CComplexObject,at0013,Tree
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0028],ELEMENT,CComplexObject,at0028,Aided Status
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0028]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0164],ELEMENT,CComplexObject,at0164,Confounding Factors
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0002]/state[at0013]/items[at0164]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163],INTERVAL_EVENT,CComplexObject,at0163,Average
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006],CLUSTER,CComplexObject,at0006,Result Details
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0007],ELEMENT,CComplexObject,at0007,Test Ear
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0007]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0007]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055],CLUSTER,CComplexObject,at0055,Hearing Threshold Interpretation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0056],ELEMENT,CComplexObject,at0056,Pure Tone Average
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0056]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0065],ELEMENT,CComplexObject,at0065,Type of Loss
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0065]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0065]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0070],ELEMENT,CComplexObject,at0070,Clinical Interpretation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0070]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0126],ELEMENT,CComplexObject,at0126,Articulation Index
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value,DV_PROPORTION,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value/is_integral,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value/numerator,Real,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0126]/value/type,Integer,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0135],ELEMENT,CComplexObject,at0135,Degree of Loss
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0055]/items[at0135]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139],CLUSTER,CComplexObject,at0139,Air Conduction Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048],CLUSTER,CComplexObject,at0048,Measurement
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0011],ELEMENT,CComplexObject,at0011,Frequency
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0011]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012],ELEMENT,CComplexObject,at0012,Threshold Level
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012]/null_flavour,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012]/null_flavour/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0012]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0153],ELEMENT,CComplexObject,at0153,No Response
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0153]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0048]/items[at0153]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0122],ELEMENT,CComplexObject,at0122,No Test Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0122]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0122]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0123],ELEMENT,CComplexObject,at0123,Reason for No Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0123]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0141],ELEMENT,CComplexObject,at0141,Air Conduction Masking
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0141]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0139]/items[at0141]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140],CLUSTER,CComplexObject,at0140,Bone Conduction Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0142],ELEMENT,CComplexObject,at0142,Bone Conduction Masking
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0142]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0142]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143],CLUSTER,CComplexObject,at0143,Measurement
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0144],ELEMENT,CComplexObject,at0144,Frequency
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0144]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0145],ELEMENT,CComplexObject,at0145,Threshold Level
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0145]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0154],ELEMENT,CComplexObject,at0154,No Response
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0154]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0143]/items[at0154]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0146],ELEMENT,CComplexObject,at0146,No Test Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0146]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0146]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0147],ELEMENT,CComplexObject,at0147,Reason for No Result
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0006]/items[at0140]/items[at0147]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0026],ELEMENT,CComplexObject,at0026,Test Result Image
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0026]/value,DV_MULTIMEDIA,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0026]/value/media_type,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0027],ELEMENT,CComplexObject,at0027,Comment
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0027]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0037],ELEMENT,CComplexObject,at0037,Test Result Name
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0037]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0071],ELEMENT,CComplexObject,at0071,Sensorineural Symmetry
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0071]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0071]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0121],ELEMENT,CComplexObject,at0121,Overall Interpretation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0121]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0131],ELEMENT,CComplexObject,at0131,Laterality of Loss
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0131]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/data[at0003]/items[at0131]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/math_function,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/math_function/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state,ITEM_TREE,ArchetypeInternalRef
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state[at0013],ITEM_TREE,CComplexObject,at0013,Tree
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state[at0013]/items[at0028],ELEMENT,CComplexObject,at0028,Aided Status
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state[at0013]/items[at0028]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state[at0013]/items[at0028]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state[at0013]/items[at0164],ELEMENT,CComplexObject,at0164,Confounding Factors
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/data[at0001]/events[at0163]/state[at0013]/items[at0164]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032],ITEM_TREE,CComplexObject,at0032,Tree
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0034],ELEMENT,CComplexObject,at0034,Test Stimulus
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0034]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0034]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0047],CLUSTER,ArchetypeSlot,at0047,Test Instrument
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0061],ELEMENT,CComplexObject,at0061,Criteria for Pure Tone Average
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0061]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0061]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0075],ELEMENT,CComplexObject,at0075,Test Environment
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0075]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0075]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085],CLUSTER,CComplexObject,at0085,Click Stimulus Specification
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085]/items[at0086],ELEMENT,CComplexObject,at0086,Onset Ramp
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085]/items[at0086]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085]/items[at0087],ELEMENT,CComplexObject,at0087,Offset Ramp
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085]/items[at0087]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085]/items[at0088],ELEMENT,CComplexObject,at0088,Total Duration
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0085]/items[at0088]/value,DV_QUANTITY,CDvQuantity
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0089],ELEMENT,CComplexObject,at0089,Calibration Reference dB
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0089]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0089]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093],CLUSTER,CComplexObject,at0093,Threshold Determination Protocol
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0094],ELEMENT,CComplexObject,at0094,Step Size
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0094]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0094]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0099],ELEMENT,CComplexObject,at0099,Direction
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0099]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0099]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0127],ELEMENT,CComplexObject,at0127,Threshold Definition
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0127]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0093]/items[at0127]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0109],ELEMENT,CComplexObject,at0109,Air Presentation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0109]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0109]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0113],ELEMENT,CComplexObject,at0113,Bone Presentation
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0113]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0113]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0119],ELEMENT,CComplexObject,at0119,Test Modifications Required
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0119]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0120],ELEMENT,CComplexObject,at0120,Comment
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0120]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0134],ELEMENT,CComplexObject,at0134,Reliability
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0134]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0138],ELEMENT,CComplexObject,at0138,Criteria for Asymmetry
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0138]/value,DV_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0149],CLUSTER,ArchetypeSlot,at0149,Hearing Device
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0157],ELEMENT,CComplexObject,at0157,Background Noise
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0157]/value,DV_CODED_TEXT,CComplexObject
+openEHR-EHR-OBSERVATION.audiometry_result.v0,/protocol[at0032]/items[at0157]/value/defining_code,CODE_PHRASE,CCodePhrase

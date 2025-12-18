@@ -1,0 +1,65 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/,OBSERVATION,CComplexObject,at0000,Spørreskjema for urinlekkasje NKIR versjon 02.10.24
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001],HISTORY,CComplexObject,at0001,History
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002],POINT_EVENT,CComplexObject,at0002,Uspesifisert tidspunkthendelse
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003],ITEM_TREE,CComplexObject,at0003,Tree
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011],ELEMENT,CComplexObject,at0011,3. Hvor stor mengde urin lekker du vanligvis ved fysisk aktivitet, når du ler, hoster eller nyser?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0011]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042],ELEMENT,CComplexObject,at0042,11. Er ditt seksualliv blitt påvirket av ditt lekkasjeproblem?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0042]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0053],ELEMENT,CComplexObject,at0053,2. Hvor ofte lekker du urin i forbindelse med fysisk aktivitet, når du ler, hoster eller nyser?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0053]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0059],ELEMENT,CComplexObject,at0059,4. Hvor ofte opplever du plutselig sterk trang til å late vannet og lekker urin før du når frem til toalettet?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0059]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0070],ELEMENT,CComplexObject,at0070,5. Hvor stor mengde urin lekker du vanligvis når du har trang til å late vannet og lekker urin før du når frem til toalettet?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0070]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0080],ELEMENT,CComplexObject,at0080,6. Dersom du har symptomer både som i spørsmål 2 og spørsmål 4, hva er du mest plaget av?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0080]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0090],ELEMENT,CComplexObject,at0090,7. Hvor mange inkontinensbind/truseinnlegg/bleier bruker du?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0090]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0100],ELEMENT,CComplexObject,at0100,8. Hvor mange ganger har du fått behandling for blærekatarr/urinveisinfeksjon de siste 6 måneder?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0100]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0111],ELEMENT,CComplexObject,at0111,9. Hvor ofte unnlater du aktiviteter (f.eks. en hobby, fysisk trening, eller gå ut) fordi du er redd for å lekke urin?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0111]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0117],ELEMENT,CComplexObject,at0117,10. Unngår du steder og situasjoner hvor du vet at toalett ikke er lett tilgjengelig?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0117]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127],CLUSTER,CComplexObject,at0127,1. Lekker du urin?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0159],ELEMENT,CComplexObject,at0159,Når du hoster?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0159]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0160],ELEMENT,CComplexObject,at0160,Når du nyser?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0160]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0161],ELEMENT,CComplexObject,at0161,Når du ler?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0161]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0162],ELEMENT,CComplexObject,at0162,Når du går i trapper?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0162]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0171],ELEMENT,CComplexObject,at0171,Ved samleie?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0171]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0174],ELEMENT,CComplexObject,at0174,Når du står opp av sengen?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0174]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0178],ELEMENT,CComplexObject,at0178,Når du løfter tungt (tunge bæreposer)?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0178]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0182],ELEMENT,CComplexObject,at0182,Ved fysisk aktivitet (løpe for å nå bussen)?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0182]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0186],ELEMENT,CComplexObject,at0186,Ved sportsaktiviteter?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0127]/items[at0186]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190],CLUSTER,CComplexObject,at0190,12. Påvirker din urinlekkasje
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0191],ELEMENT,CComplexObject,at0191,Ditt familieliv?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0191]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0195],ELEMENT,CComplexObject,at0195,Dine ferier?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0195]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0199],ELEMENT,CComplexObject,at0199,Ditt sosiale liv (å gå ut, å treffe venner)?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0199]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0203],ELEMENT,CComplexObject,at0203,Din nattesøvn?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0190]/items[at0203]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214],ELEMENT,CComplexObject,at0214,13. Er ditt seksualliv blitt endret etter behandling av ditt lekkasjeproblem?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0214]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0361],ELEMENT,CComplexObject,at0361,15. Dato smerten startet
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0361]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0367],ELEMENT,CComplexObject,at0367,14. Er du fornøyd med resultatet av din behandling for lekkasje ved aktivitet eller hoste?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0367]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0368],ELEMENT,CComplexObject,at0368,15. Har du hatt langvarige smerter relatert til operasjonen?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0368]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0389],ELEMENT,CComplexObject,at0389,15. Har du fortsatt smerte?
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/data[at0001]/events[at0002]/data[at0003]/items[at0389]/value,DV_ORDINAL,CDvOrdinal
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/protocol[at0359],ITEM_TREE,CComplexObject,at0359,Item tree
+openEHR-EHR-OBSERVATION.sporreskjema_urinlekkasje_nkir_no.v1,/protocol[at0359]/items[at0360],CLUSTER,ArchetypeSlot,at0360,Tilleggsinformasjon

@@ -1,0 +1,54 @@
+archetype_id,path,rm_type,aom_type,node_id,name_nb,name_en
+openEHR-EHR-INSTRUCTION.service_request.v1,/,INSTRUCTION,CComplexObject,at0000,Helsetjenesteforespørsel,Service request
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001],ACTIVITY,CComplexObject,at0001,Forespørsel,Current Activity
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009],ITEM_TREE,CComplexObject,at0009,Tree,Tree
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0040],ELEMENT,CComplexObject,at0040,Dato/tid forfall,Service due
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0040]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0040]/value/lower,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0040]/value/upper,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0062],ELEMENT,CComplexObject,at0062,Årsak for forespørsel,Reason for request
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0062]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0064],ELEMENT,CComplexObject,at0064,Årsaksbeskrivelse,Reason description
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0064]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0065],ELEMENT,CComplexObject,at0065,Hensikt,Intent
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0065]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0068],ELEMENT,CComplexObject,at0068,Hastegrad,Urgency
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0068]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0068]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0076],ELEMENT,CComplexObject,at0076,Supplerende informasjon,Supplementary information
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0076]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0076]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0078],ELEMENT,CComplexObject,at0078,Informasjonsbeskrivelse,Information description
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0078]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0116],CLUSTER,ArchetypeSlot,at0116,Pasientens behov,Patient requirements
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0121],ELEMENT,CComplexObject,at0121,Tjenestenavn,Service name
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0121]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0132],CLUSTER,ArchetypeSlot,at0132,Spesifikke detaljer,Specific details
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0135],ELEMENT,CComplexObject,at0135,Beskrivelse,Description
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0135]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0144],ELEMENT,CComplexObject,at0144,Tjenesteintervall slutt,Service period expiry
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0144]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0145],ELEMENT,CComplexObject,at0145,Tjenesteintervall start,Service period start
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0145]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0147],ELEMENT,CComplexObject,at0147,Uavgrenset?,Indefinite?
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0147]/value,DV_BOOLEAN,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0147]/value/value,Boolean,CPrimitiveObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0148],ELEMENT,CComplexObject,at0148,Tjenestetype,Service type
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0148]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0149],CLUSTER,ArchetypeSlot,at0149,Understøttende informasjon,Supporting information
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0150],ELEMENT,CComplexObject,at0150,Kommentar,Comment
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0150]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0151],CLUSTER,ArchetypeSlot,at0151,Kompleks timing,Complex timing
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0152],ELEMENT,CComplexObject,at0152,Klinisk indikasjon,Clinical indication
+openEHR-EHR-INSTRUCTION.service_request.v1,/activities[at0001]/description[at0009]/items[at0152]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008],ITEM_TREE,CComplexObject,at0008,Tree,Tree
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0010],ELEMENT,CComplexObject,at0010,Rekvisisjonsidentifikator,Requester order identifier
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0010]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0011],ELEMENT,CComplexObject,at0011,Mottakers rekvisisjonsidentifikator,Receiver order identifier
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0011]/value,DV_IDENTIFIER,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0112],CLUSTER,ArchetypeSlot,at0112,Tilleggsinformasjon,Extension
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0127],ELEMENT,CComplexObject,at0127,Rekvisisjonsstatus,Request status
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0127]/value,DV_TEXT,CComplexObject
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0128],CLUSTER,ArchetypeSlot,at0128,Svarmottakere,Distribution list
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0141],CLUSTER,ArchetypeSlot,at0141,Rekvirent,Requester
+openEHR-EHR-INSTRUCTION.service_request.v1,/protocol[at0008]/items[at0142],CLUSTER,ArchetypeSlot,at0142,Mottaker,Receiver

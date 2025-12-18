@@ -1,0 +1,45 @@
+archetype_id,path,rm_type,aom_type,node_id,name_de,name_nb,name_en
+openEHR-EHR-EVALUATION.death_summary.v1,/,EVALUATION,CComplexObject,at0000,Zusammenfassung des Todes,Dødssammenfatning,Death summary
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001],ITEM_TREE,CComplexObject,at0001,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0010],ELEMENT,CComplexObject,at0010,Todesart,Dødsmåte,Manner of death
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0010]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0021],ELEMENT,CComplexObject,at0021,Kategorie des Orts,Stedskategori,Place category
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0021]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0042],CLUSTER,ArchetypeSlot,at0042,Zusätzliche Angaben,Ytterligere detaljer,Additional details
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0044],ELEMENT,CComplexObject,at0044,Gestation bei Tod,Gestasjon ved død,Gestation at death
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0044]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0044]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0054],ELEMENT,CComplexObject,at0054,Alter beim Tod,Alder ved død,Age at death
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0054]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0054]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0092],ELEMENT,CComplexObject,at0092,Datum/Uhrzeit des Todes,Dødsdato/tidspunkt,Date/time of death
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0092]/value,DV_INTERVAL<DV_DATE_TIME>,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0093],ELEMENT,CComplexObject,at0093,Beschreibung der Art,Dødsmåte beskrivelse,Manner description
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0093]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0100],CLUSTER,ArchetypeSlot,at0100,Todesort strukturiert,Strukturert dødssted,Structured place of death
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0104],CLUSTER,ArchetypeSlot,at0104,Alternative zum Todesdatum,Alternativ dødsdato,Date of death alternatives
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0105],ELEMENT,CComplexObject,at0105,Kommentar,Kommentar,Comment
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0105]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0106],ELEMENT,CComplexObject,at0106,Tage nach der Entbindung,Dager post partum,Days post partum
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0106]/value,DV_DURATION,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0106]/value/value,DV_DURATION,CPrimitiveObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0109],ELEMENT,CComplexObject,at0109,Todesort,Dødssted,Place of death
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0109]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0110],ELEMENT,CComplexObject,at0110,Schwangerschaftskontext,Svangerskapskontekst,Pregnancy context
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0110]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0110]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0116],ELEMENT,CComplexObject,at0116,Totgeburtkontext,Dødfødt kontekst,Stillbirth context
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0116]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0116]/value/defining_code,CODE_PHRASE,CCodePhrase
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0119],ELEMENT,CComplexObject,at0119,Ort der Verletzung,Skadested,Place of injury
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0119]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0120],ELEMENT,CComplexObject,at0120,Datum der Verletzung,Skadetidspunkt,Date of injury
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0120]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0121],ELEMENT,CComplexObject,at0121,Aktivität zum Zeitpunkt der Verletzung,Skadeaktivitet,Activity at the time of injury
+openEHR-EHR-EVALUATION.death_summary.v1,/data[at0001]/items[at0121]/value,DV_TEXT,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/protocol[at0009],ITEM_TREE,CComplexObject,at0009,Item tree,Item tree,Item tree
+openEHR-EHR-EVALUATION.death_summary.v1,/protocol[at0009]/items[at0101],ELEMENT,CComplexObject,at0101,Zuletzt aktualisiert,Sist oppdatert,Last updated
+openEHR-EHR-EVALUATION.death_summary.v1,/protocol[at0009]/items[at0101]/value,DV_DATE_TIME,CComplexObject
+openEHR-EHR-EVALUATION.death_summary.v1,/protocol[at0009]/items[at0102],CLUSTER,ArchetypeSlot,at0102,Erweiterung,Tilleggsinformasjon,Extension
+openEHR-EHR-EVALUATION.death_summary.v1,/protocol[at0009]/items[at0103],ELEMENT,CComplexObject,at0103,Informationsquelle(n),Informasjonskilder,Information source(s)
+openEHR-EHR-EVALUATION.death_summary.v1,/protocol[at0009]/items[at0103]/value,DV_TEXT,CComplexObject
