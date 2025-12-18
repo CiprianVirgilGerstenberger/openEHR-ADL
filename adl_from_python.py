@@ -15,7 +15,7 @@ def jar_contains(jar_path: str, member: str) -> bool:
 
 # 1) collect candidate jars
 candidates = []
-candidates += glob.glob(os.path.abspath("build/libs/*.jar"))
+candidates += glob.glob(os.path.abspath("lib/*.jar"))
 candidates += glob.glob(os.path.abspath("*.jar"))
 
 # 2) pick the jar that actually contains the Main class
@@ -27,8 +27,6 @@ for j in candidates:
 
 if not main_jar:
     raise SystemExit(f"Could not find {TARGET_CLASS} in any of: {candidates}")
-
-main_jar = "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar"
 
 # 3) dependency jars (if repo has ./lib)
 lib_jars = glob.glob(os.path.abspath("lib/*.jar"))
@@ -46,5 +44,5 @@ print("Classpath entries:", len(classpath))
 jpype.startJVM(classpath=classpath)
 
 from com.cabolabs.openehr import Main
-Main.main(["csv", "./ckm/local/archetypes/entry/observation/"])
+Main.main(["csv", "./ckm/local/archetypes/cluster"])
 
