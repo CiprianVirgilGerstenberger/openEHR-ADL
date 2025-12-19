@@ -1,1 +1,1 @@
-jar -cfv openEHR_ADL.jar -C bin .
+jar -cfv openEHR-ADL-0.2.jar -C bin .

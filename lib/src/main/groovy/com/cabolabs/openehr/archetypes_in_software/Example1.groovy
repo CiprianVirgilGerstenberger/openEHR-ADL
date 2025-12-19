@@ -12,7 +12,7 @@ import org.openehr.rm.common.resource.TranslationDetails
 class Example1 {
 
    private static String PS = File.separator
-   private static String path = "."+ PS +"ckm"+ PS +"local"+ PS +"archetypes"+ PS +"entry"+ PS + "observation" + PS
+   private static String path = "."+ PS +"ckm"+ PS +"local"+ PS +"archetypes"
       
 
    static void main(String[] args)
