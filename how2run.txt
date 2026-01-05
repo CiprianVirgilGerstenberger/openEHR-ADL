@@ -1,0 +1,13 @@
+  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/evaluation
+  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action 
+  ls o_csv/ckm/local/archetypes/entryjava -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/instruction 
+  583  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/ 
+  584  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/cluster
+  585  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/composition/
+  586  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/section
+  587  find o_csv -type f
+  588  find o_csv -type f|grep -v '.csv'
+  589  find o_csv -type f|grep -v 'csv'
+  777  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.csv 
+  827  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  828  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action
