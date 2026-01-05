@@ -1,0 +1,808 @@
+    1  curl -s "https://get.sdkman.io" | bash
+    2  sdk selfupdate force
+    3  source "$HOME/.sdkman/bin/sdkman-init.sh"
+    4  curl -s "https://get.sdkman.io" | bash
+    5  which sdk
+    6  which sdkman
+    7  ls
+    8  ls bin
+    9  vim ./jargen.bat
+   10  vim ./jargen.sh
+   11  vim ./README.md
+   12  ls
+   13  ls old/
+   14  ls
+   15  vim getData.sh
+   16  sh getData.sh 
+   17  ls
+   18  cd ckm/
+   19  ls
+   20  ls remote/
+   21  ls remote/org.openehr/
+   22  ls remote/org.openehr/archetypes/
+   23  find remote/org.openehr/archetypes/ -type f
+   24  ls
+   25  ls local/
+   26  ls local/archetypes/
+   27  find local/archetypes/ -type f
+   28  find remote -type f
+   29  find local/archetypes/ -type f
+   30  ls
+   31  vim README.md 
+   32  cd ..
+   33  vim ./getData.sh
+   34  ls ls ckm/./ckm/local/
+   35  ls ls ckm/local/
+   36  ls ckm/local/
+   37  ls ckm/local/archetypes/
+   38  ls ./ckm/local/archetypes/cluster/
+   39  ls
+   40  vim read
+   41  vim README.md 
+   42  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv |
+   43  cat ./README.md
+   44  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster/
+   45  ls open*
+   46  find . -name "openEHR_ADL.jar"
+   47  cp ./old/openEHR_ADL.jar .
+   48  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster/
+   49  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+   50  ls
+   51  vim test.bat 
+   52  git add README.md getData.sh 
+   53  git status
+   54  git  commit -m "updates"
+   55  curl -s "https://get.sdkman.io" | bash
+   56  source "$HOME/.sdkman/bin/sdkman-init.sh"
+   57  sdk selfupdate force
+   58  which sdk
+   59  which sdkman
+   60  sdkman
+   61  cd /usr/local/sdkman/
+   62  ls
+   63  p
+   64  pwd
+   65  export SDKMAN_DIR="/usr/local/sdkman"
+   66  source "$SDKMAN_DIR/bin/sdkman-init.sh"
+   67  command -v sdk
+   68  sdk version
+   69  echo $SHELL
+   70  source ~/.bashrc
+   71  which sdk
+   72  which sdkman
+   73  sdk --help
+   74  sdk install java
+   75  sdk install groovy
+   76  ls
+   77  rm openEHR_ADL.jar 
+   78  ls -la /usr/local/sdkman/bin/sdkman-init.sh
+   79  sdk install gradle
+   80  java -version
+   81  groovy -version
+   82  ./gradlew clean build
+   83  ./build.sh
+   84  java -version
+   85  sdk install java 21.0.5-tem
+   86  sdk use java 21.0.5-tem
+   87  java -version
+   88  ./gradlew --stop || true
+   89  ./gradlew clean build
+   90  which java
+   91  java -version
+   92  echo "JAVA_HOME=$JAVA_HOME"
+   93  sdk install java 17.0.13-tem
+   94  sdk use java 17.0.13-tem
+   95  java -version
+   96  ./gradlew --stop || true
+   97  rm -rf ~/.gradle/daemon
+   98  JAVA_HOME="$(sdk home java 17.0.13-tem)" ./gradlew --no-daemon clean build
+   99  ls build/libs/*.jar
+  100  find . -name "*.jar"
+  101  cp lib/build/libs/openEHR-ADL-0.2.jar .
+  102  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  103  ls
+  104  java -cp "openEHR_ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  105  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  106  which groovy || true
+  107  echo "GROOVY_HOME=$GROOVY_HOME"
+  108  groovy -version
+  109  groovy -version || true
+  110  echo "$HOME/.sdkman/candidates/groovy/current"
+  111  echo "GROOVY_HOME=$GROOVY_HOME"
+  112  reload ~/.bashrc 
+  113  source ~/.bashrc 
+  114  echo "GROOVY_HOME=$GROOVY_HOME"
+  115  export GROOVY_HOME="$HOME/.sdkman/candidates/groovy/current"
+  116  echo "GROOVY_HOME=$GROOVY_HOME"
+  117  ls -la "$GROOVY_HOME/lib" | head
+  118  which groovy || true
+  119  /usr/local/sdkman/candidates/groovy/current/lib/
+  120  ls /usr/local/sdkman/candidates/groovy/current/lib/
+  121  dirs
+  122  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  123  echo "GROOVY_HOME=$GROOVY_HOME"
+  124  which groovy || true
+  125  export GROOVY_HOME="/usr/local/sdkman/candidates/groovy/current/bin/groovy"
+  126  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  127  echo "GROOVY_HOME=$GROOVY_HOME"
+  128  export GROOVY_HOME="/usr/local/sdkman/candidates/groovy/current/"
+  129  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  130  ls /usr/local/sdkman/candidates/groovy/current/lib/
+  131  ls
+  132  java -cp "openEHR-ADL-0.2.jar:$GROOVY_HOME/lib/*:./lib/*" com.cabolabs.openehr.Main
+  133  vim adl_from_python.py
+  134  ls
+  135  ls ckm/local/archetypes/entry/observation/
+  136  ls
+  137  v adl_from_python.py 
+  138  vim adl_from_python.py 
+  139  python -m pip install jpype1
+  140  python adl_from_python.py
+  141  vim adl_from_python.py 
+  142  python adl_from_python.py
+  143  for j in $(find . -maxdepth 5 -name "*.jar"); do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "FOUND in $j"; done
+  144  ls
+  145  find . -name "*.jar"
+  146  for j in $(find . -maxdepth 5 -name "*.jar"); do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "FOUND in $j"; done
+  147  vim adl_from_python.py 
+  148  for j in lib/*.jar; do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "NOW IN $j"; done
+  149  ls lib/
+  150  for j in openEHR-ADL-0.2.jar; do   jar tf "$j" | grep -q 'org/openehr/am/archetype/constraintmodel/ArchetypeConstraint.class' && echo "NOW IN $j"; done
+  151  python adl_from_python.py 
+  152  ls
+  153  cp old/openEHR_ADL.jar .
+  154  vim adl_from_python.py 
+  155  python adl_from_python.py 
+  156  ls
+  157  cp old/adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar .
+  158  python adl_from_python.py 
+  159  vim adl_from_python.py 
+  160  ls
+  161  ls adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar 
+  162  vim adl_from_python.py 
+  163  python adl_from_python.py 
+  164  history 
+  165  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main
+  166  java -cp "openEHR_ADL.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  167  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  168  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ./ckm/local/archetypes/cluster
+  169  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  170  java -cp "adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar:./lib/*:$GROOVY_HOME/lib/*"
+  171  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  172  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main ckm/local/archetypes/entry/observation/ 
+  173  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/ 
+  174  h
+  175  history 
+  176  history >> poloc_20251217.txt
+  177  cat poloc_20251217.txt 
+  178  wc -l poloc_20251217.txt 
+  179  v poloc_20251217.txt 
+  180  vim poloc_20251217.txt 
+  181  history >> poloc_20251217.txt
+  182  vim poloc_20251217.txt 
+  183  git status
+  184  git add . && commit -m "trying to build and run the repo"
+  185  git add . && git commit -m "trying to build and run the repo"
+  186  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/ 
+  187  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main
+  188  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main --help
+  189  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main -h
+  190  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main 
+  191  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main xml
+  192  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main cvs
+  193  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv
+  194  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv path_to_folder
+  195  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm
+  196  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry
+  197  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  198  java -cp "openEHR-ADL-0.2.jar:./lib/*:$GROOVY_HOME/lib/*" com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.procedure_screening.v1.adl 
+  199  ./gradlew clean installDist
+  200  gradlew
+  201  ./gradlew tasks --all
+  202  ./gradlew -q properties | sed -n '1,120p'
+  203  vim build.gradle
+  204  ./gradlew clean build copyRuntimeLibs printRuntimeLibs
+  205  sudo apt-get update
+  206  sudo apt-get install -y maven
+  207  ls lib/
+  208  ls lib/build
+  209  ls lib/src/
+  210  ls
+  211  v lib/build.gradle 
+  212  vim lib/build.gradle 
+  213  ls lib/
+  214  cd lib/
+  215  ls
+  216  ls build
+  217  ls build/libs/
+  218  ls build/resources/
+  219  ls build/resources/test/
+  220  ls build/resources/test/archetypes/
+  221  cd .
+  222  cd ..
+  223  ls
+  224  ls lib/
+  225  diff openEHR-ADL-0.2.jar lib/build/libs/openEHR-ADL-0.2.jar 
+  226  ls
+  227  mvn -q dependency:copy -Dartifact=org.openehr.java-libs:openehr-aom:1.0.71      -DoutputDirectory=lib
+  228  mvn -q dependency:copy -Dartifact=org.openehr.java-libs:openehr-rm-core:1.0.71  -DoutputDirectory=lib
+  229  mvn -q dependency:copy -Dartifact=org.openehr.java-libs:openehr-rm-domain:1.0.71 -DoutputDirectory=lib
+  230  mvn -q dependency:copy -Dartifact=org.openehr.java-libs:mini-termserv:1.0.71    -DoutputDirectory=lib
+  231  mvn -q dependency:copy -Dartifact=org.openehr.java-libs:openehr-ap:1.0.71       -DoutputDirectory=lib
+  232  mvn -q dependency:copy -Dartifact=org.openehr.java-libs:adl-parser:1.0.71       -DoutputDirectory=lib
+  233  jar tf lib/openehr-aom-1.0.71.jar | grep -F "org/openehr/am/archetype/constraintmodel/ArchetypeConstraint"
+  234  java -cp "build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv   ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.procedure_screening.v1.adl
+  235  ls ls lib/build/libs/
+  236  java -cp "lib/build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv   ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.procedure_screening.v1.adl
+  237  java -cp "lib/build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv   ckm/local/archetypes/entry/observation
+  238  sudo apt-get update && sudo apt-get install -y maven
+  239  mkdir -p lib
+  240  mvn -q dependency:copy   -Dartifact=org.openehr.java-libs:measure-serv:1.0.71   -DoutputDirectory=lib
+  241  jar tf lib/measure-serv-1.0.71.jar | grep -F "org/openehr/rm/support/measurement/MeasurementService.class"
+  242  java -cp "build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  243  java -cp "lib/build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  244  sudo apt-get update && sudo apt-get install -y maven
+  245  mkdir -p lib
+  246  mvn -q dependency:copy   -Dartifact=javax.measure:jsr-275:0.9.1   -DoutputDirectory=lib
+  247  jar tf lib/jsr-275-0.9.1.jar | grep -F "javax/measure/Measurable.class"
+  248  java -cp "lib/build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  249  mvn -q dependency:copy   -Dartifact=org.jscience:jscience:4.3.1   -DoutputDirectory=lib
+  250  sudo apt-get update && sudo apt-get install -y maven
+  251  mkdir -p lib
+  252  mvn -q dependency:copy   -Dartifact=log4j:log4j:1.2.17   -DoutputDirectory=lib
+  253  java -cp "lib/build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  254  find . -name "*.xml"
+  255  vim runtime-pom.xml
+  256  mv lib lib_prev
+  257  mkdir -p lib
+  258  mvn -q -f runtime-pom.xml dependency:copy-dependencies   -DincludeScope=runtime   -DoutputDirectory=lib
+  259  ls lib
+  260  cp lib_prev/build/libs/openEHR-ADL-0.2.jar lib
+  261  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  262  ls
+  263  history >> poloc_20251217.txt 
+  264  ls
+  265  git add . && git commit -m "running example"
+  266  ls
+  267  git status
+  268  git add ckm 
+  269  git status
+  270  git push
+  271  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation
+  272  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation >> obst.csv
+  273  vim obst.csv 
+  274  ls
+  275  git status
+  276  ls
+  277  ls ckm/local/archetypes/entry/observation/
+  278  vim ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  279  awk -F','  ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |
+  280  awk -F',' {print NR} ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  281  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  282  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |wc -l
+  283  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort -nr
+  284  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -n|sort -nr|less
+  285  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -n|sort -nr
+  286  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c|sort -nr
+  287  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c|sort -nr|less
+  288  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|less
+  289  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort -nr|less
+  290  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  291  cat ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  292  awk -F',' '{print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  293  awk -F',' '{if (NR == 5) print NR}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  294  awk -F',' '{if (NR == 5) print ¤0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  295  awk -F',' '{if (NR == 5) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  296  awk -F',' '{if (NR == 111) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  297  awk -F',' '{if (NF == 111) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  298  awk -F',' '{print NF}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  299  awk -F',' '{print NF}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c
+  300  awk -F',' '{if (NF==4) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c
+  301  awk -F',' '{if (NF==4) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c|less
+  302  awk -F',' '{if (NF==4) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv | less
+  303  awk -F',' '{if (NF==4) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c
+  304  awk -F',' '{print NF}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c
+  305  awk -F',' '{if (NF==8) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c
+  306  awk -F',' '{if (NF==8) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c|less
+  307  awk -F',' '{if (NF==4) print $0}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c|less
+  308  cim ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  309  vim ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv 
+  310  awk -F',' '{print NF}' ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.nine_hole_peg_test.v0.csv |sort|uniq -c
+  311  git status
+  312  git add . && git commit -m "updates"
+  313  git status
+  314  cd ckm/
+  315  ls
+  316  ls -la
+  317  rm -rf .git 
+  318  cd ..
+  319  ls
+  320  git status
+  321  git push
+  322  git status
+  323  ls
+  324  source ~/.bashrc 
+  325  ls
+  326  source ~/.bashrc 
+  327  h
+  328  history 
+  329  ls
+  330  history 
+  331  history |l
+  332  history |less
+  333  git rm adl-parser-1.0.14-SNAPSHOT-jar-with-dependencies.jar 
+  334  git rm openEHR_ADL.jar 
+  335  git rm openEHR-ADL-0.2.jar 
+  336  git status
+  337  git add . && git commit -m "cleanup"
+  338  ls
+  339  ls old/
+  340  git rm old 
+  341  git rm -rf old 
+  342  git staus
+  343  git status
+  344  git add . && git commit -m "cleanup"
+  345  ls
+  346  git status
+  347  git push
+  348  v getData.sh 
+  349  vim getData.sh 
+  350  cd ckm/
+  351  ls
+  352  find . -name "*csv"
+  353  find . -name "*csv"|wc -l
+  354  ls ./local/archetypes/entry/observation/*.adl|wc -l
+  355  cd ..
+  356  ls
+  357  pwd
+  358  ls
+  359  history 
+  360  ls
+  361  ls lib
+  362  ls ckm/local/archetypes/cluster/openEHR-EHR-CLUSTER. *|wc -l 
+  363  python adl_from_python.py 
+  364  python adl_from_python.py >obst_clk_la_cluster.csv 
+  365  cat obst_clk_la_cluster.csv 
+  366  vim obst_clk_la_cluster.csv 
+  367  rmf obst_clk_la_cluster.csv 
+  368  rm obst_clk_la_cluster.csv 
+  369  python adl_from_python.py >obst_clk_la_cluster.csv 
+  370  cat obst_clk_la_cluster.csv 
+  371  ls
+  372  vim obst.csv 
+  373  mv obst.csv om_clk_la_entry_observation.csv 
+  374  mv obst_clk_la_cluster.csv om_clk_la_cluster.csv 
+  375  ls
+  376  git add . && git commit -m "updates"
+  377  git push
+  378  ls lib_prev/
+  379  ls lib_prev/src/
+  380  ls lib_prev/src/main/
+  381  ls lib_prev/src/main/groovy/
+  382  ls lib_prev/src/main/groovy/com/
+  383  ls
+  384  mkdir dist
+  385  ls
+  386  mv lib/* dist/
+  387  ls dist/
+  388  ls
+  389  mv lib_prev lib
+  390  ls
+  391  cd lib/lib_prev/
+  392  ls
+  393  mv * ..
+  394  ls
+  395  la -la
+  396  cd ..
+  397  rmdir lib_prev/
+  398  ls
+  399  cd ..
+  400  ls
+  401  git status
+  402  git add . && commit -m "restructured"
+  403  git add . && git commit -m "restructured"
+  404  git push
+  405  cd lib/src/main/groovy/com/cabolabs/openehr/
+  406  ls
+  407  diff Main.groovy my.groovy 
+  408  mv Main.groovy Main_v1.groovy 
+  409  mv my.groovy Main.groovy 
+  410  ls
+  411  cd ..
+  412  cd
+  413  pwd
+  414  cd /workspaces/openEHR-ADL/
+  415  ls
+  416  history 
+  417  history | less
+  418  ls
+  419  vim poloc_20251217.txt 
+  420  ./gradlew clean build
+  421  cd lib/src/main/groovy/com/cabolabs/openehr/
+  422  ls
+  423  mv Main.groovy my_Main.groovy
+  424  mv Main_v1.groovy Main.groovy 
+  425  cd ..
+  426  ./gradlew clean build
+  427  vim build.sh 
+  428  vim poloc_20251217.txt 
+  429  ./build.sh 
+  430  ls lib/build
+  431  ls lib/build/classes/
+  432  ls lib/build/classes/groovy/
+  433  ls lib/build/classes/groovy/main/
+  434  ls -la lib/build/classes/groovy/main/
+  435  ls
+  436  ls lib/
+  437  ls
+  438  vim build.bat 
+  439  ls
+  440  vim gradle
+  441  ls
+  442  vim jargen.sh 
+  443  ls
+  444  vim build.gradle 
+  445  ls dist/
+  446  ls
+  447  ./build.sh 
+  448  vim build.sh 
+  449  cd lib/
+  450  ls
+  451  vim build.gradle 
+  452  ls
+  453  cd ..
+  454  vim build.sh 
+  455  ./build.sh 
+  456  ./gradlew 
+  457  vim gradlew
+  458  ls -la lib/
+  459  ls -la lib/build
+  460  ls -la lib/build/generated/
+  461  ls -la lib/build/generated/sources/
+  462  ls -la lib/build/generated/sources/annotationProcessor/groovy/main/
+  463  ls
+  464  ls dist/
+  465  vim poloc_20251217.txt 
+  466  ls dist/
+  467  ls dist/openEHR-ADL-0.2.jar 
+  468  ls -la dist/openEHR-ADL-0.2.jar 
+  469  ./build.sh 
+  470  vim build.sh 
+  471  ls lib/build
+  472  ./build.sh 
+  473  ./gradlew 
+  474  ls
+  475  vim poloc_20251217.txt 
+  476  ./gradlew clean installDist
+  477  ./gradlew tasks
+  478  ./gradlew clean installDist
+  479  ./gradlew tasks
+  480  vim poloc_20251217.txt 
+  481  ls
+  482  mkdir -p libbb
+  483  vim poloc_20251217.txt 
+  484  mvn -q -f runtime-pom.xml dependency:copy-dependencies   -DincludeScope=runtime   -DoutputDirectory=libbb
+  485  ls libbb/
+  486  ls dist/
+  487  vim poloc_20251217.txt 
+  488  ls libbb/
+  489  ls
+  490  vim build.sh 
+  491  cp build.sh lib
+  492  cd lib
+  493  ls
+  494  vim build.gradle 
+  495  ./build.sh 
+  496  ls
+  497  diff build.sh ../build.sh 
+  498  rm build.sh 
+  499  cd ..
+  500  ls
+  501  vim gradlew
+  502  ls lib
+  503  md ffid_jars
+  504  mkdir ffid_jars
+  505  cp lib/*.jar ffid_jars/
+  506  ls
+  507  ls ffid_jars/
+  508  diff -r ffid_jars libbb 
+  509  diff -r libbb dist 
+  510  ls 
+  511  ls
+  512  vim poloc_20251217.txt 
+  513  ./gradlew clean build copyRuntimeLibs printRuntimeLibs
+  514  ./gradlew --scan clean build copyRuntimeLibs printRuntimeLibs
+  515  ./gradlew clean build copyRuntimeLibs printRuntimeLibs
+  516  ./gradlew --debug clean build copyRuntimeLibs printRuntimeLibs
+  517  ./gradlew clean build copyRuntimeLibs printRuntimeLibs
+  518  vim build.gradle 
+  519  vim build.sh 
+  520  ls
+  521  ls lib
+  522  cp -r lib/src .
+  523  ls
+  524  ./build.sh 
+  525  ls
+  526  ./build.sh 
+  527  diff -r src lib/src 
+  528  rm -rf src 
+  529  ls
+  530  vim settings.gradle 
+  531  vim gradle.properties 
+  532  vim gradlew.bat 
+  533  vim gradlew
+  534  ./gradlew 
+  535  ./gradlew tasks
+  536  ./gradlew 
+  537  gradlew --help
+  538  ./gradlew --help
+  539  vim poloc_20251217.txt 
+  540  vim lib/build.gradle 
+  541  ls
+  542  vim gradlew
+  543  vim poloc_20251217.txt 
+  544  ./gradlew clean build
+  545  ls lib
+  546  ls ffid_jars/
+  547  ls dist/
+  548  diff -r dist ffid_jars 
+  549  find lib -name "openEHR-ADL-0.2.jar"
+  550  ls
+  551  python adl_from_python.py 
+  552  vim poloc_20251217.txt 
+  553  ls
+  554  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action
+  555  ls lib
+  556  find lib -name "openEHR-ADL-0.2.jar"
+  557  java -cp "lib/build/libs/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action
+  558  cp lib/build/libs/openEHR-ADL-0.2.jar lib
+  559  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action
+  560  ls -1 lib | grep -i jdom || true
+  561  curl -L -o lib/jdom-1.1.3.jar   https://repo1.maven.org/maven2/org/jdom/jdom/1.1.3/jdom-1.1.3.jar
+  562  ls -1 lib | grep -i jdom || true
+  563  ls
+  564  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action
+  565  ls libbb/
+  566  cp libbb/* lib 
+  567  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action
+  568  ls 
+  569  ls o_csv/
+  570  ls o_csv/ckm/
+  571  ls o_csv/ckm/local/
+  572  ls o_csv/ckm/local/archetypes/
+  573  ls o_csv/ckm/local/archetypes/entry/
+  574  ls o_csv/ckm/local/archetypes/entry/action/
+  575  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/admin_entry 
+  576  ls o_csv/
+  577  ls o_csv/ckm/local/archetypes/entry/
+  578  ls o_csv/ckm/local/archetypes/entry/*
+  579  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/evaluation
+  580  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/action 
+  581  ls o_csv/ckm/local/archetypes/entry/
+  582  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/instruction 
+  583  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/entry/observation/ 
+  584  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/cluster
+  585  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/composition/
+  586  java -cp "lib/openEHR-ADL-0.2.jar:lib/*:$GROOVY_HOME/lib/*"   com.cabolabs.openehr.Main csv ckm/local/archetypes/section
+  587  find o_csv -type f
+  588  find o_csv -type f|grep -v '.csv'
+  589  find o_csv -type f|grep -v 'csv'
+  590  cd edu/
+  591  ls
+  592  vim Practica2.groovy 
+  593  ls
+  594  sh archetypes_in_software_example1.sh 
+  595  cd ..
+  596  ./edu/archetypes_in_software_example1.sh 
+  597  ls -la lib | grep -i adl-parser
+  598  find . -name "adl-parser-*"
+  599  jar tf lib/*adl*parser*.jar | grep -F "se/acode/openehr/parser/ADLParser.class"
+  600  ./edu/archetypes_in_software_example1.sh 
+  601  ./gradlew 
+  602  ./edu/archetypes_in_software_example1.sh 
+  603  history | grep gradlew
+  604  ./gradlew clean build copyRuntimeLibs printRuntimeLibs
+  605  ./gradlew clean build
+  606  ./edu/archetypes_in_software_example1.sh 
+  607  vim gradlew
+  608  java -cp "$GROOVY_HOME/lib/*:./lib/build/libs/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  609  echo $GROOVY_HOME
+  610  ls $GROOVY_HOME
+  611  ls $GROOVY_HOME/lib
+  612  ls lib
+  613  cp lib/*.jar $GROOVY_HOME/lib/ 
+  614  java -cp "$GROOVY_HOME/lib/*:./lib/build/libs/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  615  ls lib/src/main/groovy/
+  616  ls lib/src/main/groovy/com/
+  617  ls lib/src/main/groovy/com/cabolabs/
+  618  ls lib/src/main/groovy/com/cabolabs/openehr/
+  619  ls lib/src/main/groovy/com/cabolabs/openehr/Library.groovy 
+  620  vim lib/src/main/groovy/com/cabolabs/openehr/Library.groovy 
+  621  vim lib/src/main/groovy/com/cabolabs/openehr/archetypes_in_software/Example1.groovy 
+  622  ./gradlew clean build
+  623  java -cp "$GROOVY_HOME/lib/*:./lib/build/libs/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  624  ls
+  625  java -cp "$GROOVY_HOME/lib/*:./lib/build/libs/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  626  ls lib
+  627  java -cp "$GROOVY_HOME/lib/*:./lib/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  628  ls edu/
+  629  find . -name "openEHR-EHR-OBSERVATION.blood_pressure.v1.adl"
+  630  cp -r lib/build/resources .
+  631  java -cp "$GROOVY_HOME/lib/*:./lib/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  632  mv resources lib
+  633  java -cp "$GROOVY_HOME/lib/*:./lib/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  634  mv lib/resources lib/src/main/groovy/com/cabolabs/openehr/
+  635  java -cp "$GROOVY_HOME/lib/*:./lib/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  636  mv lib/src/main/groovy/com/cabolabs/openehr/resources lib/src/main/groovy/com/cabolabs/openehr/archetypes_in_software/ 
+  637  java -cp "$GROOVY_HOME/lib/*:./lib/openEHR-ADL-0.2.jar" com.cabolabs.openehr.archetypes_in_software.Example1
+  638  ./edu/archetypes_in_software_example1.sh 
+  639  mv lib/src/main/groovy/com/cabolabs/openehr/archetypes_in_software/resources edu/ 
+  640  ./edu/archetypes_in_software_example1.sh 
+  641  vim edu/archetypes_in_software_example1.sh 
+  642  ./edu/archetypes_in_software_example1.sh 
+  643  bash -x ./edu/archetypes_in_software_example1.sh 2>&1 | sed -n '1,80p'
+  644  vim edu/archetypes_in_software_example1.sh 
+  645  git status
+  646  git add . && git commit -m "first non-trivial changes"
+  647  git push
+  648  pwd
+  649  find . -type f -name 'openEHR-EHR-OBSERVATION.blood_pressure*.adl' -print
+  650  ./edu/archetypes_in_software_example1.sh 
+  651  ls
+  652  find . -type f -name 'openEHR-EHR-OBSERVATION.blood_pressure*.adl' -print
+  653  mv edu/resources .
+  654  ./edu/archetypes_in_software_example1.sh 
+  655  ls resources/test/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v1.adl 
+  656  cd resources/
+  657  mv test/archetypes .
+  658  rmdir test/
+  659  cd ..
+  660  ./edu/archetypes_in_software_example1.sh 
+  661  cat edu/archetypes_in_software_example1.sh 
+  662  rm lib/build/libs/openEHR-ADL-0.2.jar 
+  663  ls
+  664  history |grep gradlew
+  665  ./gradlew clean build
+  666  ls lib/build/libs/
+  667  ./edu/archetypes_in_software_example1.sh 
+  668  mv resources resources_
+  669  ./edu/archetypes_in_software_example1.sh 
+  670  mv resources_/ resources
+  671  ls
+  672  grep -r "resources" .
+  673  grep -r "resources" .|grep -v "ckm"
+  674  ./gradlew --stop
+  675  ./gradlew clean cleanBuildCache
+  676  ./gradlew --stop
+  677  ./gradlew clean --no-build-cache
+  678  vim gradle
+  679  rm -rf .gradle
+  680  find . -name build -type d 
+  681  find . -name build -type d -prune -exec rm -rf {} +
+  682  find . -name build -type d 
+  683  ./gradlew build --rerun-tasks --no-build-cache
+  684  cat edu/archetypes_in_software_example1.sh 
+  685  ./edu/archetypes_in_software_example1.sh 
+  686  ls
+  687  ls resources/
+  688  mv resources resources_
+  689  ./edu/archetypes_in_software_example1.sh 
+  690  vim ./edu/archetypes_in_software_example1.sh 
+  691  bash -x edu/archetypes_in_software_example1.sh
+  692  OLD='/the/old/adl/path.adl'   # put the exact string you keep seeing
+  693  grep -RIn --exclude-dir=build --exclude-dir=.gradle "$OLD" .
+  694  OLD='./resources/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v1.adl'   # put the exact string you keep seeing
+  695  grep -RIn --exclude-dir=build --exclude-dir=.gradle "$OLD" .
+  696  # adjust jar names/paths to what your script uses
+  697  strings openEHR_ADL.jar | grep -F "$OLD" || true
+  698  strings lib/build/libs/*.jar | grep -F "$OLD" || true
+  699  strings edu/build/libs/*.jar | grep -F "$OLD" || true
+  700  ls jargen.sh 
+  701  vim jargen.sh 
+  702  vim jargen.bat 
+  703  ls lib/build/libs/
+  704  vim jargen.*
+  705  cd ~/.m2/repository/
+  706  strings openEHR_ADL.jar | grep -F "$OLD" || true
+  707  grep -RIn --exclude-dir=build --exclude-dir=.gradle "$OLD" .
+  708  echo $OLD
+  709  grep -RIn --exclude-dir=build --exclude-dir=.gradle "$OLD" .
+  710  grep -RIn "$OLD" .
+  711  grep -r "$OLD" .
+  712  cd /workspaces/openEHR-ADL/
+  713  ls
+  714  cd ~/.gradle/caches/
+  715  ls
+  716  grep -r "$OLD" .
+  717  grep -r "example1" .
+  718  grep -r "*example1*" .
+  719  find . -name "*example1*"
+  720  cd /workspaces/openEHR-ADL/
+  721  ls
+  722  bash -x edu/archetypes_in_software_example1.sh
+  723  javap -classpath ./lib/build/libs/openEHR-ADL-0.2.jar -c   com.cabolabs.openehr.archetypes_in_software.Example1 |   grep -n "resources/archetypes\|blood_pressure\|\.adl" -n
+  724  ./gradlew :lib:clean :lib:jar --rerun-tasks --no-build-cache
+  725  javap -classpath ./lib/build/libs/openEHR-ADL-0.2.jar -c   com.cabolabs.openehr.archetypes_in_software.Example1 |   grep -n "resources/archetypes\|blood_pressure\|\.adl" -n
+  726  ./edu/archetypes_in_software_example1.sh 
+  727  ls -l ./lib/build/libs/openEHR-ADL-0.2.jar
+  728  grep -RIn "class Example1" .
+  729  grep -RIn "resources/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v1.adl" .
+  730  jar tf ./lib/build/libs/openEHR-ADL-0.2.jar | grep 'Example1'
+  731  java -verbose:class -cp '/usr/local/sdkman/candidates/groovy/current/lib/*:./lib/build/libs/openEHR-ADL-0.2.jar'   com.cabolabs.openehr.archetypes_in_software.Example1 2>&1 | grep -E 'Example1|archetypes_in_software'
+  732  javap -classpath ./lib/build/libs/openEHR-ADL-0.2.jar -c   com.cabolabs.openehr.archetypes_in_software.Example1 |   grep -n "resources/archetypes\|blood_pressure\|\.adl"
+  733  grep -RIn --exclude-dir=build --exclude-dir=.gradle "resources/archetypes" lib/src/main/groovy
+  734  grep -RIn --exclude-dir=build --exclude-dir=.gradle "blood_pressure" lib/src/main/groovy
+  735  git add . && git commit -m "debugging"
+  736  javap -classpath ./lib/build/libs/openEHR-ADL-0.2.jar -c   com.cabolabs.openehr.archetypes_in_software.Example1 |   grep -n "resources/archetypes\|blood_pressure\|\.adl"
+  737  mv resources_/ resources
+  738  ls
+  739  grep -RIn --exclude-dir=build --exclude-dir=.gradle "resources/archetypes" lib/src/main/groovy
+  740  grep -RIn --exclude-dir=build --exclude-dir=.gradle "blood_pressure" lib/src/main/groovy
+  741  ls ./ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl 
+  742  javap -classpath ./lib/build/libs/openEHR-ADL-0.2.jar -c   com.cabolabs.openehr.archetypes_in_software.Example1 |   grep -n "ckm\|local\|resources\|archetypes\|blood_pressure\|\.adl"
+  743  python3 - <<'PY'
+  744  import os
+  745  p="./ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl"
+  746  print("cwd:", os.getcwd())
+  747  print("exists:", os.path.exists(p))
+  748  print("abspath:", os.path.abspath(p))
+  749  PY
+  750  java -verbose:class -cp '/usr/local/sdkman/candidates/groovy/current/lib/*:./lib/build/libs/openEHR-ADL-0.2.jar'   com.cabolabs.openehr.archetypes_in_software.Example1 2>&1 | grep 'com.cabolabs.openehr.archetypes_in_software.Example1'
+  751  for j in /usr/local/sdkman/candidates/groovy/current/lib/*.jar; do   if jar tf "$j" | grep -q 'com/cabolabs/openehr/archetypes_in_software/Example1.class'; then     echo "DUPLICATE: $j";   fi; done
+  752  rm /usr/local/sdkman/candidates/groovy/current/lib/openEHR-ADL-0.2.jar
+  753  ls
+  754  vim edu/archetypes_in_software_example1.sh 
+  755  fg
+  756  git status
+  757  ls
+  758  mv resources/ resources_
+  759  ls
+  760  git status
+  761  git add edu/archetypes_in_software_example1.sh 
+  762  git commit -m "debugging"
+  763  ls
+  764  git status
+  765  git push
+  766  ./edu/archetypes_in_software_example1.sh 
+  767  ls
+  768  python3 - <<'PY'
+  769  ./gradlew :lib:clean :lib:jar --rerun-tasks --no-build-cache
+  770  cat edu/archetypes_in_software_example1.sh 
+  771  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl 
+  772  vim edu/archetypes_in_software_example1.sh 
+  773  git status
+  774  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl 
+  775  ./edu/archetypes_in_software_example1.sh 
+  776  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl 
+  777  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.csv 
+  778  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl 
+  779  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.age_assertion.v1.adl 
+  780  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.blood_pressure.v2.adl 
+  781  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl 
+  782  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl |less
+  783  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl >&2
+  784  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl >&2|les
+  785  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl >&2|less
+  786  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl >> mist.txt
+  787  vim mist.txt 
+  788  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl &2>> mist.txt
+  789  fg
+  790  vim mist.txt 
+  791  rm mist.txt 
+  792  fg
+  793  ./edu/archetypes_in_software_example1.sh ckm/local/archetypes/entry/observation/openEHR-EHR-OBSERVATION.body_segment_area.v1.adl 2>&1 | tee -a trace.txt
+  794  vim trace.txt 
+  795  rm trace.txt 
+  796  ls
+  797  man tee
+  798  ls
+  799  git status
+  800  git diff 
+  801  git status
+  802  git add . && git commit -m "relative path to adl-file as parameter"
+  803  git push
+  804  pwd
+  805  history 
+  806  pwd
+  807  git status
+  808  history > poloc_20260105.txt
